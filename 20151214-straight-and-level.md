@@ -170,7 +170,7 @@ To understand the forces which affect the aircraft during straight and level fli
 
 * **What is the effect of the four forces at straight and level?**
 
-  The all equal zero.
+  They all equal zero.
 
 * **Under straight and level, AoA increases. What other effect occurs?**
 
@@ -196,7 +196,7 @@ To understand the forces which affect the aircraft during straight and level fli
 
   Form, Skin Friction, Interference
 
-* **Which type of the two types of drag is most pronounced?**
+* **Which of the two types of drag is most pronounced?**
 
   Induced drag
 
