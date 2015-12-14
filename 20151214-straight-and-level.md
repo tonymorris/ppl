@@ -154,6 +154,92 @@ To understand the forces which affect the aircraft during straight and level fli
 
 ----
 
+### Questions
+
+* **What is the work flow for changing cruise?**
+
+  Power, Attitude, Speed, Trim (PAST)
+
+* **What is the work flow for maintaining cruise?**
+
+  Attitude, Lookout, Attitude, Performance (ALAP)
+
+* **What are the four forces at straight and level?**
+
+  Lift, Weight, Thrust, Drag
+
+* **What is the effect of the four forces at straight and level?**
+
+  The all equal zero.
+
+* **Under straight and level, AoA increases. What other effect occurs?**
+
+  IAS decreases
+
+* **Under straight and level, IAS increases. What other effect occurs?**
+
+  AoA decreases
+
+* **Under straight and level, AoA decreases. What other effect occurs?**
+
+  IAS increases
+
+* **Under straight and level, IAS decreases. What other effect occurs?**
+
+  AoA increases
+
+* **What are the two types of drag?**
+
+  Induced, Parasitic
+
+* **What are the three types of parasite drag?**
+
+  Form, Skin Friction, Interference
+
+* **Which type of the two types of drag is most pronounced?**
+
+  Induced drag
+
+* **What are the effects of induced drag and parasite drag?**
+
+  Induced drag causes nose-down attitude. Parasite drag causes nose-up attitude
+  to a lesser effect. The horizontal stabiliser causes a nose-up pitch to
+  account for the difference.
+
+* **What are the three types of stability?**
+
+  Positive, Neutral, Negative
+
+* **What is the type and axis of stability of the longitudinal axis of roll?**
+
+  Positive stability on pitch
+
+* **What is the type and axis of stability of the lateral axis of pitch?**
+
+  Positive stability on roll
+
+* **What is the axis of stability of the directional axis?**
+
+  Yaw
+
+* **What is the application of normal cruise?**
+
+  Power at 2300rpm, "5 fingers" attitude, gives performance of 100KIAS
+
+* **What is the application of fast cruise?**
+
+  Power at 2500rpm, "6 fingers" attitude, gives performance of 110KIAS
+
+* **What is the application of slow cruise?**
+
+  Power at 2100rpm, "4 fingers" attitude, gives performance of 80KIAS
+
+* **What is the application of slow cruise with flaps?**
+
+  Power at 2100rpm, "5 fingers" attitude, gives performance of 70KIAS
+
+----
+
 ### Handout
 
 ![Handout page 1](https://raw.githubusercontent.com/tonymorris/ppl/master/handouts/20151214-straight-and-level-page1.jpg)
@@ -161,3 +247,4 @@ To understand the forces which affect the aircraft during straight and level fli
 ----
 
 ![Handout page 2](https://raw.githubusercontent.com/tonymorris/ppl/master/handouts/20151214-straight-and-level-page2.jpg)
+
