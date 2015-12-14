@@ -240,7 +240,7 @@ To understand the forces which affect the aircraft during straight and level fli
 
 * **What is the lift equation?**
 
-  lift equals the coefficient of lift multiplied 0.5 rho mutiplied velocity
+  lift equals the coefficient of lift multiplied 0.5 rho multiplied velocity
   squared mutiplied wing area.
 
   `L = Cl * .5 * r * V^2 * A`
