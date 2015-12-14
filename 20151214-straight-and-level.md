@@ -238,6 +238,13 @@ To understand the forces which affect the aircraft during straight and level fli
 
   Power at 2100rpm, "5 fingers" attitude, gives performance of 70KIAS
 
+* **What is the lift equation?**
+
+  lift equals the coefficient of lift multiplied 0.5 rho mutiplied velocity
+  squared mutiplied wing area.
+
+  `L = Cl * (A * .5 * r * V^2)`
+
 ----
 
 ### Handout
