@@ -216,7 +216,7 @@ To understand the forces which affect the aircraft during straight and level fli
 
 * **What is the type and axis of stability of the lateral axis of pitch?**
 
-  Positive stability on roll
+  Neutral stability on roll
 
 * **What is the axis of stability of the directional axis?**
 
