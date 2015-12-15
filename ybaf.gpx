@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    "THE BEER-WARE LICENSE" (Revision 42):
+    Tony Morris <tmorris@tmorris.net> wrote this file. As long as you retain this notice you
+    can do whatever you want with this stuff. If we meet some day, and you think
+    this stuff is worth it, you can buy me a beer in return.
+
+    Tony Morris
+-->
+
+<gpx
+  version="1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.topografix.com/GPX/1/0"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+
+<metadata>
+  <name>YBAF Archerfield Airport</name>
+  <desc>YBAF Archerfield Airport, Brisbane, Australia</desc>
+  <author>
+    <name>Tony Morris</name>
+    <email id="tmorris" domain="tmorris.net"/>
+    <link href="http://tmorris.net/">
+      <text>Tony Morris</text>
+      <type>HTTP</type>
+    </link>
+  </author>
+  <copyright author="Tony Morris">
+    <year>2015</year>
+    <license>http://en.wikipedia.org/wiki/Beerware</license>
+  </copyright>    
+</metadata>
+
+<wpt lat="-27.565742" lon="153.009253">
+  <ele>19.500</ele>
+  <name>Runway 22R</name>
+  <cmt>Runway 22R</cmt>
+  <desc>Runway 22R, 3553 ft x 98 ft (1083 m x 30 m)</desc>
+  <sym>Navaid, Green</sym>
+</wpt>
+
+<wpt lat="-27.570823" lon="153.002062">
+  <ele>19.500</ele>
+  <name>Runway 04L</name>
+  <cmt>Runway 04L</cmt>
+  <desc>Runway 04L, 3553 ft x 98 ft (1083 m x 30 m)</desc>
+  <sym>Navaid, Green</sym>
+</wpt>
+
+<wpt lat="-27.571506" lon="153.004586">
+  <ele>19.500</ele>
+  <name>Runway 04R</name>
+  <cmt>Runway 04R</cmt>
+  <desc>Runway 04R, 3140 ft x 98 ft (957 m x 30 m)</desc>
+  <sym>Navaid, Green</sym>
+</wpt>
+
+<wpt lat="-27.565619" lon="153.012927">
+  <ele>19.500</ele>
+  <name>Runway 22L</name>
+  <cmt>Runway 22L</cmt>
+  <desc>Runway 22L, 3140 ft x 98 ft (957 m x 30 m)</desc>
+  <sym>Navaid, Green</sym>
+</wpt>
+
+<wpt lat="-27.570417" lon="152.997458">
+  <ele>19.500</ele>
+  <name>Runway 10L</name>
+  <cmt>Runway 10L</cmt>
+  <desc>Runway 10L, 4221 ft x 98 ft (1287 m x 30 m)</desc>
+  <sym>Navaid, Green</sym>
+</wpt>
+
+<wpt lat="-27.574195" lon="153.010701">
+  <ele>19.500</ele>
+  <name>Runway 28R</name>
+  <cmt>Runway 28R</cmt>
+  <desc>Runway 28R, 4221 ft x 98 ft (1287 m x 30 m)</desc>
+  <sym>Navaid, Green</sym>
+</wpt>
+
+<wpt lat="-27.572231" lon="152.998325">
+  <ele>19.500</ele>
+  <name>Runway 10R</name>
+  <cmt>Runway 10R</cmt>
+  <desc>Runway 10R, 3136 ft x 98 ft (956 m x 30 m)</desc>
+  <sym>Navaid, Green</sym>
+</wpt>
+
+<wpt lat="-27.575117" lon="153.008464">
+  <ele>19.500</ele>
+  <name>Runway 28L</name>
+  <cmt>Runway 28L</cmt>
+  <desc>Runway 28L, 3136 ft x 98 ft (956 m x 30 m)</desc>
+  <sym>Navaid, Green</sym>
+</wpt>
+
+</gpx>
