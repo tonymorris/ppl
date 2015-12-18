@@ -22,7 +22,7 @@ From memory correctly state:
 4. The degree of rudder input required during each of the three climb profiles
 
 | Climb              | Vx            | Vy           | Cruise |
-|--------------------|:-------------:|-------------:|:-------|
+|:-------------------|:-------------:|:------------:|:------:|
 | Power              | Full          | Full         | Full   |
 | Attitude           | Top of screen | Combing/Dash | Nose   |
 | Performance (KIAS) | 57            | 62           | 75-80  |
