@@ -21,3 +21,4 @@
 * **Total:** 2.2 hours
 * [Track log](tracks/20151218-vh-ldo.gpx)
 * [Flight visualisation](http://doarama.com/view/595690)
+* [Head camera](https://www.youtube.com/watch?v=13BVior4VmY)
