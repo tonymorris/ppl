@@ -1,4 +1,6 @@
-# Flights
+# Trainee Flight Record
+
+### Basic Flight Training Phase
 
 ----
 
