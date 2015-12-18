@@ -87,7 +87,7 @@ settings.
 * From memory, correctly state how best glide range is achieved.
 
 | Type     | Power   | Attitude             | Performance   |
-|:-------------------|:--------------------:|:-------------:|
+|:---------|:-------:|:--------------------:|:-------------:|
 | Glide    | Idle    | Normal Cruise        | 70KIAS        |
 | Cruise   | 2000rpm | 1deg down            | 90KIAS 500FPM |
 | Approach | 1500rpm | Half sky/half ground | 75KIAS 500FPM |
