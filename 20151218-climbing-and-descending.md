@@ -124,6 +124,8 @@ settings.
 
 ### Briefing Notes
 
+#### Climbing
+
 * Lift perpendicular to Relative Air Flow (RAF)
 
 * Weight always centre of Earth
@@ -171,7 +173,7 @@ settings.
 ##### Factors Affecting Climb Performance
 
 
-|                       | Angle of Climb | Rate of climb |
+| Factor                | Angle of Climb | Rate of climb |
 |:----------------------|:--------------:|:-------------:|
 | Decrease weight       | increase       | increase      |
 | Flap extension        | decrease       | decrease      |
@@ -180,6 +182,126 @@ settings.
 | Increase Attitude[^1] | decrease       | decrease      |
 
 [^1]: less air, less burn, less thrust
+
+##### Application
+
+| Climb       | Vx             | Vy                 | Cruise             |
+|:------------|:--------------:|:------------------:|:------------------:|
+| Power       | Full           | Full               | Full               |
+| Attitude    | Screen@horizon | Nose lower than Vx | Nose lower than Vy |
+| Performance | 57KIAS         | 62KIAS             | 75-85KIAS          |
+| Rudder      | xxx            | xx (< Vx)          | x (< Vy)           |
+
+* ASPT during climb
+
+  * **A**ttitude level
+
+  * **S**peed (wait to increase)
+
+  * **P**ower (reduce to cruise)
+
+  * **T**rim
+
+* Climb
+
+  * P.A.S.T. (entry)
+
+  * A.L.A.P. (maintain)
+
+  * A.S.P.T. (exit)
+
+##### Airmanship
+
+* 500ft check lookout
+
+* maintain balance with rudder using ball indicator
+
+* slow power changes (throttle)
+
+##### Threat & Error Management
+
+* Threat from aircraft: Nose-up obstructs view
+  Manage: 500ft check
+
+* Threat from pilot: illness e.g. sinus
+  Manage: No Fly
+
+* Threat from environment: Sun obstructing view
+  Manage: don't climb into Sun
+
+----
+
+#### Descending
+
+* FCW ~ Forward Component of Weight
+
+##### Principles
+
+* Glide = no thrust
+
+* Drag = FCW
+
+##### Factors Affecting Descent Performance
+
+| Factor                | Angle of Climb | Rate of climb |
+|:----------------------|:--------------:|:-------------:|
+| Decrease weight       | neutral        | decrease      |
+| Flap extension        | increase       | increase      |
+| Head Wind             | increase       | neutral       |
+| Tail Wind             | decrease       | neutral       |
+
+##### Application
+
+| Type     | Power        | Attitude             | Performance    |
+|:---------|:------------:|:--------------------:|:--------------:|
+| Glide    | Idle         | Straight&Level       | 70KIAS         |
+| Cruise   | 2000rpm      | 1deg down            | 90KIAS, 500FPM |
+| Approach | 1500-1700rpm | Half sky/half ground | 75KIAS, 500FPM |
+
+##### Work Flow
+
+* Begin Descent
+
+  * **P**ower
+
+  * **A**ttitude
+
+  * **T**rim
+
+* Maintain Descent
+
+  * ALAP
+
+* Exit Descent
+
+  * **P**ower
+
+  * **A**ttitude
+
+  * **T**rim
+
+##### Airmanship
+
+* Airspace
+
+  * Maximum: 3500ft due to YBBN traffic
+
+  * YBAF steps
+
+* Carburetor heat
+
+##### Threat & Error Management
+
+* Threat from aircraft: Spark plug fouling
+  Manage: warm engine
+
+* Threat from pilot: illness
+  Manage: No Fly
+
+* Threat from environment: Clouds
+  Manage: Lookout, no descent into cloud
+
+
 
 ----
 
