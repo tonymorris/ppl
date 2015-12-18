@@ -122,6 +122,67 @@ settings.
 
 ----
 
+### Briefing Notes
+
+* Lift perpendicular to Relative Air Flow (RAF)
+
+* Weight always centre of Earth
+
+* VCW ~ Vertical Component of Weight
+
+* RCW ~ Vertical Component of Weight
+
+##### Principles
+
+* Climb is defined by an increase in altitude at constant airspeed
+
+* Thrust = Drag + RCW
+
+* Excess Thrust = Climb performance
+
+* Best angle (Vx)
+
+  * Force = mass x acceleration
+
+  * Thrust is a force
+
+  * Vx is the greatest difference between Thrust Available (TA) and Thrust
+    Required (TR)
+
+  * Vx corresponds to an airspeed on a thrust versus speed graph
+
+* Best rate of climb (Vx)
+
+  * Work = Force (thrust) x distance
+
+  * Power = Work / Time
+
+  * ∴ Power = (Thrust x distance) / time
+
+  * Speed = distance / time
+
+  * ∴ Power = Thrust x speed
+
+  * Vy is the great difference between Power Available (PA) and Power Required
+    (PR)
+
+  * Vy corresponds to an airspeed on power versus speed graph
+
+##### Factors Affecting Climb Performance
+
+
+|                       | Angle of Climb | Rate of climb |
+|:----------------------|:--------------:|:-------------:|
+| Decrease weight       | increase       | increase      |
+| Flap extension        | decrease       | decrease      |
+| Head Wind             | increase       | neutral       |
+| Tail Wind             | decrease       | neutral       |
+| Increase Attitude[^1] | decrease       | decrease      |
+
+[^1]: less air, less burn, less thrust
+
+----
+
 ### Handout
 
 ![Handout Climbing](handouts/20151218-climbing.jpg)
