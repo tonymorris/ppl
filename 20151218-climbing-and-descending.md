@@ -66,13 +66,59 @@ From memory correctly state:
 
   * **T**rim
 
-<img src="http://i.imgur.com/IQGIQDj.png" alt="Lookout" style="width: 200px;"/>
-
 ![Lookout](http://i.imgur.com/IQGIQDj.png)
 
 ----
 
 ## Descending
+
+### Aim
+
+To learn to descend the aircraft at given airspeeds, rates of descent, and power
+settings.
+
+### Objectives
+
+* From memory, correctly state the steps to enter and level off from a descent.
+
+* From memory, correctly state the effect of a given airspeed greater than best
+  glide on a glide range.
+
+* From memory, correctly state how best glide range is achieved.
+
+| Type     | Power   | Attitude             | Performance   |
+|:-------------------|:--------------------:|:-------------:|
+| Glide    | Idle    | Normal Cruise        | 70KIAS        |
+| Cruise   | 2000rpm | 1deg down            | 90KIAS 500FPM |
+| Approach | 1500rpm | Half sky/half ground | 75KIAS 500FPM |
+
+### Work Flow
+
+* Begin descent
+
+  * **P**ower
+
+  * **A**ttitude
+
+  * **T**rim
+
+* Maintain descent
+
+  * **A**ttitude
+
+  * **L**ookout
+
+  * **A**ttitude
+
+  * **P**erformance
+
+* Exit descent
+
+  * **P**ower
+
+  * **A**ttitude
+
+  * **T**rim
 
 ----
 
