@@ -66,8 +66,20 @@ From memory correctly state:
 
   * **T**rim
 
+<img src="http://i.imgur.com/IQGIQDj.png" alt="Lookout" style="width: 200px;"/>
+
 ![Lookout](http://i.imgur.com/IQGIQDj.png)
 
 ----
 
 ## Descending
+
+----
+
+### Handout
+
+![Handout Climbing](handouts/20151218-climbing.jpg)
+
+----
+
+![Handout Descending](handouts/20151218-descending.jpg)
