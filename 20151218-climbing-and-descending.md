@@ -221,12 +221,15 @@ settings.
 ##### Threat & Error Management
 
 * Threat from aircraft: Nose-up obstructs view
+
   Manage: 500ft check
 
 * Threat from pilot: illness e.g. sinus
+
   Manage: No Fly
 
 * Threat from environment: Sun obstructing view
+
   Manage: don't climb into Sun
 
 ----
@@ -293,12 +296,15 @@ settings.
 ##### Threat & Error Management
 
 * Threat from aircraft: Spark plug fouling
+
   Manage: warm engine
 
 * Threat from pilot: illness
+
   Manage: No Fly
 
 * Threat from environment: Clouds
+
   Manage: Lookout, no descent into cloud
 
 
