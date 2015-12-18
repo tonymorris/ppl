@@ -34,7 +34,7 @@ To understand the forces which affect the aircraft during straight and level fli
 
   * Performance
 
-### My Notes in Briefing
+### Briefing Notes
 
 * Four forces for straight and level flight
 
