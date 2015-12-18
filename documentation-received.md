@@ -12,7 +12,7 @@
 
   This publication includes the material required to be furnished to the pilot by ASTM F2245.
 
-[pdf *272 pages*](https://dl.dropboxusercontent.com/u/7810909/ppl/20151215/Cessna-162-Skycatcher-POH.pdf)
+  [pdf *272 pages*](https://dl.dropboxusercontent.com/u/7810909/ppl/20151215/Cessna-162-Skycatcher-POH.pdf)
 
 * Departure Briefing
 
@@ -38,17 +38,22 @@
 
 # Received by email 18 December 2015
 
-RADIO CALLS YBAF 
-one page pdf
+* RADIO CALLS YBAF 
 
-Single Engine Piston Endorsement
-12 page .doc
+  [pdf *1 page*](https://dl.dropboxusercontent.com/u/7810909/ppl/20151218/RADIO%20CALLS%20YBAF.PDF)
 
-EXAMPLE RADIO CALLS YBAF
-one page pdf
+* Single Engine Piston Endorsement
 
-Flight One Private Pilot requirements
-two pages pdf
+  [doc *12 pages*](https://dl.dropboxusercontent.com/u/7810909/ppl/20151218/Single%20Engine%20Piston%20Endorsement.doc)
 
-NEW STUDENT RADIO SHEET YBAF
-four pages pdf
+* EXAMPLE RADIO CALLS YBAF
+
+  [pdf *1 page*](https://dl.dropboxusercontent.com/u/7810909/ppl/20151218/EXAMPLE%20RADIO%20CALLS%20YBAF.PDF)
+
+* Flight One Private Pilot requirements
+
+  [pdf *2 pages*](https://dl.dropboxusercontent.com/u/7810909/ppl/20151218/Flight%20One%20Private%20Pilot%20requirements.pdf)
+
+* NEW STUDENT RADIO SHEET YBAF
+
+  [pdf *4 pages*](https://dl.dropboxusercontent.com/u/7810909/ppl/20151218/NEW%20STUDENT%20RADIO%20SHEET%20YBAF.PDF)
