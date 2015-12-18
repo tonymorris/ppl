@@ -44,7 +44,7 @@
 
 * Single Engine Piston Endorsement
 
-  [doc *12 pages**](https://dl.dropboxusercontent.com/u/7810909/ppl/20151218/Single%20Engine%20Piston%20Endorsement.doc)
+  [doc **12 pages**](https://dl.dropboxusercontent.com/u/7810909/ppl/20151218/Single%20Engine%20Piston%20Endorsement.doc)
 
 * EXAMPLE RADIO CALLS YBAF
 
