@@ -249,9 +249,8 @@ To understand the forces which affect the aircraft during straight and level fli
 
 ### Handout
 
-![Handout page 1](https://raw.githubusercontent.com/tonymorris/ppl/master/handouts/20151214-straight-and-level-page1.jpg)
+![Handout page 1](handouts/20151214-straight-and-level-page1.jpg)
 
 ----
 
-![Handout page 2](https://raw.githubusercontent.com/tonymorris/ppl/master/handouts/20151214-straight-and-level-page2.jpg)
-
+![Handout page 2](handouts/20151214-straight-and-level-page2.jpg)
