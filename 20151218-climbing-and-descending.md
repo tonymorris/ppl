@@ -165,7 +165,7 @@ settings.
 
   * ∴ Power = Thrust x speed
 
-  * Vy is the great difference between Power Available (PA) and Power Required
+  * Vy is the greatest difference between Power Available (PA) and Power Required
     (PR)
 
   * Vy corresponds to an airspeed on power versus speed graph
