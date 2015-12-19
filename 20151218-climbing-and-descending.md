@@ -159,11 +159,11 @@ settings.
 
   * Power = Work / Time
 
-  * ∴ Power = (Thrust x distance) / time
+  * therefore Power = (Thrust x distance) / time
 
   * Speed = distance / time
 
-  * ∴ Power = Thrust x speed
+  * therefore Power = Thrust x speed
 
   * Vy is the greatest difference between Power Available (PA) and Power Required
     (PR)
