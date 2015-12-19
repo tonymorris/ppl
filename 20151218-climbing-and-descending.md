@@ -579,7 +579,7 @@ settings.
 
     * **S**peed
 
-    * **P**erformance
+    * **P**ower
 
     * **T**rim
 
@@ -613,7 +613,7 @@ settings.
 
     * **S**peed
 
-    * **P**erformance
+    * **P**ower
 
     * **T**rim
 
@@ -647,7 +647,7 @@ settings.
 
     * **S**peed
 
-    * **P**erformance
+    * **P**ower
 
     * **T**rim
 
