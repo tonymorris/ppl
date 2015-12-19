@@ -549,7 +549,7 @@ settings.
 
 ##### Climbing
 
-* Climb the aircraft at best angle
+* **Climb the aircraft at best angle**
 
   * Begin climb
 
@@ -583,7 +583,7 @@ settings.
 
     * **T**rim
 
-* Climb the aircraft at best rate
+* **Climb the aircraft at best rate**
 
   * Begin climb
 
@@ -617,7 +617,7 @@ settings.
 
     * **T**rim
 
-* Climb the aircraft at cruise
+* **Climb the aircraft at cruise**
 
   * Begin climb
 
@@ -651,7 +651,9 @@ settings.
 
     * **T**rim
 
-* Descend the aircraft at glide
+##### Descending
+
+* **Descend the aircraft at glide**
 
   * Begin descent
 
@@ -679,7 +681,7 @@ settings.
 
     * **T**rim
 
-* Descend the aircraft at cruise
+* **Descend the aircraft at cruise**
 
   * Begin descent
 
@@ -707,7 +709,7 @@ settings.
 
     * **T**rim
 
-* Descend the aircraft at approach
+* **Descend the aircraft at approach**
 
   * Begin descent
 
@@ -734,8 +736,6 @@ settings.
     * **A**ttitude
 
     * **T**rim
-
-##### Descending
 
 ----
 
