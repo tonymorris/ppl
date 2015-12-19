@@ -25,7 +25,7 @@ From memory correctly state:
 |:-------------------|:-------------:|:------------:|:------:|
 | Power              | Full          | Full         | Full   |
 | Attitude           | Top of screen | Combing/Dash | Nose   |
-| Performance (KIAS) | 57            | 62           | 75-80  |
+| Performance (KIAS) | 57            | 62           | 75-85  |
 | Rudder input       | +++           | ++           | +      |
 
 ### Work Flow
@@ -627,7 +627,7 @@ settings.
 
     * **A**ttitude nose to horizon
 
-    * **S**peed at 75-80KIAS
+    * **S**peed at 75-85KIAS
 
     * **T**rim
 
