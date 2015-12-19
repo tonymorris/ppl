@@ -617,7 +617,7 @@ settings.
 
     * **T**rim
 
-* Climb the aircraft at best angle
+* Climb the aircraft at cruise
 
   * Begin climb
 
