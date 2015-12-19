@@ -544,7 +544,199 @@ settings.
 * What threats and management from the environment exist during a descent?
 
   Clouds, managed with lookout and no descent into clouds.
-  
+
+### Practical
+
+##### Climbing
+
+* Climb the aircraft at best angle
+
+  * Begin climb
+
+    * Rudder high
+
+    * **P**ower at full throttle
+
+    * **A**ttitude top of screen to horizon
+
+    * **S**peed at 57KIAS
+
+    * **T**rim
+
+  * Maintain climb
+
+    * **A**ttitude
+
+    * **L**ookout 500ft check
+
+    * **A**ttitude
+
+    * **P**erformance
+
+  * Exit climb
+
+    * **A**ttitude
+
+    * **S**peed
+
+    * **P**erformance
+
+    * **T**rim
+
+* Climb the aircraft at best rate
+
+  * Begin climb
+
+    * Rudder medium
+
+    * **P**ower at full throttle
+
+    * **A**ttitude dashboard combing to horizon
+
+    * **S**peed at 62KIAS
+
+    * **T**rim
+
+  * Maintain climb
+
+    * **A**ttitude
+
+    * **L**ookout 500ft check
+
+    * **A**ttitude
+
+    * **P**erformance
+
+  * Exit climb
+
+    * **A**ttitude
+
+    * **S**peed
+
+    * **P**erformance
+
+    * **T**rim
+
+* Climb the aircraft at best angle
+
+  * Begin climb
+
+    * Rudder low
+
+    * **P**ower at full throttle
+
+    * **A**ttitude nose to horizon
+
+    * **S**peed at 75-80KIAS
+
+    * **T**rim
+
+  * Maintain climb
+
+    * **A**ttitude
+
+    * **L**ookout 500ft check
+
+    * **A**ttitude
+
+    * **P**erformance
+
+  * Exit climb
+
+    * **A**ttitude
+
+    * **S**peed
+
+    * **P**erformance
+
+    * **T**rim
+
+* Descend the aircraft at glide
+
+  * Begin descent
+
+    * **P**ower to idle
+
+    * **A**ttitude to straight and level
+
+    * **T**rim
+
+  * Maintain descent
+
+    * **A**ttitude
+
+    * **L**ookout 500ft check
+
+    * **A**ttitude
+
+    * **P**erformance at 70KIAS
+
+  * Exit descent
+
+    * **P**ower
+
+    * **A**ttitude
+
+    * **T**rim
+
+* Descend the aircraft at cruise
+
+  * Begin descent
+
+    * **P**ower to 2000rpm
+
+    * **A**ttitude to 1 degree down from straight and level
+
+    * **T**rim
+
+  * Maintain descent
+
+    * **A**ttitude
+
+    * **L**ookout 500ft check
+
+    * **A**ttitude
+
+    * **P**erformance at 90KIAS, 500FPM
+
+  * Exit descent
+
+    * **P**ower
+
+    * **A**ttitude
+
+    * **T**rim
+
+* Descend the aircraft at approach
+
+  * Begin descent
+
+    * **P**ower to 1500-1700rpm
+
+    * **A**ttitude to half sky/half ground
+
+    * **T**rim
+
+  * Maintain descent
+
+    * **A**ttitude
+
+    * **L**ookout 500ft check
+
+    * **A**ttitude
+
+    * **P**erformance at 75KIAS, 500FPM
+
+  * Exit descent
+
+    * **P**ower
+
+    * **A**ttitude
+
+    * **T**rim
+
+##### Descending
+
 ----
 
 ### Handout
