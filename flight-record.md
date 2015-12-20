@@ -32,7 +32,7 @@
 ### Climbing & Descending
 
 * **Date:** 20151220
-* **Sequence:** P1.2 Straight & Level
+* **Sequence:** P1.3 Climing & Descending
 * **Aircraft:** C162/LDO
 * **Dual day:** 1.1 hours
 * **Dual prog:** 3.3 hours
