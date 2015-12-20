@@ -14,7 +14,7 @@
 ----
 
 * **Date:** 20151218
-* **Sequence:** P1.2
+* **Sequence:** P1.2 Straight & Level
 * **Aircraft:** C162/LDO
 * **Dual day:** 1.0 hours
 * **Dual prog:** 2.2 hours
@@ -22,3 +22,15 @@
 * **Track log:** [gpx](tracks/20151218-vh-ldo.gpx)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/595690)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=13BVior4VmY)
+
+----
+
+* **Date:** 20151220
+* **Sequence:** P1.2 Straight & Level
+* **Aircraft:** C162/LDO
+* **Dual day:** 1.1 hours
+* **Dual prog:** 3.3 hours
+* **Total:** 3.3 hours
+* **Track log:** [gpx](tracks/20151220-vh-ldo.gpx)
+* **Flight visualisation:** [doarama.com]()
+* **Head camera:** [youtube]()
