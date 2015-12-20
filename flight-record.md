@@ -38,5 +38,5 @@
 * **Dual prog:** 3.3 hours
 * **Total:** 3.3 hours
 * **Track log:** [gpx](tracks/20151220-vh-ldo.gpx)
-* **Flight visualisation:** [doarama.com]()
+* **Flight visualisation:** [doarama.com](http://doarama.com/view/596790)
 * **Head camera:** [youtube]()
