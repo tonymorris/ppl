@@ -4,6 +4,8 @@
 
 ----
 
+### Effects of Controls
+
 * **Date:** 20151214
 * **Sequence:** P1.1
 * **Aircraft:** C162/LDO
@@ -12,6 +14,8 @@
 * **Total:** 1.2 hours
 
 ----
+
+### Straight & Level
 
 * **Date:** 20151218
 * **Sequence:** P1.2 Straight & Level
@@ -24,6 +28,8 @@
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=13BVior4VmY)
 
 ----
+
+### Climbing & Descending
 
 * **Date:** 20151220
 * **Sequence:** P1.2 Straight & Level
