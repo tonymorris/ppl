@@ -110,7 +110,7 @@
 
 * **Report:** *report*
 
-* **Specific Point: Downwind 10 Right
+* **Specific Point:** Downwind 10 Right
 
 * **Call Sign:** Lima Delta Oscar
 
