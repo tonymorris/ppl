@@ -22,6 +22,8 @@
 
 ----
 
+* *set barometric pressure according to ATIS QNH.*
+
 ##### Taxi Call to Ground 119.9
 
 * **Archer Ground:** archer ground
