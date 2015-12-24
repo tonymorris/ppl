@@ -42,7 +42,7 @@
 
 ----
 
-##### Readback from Ground (119.9)
+##### Read Back from Ground (119.9)
 
 * **Taxi way:** taxiway Bravo
 
