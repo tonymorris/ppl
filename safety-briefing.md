@@ -4,7 +4,7 @@
 
     * CLOSE the throttle 
 
-    * Apply Maximum breaking
+    * Apply maximum braking
 
     * Exit the runway at the closest taxiway 
 
@@ -15,21 +15,23 @@
 
     * CLOSE the throttle
 
-    * Land the Aircraft on the remaining runway 
+    * Land the aircraft on the remaining runway 
 
-        * Apply MAXIMUM breaking 
+        * Apply maximum braking 
 
         * Exit the runway at the closest taxiway
 
 * In the event of FIRE, FAILURE or ABNORMALITY after rotate WITHOUT remaining
   runway I WILL
 
-    * I will lower the nose adopt the glide attitude
+    * Lower the nose to adopt the glide attitude
 
     * Select a landing area within 30 degrees either side of the nose 
 
-    * THE FIRST TIME I WILL ATEMPT A TURN BACK TO THE RUNWAY WILL BE ONLY IF 
+    * The first time I will attempt a turn back to the runway will be only if 
 
         * I have commenced a turn.
 
-        * Or  have sufficient height to glide back to the runway.  
+        OR
+
+        * Or have sufficient height to glide back to the runway.  
