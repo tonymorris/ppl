@@ -57,3 +57,13 @@
 * NEW STUDENT RADIO SHEET YBAF
 
   [pdf **4 pages**](https://dl.dropboxusercontent.com/u/7810909/ppl/20151218/NEW%20STUDENT%20RADIO%20SHEET%20YBAF.PDF)
+
+----
+
+# Received in #pilots IRC 25 December 2015
+
+* Flying the Garmin G1000
+
+  *after discussions about True Air Speed*
+
+  [pdf **24 pages**](https://dl.dropboxusercontent.com/u/7810909/ppl/20151225/smx_g1000.pdf)
