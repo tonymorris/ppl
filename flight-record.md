@@ -27,8 +27,6 @@
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/595690)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=13BVior4VmY)
 
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/13BVior4VmY" frameborder="0" allowfullscreen></iframe>
-  
 ----
 
 ### Climbing & Descending
