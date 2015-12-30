@@ -11,6 +11,7 @@
 * **Aircraft:** C162/LDO
 * **Dual day:** 1.2 hours
 * **Dual prog:** 1.2 hours
+* **Instructor:** Michael Ward
 * **Total:** 1.2 hours
 
 ----
@@ -22,6 +23,7 @@
 * **Aircraft:** C162/LDO
 * **Dual day:** 1.0 hours
 * **Dual prog:** 2.2 hours
+* **Instructor:** Michael Ward
 * **Total:** 2.2 hours
 * **Track log:** [gpx](tracks/20151218-vh-ldo.gpx)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/595690)
@@ -36,6 +38,7 @@
 * **Aircraft:** C162/LDO
 * **Dual day:** 1.1 hours
 * **Dual prog:** 3.3 hours
+* **Instructor:** Michael Ward
 * **Total:** 3.3 hours
 * **Track log:** [gpx](tracks/20151220-vh-ldo.gpx)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/596790)
