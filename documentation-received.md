@@ -1,4 +1,4 @@
-# Documents
+### General Documents
 
 * [CASR Part 61 Pilot Licensing](https://dl.dropboxusercontent.com/u/7810909/ppl/part61booklet.pdf)
 
@@ -10,7 +10,7 @@
 
 ----
 
-# Received by email 15 December 2015
+### Received by email 15 December 2015
 
 * Cessna
 
@@ -46,7 +46,7 @@
 
 ----
 
-# Received by email 18 December 2015
+### Received by email 18 December 2015
 
 * RADIO CALLS YBAF 
 
@@ -70,7 +70,7 @@
 
 ----
 
-# Received in #pilots IRC 25 December 2015
+### Received in #pilots IRC 25 December 2015
 
 * Flying the Garmin G1000
 
@@ -80,7 +80,7 @@
 
 ----
 
-# Talk to Clint Dudman about exam study 30 December 2015
+### Talk to Clint Dudman about exam study 30 December 2015
 
 * Aviation Theory Centre Basic Aeronautical Knowledge (BAK)
 
