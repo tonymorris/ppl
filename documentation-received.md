@@ -1,6 +1,16 @@
-# Received by email 15 December 2015
+# Documents
+
+* [CASR Part 61 Pilot Licensing](https://dl.dropboxusercontent.com/u/7810909/ppl/part61booklet.pdf)
+
+  An overview of the structure, terminology and requirements of the new licensing scheme.
+
+  Version number 2.0
+
+  1301.1759
 
 ----
+
+# Received by email 15 December 2015
 
 * Cessna
 
@@ -67,6 +77,8 @@
   *after discussions about True Air Speed*
 
   [pdf **24 pages**](https://dl.dropboxusercontent.com/u/7810909/ppl/20151225/smx_g1000.pdf)
+
+----
 
 # Talk to Clint Dudman about exam study 30 December 2015
 
