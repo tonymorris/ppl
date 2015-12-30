@@ -86,7 +86,7 @@
 
   * Used for PPL exam study, along with [PPL & CPL (Aeroplane) Workbook](https://dl.dropboxusercontent.com/u/7810909/ppl/ppl-cpl-workbook.pdf).
 
-  * Asks questions and references the PPL & CPL Workbook.
+  * Asks questions and references the PPL & CPL (Aeroplane) Workbook.
 
   * The CASA PPL & CPL (Aeroplane) Workbook is given at the exam.
 
