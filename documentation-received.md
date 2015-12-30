@@ -8,6 +8,16 @@
 
   1301.1759
 
+* [CASA Schedule 3 Part 61 Manual of standards](https://www.casa.gov.au/sites/g/files/net351/f/_assets/main/lib100212/part-61-instrument-vol3-schedule-3-new.pdf)
+
+* [Archerfield ERSA](https://www.airservicesaustralia.com/aip/current/ersa/FAC_YBAF_12-Nov-2015.pdf)
+
+  12 November 2015
+
+* [Archerfield Visual Pilot Guide 2010](https://www.casa.gov.au/sites/g/files/net351/f/_assets/main/pilots/download/archer/archer.pdf)
+
+
+
 ----
 
 ### Received by email 15 December 2015
