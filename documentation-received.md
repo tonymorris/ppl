@@ -67,3 +67,15 @@
   *after discussions about True Air Speed*
 
   [pdf **24 pages**](https://dl.dropboxusercontent.com/u/7810909/ppl/20151225/smx_g1000.pdf)
+
+# Talk to Clint Dudman about exam study 30 December 2015
+
+* Aviation Theory Centre Basic Aeronautical Knowledge (BAK)
+
+  * Used for PPL exam study, along with [PPL & CPL (Aeroplane) Workbook](https://dl.dropboxusercontent.com/u/7810909/ppl/ppl-cpl-workbook.pdf).
+
+  * Asks questions and references the PPL & CPL Workbook.
+
+  * The CASA PPL & CPL (Aeroplane) Workbook is given at the exam.
+
+* Aviation Theory Centre Flying Training Manual follows each flight sequence during PPL training.
