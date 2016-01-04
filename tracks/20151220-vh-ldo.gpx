@@ -18,12 +18,6 @@
   </metadata>
 
   <trk>
-    <name>Current Track: 20 DEC 2015 10:30</name>
-    <extensions>
-      <gpxx:TrackExtension>
-        <gpxx:DisplayColor>Red</gpxx:DisplayColor>
-      </gpxx:TrackExtension>
-    </extensions>
     <trkseg>
       <trkpt lat="-27.5667850301" lon="153.0144105200">
         <ele>-11.40</ele>
