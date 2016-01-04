@@ -43,3 +43,18 @@
 * **Track log:** [gpx](tracks/20151220-vh-ldo.gpx)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/596790)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=8tZ8kxsVz6E)
+
+----
+
+### Turning
+
+* **Date:** 20160104
+* **Sequence:** P1.4 Turning
+* **Aircraft:** C162/LDO
+* **Dual day:** 1.3 hours
+* **Dual prog:** 4.6 hours
+* **Instructor:** Ryan Low
+* **Total:** 4.6 hours
+* **Track log:** [gpx](tracks/20160104-vh-ldo.gpx)
+* **Flight visualisation:** [doarama.com](http://doarama.com/view/607004)
+* **Head camera:** [youtube]()
