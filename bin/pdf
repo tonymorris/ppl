@@ -5,8 +5,23 @@ set -e
 mkdir -p "dist" "dist/briefings"
 
 pandoc="./.cabal-sandbox/bin/pandoc"
-files="documentation-received flight-record ppl-costs-and-breakdown safety-briefing vh-ldo-flight-deck ybaf-radio"
-briefings="briefings/questions briefings/20151210-effects-of-controls briefings/20151214-straight-and-level briefings/20151218-climbing-and-descending briefings/20151220-turning briefings/20160104-stalling"
+files="\
+  documentation-received\
+  flight-record\
+  ppl-costs-and-breakdown\
+  safety-briefing\
+  vh-ldo-flight-deck\
+  ybaf-radio\
+"
+
+briefings="\
+  briefings/questions\
+  briefings/20151210-effects-of-controls\
+  briefings/20151214-straight-and-level\
+  briefings/20151218-climbing-and-descending\
+  briefings/20151220-turning\
+  briefings/20160104-stalling\
+"
 
 for doc in $files $briefings
 do
