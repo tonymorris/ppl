@@ -21,6 +21,7 @@ briefings="\
   briefings/20151218-climbing-and-descending\
   briefings/20151220-turning\
   briefings/20160104-stalling\
+  briefings/20160108-circuits\
 "
 
 for doc in $files $briefings
