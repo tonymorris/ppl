@@ -57,4 +57,17 @@
 * **Total:** 4.6 hours
 * **Track log:** [gpx](tracks/20160104-vh-ldo.gpx)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/607004)
-* **Head camera:** [youtube]()
+
+----
+
+### Turning
+
+* **Date:** 20160108
+* **Sequence:** P1.5 Stalling
+* **Aircraft:** C162/LDO
+* **Dual day:** 1.3 hours
+* **Dual prog:** 5.9 hours
+* **Instructor:** David Schofield
+* **Total:** 5.9 hours
+* **Track log:** [gpx](tracks/20160108-vh-ldo.gpx)
+* **Flight visualisation:** [doarama.com](http://doarama.com/view/611980)
