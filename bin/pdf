@@ -22,6 +22,7 @@ briefings="\
   briefings/20151220-turning\
   briefings/20160104-stalling\
   briefings/20160108-circuits\
+  briefings/questions\
 "
 
 for doc in $files $briefings
