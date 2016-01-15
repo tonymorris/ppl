@@ -71,3 +71,17 @@
 * **Total:** 5.9 hours
 * **Track log:** [gpx](tracks/20160108-vh-ldo.gpx)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/611980)
+
+----
+
+### Consolidation
+
+* **Date:** 20160115
+* **Sequence:** P1.6 Consolidation
+* **Aircraft:** C172/AFR
+* **Dual day:** 1.4 hours
+* **Dual prog:** 7.3 hours
+* **Instructor:** David Schofield
+* **Total:** 7.3 hours
+* **Track log:** [gpx](tracks/20160115-vh-afr.gpx)
+
