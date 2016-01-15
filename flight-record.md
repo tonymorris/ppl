@@ -84,4 +84,4 @@
 * **Instructor:** David Schofield
 * **Total:** 7.3 hours
 * **Track log:** [gpx](tracks/20160115-vh-afr.gpx)
-
+* **Flight visualisation:** [doarama.com](http://doarama.com/view/617610)
