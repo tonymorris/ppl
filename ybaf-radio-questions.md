@@ -2,7 +2,7 @@
 
 ### AFR eastern departure runway 10L
 
-* *receive ATIS*
+> *receive ATIS*
 
 * **ATIS IS ALPHA**
 
@@ -29,7 +29,7 @@
 
 ### AFR eastern departure runway 28R
 
-* *receive ATIS*
+> *receive ATIS*
 
 * **ATIS IS ALPHA**
 
@@ -54,7 +54,7 @@
 
 ### AFR inbound runway 10R from eastern training area
 
-* *receive ATIS*
+> *receive ATIS*
 
 * **ATIS IS BRAVO**
 
