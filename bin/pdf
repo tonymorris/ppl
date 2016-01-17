@@ -12,6 +12,7 @@ files="\
   safety-briefing\
   vh-ldo-flight-deck\
   ybaf-radio\
+  ybaf-radio-questions\
 "
 
 briefings="\
