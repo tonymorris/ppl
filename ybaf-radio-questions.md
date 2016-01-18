@@ -74,7 +74,7 @@
 * **ATIS IS BRAVO**
 
 > ARCHER TOWER ALPHA FOXTROT ROMEO CESSNA ONE SEVEN TWO TARGET MAINTAINING ONE
-THOUSAND FIVE HUNDRED INBOUND RECEIVED BRAVO
+THOUSAND FIVE HUNDRED RECEIVED BRAVO INBOUND
 
 * **ALPHA FOXTROT ROMEO JOIN FINAL RUNWAY TWO EIGHT RIGHT REPORT TWO MILES**
 
@@ -104,6 +104,6 @@ THOUSAND FIVE HUNDRED INBOUND RECEIVED BRAVO
 
 * [AFR inbound runway 10R](https://dl.dropboxusercontent.com/u/7810909/ppl/ybaf-radio-calls/AFR%20inbound%2010R.m4a)
 
-* [AFR inbound runway 28R](https://dl.dropboxusercontent.com/u/7810909/ppl/ybaf-radio-calls/AFR%20inbound%2028R.m4a)
+* [AFR inbound runway 28R](https://dl.dropboxusercontent.com/u/7810909/ppl/ybaf-radio-calls/AFR%20inbound%2028R%20(corrected).m4a)
 
 * [AFR after landing](https://dl.dropboxusercontent.com/u/7810909/ppl/ybaf-radio-calls/AFR%20after%20landing.m4a)
