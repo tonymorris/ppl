@@ -1,6 +1,6 @@
 # YBAF Radio Questions
 
-### AFR eastern departure runway 10L
+##### AFR eastern departure runway 10L
 
 > *receive ATIS*
 
@@ -27,7 +27,7 @@
 
 ----
 
-### AFR eastern departure runway 28R
+##### AFR eastern departure runway 28R
 
 > *receive ATIS*
 
@@ -52,7 +52,7 @@
 
 ----
 
-### AFR inbound runway 10R
+##### AFR inbound runway 10R
 
 > *receive ATIS*
 
@@ -67,7 +67,7 @@
 
 ----
 
-### AFR inbound runway 28R
+##### AFR inbound runway 28R
 
 > *receive ATIS*
 
@@ -82,10 +82,28 @@ THOUSAND FIVE HUNDRED INBOUND RECEIVED BRAVO
 
 ----
 
-### AFR after landing
+##### AFR after landing
 
 > ARCHER GROUND ALPHA FOXTROT ROMEO REQUEST TAXI TO THE EASTERN APRON
 
 * **ALPHA FOXTROT ROMEO CLEARED FOR TAXI TO THE EASTERN APRON**
 
 > CLEARED FOR TAXI TO THE EASTERN APRON ALPHA FOXTROT ROMEO
+
+----
+
+### Recordings
+
+* [AFR eastern departure runway 10L](https://dl.dropboxusercontent.com/u/7810909/ppl/ybaf-radio-calls/AFR%20depart%20east%2010L.m4a)
+
+* [AFR eastern departure runway 10L (2)](https://dl.dropboxusercontent.com/u/7810909/ppl/ybaf-radio-calls/AFR%20depart%20east%2010L%20(2).m4a)
+
+* [AFR eastern departure runway 28R](https://dl.dropboxusercontent.com/u/7810909/ppl/ybaf-radio-calls/AFR%20depart%20east%2028R.m4a)
+
+* [AFR eastern departure runway 28R (2)](https://dl.dropboxusercontent.com/u/7810909/ppl/ybaf-radio-calls/AFR%20depart%20east%2028R%20(2).m4a)
+
+* [AFR inbound runway 10R](https://dl.dropboxusercontent.com/u/7810909/ppl/ybaf-radio-calls/AFR%20inbound%2010R.m4a)
+
+* [AFR inbound runway 28R](https://dl.dropboxusercontent.com/u/7810909/ppl/ybaf-radio-calls/AFR%20inbound%2028R.m4a)
+
+* [AFR after landing](https://dl.dropboxusercontent.com/u/7810909/ppl/ybaf-radio-calls/AFR%20after%20landing.m4a)
