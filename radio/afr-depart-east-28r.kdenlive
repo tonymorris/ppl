@@ -295,7 +295,7 @@ ALPHA FOXTROT ROMEO&lt;/content>
  </tractor>
  <kdenlivedoc version="0.88" kdenliveversion="15.04.3" projectfolder="/home/tmorris/kdenlive" profile="atsc_1080p_25">
   <customeffects/>
-  <documentproperties generateproxy="0" zonein="0" documentid="1453167890077" generateimageproxy="0" zoneout="100" position="595" proxyextension="ts" proxyminsize="1000" verticalzoom="1" enableproxy="0" proxyimageminsize="2000" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7" zoom="7"/>
+  <documentproperties documentid="1453167890077" renderurl="/home/tmorris/kdenlive/afr-depart-east-28r.mp4" position="916" proxyimageminsize="2000" rendertctype="0" proxyextension="ts" renderscanning="0" renderendguide="-1" rendercategory="MP4" enableproxy="0" renderrescale="0" renderrescalewidth="320" renderstartguide="-1" renderdestination="" verticalzoom="1" zoom="7" renderguide="0" generateproxy="0" renderrescaleheight="180" rendertwopass="0" renderprofile="H.264/AAC High Profile" renderzone="0" rendertcoverlay="0" renderplay="0" renderratio="1" zoneout="100" renderexportaudio="0" renderbitrate="20" renderaudiobitrate="160" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -vcodec mpeg2video -g 5 -s 640x480 -qscale 7" zonein="0" generateimageproxy="0" proxyminsize="1000"/>
   <documentmetadata/>
   <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
 &lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
