@@ -17,9 +17,9 @@
 
   * Land the aircraft on the remaining runway 
 
-    * Apply maximum braking 
+  * Apply maximum braking 
 
-    * Exit the runway at the closest taxiway
+  * Exit the runway at the closest taxiway
 
 * In the event of FIRE, FAILURE or ABNORMALITY after rotate WITHOUT remaining
   runway I WILL
