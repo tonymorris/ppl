@@ -30,7 +30,7 @@
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/595690)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=13BVior4VmY)
 
-<a href="tracks/png/20151218-vh-ldo.png"><img src="tracks/png/20151218-vh-ldo.png" width="360" alt="20151218 VH-LDO Straight &amp; Level" /></a>
+<a href="tracks/png/20151218-vh-ldo.png?raw=true"><img src="tracks/png/20151218-vh-ldo.png" width="360" alt="20151218 VH-LDO Straight &amp; Level" /></a>
 
 ----
 
@@ -48,7 +48,7 @@
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/596790)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=8tZ8kxsVz6E)
 
-<a href="tracks/png/20151220-vh-ldo.png"><img src="tracks/png/20151220-vh-ldo.png" width="360" alt="20151220 VH-LDO Climbing &amp; Descending" /></a>
+<a href="tracks/png/20151220-vh-ldo.png?raw=true"><img src="tracks/png/20151220-vh-ldo.png" width="360" alt="20151220 VH-LDO Climbing &amp; Descending" /></a>
 
 ----
 
@@ -65,7 +65,7 @@
 * **Google Earth:** [kmz](tracks/google-earth/20160104-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/607004)
 
-<a href="tracks/png/20160104-vh-ldo.png"><img src="tracks/png/20160104-vh-ldo.png" width="360" alt="20160104 VH-LDO Turning" /></a>
+<a href="tracks/png/20160104-vh-ldo.png?raw=true"><img src="tracks/png/20160104-vh-ldo.png" width="360" alt="20160104 VH-LDO Turning" /></a>
 
 ----
 
@@ -82,7 +82,7 @@
 * **Google Earth:** [kmz](tracks/google-earth/20160108-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/611980)
 
-<a href="tracks/png/20160108-vh-ldo.png"><img src="tracks/png/20160108-vh-ldo.png" width="360" alt="20160108 VH-LDO Stalling" /></a>
+<a href="tracks/png/20160108-vh-ldo.png?raw=true"><img src="tracks/png/20160108-vh-ldo.png" width="360" alt="20160108 VH-LDO Stalling" /></a>
 
 ----
 
@@ -99,7 +99,7 @@
 * **Google Earth:** [kmz](tracks/google-earth/20160115-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/617610)
 
-<a href="tracks/png/20160115-vh-afr.png"><img src="tracks/png/20160115-vh-afr.png" width="360" alt="20160115 VH-AFR Consolidation" /></a>
+<a href="tracks/png/20160115-vh-afr.png?raw=true"><img src="tracks/png/20160115-vh-afr.png" width="360" alt="20160115 VH-AFR Consolidation" /></a>
 
 ----
 
@@ -116,37 +116,37 @@
 * **Google Earth:** [kmz](tracks/google-earth/20160122-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/622258)
 
-<a href="tracks/png/20160122-vh-afr.png"><img src="tracks/png/20160122-vh-afr.png" width="360" alt="20160122 VH-AFR Circuits" /></a>
+<a href="tracks/png/20160122-vh-afr.png?raw=true"><img src="tracks/png/20160122-vh-afr.png" width="360" alt="20160122 VH-AFR Circuits" /></a>
 
 <div style="text-align: justify">
-  <a href="images/20160122-vh-afr/20160122_082411.jpg">
+  <a href="images/20160122-vh-afr/20160122_082411.jpg?raw=true">
     <img src="images/20160122-vh-afr/20160122_082411.jpg" width="120" alt="20160122 VH-AFR Circuits" />
   </a>
-  <a href="images/20160122-vh-afr/20160122_082856.jpg">
+  <a href="images/20160122-vh-afr/20160122_082856.jpg?raw=true">
     <img src="images/20160122-vh-afr/20160122_082856.jpg" width="120" alt="20160122 VH-AFR Circuits" />
   </a>
-  <a href="images/20160122-vh-afr/20160122_082902.jpg">
+  <a href="images/20160122-vh-afr/20160122_082902.jpg?raw=true">
     <img src="images/20160122-vh-afr/20160122_082902.jpg" width="120" alt="20160122 VH-AFR Circuits" />
   </a>
-  <a href="images/20160122-vh-afr/20160122_082905.jpg">
+  <a href="images/20160122-vh-afr/20160122_082905.jpg?raw=true">
     <img src="images/20160122-vh-afr/20160122_082905.jpg" width="120" alt="20160122 VH-AFR Circuits" />
   </a>
-  <a href="images/20160122-vh-afr/20160122_083348.jpg">
+  <a href="images/20160122-vh-afr/20160122_083348.jpg?raw=true">
     <img src="images/20160122-vh-afr/20160122_083348.jpg" width="120" alt="20160122 VH-AFR Circuits" />
   </a>
-  <a href="images/20160122-vh-afr/20160122_083352.jpg">
+  <a href="images/20160122-vh-afr/20160122_083352.jpg?raw=true">
     <img src="images/20160122-vh-afr/20160122_083352.jpg" width="120" alt="20160122 VH-AFR Circuits" />
   </a>
-  <a href="images/20160122-vh-afr/20160122_083353.jpg">
+  <a href="images/20160122-vh-afr/20160122_083353.jpg?raw=true">
     <img src="images/20160122-vh-afr/20160122_083353.jpg" width="120" alt="20160122 VH-AFR Circuits" />
   </a>
-  <a href="images/20160122-vh-afr/20160122_084902.jpg">
+  <a href="images/20160122-vh-afr/20160122_084902.jpg?raw=true">
     <img src="images/20160122-vh-afr/20160122_084902.jpg" width="120" alt="20160122 VH-AFR Circuits" />
   </a>
-  <a href="images/20160122-vh-afr/20160122_084906.jpg">
+  <a href="images/20160122-vh-afr/20160122_084906.jpg?raw=true">
     <img src="images/20160122-vh-afr/20160122_084906.jpg" width="120" alt="20160122 VH-AFR Circuits" />
   </a>
-  <a href="images/20160122-vh-afr/20160122_084908.jpg">
+  <a href="images/20160122-vh-afr/20160122_084908.jpg?raw=true">
     <img src="images/20160122-vh-afr/20160122_084908.jpg" width="120" alt="20160122 VH-AFR Circuits" />
   </a>
 </div>
