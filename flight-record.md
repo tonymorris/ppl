@@ -26,6 +26,7 @@
 * **Instructor:** Michael Ward
 * **Total:** 2.2 hours
 * **Track log:** [gpx](tracks/20151218-vh-ldo.gpx)
+* **Google Earth:** [kmz](tracks/google-earth/20151218-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/595690)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=13BVior4VmY)
 
@@ -41,6 +42,7 @@
 * **Instructor:** Michael Ward
 * **Total:** 3.3 hours
 * **Track log:** [gpx](tracks/20151220-vh-ldo.gpx)
+* **Google Earth:** [kmz](tracks/google-earth/20151220-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/596790)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=8tZ8kxsVz6E)
 
@@ -56,6 +58,7 @@
 * **Instructor:** Ryan Low
 * **Total:** 4.6 hours
 * **Track log:** [gpx](tracks/20160104-vh-ldo.gpx)
+* **Google Earth:** [kmz](tracks/google-earth/20160104-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/607004)
 
 ----
@@ -70,6 +73,7 @@
 * **Instructor:** David Schofield
 * **Total:** 5.9 hours
 * **Track log:** [gpx](tracks/20160108-vh-ldo.gpx)
+* **Google Earth:** [kmz](tracks/google-earth/20160108-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/611980)
 
 ----
@@ -84,6 +88,7 @@
 * **Instructor:** David Schofield
 * **Total:** 7.3 hours
 * **Track log:** [gpx](tracks/20160115-vh-afr.gpx)
+* **Google Earth:** [kmz](tracks/google-earth/20160115-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/617610)
 
 ----
