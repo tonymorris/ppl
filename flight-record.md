@@ -125,4 +125,28 @@
   <a href="images/20160122-vh-afr/20160122_082856.jpg">
     <img src="images/20160122-vh-afr/20160122_082856.jpg" width="120" alt="20160122 VH-AFR Circuits" />
   </a>
+  <a href="images/20160122-vh-afr/20160122_082902.jpg">
+    <img src="images/20160122-vh-afr/20160122_082902.jpg" width="120" alt="20160122 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160122-vh-afr/20160122_082905.jpg">
+    <img src="images/20160122-vh-afr/20160122_082905.jpg" width="120" alt="20160122 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160122-vh-afr/20160122_083348.jpg">
+    <img src="images/20160122-vh-afr/20160122_083348.jpg" width="120" alt="20160122 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160122-vh-afr/20160122_083352.jpg">
+    <img src="images/20160122-vh-afr/20160122_083352.jpg" width="120" alt="20160122 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160122-vh-afr/20160122_083353.jpg">
+    <img src="images/20160122-vh-afr/20160122_083353.jpg" width="120" alt="20160122 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160122-vh-afr/20160122_084902.jpg">
+    <img src="images/20160122-vh-afr/20160122_084902.jpg" width="120" alt="20160122 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160122-vh-afr/20160122_084906.jpg">
+    <img src="images/20160122-vh-afr/20160122_084906.jpg" width="120" alt="20160122 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160122-vh-afr/20160122_084908.jpg">
+    <img src="images/20160122-vh-afr/20160122_084908.jpg" width="120" alt="20160122 VH-AFR Circuits" />
+  </a>
 </div>
