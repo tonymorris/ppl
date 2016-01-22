@@ -6,6 +6,7 @@ mkdir -p "dist" "dist/briefings"
 
 pandoc="./.cabal-sandbox/bin/pandoc"
 files="\
+  circuits\
   documentation-received\
   flight-record\
   ppl-costs-and-breakdown\
