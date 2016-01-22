@@ -14,8 +14,6 @@
 * **Instructor:** Michael Ward
 * **Total:** 1.2 hours
 
-<a href="tracks/png/20151214-vh-ldo.png"><img src="tracks/png/20151214-vh-ldo.png" width="360" alt="20151214 VH-LDO Effects of Controls" /></a>
-
 ----
 
 ### P1.2 Straight & Level
