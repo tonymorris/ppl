@@ -91,6 +91,8 @@
 * **Google Earth:** [kmz](tracks/google-earth/20160115-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/617610)
 
+![20160115 Consolidation](tracks/png/20160115-vh-afr.png)
+
 ----
 
 ### P2.1 Circuits (1)
