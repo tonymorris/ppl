@@ -14,6 +14,8 @@
 * **Instructor:** Michael Ward
 * **Total:** 1.2 hours
 
+<a href="tracks/png/20151214-vh-ldo.png"><img src="tracks/png/20151214-vh-ldo.png" width="360" alt="20151214 VH-LDO Effects of Controls" /></a>
+
 ----
 
 ### P1.2 Straight & Level
@@ -29,6 +31,8 @@
 * **Google Earth:** [kmz](tracks/google-earth/20151218-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/595690)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=13BVior4VmY)
+
+<a href="tracks/png/20151218-vh-ldo.png"><img src="tracks/png/20151218-vh-ldo.png" width="360" alt="20151218 VH-LDO Straight &amp; Level" /></a>
 
 ----
 
@@ -46,6 +50,8 @@
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/596790)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=8tZ8kxsVz6E)
 
+<a href="tracks/png/20151220-vh-ldo.png"><img src="tracks/png/20151220-vh-ldo.png" width="360" alt="20151220 VH-LDO Climbing &amp; Descending" /></a>
+
 ----
 
 ### P1.4 Turning
@@ -60,6 +66,8 @@
 * **Track log:** [gpx](tracks/20160104-vh-ldo.gpx)
 * **Google Earth:** [kmz](tracks/google-earth/20160104-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/607004)
+
+<a href="tracks/png/20160104-vh-ldo.png"><img src="tracks/png/20160104-vh-ldo.png" width="360" alt="20160104 VH-LDO Turning" /></a>
 
 ----
 
@@ -76,6 +84,8 @@
 * **Google Earth:** [kmz](tracks/google-earth/20160108-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/611980)
 
+<a href="tracks/png/20160108-vh-ldo.png"><img src="tracks/png/20160108-vh-ldo.png" width="360" alt="20160108 VH-LDO Stalling" /></a>
+
 ----
 
 ### P1.6 Consolidation
@@ -91,10 +101,7 @@
 * **Google Earth:** [kmz](tracks/google-earth/20160115-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/617610)
 
-![20160115 VH-AFR Consolidation](tracks/png/20160115-vh-afr.png)
-
 <a href="tracks/png/20160115-vh-afr.png"><img src="tracks/png/20160115-vh-afr.png" width="360" alt="20160115 VH-AFR Consolidation" /></a>
-
 
 ----
 
@@ -110,3 +117,5 @@
 * **Track log:** [gpx](tracks/20160122-vh-afr.gpx)
 * **Google Earth:** [kmz](tracks/google-earth/20160122-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/622258)
+
+<a href="tracks/png/20160122-vh-afr.png"><img src="tracks/png/20160122-vh-afr.png" width="360" alt="20160122 VH-AFR Circuits" /></a>
