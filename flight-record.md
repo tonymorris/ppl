@@ -93,7 +93,7 @@
 
 ![20160115 VH-AFR Consolidation](tracks/png/20160115-vh-afr.png)
 
-<a href="tracks/png/20160115-vh-afr.png"><img src="tracks/png/20160115-vh-afr.png" width="120" alt="20160115 VH-AFR Consolidation" /></a>
+<a href="tracks/png/20160115-vh-afr.png"><img src="tracks/png/20160115-vh-afr.png" width="360" alt="20160115 VH-AFR Consolidation" /></a>
 
 
 ----
