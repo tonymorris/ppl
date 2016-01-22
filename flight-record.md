@@ -91,7 +91,10 @@
 * **Google Earth:** [kmz](tracks/google-earth/20160115-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/617610)
 
-![20160115 Consolidation](tracks/png/20160115-vh-afr.png)
+![20160115 VH-AFR Consolidation](tracks/png/20160115-vh-afr.png)
+
+<a href="tracks/png/20160115-vh-afr.png"><img src="tracks/png/20160115-vh-afr.png" width="120" alt="20160115 VH-AFR Consolidation" /></a>
+
 
 ----
 
