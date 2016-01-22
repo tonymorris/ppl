@@ -85,3 +85,17 @@
 * **Total:** 7.3 hours
 * **Track log:** [gpx](tracks/20160115-vh-afr.gpx)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/617610)
+
+----
+
+### P2.1 Circuits (1)
+
+* **Date:** 20160122
+* **Sequence:** P2.1 Circuits
+* **Aircraft:** C172/AFR
+* **Dual day:** 1.1 hours
+* **Dual prog:** 8.4 hours
+* **Instructor:** David Schofield
+* **Total:** 8.4 hours
+* **Track log:** [gpx](tracks/20160122-vh-afr.gpx)
+* **Flight visualisation:** [doarama.com](http://doarama.com/view/622258)
