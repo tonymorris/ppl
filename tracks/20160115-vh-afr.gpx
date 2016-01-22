@@ -19,12 +19,6 @@
   </metadata>
   
   <trk>
-    <name>Qantas Ave</name>
-    <desc />
-    <type>driving</type>
-    <extensions>
-      <topografix:color>c0c0c0</topografix:color>
-    </extensions>
     <trkseg>
       <trkpt lat="-27.567642" lon="153.014242">
         <ele>51</ele>
