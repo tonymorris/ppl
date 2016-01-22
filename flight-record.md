@@ -98,5 +98,5 @@
 * **Instructor:** David Schofield
 * **Total:** 8.4 hours
 * **Track log:** [gpx](tracks/20160122-vh-afr.gpx)
-* **Google Earth:** [kmz](tracks/google-earth/20160122-vh-afr.kmz)
+* **Google Earth:** [kmz](tracks/google-earth/20160122-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/622258)
