@@ -117,3 +117,12 @@
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/622258)
 
 <a href="tracks/png/20160122-vh-afr.png"><img src="tracks/png/20160122-vh-afr.png" width="360" alt="20160122 VH-AFR Circuits" /></a>
+
+<div style="text-align: justify">
+  <a href="images/20160122-vh-afr/20160122_082411.jpg">
+    <img src="images/20160122-vh-afr/20160122_082411.jpg" width="120" alt="20160122 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160122-vh-afr/20160122_082856.jpg">
+    <img src="images/20160122-vh-afr/20160122_082856.jpg" width="120" alt="20160122 VH-AFR Circuits" />
+  </a>
+</div>
