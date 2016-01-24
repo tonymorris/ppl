@@ -26,7 +26,3 @@
 * control lock INSTALL
 * fuel selector valve LEFT or RIGHT to prevent cross feed
 * pitot tube cover
-
-##### Video
-
-[youtube.com Circuits 20160122 60:07](https://www.youtube.com/watch?v=gz8Ivcjas9o#t=3607)

@@ -76,7 +76,3 @@
   ZERO LEFT CIRCUITS READY`
 * tower `ALPHA FOXTROT ROMEO CLEARED FOR TAKE OFF ON RUNWAY ONE ZERO LEFT`
 * radio `CLEARED FOR TAKE OFF ON RUNWAY ONE ZERO LEFT ALPHA FOXTROT ROMEO`
-
-##### Video
-
-[youtube.com Circuits 20160122 03:22](https://www.youtube.com/watch?v=gz8Ivcjas9o#t=202)

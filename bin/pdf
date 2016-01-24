@@ -29,6 +29,7 @@ briefings="\
 drills="\
   drills/after-landing\
   drills/circuits\
+  drills/drill-videos\
   drills/engine-start\
   drills/pre-circuits\
 "
