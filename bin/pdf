@@ -2,12 +2,11 @@
 
 set -e
 
-mkdir -p "dist" "dist/briefings" "dist/notes"
+mkdir -p "dist" "dist/briefings" "dist/drills" "dist/notes"
 
 pandoc="./.cabal-sandbox/bin/pandoc"
 
 files="\
-  drill-circuits\
   documentation-received\
   flight-record\
   ppl-costs-and-breakdown\
@@ -25,13 +24,19 @@ briefings="\
   briefings/20160108-circuits\
   briefings/questions\
 "
+
+drills="\
+  drills/circuits\
+"
+
 notes="\
   notes/20160122-circuits\
   notes/aviation-plugs\
   notes/vh-afr-flight-deck\
   notes/vh-ldo-flight-deck\
 "
-for doc in $files $briefings $notes
+
+for doc in $files $briefings $drills $notes
 do
   echo "$doc"
   $pandoc "$doc".md -o dist/"$doc".pdf --tab-stop=2

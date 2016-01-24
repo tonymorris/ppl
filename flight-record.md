@@ -25,7 +25,7 @@
 * **Dual prog:** 2.2 hours
 * **Instructor:** Michael Ward
 * **Total:** 2.2 hours
-* **Track log:** [gpx](tracks/20151218-vh-ldo.gpx)
+* **Track log:** [gpx](tracks/20151218-vh-ldo.gpx?raw=true)
 * **Google Earth:** [kmz](tracks/google-earth/20151218-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/595690)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=13BVior4VmY)
@@ -43,7 +43,7 @@
 * **Dual prog:** 3.3 hours
 * **Instructor:** Michael Ward
 * **Total:** 3.3 hours
-* **Track log:** [gpx](tracks/20151220-vh-ldo.gpx)
+* **Track log:** [gpx](tracks/20151220-vh-ldo.gpx?raw=true)
 * **Google Earth:** [kmz](tracks/google-earth/20151220-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/596790)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=8tZ8kxsVz6E)
@@ -61,7 +61,7 @@
 * **Dual prog:** 4.6 hours
 * **Instructor:** Ryan Low
 * **Total:** 4.6 hours
-* **Track log:** [gpx](tracks/20160104-vh-ldo.gpx)
+* **Track log:** [gpx](tracks/20160104-vh-ldo.gpx?raw=true)
 * **Google Earth:** [kmz](tracks/google-earth/20160104-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/607004)
 
@@ -78,7 +78,7 @@
 * **Dual prog:** 5.9 hours
 * **Instructor:** David Schofield
 * **Total:** 5.9 hours
-* **Track log:** [gpx](tracks/20160108-vh-ldo.gpx)
+* **Track log:** [gpx](tracks/20160108-vh-ldo.gpx?raw=true)
 * **Google Earth:** [kmz](tracks/google-earth/20160108-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/611980)
 
@@ -95,7 +95,7 @@
 * **Dual prog:** 7.3 hours
 * **Instructor:** David Schofield
 * **Total:** 7.3 hours
-* **Track log:** [gpx](tracks/20160115-vh-afr.gpx)
+* **Track log:** [gpx](tracks/20160115-vh-afr.gpx?raw=true)
 * **Google Earth:** [kmz](tracks/google-earth/20160115-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/617610)
 
@@ -112,7 +112,7 @@
 * **Dual prog:** 8.4 hours
 * **Instructor:** David Schofield
 * **Total:** 8.4 hours
-* **Track log:** [gpx](tracks/20160122-vh-afr.gpx)
+* **Track log:** [gpx](tracks/20160122-vh-afr.gpx?raw=true)
 * **Google Earth:** [kmz](tracks/google-earth/20160122-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/622258)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=gz8Ivcjas9o)
