@@ -23,5 +23,5 @@
   * navigation beacon ON
   * avionics master switch ON
   * radios ON
-  * flaps RETRACTED
+  * flaps UP
   

@@ -27,6 +27,7 @@ briefings="\
 "
 
 drills="\
+  drills/after-landing\
   drills/circuits\
   drills/engine-start\
   drills/pre-circuits\
@@ -44,4 +45,3 @@ do
   echo "$doc"
   $pandoc "$doc".md -o dist/"$doc".pdf --tab-stop=2
 done
-
