@@ -46,7 +46,6 @@
   * maximum **AoB 30 degrees** [descent]
   * **at below 85KIAS take [second stage] 20 flap**
   * trim for flap
-  * rollout to straight & level 270 degrees to runway
   * half-sky/half-ground attitude
   * aim for **75KIAS in approach descent**
 * **turn onto final**
