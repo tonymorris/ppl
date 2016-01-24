@@ -1,4 +1,4 @@
-# Circuits practice
+# Circuits Drill
 
 *high-priority components in bold*
 
