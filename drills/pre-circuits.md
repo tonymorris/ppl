@@ -5,9 +5,9 @@
 ##### Taxi to run-up bay
 
 * receive ATIS on 120.9
-* set QNH on altimeter and CHECK ~60ft
+* **set QNH on altimeter and CHECK ~60ft**
 * set ground tower 119.9
-* aircraft lights
+* **aircraft lights**
   * beacon light ON
   * landing light OFF
   * taxi light ON
@@ -29,8 +29,8 @@
 * cabin doors CLOSED and LOCKED
 * flight controls FREE and CORRECT
 * flight instruments CHECK and SET
-  * directional gyrometer
-  * altimeter QNH
+  * **directional gyrometer**
+  * **altimeter QNH**
 * fuel quantity CHECK
 * mixture RICH
 * fuel selector BOTH
