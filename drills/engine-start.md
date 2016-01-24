@@ -5,14 +5,14 @@
 * prime engine with fuel
   * throttle to half
   * master switch ON
-  * navigation beacon ON
+  * beacon light ON
   * fuel pump ON
   * mixture full-rich
   * fuel pump OFF
 
 * engine start
   * mixture full-lean
-  * throttle to just above idle
+  * throttle to 1/4
   * hand on mixture
   * "CLEAR PROP"
   * crank engine to start

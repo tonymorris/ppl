@@ -4,9 +4,16 @@
 
 ##### Taxi to run-up bay
 
-* check brakes
 * receive ATIS on 120.9
+* set QNH on altimeter and CHECK ~60ft
 * set ground tower 119.9
+* aircraft lights
+  * beacon light ON
+  * landing light OFF
+  * taxi light ON
+  * nav light ON
+  * strobe light OFF
+* check brakes
 * radio `ARCHER GROUND ALPHA FOXTROT ROMEO CESSNA ONE SEVEN TWO EASTERN APRON
   DUAL RECEIVED ATIS FOR CIRCUITS REQUEST TAXI`
 * tower `ALPHA FOXTROT ROMEO TAXIWAY BRAVO CROSS ZERO FOUR RIGHT AND ZERO FOUR
@@ -69,3 +76,7 @@
   ZERO LEFT CIRCUITS READY`
 * tower `ALPHA FOXTROT ROMEO CLEARED FOR TAKE OFF ON RUNWAY ONE ZERO LEFT`
 * radio `CLEARED FOR TAKE OFF ON RUNWAY ONE ZERO LEFT ALPHA FOXTROT ROMEO`
+
+##### Video
+
+[youtube.com Circuits 20160122 03:22](https://www.youtube.com/watch?v=gz8Ivcjas9o#t=202)
