@@ -44,5 +44,5 @@ notes="\
 for doc in $files $briefings $drills $notes
 do
   echo "$doc"
-  $pandoc "$doc".md -o dist/"$doc".pdf --tab-stop=2
+  $pandoc "$doc".md -o dist/"$doc".pdf --tab-stop=2 --template=share/default.latex
 done
