@@ -2,22 +2,21 @@
 
 set -e
 
-mkdir -p "dist" "dist/briefings"
+mkdir -p "dist" "dist/briefings" "dist/notes"
 
 pandoc="./.cabal-sandbox/bin/pandoc"
+
 files="\
   circuits\
   documentation-received\
   flight-record\
   ppl-costs-and-breakdown\
   safety-briefing\
-  vh-ldo-flight-deck\
+  ybaf-radio-examples\
   ybaf-radio\
-  ybaf-radio-questions\
 "
 
 briefings="\
-  briefings/questions\
   briefings/20151210-effects-of-controls\
   briefings/20151214-straight-and-level\
   briefings/20151218-climbing-and-descending\
@@ -26,8 +25,13 @@ briefings="\
   briefings/20160108-circuits\
   briefings/questions\
 "
-
-for doc in $files $briefings
+notes="\
+  notes/20160122-circuits\
+  notes/aviation-plugs\
+  notes/vh-afr-flight-deck\
+  notes/vh-ldo-flight-deck\
+"
+for doc in $files $briefings $notes
 do
   echo "$doc"
   $pandoc "$doc".md -o dist/"$doc".pdf --tab-stop=2
