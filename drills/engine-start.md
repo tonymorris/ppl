@@ -3,7 +3,7 @@
 ### Engine Start
 
 * prime engine with fuel
-  * throttle to half
+  * throttle to 1/2
   * master switch ON
   * beacon light ON
   * fuel pump ON
