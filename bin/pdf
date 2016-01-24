@@ -27,6 +27,7 @@ briefings="\
 
 drills="\
   drills/circuits\
+  engine-start\
 "
 
 notes="\
