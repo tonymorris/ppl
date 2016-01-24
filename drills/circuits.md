@@ -2,8 +2,6 @@
 
 ### Circuits
 
-*high-priority components in bold*
-
 ##### Right circuits in VH-AFR, runway 28R
 
 * take-off
@@ -26,7 +24,7 @@
   * **lookout** [for right turn]: clear left, clear centre, clear above, clear right 
   * AoB 30 degrees
   * rollout to straight & level when heading bug at 180 degrees
-  * Radio call: ALPHA FOXTROT ROMEO DOWNWIND FOR TOUCH AND GO
+  * radio `ALPHA FOXTROT ROMEO DOWNWIND FOR TOUCH AND GO`
   * **BUMFISH check**
     * **Brakes**
     * **Under-carriage**
@@ -52,8 +50,8 @@
   * aim for **75KIAS in approach descent**
 * **turn onto final**
   * aim for **75KIAS in approach**
-  * tower: ALPHA FOXTROT ROMEO RUNWAY TWO EIGHT RIGHT CLEAR TOUCH AND GO
-  * readback: TWO EIGHT RIGHT CLEAR TOUCH AND GO ALPHA FOXTROT ROMEO
+  * tower radio: ALPHA FOXTROT ROMEO RUNWAY TWO EIGHT RIGHT CLEAR TOUCH AND GO
+    > TWO EIGHT RIGHT CLEAR TOUCH AND GO ALPHA FOXTROT ROMEO
   * aimpoint (runway numbers), aspect, airspeed (65)
   * **take [full] 30 flap**
   * trim for flap
