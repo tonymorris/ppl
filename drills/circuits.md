@@ -1,8 +1,10 @@
-# Circuits Drill
+# Drill
+
+### Circuits
 
 *high-priority components in bold*
 
-### Right circuits in VH-AFR, runway 28R
+##### Right circuits in VH-AFR, runway 28R
 
 * take-off
 * **set full power**
@@ -62,3 +64,7 @@
   * **hold off** with nose up, horizon at dash cowling
 * after landing
   * **flaps up**
+
+##### Video
+
+[youtube.com Circuits 20160122 24:41](https://www.youtube.com/watch?v=gz8Ivcjas9o#t=1481)
