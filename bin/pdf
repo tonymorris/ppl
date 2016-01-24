@@ -7,6 +7,7 @@ mkdir -p "dist" "dist/briefings" "dist/drills" "dist/notes"
 pandoc="./.cabal-sandbox/bin/pandoc"
 
 files="\
+  departure-briefing\
   documentation-received\
   flight-record\
   ppl-costs-and-breakdown\
@@ -27,7 +28,8 @@ briefings="\
 
 drills="\
   drills/circuits\
-  engine-start\
+  drills/engine-start\
+  drills/pre-circuits\
 "
 
 notes="\
