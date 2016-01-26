@@ -50,8 +50,8 @@
   * aim for **75KIAS in approach descent**
 * **turn onto final**
   * aim for **75KIAS in approach**
-  * tower radio: ALPHA FOXTROT ROMEO RUNWAY TWO EIGHT RIGHT CLEAR TOUCH AND GO
-    > TWO EIGHT RIGHT CLEAR TOUCH AND GO ALPHA FOXTROT ROMEO
+  * tower `ALPHA FOXTROT ROMEO RUNWAY TWO EIGHT RIGHT CLEAR TOUCH AND GO`
+  * radio `TWO EIGHT RIGHT CLEAR TOUCH AND GO ALPHA FOXTROT ROMEO`
   * aimpoint (runway numbers), aspect, airspeed (65)
   * **take [full] 30 flap**
   * trim for flap
