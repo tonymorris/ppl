@@ -26,7 +26,7 @@
 * **Instructor:** Michael Ward
 * **Total:** 2.2 hours
 * **Track log:** [gpx](tracks/20151218-vh-ldo.gpx?raw=true)
-* **Google Earth:** [kml](tracks/google-earth/20151218-vh-ldo.kml?raw=true)
+* **Google Earth:** [kml](tracks/google-earth/20151218-vh-ldo.kml?raw=true) [kmz](tracks/google-earth/20151218-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/595690)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=13BVior4VmY)
 
@@ -44,7 +44,7 @@
 * **Instructor:** Michael Ward
 * **Total:** 3.3 hours
 * **Track log:** [gpx](tracks/20151220-vh-ldo.gpx?raw=true)
-* **Google Earth:** [kml](tracks/google-earth/20151220-vh-ldo.kml?raw=true)
+* **Google Earth:** [kml](tracks/google-earth/20151220-vh-ldo.kml?raw=true) [kmz](tracks/google-earth/20151220-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/596790)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=8tZ8kxsVz6E)
 
@@ -62,7 +62,7 @@
 * **Instructor:** Ryan Low
 * **Total:** 4.6 hours
 * **Track log:** [gpx](tracks/20160104-vh-ldo.gpx?raw=true)
-* **Google Earth:** [kml](tracks/google-earth/20160104-vh-ldo.kml?raw=true)
+* **Google Earth:** [kml](tracks/google-earth/20160104-vh-ldo.kml?raw=true) [kmz](tracks/google-earth/20160104-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/607004)
 
 <a href="tracks/png/20160104-vh-ldo.png?raw=true"><img src="tracks/png/20160104-vh-ldo.png" width="360" alt="20160104 VH-LDO Turning" /></a>
@@ -79,7 +79,7 @@
 * **Instructor:** David Schofield
 * **Total:** 5.9 hours
 * **Track log:** [gpx](tracks/20160108-vh-ldo.gpx?raw=true)
-* **Google Earth:** [kml](tracks/google-earth/20160108-vh-ldo.kml?raw=true)
+* **Google Earth:** [kml](tracks/google-earth/20160108-vh-ldo.kml?raw=true) [kmz](tracks/google-earth/20160108-vh-ldo.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/611980)
 
 <a href="tracks/png/20160108-vh-ldo.png?raw=true"><img src="tracks/png/20160108-vh-ldo.png" width="360" alt="20160108 VH-LDO Stalling" /></a>
@@ -96,7 +96,7 @@
 * **Instructor:** David Schofield
 * **Total:** 7.3 hours
 * **Track log:** [gpx](tracks/20160115-vh-afr.gpx?raw=true)
-* **Google Earth:** [kml](tracks/google-earth/20160115-vh-afr.kml?raw=true)
+* **Google Earth:** [kml](tracks/google-earth/20160115-vh-afr.kml?raw=true) [kmz](tracks/google-earth/20160115-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/617610)
 
 <a href="tracks/png/20160115-vh-afr.png?raw=true"><img src="tracks/png/20160115-vh-afr.png" width="360" alt="20160115 VH-AFR Consolidation" /></a>
@@ -113,7 +113,7 @@
 * **Instructor:** David Schofield
 * **Total:** 8.4 hours
 * **Track log:** [gpx](tracks/20160122-vh-afr.gpx?raw=true)
-* **Google Earth:** [kml](tracks/google-earth/20160122-vh-afr.kml?raw=true)
+* **Google Earth:** [kml](tracks/google-earth/20160122-vh-afr.kml?raw=true) [kmz](tracks/google-earth/20160122-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/622258)
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=gz8Ivcjas9o)
 
