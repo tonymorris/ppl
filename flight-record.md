@@ -103,7 +103,7 @@
 
 ----
 
-### P2.1 Circuits (1)
+### P2.1 Circuits
 
 * **Date:** 20160122
 * **Sequence:** P2.1 Circuits
@@ -154,7 +154,7 @@
 
 ----
 
-### P2.2 Circuits (1)
+### P2.2 Circuits
 
 * **Date:** 20160129
 * **Sequence:** P2.2 Circuits
