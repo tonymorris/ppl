@@ -20,7 +20,7 @@
   LEFT HOLDING POINT BRAVO FIVE RUNWAY ONE ZERO LEFT`
 * radio `TAXIWAY BRAVO CROSS ZERO FOUR RIGHT AND ZERO FOUR LEFT HOLDING POINT
   BRAVO FIVE RUNWAY ONE ZERO LEFT ALPHA FOXTROT ROMEO`
-* taxi to run-up
+* taxi to run-up bay
 
 ##### Pre take-off checks
 
@@ -45,7 +45,7 @@
 * throttle CHECK IDLE
 * throttle 1000rpm OR LESS
 * throttle friction lock ADJUST
-* strobe light ON
+* ~~strobe light ON~~
 * radios and avionics SET
 * elevator trim SET FOR TAKE OFF
 * wing flaps ZERO
@@ -70,8 +70,10 @@
   turn back to the runway will be only if I have commenced a turn OR have
   sufficient height to glide back to the runway.  
 
-##### Tower clearance
+##### Taxi to holding point
 
+* strobe light ON
+* landing light ON
 * radio `ARCHER TOWER ALPHA FOXTROT ROMEO HOLDING POINT BRAVO FIVE RUNWAY ONE
   ZERO LEFT CIRCUITS READY`
 * tower `ALPHA FOXTROT ROMEO CLEARED FOR TAKE OFF ON RUNWAY ONE ZERO LEFT`
