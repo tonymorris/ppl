@@ -151,3 +151,21 @@
     <img src="images/20160122-vh-afr/20160122_084908.jpg" width="120" alt="20160122 VH-AFR Circuits" />
   </a>
 </div>
+
+----
+
+### P2.2 Circuits (1)
+
+* **Date:** 20160129
+* **Sequence:** P2.2 Circuits
+* **Aircraft:** C172/AFR
+* **Dual day:** 1.1 hours
+* **Dual prog:** 9.5 hours
+* **Instructor:** David Schofield
+* **Total:** 9.5 hours
+* **Track log:** [gpx](tracks/20160129-vh-afr.gpx?raw=true)
+* **Google Earth:** [kml](tracks/google-earth/20160129-vh-afr.kml?raw=true) [kmz](tracks/google-earth/20160129-vh-afr.kmz?raw=true)
+* **Flight visualisation:** [doarama.com](http://doarama.com/view/626694)
+* **Head camera:** [youtube](https://www.youtube.com/watch?v=)
+
+<a href="tracks/png/20160129-vh-afr.png?raw=true"><img src="tracks/png/20160129-vh-afr.png" width="360" alt="20160129 VH-AFR Circuits" /></a>
