@@ -166,6 +166,6 @@
 * **Track log:** [gpx](tracks/20160129-vh-afr.gpx?raw=true)
 * **Google Earth:** [kml](tracks/google-earth/20160129-vh-afr.kml?raw=true) [kmz](tracks/google-earth/20160129-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/626694)
-* **Head camera:** [youtube](https://www.youtube.com/watch?v=)
+* **Head camera:** [youtube](https://www.youtube.com/watch?v=k9c1GdxkdQY)
 
 <a href="tracks/png/20160129-vh-afr.png?raw=true"><img src="tracks/png/20160129-vh-afr.png" width="360" alt="20160129 VH-AFR Circuits" /></a>
