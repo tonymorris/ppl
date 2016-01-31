@@ -10,7 +10,9 @@ files="\
   departure-briefing\
   documentation-received\
   flight-record\
+  part61-mos\
   ppl-costs-and-breakdown\
+  README\
   safety-briefing\
   ybaf-radio-examples\
   ybaf-radio\
@@ -36,6 +38,7 @@ drills="\
 
 notes="\
   notes/20160122-circuits\
+  notes/20160129-exam\
   notes/aviation-plugs\
   notes/vh-afr-flight-deck\
   notes/vh-ldo-flight-deck\
