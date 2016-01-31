@@ -14,14 +14,15 @@
   * avionics master switch OFF
   * fuel selector valve BOTH
   * fuel shutoff valve ON (push full in)
-  * avoinics circuit breaks CHECK IN
+  * avionics circuit breakers CHECK IN
 
 * prime engine with fuel
   * throttle to 1/2
   * master switch ON
   * beacon light ON
   * fuel pump ON
-  * mixture full-rich
+  * mixture full-rich until stable fuel flow indicated (3 to 5 seconds)
+  * mixture full-lean
   * fuel pump OFF
 
 * engine start
