@@ -373,7 +373,7 @@
 
     * **P**ower at full throttle
 
-    * **A**ttitude dashboard combing to horizon
+    * **A**ttitude dashboard coaming to horizon
 
     * **S**peed at 62KIAS
 
