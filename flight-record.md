@@ -175,7 +175,7 @@
 ### P2.3 Circuits
 
 * **Date:** 20160205
-* **Sequence:** P2.2 Circuits
+* **Sequence:** P2.3 Circuits
 * **Aircraft:** C172/AFR
 * **Dual day:** 1.1 hours
 * **Dual prog:** 10.6 hours
