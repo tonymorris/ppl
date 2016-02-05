@@ -4,14 +4,14 @@
     <name><![CDATA[20160205-vh-afr]]></name>
     <visibility>1</visibility>
     <open>1</open>
-    <Snippet><![CDATA[created using <A href="http://www.gpsvisualizer.com/?ref=ge&time=20160204173756">GPS Visualizer</A>]]></Snippet>
+    <Snippet><![CDATA[created using <A href="http://www.gpsvisualizer.com/?ref=ge&time=20160204174228">GPS Visualizer</A>]]></Snippet>
     <Folder id="Tracks">
       <name>Tracks</name>
       <visibility>1</visibility>
       <open>0</open>
       <Placemark>
         <name><![CDATA[VH-AFR]]></name>
-        <description><![CDATA[VH-AFR, training, Sequence P2.2, Circuits]]></description>
+        <description><![CDATA[VH-AFR, training, Sequence P2.3, Circuits]]></description>
         <Style>
           <LineStyle>
             <color>ff0000e6</color>
