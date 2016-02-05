@@ -23,6 +23,7 @@
 * avionics master OFF
 * mixture IDLE CUT OFF
 * master switch OFF
+* magnetos switch OFF
 * control lock INSTALL
 * fuel selector valve LEFT or RIGHT to prevent cross feed
 * pitot tube cover

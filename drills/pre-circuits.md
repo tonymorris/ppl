@@ -29,7 +29,7 @@
 * cabin doors CLOSED and LOCKED
 * flight controls FREE and CORRECT
 * flight instruments CHECK and SET
-  * **directional gyrometer**
+  * **heading indicator to magnetic compass**
   * **altimeter QNH**
 * fuel quantity CHECK
 * mixture RICH
