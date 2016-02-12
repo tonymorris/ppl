@@ -183,6 +183,24 @@
 * **Total:** 10.6 hours
 * **Track log:** [gpx](tracks/20160205-vh-afr.gpx?raw=true)
 * **Google Earth:** [kml](tracks/google-earth/20160205-vh-afr.kml?raw=true) [kmz](tracks/google-earth/20160205-vh-afr.kmz?raw=true)
-* **Flight visualisation:** [doarama.com](http://doarama.com/view/635026)
+* **Flight visualisation:** [doarama.com](http://doarama.com/view/635027)
 
 <a href="tracks/png/20160205-vh-afr.png?raw=true"><img src="tracks/png/20160205-vh-afr.png" width="360" alt="20160205 VH-AFR Circuits" /></a>
+
+----
+
+### P2.4 Circuits
+
+* **Date:** 20160212
+* **Sequence:** P2.4 Circuits
+* **Aircraft:** C172/AFR
+* **Dual day:** 1.1 hours
+* **Dual prog:** 11.7 hours
+* **Instructor:** David Schofield
+* **Total:** 11.7 hours
+* **Track log:** [gpx](tracks/20160212-vh-afr.gpx?raw=true)
+* **Google Earth:** [kml](tracks/google-earth/20160212-vh-afr.kml?raw=true) [kmz](tracks/google-earth/20160212-vh-afr.kmz?raw=true)
+* **Flight visualisation:** [doarama.com](http://doarama.com/view/640001)
+* **Head camera:** [youtube](https://www.youtube.com/watch?v=)
+
+<a href="tracks/png/20160212-vh-afr.png?raw=true"><img src="tracks/png/20160212-vh-afr.png" width="360" alt="20160212 VH-AFR Circuits" /></a>
