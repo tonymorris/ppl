@@ -89,6 +89,9 @@
   lift equals the coefficient of lift multiplied 0.5 rho multiplied velocity
   squared mutiplied wing area.
 
+  lift equals lift coefficient multipled 0.5 multipled air density multipled
+  velocity squared multipled wing area.
+
   `L = Cl * .5 * r * V^2 * A`
 
 ----
