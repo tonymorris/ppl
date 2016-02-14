@@ -765,7 +765,7 @@
 
   7. Threshold on top of cowling
 
-* **Execute Engine Failure on Take-Off prior to rotate**
+* **Execute Engine Failure After Take-Off prior to rotate**
 
   1. Close the throttle
 
@@ -773,7 +773,7 @@
 
   3. Exit the runway at nearest taxiway
 
-* **Execute Engine Failure on Take-Off after rotate with runway**
+* **Execute Engine Failure After Take-Off after rotate with runway**
 
   1. Lower the nose 
 
@@ -785,7 +785,7 @@
 
   5. Exit the runway at nearest taxiway
 
-* **Execute Engine Failure on Take-Off after prior to rotate without runway**
+* **Execute Engine Failure After Take-Off after prior to rotate without runway**
 
   1. Lower the nose to glide
 
