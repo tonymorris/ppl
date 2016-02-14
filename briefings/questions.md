@@ -723,3 +723,79 @@
 
   Low power setting can cause carburetor icing. Apply carburetor heat until
   stall warning, then turn off.
+
+----
+
+# Circuit Emergencies *(20160212)
+
+* **What are the parameters for a go-around?**
+
+  There are no specified limits. Set personal limits based on conditions,
+  aircraft type, etc.
+
+* **Execute a go-around**
+
+  1. Full power
+
+  2. Raise nose
+
+  3. Cowl on horizon
+
+  4. Flap up one stage, 30 to 20
+
+  5. Achieve minimum 56KIAS
+
+  6. At ~60KIAS, flap up one stage, 20 to 10
+
+  7. At ~65KIAS, flap retracted, 10 to 0
+
+  8. Raise nose to climb
+
+* **Execute a flapless approach**
+
+  1. Trim nose up
+
+  2. Higher attitudes than normal
+
+  3. Trim substitutes flap
+
+  4. 75-80KIAS on base
+
+  5. Power for speed
+
+  6. 70KIAS approach
+
+  7. Threshold on top of cowling
+
+* **Execute Engine Failure on Take-Off prior to rotate**
+
+  1. Close the throttle
+
+  2. Apply maximum braking
+
+  3. Exit the runway at nearest taxiway
+
+* **Execute Engine Failure on Take-Off after rotate with runway**
+
+  1. Lower the nose 
+
+  2. Close the throttle
+
+  3. Land the aircraft on the remaining runway
+
+  4. Apply maximum braking
+
+  5. Exit the runway at nearest taxiway
+
+* **Execute Engine Failure on Take-Off after prior to rotate without runway**
+
+  1. Lower the nose to glide
+
+  2. Select landing area within 30 degrees of heading
+
+  3. Commence a turn only if:
+
+    * already commenced a turn
+
+    * sufficient glide to runway
+    
