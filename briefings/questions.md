@@ -737,19 +737,17 @@
 
   1. Full power
 
-  2. Raise nose
+  2. Raise nose to cowl on horizon
 
-  3. Cowl on horizon
+  3. Flap up one stage, 30 to 20
 
-  4. Flap up one stage, 30 to 20
+  4. Achieve minimum 56KIAS
 
-  5. Achieve minimum 56KIAS
+  5. At ~60KIAS, flap up one stage, 20 to 10
 
-  6. At ~60KIAS, flap up one stage, 20 to 10
+  6. At ~65KIAS, flap retracted, 10 to 0
 
-  7. At ~65KIAS, flap retracted, 10 to 0
-
-  8. Raise nose to climb
+  7. Raise nose to climb
 
 * **Execute a flapless approach**
 
