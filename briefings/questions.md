@@ -726,7 +726,7 @@
 
 ----
 
-# Circuit Emergencies *(20160212)
+# Circuit Emergencies *(20160212)*
 
 * **What are the parameters for a go-around?**
 
@@ -798,4 +798,3 @@
     * already commenced a turn
 
     * sufficient glide to runway
-    
