@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -e
+
+mkdir -p "dist"
+
+runhaskell practice-exams.hs | pandoc -f markdown -o dist/practice-exams.pdf --tab-stop=2
+Markdown.pl practice-exams.hs > dist/practice-exams.html
