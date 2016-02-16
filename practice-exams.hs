@@ -585,7 +585,7 @@ atcPreArea =
         [
           "balance."
         ]
-    , "During a climbing turn you mustbe careful of:" ~>
+    , "During a climbing turn you must be careful of:" ~>
       Multichoice
         [
         ]
