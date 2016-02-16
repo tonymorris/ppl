@@ -1454,14 +1454,14 @@ atcBAK =
         , (q56to60PerformanceData ++ "  Use the Cessna Landing chart ![Cessna Landing Chart](http://i.imgur.com/axGWoHJ.jpg) At the MTOW, the take-off distance required on Runway 12 is closest to:\n") ~>
           Multichoice
             [
-              "310m."
-            , "420m."             
+              "550m."
+            , "730m."             
             ]
 
-            "530m."
+            "890m."
 
             [
-              "640m."
+              "980m."
             ]                          
         , (q56to60PerformanceData ++ "  Use the Piper Landing chart ![Piper Landing Chart](http://i.imgur.com/64t1Sju.jpg) Under the conditions given the landing distance required for this aircraft is closest to:\n") ~>
           Multichoice
