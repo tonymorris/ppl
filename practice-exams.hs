@@ -896,12 +896,12 @@ atcBAK =
         , "An aeroplane is descending at the best gliding speed. Raising the nose will:" ~>
           Multichoice
             [
+              "decrease the gliding range."
             ]
 
-            "decrease the gliding range."
-
+            "increase the gliding range."
+  
             [
-              "increase the gliding range."
             , "decrease the glide angle."
             , "decrease the rate of descent."
             ]          
