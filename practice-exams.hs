@@ -813,7 +813,7 @@ atcBAK =
           Multichoice
             [
               "1,500ft AMSL."
-            , "1,000ft onthe area QNH."
+            , "1,000ft on the area QNH."
             ]
 
             "1,000ft AGL."
@@ -898,12 +898,24 @@ atcBAK =
             [
             ]
 
-            "increase the gliding range."
+            "decrease the gliding range."
 
             [
-              "decrease the gliding range."
+              "increase the gliding range."
             , "decrease the glide angle."
             , "decrease the rate of descent."
+            ]          
+        , "If a tailwind is encountered during a glide descent, when compared with a glide in still-air conditions, the:" ~>
+          Multichoice
+            [
+              "aeroplane pitch angle will be shallower."
+            , "flightpath over the ground will be steeper."
+            ]
+
+            "distance over the ground will be greater."
+
+            [
+              "rate of descent will be less."
             ]          
         , "When compared to the stall IAS at 1,000ft, the stall IAS at 10,000ft will:" ~>
           Multichoice
@@ -948,7 +960,7 @@ atcBAK =
             , "stratiform clouds with smooth flying conditions."
             ]
 
-            "cumiliform clouds with smooth turbulent conditions."
+            "cumiliform clouds with turbulent conditions."
 
             [
               "stratiform clouds with turbulent flying conditions."
