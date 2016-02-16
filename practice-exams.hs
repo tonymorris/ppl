@@ -1,6 +1,8 @@
 module Main where
 
+import Control.Monad.State
 import Data.List
+import System.Environment
 
 data Multichoice a =
   Multichoice [a] a [a]
@@ -9,6 +11,14 @@ data Multichoice a =
 instance Functor Multichoice where
   fmap f (Multichoice l x r) =
     Multichoice (fmap f l) (f x) (fmap f r)
+
+instance Foldable Multichoice where
+  foldr f z (Multichoice l x r) =
+    foldr f (f x (foldr f z r)) l
+
+instance Traversable Multichoice where
+  traverse f (Multichoice l x r) =
+    Multichoice <$> traverse f l <*> f x <*> traverse f r
 
 choiceList ::
   Multichoice a
@@ -22,6 +32,19 @@ onFocus ::
   -> Multichoice a
 onFocus f (Multichoice l x r) =
   Multichoice l (f x) r
+
+number ::
+  Traversable t =>
+  t a ->
+  t (Char, a)
+number q =
+  evalState (traverse (\x -> state (\c -> ((c, x), succ c))) q) 'a'
+
+focus ::
+  Multichoice a
+  -> a
+focus (Multichoice _ x _) =
+  x
 
 data Question a =
   Question
@@ -73,9 +96,9 @@ markdownExam (Exam t1 t2 t3 qs) =
            (intercalate "\n" . zipWith (\n c -> "  " ++ show n ++ ". " ++ c) [1..] . choiceList . onFocus (\a -> "**" ++ a ++ "**") $ m)
   in intercalate "\n"
       [
-         "# " ++ t1 ++ "\n" ++ 
-         maybe "" (\t -> "## " ++ t ++ "\n\n") t2 ++ 
-         maybe "" (\t -> "#### " ++ t ++ "\n\n") t3
+        "# " ++ t1 ++ "\n" ++ 
+        maybe "" (\t -> "## " ++ t ++ "\n\n") t2 ++ 
+        maybe "" (\t -> "#### " ++ t ++ "\n\n") t3
       , intercalate "\n" (fmap markdownQuestion (zip [1..] qs))
       ]
 
@@ -84,6 +107,38 @@ markdownExams ::
   -> String
 markdownExams =
   intercalate "\n\n----\n\n" . fmap markdownExam
+
+flashcardExam ::
+  Exam
+  -> String
+flashcardExam (Exam t1 t2 t3 qs) =
+  let flashcardQuestion (n, Question q m x) =
+        let q' = case x of
+                   Part61 -> q
+                   PrePart61 -> "~~" ++ q ++ "~~"
+        in replicate 40 '-' ++
+           "\n\n" ++              
+           q' ++
+           "\n" ++
+           let z = number m
+               display (c, s) = c : ". " ++ s
+           in (intercalate "\n" . choiceList . fmap display $ z) ++
+              "\n\n" ++
+              display (focus z) ++
+              "\n\n"
+  in intercalate "\n"
+      [
+        "# " ++ t1 ++ "\n" ++ 
+        maybe "" (\t -> "## " ++ t ++ "\n\n") t2 ++ 
+        maybe "" (\t -> "#### " ++ t ++ "\n\n") t3
+      , intercalate "\n" (fmap flashcardQuestion (zip [1..] qs))
+      ]
+
+flashcardExams ::
+  [Exam]
+  -> String
+flashcardExams =
+  intercalate ("\n\n" ++ replicate 40 '=' ++ "\n\n") . fmap flashcardExam
 
 atcPreCircuit ::
   Exam
@@ -840,4 +895,8 @@ exams =
 main ::
   IO ()
 main =
-  putStrLn (markdownExams exams)   
+  do a <- getArgs
+     let action = case a of
+                    [] -> markdownExams
+                    (_:_) -> flashcardExams
+     putStrLn (action exams)   
