@@ -1623,8 +1623,19 @@ taitPreSolo =
         [
           "roll and further roll"
         ]
-    ]
+    , "The best way for a pilot to assess the aircraft's attitude in space is to" ~>
+      Multichoice
+        [              
+          "look at the wing tips in relation to the natural horizon"
+        , "look straight ahead to relate the nose of the aircraft to the natural horizon"
+        ]
 
+        "look at the artificial horizon"
+
+        [
+          "check the power setting and the resulting airspeed"
+        ]        
+    ]
 
 exams ::
   [Exam]
