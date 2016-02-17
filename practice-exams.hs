@@ -902,7 +902,7 @@ atcBAK =
             "increase the gliding range."
   
             [
-            , "decrease the glide angle."
+              "decrease the glide angle."
             , "decrease the rate of descent."
             ]          
         , "If a tailwind is encountered during a glide descent, when compared with a glide in still-air conditions, the:" ~>
@@ -1489,6 +1489,40 @@ atcBAK =
             ]                          
     ]
 
+taitPreSolo ::
+  Exam
+taitPreSolo =
+  Exam
+    "RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "Pre-Circuit Solo Practice Exam")
+    [
+      "Which of the following is true of VHF radio transmissions?" ~>
+      Multichoice
+        [              
+          "more than one transmission can be received at the same time without interference"
+        , "distant stations can be received even when the aircraft is on the ground"
+        ]
+
+        "the signals travel by 'line of sight' and are shielded by the curvature of the earth"
+
+        [
+          "the signals travel further over land than it does over water"
+        ]
+    , "Which of the following is a VHF frequency?" ~>
+      Multichoice
+        [              
+        ]
+
+        "124.7 MHz"
+
+        [
+          "6166 MHz"
+        , "12.47 MHz"
+        , "616.6 MHz"
+        ]
+
+    ]
 exams ::
   [Exam]
 exams =
