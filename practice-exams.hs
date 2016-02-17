@@ -74,6 +74,30 @@ data Prose =
     [ProseSegment]
   deriving (Eq, Ord, Show)
 
+plainP ::
+  String
+  -> Prose
+plainP s =
+  Prose [PlainProse s]
+
+boldP ::
+  String
+  -> Prose
+boldP s =
+  Prose [Bold s]
+
+italicP ::
+  String
+  -> Prose
+italicP s =
+  Prose [Italic s]
+
+imageP ::
+  Image
+  -> Prose
+imageP i =
+  Prose [ImageProse i]
+
 instance Monoid Prose where
   mempty =
     Prose []
@@ -150,6 +174,7 @@ markdownExam (Exam t1 t2 t3 qs) =
                    PrePart61 -> "~~" <> q <> "~~"
         in  show n <> ". " <> markdownProse q' <> "\n" <>
             ((=<<) (\b -> markdownProse b <> "\n") . zipWith (\n c -> "  " <> fromString (show n) <> ". " <> c) [1..] . choiceList . onFocus (\a -> "**" <> a <> "**") $ m)
+
   in  intercalate "\n"
         [
           "# " <> t1 <> "\n" <> 
