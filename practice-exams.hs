@@ -1878,7 +1878,7 @@ taitPreSolo =
         [              
         ]
 
-        "Aircraft taxiing in the direction of the arrow must hold short and check before entering the runway"
+        "Aircraft taxiing in *that direction* must hold short and check before entering the runway"
 
         [
           "No significance providing you are taxiing in the direction of the arrow"
