@@ -1493,7 +1493,7 @@ taitPreSolo ::
   Exam
 taitPreSolo =
   Exam
-    "RPL Study Guide"
+    "Bob Tait RPL Study Guide"
     (Just "A study guide for the Recreational Pilot Licence")
     (Just "Pre-Circuit Solo Practice Exam")
     [
