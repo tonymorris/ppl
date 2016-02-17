@@ -1521,8 +1521,111 @@ taitPreSolo =
         , "12.47 MHz"
         , "616.6 MHz"
         ]
+    , "When the VHF radio is turned on, a loud hissing noise is heard. Which control should be adjusted to eliminate the noise?" ~>
+      Multichoice
+        [              
+          "the volume control"
+        , "the frequency selector"
+        , "the speaker phones selector switch"
+        ]
 
+        "the squelch control"
+
+        [
+        ]
+    , "You hear the first part of a radio message clearly then a loud squeal drowns out the remainder. The most likely cause would be" ~>
+      Multichoice
+        [              
+          "the station transmitting has a faulty microphone"
+        , "your squelch control is not properly set"
+        ]
+
+        "another station has transmitted on your frequency"
+
+        [
+          "your receiver is set to the incorrect frequency"
+        ]
+    , "The number 7500 would be transmitted as" ~>
+      Multichoice
+        [              
+        ]
+
+        "seven thousand five hundred"
+
+        [
+          "seven and a half thousand"
+        , "seven five zero zero"
+        , "seventy-five hundred"
+        ] 
+    , "Which of the following situations would warrant the transmission of a MAYDAY call in a single engine aeroplane?" ~>
+      Multichoice
+        [              
+        ]
+
+        "the engine fails during a flight in your training area"
+
+        [
+          "a passenger becomes very ill and obviously requires medical attention"
+        , "a passenger becomes air sick and asks you to land as soon as possible"
+        , "you encounter severe turbulence in the circuit area"
+        ]               
+    , "Which of the choices would warrant the transmission of a PAN call?" ~>
+      Multichoice
+        [      
+          "the engine fails during a flight in your training area"        
+        ]
+
+        "a passenger becomes very ill and obviously requires medical attention"
+
+        [
+          "a passenger becomes air sick and asks you to land as soon as possible"
+        , "you encounter severe turbulence in the circuit area"
+        ] 
+    , "Another aircraft calls to advise that he estimates your aerodrome at three five. This means that" ~>
+      Multichoice
+        [    
+          "he will be overflying your aerodrome at three thousand five hundred feet"
+        , "he is presently thirty-five miles from your aerodrome"
+        , "he expects to arrive in your circuit area at five minutes past three"          
+        ]
+
+        "he expects to arrive in your circuit area at thirty-five minutes past the current hour"
+
+        [
+        ]               
+    , "What procedures apply at your local aerodrome if the radio fails while you are doing circuits?" ~>
+      Multichoice
+        [              
+        ]
+
+        "*Check with your instructor for the appropriate procedures for your aerodrome.*"
+
+        [
+        ]        
+    , "List the radio calls that apply at your aerodrome for the situations below\n  * At the commencement of taxiing\n  * Before crossing the holding point\n  * Before take-off\n  * Downwind\n  * Base" ~>
+      Multichoice
+        [              
+        ]
+
+        "*Check with your instructor for the calls that apply at your aerodrome.*"
+
+        [
+        ]  
+    , "Which of the following types of aircraft motion combine to produce a spiral dive?" ~>
+      Multichoice
+        [ 
+          "pitch and roll"
+        , "pitch and yaw"             
+        ]
+
+        "roll and yaw"
+
+        [
+          "roll and further roll"
+        ]
     ]
+
+
 exams ::
   [Exam]
 exams =
@@ -1530,6 +1633,7 @@ exams =
     atcPreCircuit
   , atcPreArea
   , atcBAK
+  , taitPreSolo
   ]
 
 main ::
