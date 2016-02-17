@@ -1,6 +1,3 @@
-{-# LANGUAGE OverloadedStrings #-}
-{-# LANGUAGE FlexibleContexts #-}
-
 module Main where
 
 import Control.Monad.State
@@ -51,73 +48,10 @@ focus ::
 focus (Multichoice _ x _) =
   x
 
-data Image =
-  Image
-    String -- uri
-    (Maybe String) -- width
-    (Maybe String) -- height
-  deriving (Eq, Ord, Show)
-
-data ProseSegment =
-  PlainProse String
-  | Bold String
-  | Italic String
-  | ImageProse Image
-  deriving (Eq, Ord, Show)
-
-instance IsString ProseSegment where
-  fromString =
-    PlainProse
-
-data Prose =
-  Prose
-    [ProseSegment]
-  deriving (Eq, Ord, Show)
-
-plainP ::
-  String
-  -> Prose
-plainP s =
-  Prose [PlainProse s]
-
-boldP ::
-  String
-  -> Prose
-boldP s =
-  Prose [Bold s]
-
-italicP ::
-  String
-  -> Prose
-italicP s =
-  Prose [Italic s]
-
-imageP ::
-  Image
-  -> Prose
-imageP i =
-  Prose [ImageProse i]
-
-instance Monoid Prose where
-  mempty =
-    Prose []
-  Prose a `mappend` Prose b =
-    let merge [] = []
-        merge [p] = [p]
-        merge (Bold s1:Bold s2:r) = merge (Bold (s1 <> s2):r)
-        merge (Italic s1:Italic s2:r) = merge (Italic (s1 <> s2):r)
-        merge (PlainProse s1:PlainProse s2:r) = merge (PlainProse (s1 <> s2):r)
-        merge (p1:p2:r) = p1:merge (p2:r)
-    in Prose (merge (a <> b))
-
-instance IsString Prose where
-  fromString s =
-    Prose [PlainProse s]
-
 data Question a =
   Question
-    Prose -- question
-    (Multichoice Prose)
+    String -- question
+    (Multichoice String)
     a
   deriving (Eq, Ord, Show)
 
@@ -127,8 +61,8 @@ data Manual =
   deriving (Eq, Ord, Show)
 
 (~>) ::
-  Prose
-  -> Multichoice Prose
+  String
+  -> Multichoice String
   -> Question Manual
 (~>) s q =
   Question s q Part61
@@ -136,8 +70,8 @@ data Manual =
 infixr 5 ~>
 
 (!>) ::
-  Prose
-  -> Multichoice Prose
+  String
+  -> Multichoice String
   -> Question Manual
 (!>) s q =
   Question s q PrePart61
@@ -156,24 +90,12 @@ markdownExam ::
   Exam
   -> String
 markdownExam (Exam t1 t2 t3 qs) =
-  let markdownImage (Image s _ _) =
-        s
-      markdownProseSegment (PlainProse s) =
-        s
-      markdownProseSegment (Bold s) =
-        "**" <> s <> "**"
-      markdownProseSegment (Italic s) =
-        "_" <> s <> "_"
-      markdownProseSegment (ImageProse i) =
-        markdownImage i
-      markdownProse (Prose p) =
-        foldMap markdownProseSegment p
-      markdownQuestion (n, Question q m x) = 
+  let markdownQuestion (n, Question q m x) = 
         let q' = case x of
                    Part61 -> q
                    PrePart61 -> "~~" <> q <> "~~"
-        in  show n <> ". " <> markdownProse q' <> "\n" <>
-            ((=<<) (\b -> markdownProse b <> "\n") . zipWith (\n c -> "  " <> fromString (show n) <> ". " <> c) [1..] . choiceList . onFocus (\a -> "**" <> a <> "**") $ m)
+        in  show n <> ". " <> q' <> "\n" <>
+            ((=<<) (\b -> b <> "\n") . zipWith (\n c -> "  " <> fromString (show n) <> ". " <> c) [1..] . choiceList . onFocus (\a -> "**" <> a <> "**") $ m)
 
   in  intercalate "\n"
         [
@@ -193,29 +115,16 @@ flashcardExam ::
   Exam
   -> String
 flashcardExam (Exam t1 t2 t3 qs) =
-  let r = undefined
-      flashcardImage (Image s _ _) =
-        s
-      flashcardProseSegment (PlainProse s) =
-        s
-      flashcardProseSegment (Bold s) =
-        s
-      flashcardProseSegment (Italic s) =
-        s
-      flashcardProseSegment (ImageProse i) =
-        flashcardImage i
-      flashcardProse (Prose p) =
-        foldMap flashcardProseSegment p
-      flashcardQuestion (n, Question q m x) =
+  let flashcardQuestion (n, Question q m x) =
         let q' = case x of
                    Part61 -> q
                    PrePart61 -> "~~" <> q <> "~~"
         in  replicate 40 '-' <>
             "\n\n" <> 
-            flashcardProse q' <>
+            q' <>
             "\n" <>
             let z = number m
-                display (c, s) = fromString (c : (". " <> flashcardProse s))
+                display (c, s) = c : (". " <> s)
             in  (intercalate "\n" . choiceList . fmap display $ z) <>
                 "\n\n" <>
                 display (focus z) <>
@@ -2225,4 +2134,3 @@ main =
                     [] -> markdownExams
                     (_:_) -> flashcardExams
      putStrLn (action exams)   
-
