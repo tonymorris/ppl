@@ -1975,7 +1975,7 @@ taitPreSolo =
 
         [
         ]
-    , "What is the recommended procedure to adot in the event of an engine fire?\n  * On the ground\n  * In flight" ~>
+    , "What is the recommended procedure to adopt in the event of an engine fire?\n  * On the ground\n  * In flight" ~>
       Multichoice
         [              
         ]
