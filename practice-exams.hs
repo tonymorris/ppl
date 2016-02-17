@@ -1630,13 +1630,13 @@ taitPreSolo =
       Multichoice
         [              
           "look at the wing tips in relation to the natural horizon"
-        , "look straight ahead to relate the nose of the aircraft to the natural horizon"
         ]
 
-        "look at the artificial horizon"
+        "look straight ahead to relate the nose of the aircraft to the natural horizon"
 
         [
-          "check the power setting and the resulting airspeed"
+          "look at the artificial horizon"
+        , "check the power setting and the resulting airspeed"
         ]        
     , "A pilot knows that the aircraft is correctly trimmed when" ~>
       Multichoice
