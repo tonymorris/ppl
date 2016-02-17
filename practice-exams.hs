@@ -78,7 +78,13 @@ instance Monoid Prose where
   mempty =
     Prose []
   Prose a `mappend` Prose b =
-    Prose (a <> b)
+    let merge [] = []
+        merge [p] = [p]
+        merge (Bold s1:Bold s2:r) = merge (Bold (s1 <> s2):r)
+        merge (Italic s1:Italic s2:r) = merge (Italic (s1 <> s2):r)
+        merge (PlainProse s1:PlainProse s2:r) = merge (PlainProse (s1 <> s2):r)
+        merge (p1:p2:r) = p1:merge (p2:r)
+    in Prose (merge (a <> b))
 
 instance IsString Prose where
   fromString s =
@@ -133,7 +139,7 @@ markdownExam (Exam t1 t2 t3 qs) =
       markdownProseSegment (Bold s) =
         "**" <> s <> "**"
       markdownProseSegment (Italic s) =
-        "*" <> s <> "*"
+        "_" <> s <> "_"
       markdownProseSegment (ImageProse i) =
         markdownImage i
       markdownProse (Prose p) =
