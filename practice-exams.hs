@@ -1,3 +1,6 @@
+{-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE FlexibleContexts #-}
+
 module Main where
 
 import Control.Monad.State
@@ -83,8 +86,8 @@ instance IsString Prose where
 
 data Question a =
   Question
-    String -- question
-    (Multichoice String)
+    Prose -- question
+    (Multichoice Prose)
     a
   deriving (Eq, Ord, Show)
 
@@ -94,8 +97,8 @@ data Manual =
   deriving (Eq, Ord, Show)
 
 (~>) ::
-  String
-  -> Multichoice String
+  Prose
+  -> Multichoice Prose
   -> Question Manual
 (~>) s q =
   Question s q Part61
@@ -103,8 +106,8 @@ data Manual =
 infixr 5 ~>
 
 (!>) ::
-  String
-  -> Multichoice String
+  Prose
+  -> Multichoice Prose
   -> Question Manual
 (!>) s q =
   Question s q PrePart61
@@ -123,19 +126,31 @@ markdownExam ::
   Exam
   -> String
 markdownExam (Exam t1 t2 t3 qs) =
-  let markdownQuestion (n, Question q m x) =
+  let markdownImage (Image s _ _) =
+        s
+      markdownProseSegment (PlainProse s) =
+        s
+      markdownProseSegment (Bold s) =
+        "**" <> s <> "**"
+      markdownProseSegment (Italic s) =
+        "*" <> s <> "*"
+      markdownProseSegment (ImageProse i) =
+        markdownImage i
+      markdownProse (Prose p) =
+        foldMap markdownProseSegment p
+      markdownQuestion (n, Question q m x) = 
         let q' = case x of
                    Part61 -> q
                    PrePart61 -> "~~" <> q <> "~~"
-        in show n <> ". " <> q' <> "\n" <>
-           ((=<<) (\b -> b <> "\n") . zipWith (\n c -> "  " <> show n <> ". " <> c) [1..] . choiceList . onFocus (\a -> "**" <> a <> "**") $ m)
-  in intercalate "\n"
-      [
-        "# " <> t1 <> "\n" <> 
-        maybe "" (\t -> "## " <> t <> "\n\n") t2 <> 
-        maybe "" (\t -> "#### " <> t <> "\n\n") t3
-      , intercalate "\n" (fmap markdownQuestion (zip [1..] qs))
-      ]
+        in  show n <> ". " <> markdownProse q' <> "\n" <>
+            ((=<<) (\b -> markdownProse b <> "\n") . zipWith (\n c -> "  " <> fromString (show n) <> ". " <> c) [1..] . choiceList . onFocus (\a -> "**" <> a <> "**") $ m)
+  in  intercalate "\n"
+        [
+          "# " <> t1 <> "\n" <> 
+          maybe "" (\t -> "## " <> t <> "\n\n") t2 <> 
+          maybe "" (\t -> "#### " <> t <> "\n\n") t3
+        , intercalate "\n" (fmap markdownQuestion (zip [1..] qs))
+        ]
 
 markdownExams ::
   [Exam]
@@ -147,27 +162,40 @@ flashcardExam ::
   Exam
   -> String
 flashcardExam (Exam t1 t2 t3 qs) =
-  let flashcardQuestion (n, Question q m x) =
+  let r = undefined
+      flashcardImage (Image s _ _) =
+        s
+      flashcardProseSegment (PlainProse s) =
+        s
+      flashcardProseSegment (Bold s) =
+        s
+      flashcardProseSegment (Italic s) =
+        s
+      flashcardProseSegment (ImageProse i) =
+        flashcardImage i
+      flashcardProse (Prose p) =
+        foldMap flashcardProseSegment p
+      flashcardQuestion (n, Question q m x) =
         let q' = case x of
                    Part61 -> q
                    PrePart61 -> "~~" <> q <> "~~"
-        in replicate 40 '-' <>
-           "\n\n" <>              
-           q' <>
-           "\n" <>
-           let z = number m
-               display (c, s) = c : ". " <> s
-           in (intercalate "\n" . choiceList . fmap display $ z) <>
-              "\n\n" <>
-              display (focus z) <>
-              "\n\n"
-  in intercalate "\n"
-      [
-        "# " <> t1 <> "\n" <> 
-        maybe "" (\t -> "## " <> t <> "\n\n") t2 <> 
-        maybe "" (\t -> "#### " <> t <> "\n\n") t3
-      , intercalate "\n" (fmap flashcardQuestion (zip [1..] qs))
-      ]
+        in  replicate 40 '-' <>
+            "\n\n" <> 
+            flashcardProse q' <>
+            "\n" <>
+            let z = number m
+                display (c, s) = fromString (c : (". " <> flashcardProse s))
+            in  (intercalate "\n" . choiceList . fmap display $ z) <>
+                "\n\n" <>
+                display (focus z) <>
+                "\n\n"
+  in  intercalate "\n"
+        [
+          "# " <> t1 <> "\n" <> 
+          maybe "" (\t -> "## " <> t <> "\n\n") t2 <> 
+          maybe "" (\t -> "#### " <> t <> "\n\n") t3
+        , intercalate "\n" (fmap flashcardQuestion (zip [1..] qs))
+        ]
 
 flashcardExams ::
   [Exam]
@@ -2148,20 +2176,6 @@ taitPreSolo =
 
     ]
 
-{-
-
-    , "" ~>
-      Multichoice
-        [              
-        ]
-
-        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
-
-        [
-        ]
-
--}
-
 exams ::
   [Exam]
 exams =
@@ -2180,3 +2194,4 @@ main =
                     [] -> markdownExams
                     (_:_) -> flashcardExams
      putStrLn (action exams)   
+
