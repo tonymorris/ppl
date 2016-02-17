@@ -2,6 +2,8 @@ module Main where
 
 import Control.Monad.State
 import Data.List
+import Data.Monoid
+import Data.String
 import System.Environment
 
 data Multichoice a =
@@ -24,7 +26,7 @@ choiceList ::
   Multichoice a
   -> [a]
 choiceList (Multichoice l x r) =
-  l ++ x : r
+  l <> (x : r)
 
 onFocus ::
   (a -> a)
@@ -45,6 +47,39 @@ focus ::
   -> a
 focus (Multichoice _ x _) =
   x
+
+data Image =
+  Image
+    String -- uri
+    (Maybe String) -- width
+    (Maybe String) -- height
+  deriving (Eq, Ord, Show)
+
+data ProseSegment =
+  PlainProse String
+  | Bold String
+  | Italic String
+  | ImageProse Image
+  deriving (Eq, Ord, Show)
+
+instance IsString ProseSegment where
+  fromString =
+    PlainProse
+
+data Prose =
+  Prose
+    [ProseSegment]
+  deriving (Eq, Ord, Show)
+
+instance Monoid Prose where
+  mempty =
+    Prose []
+  Prose a `mappend` Prose b =
+    Prose (a <> b)
+
+instance IsString Prose where
+  fromString s =
+    Prose [PlainProse s]
 
 data Question a =
   Question
@@ -91,14 +126,14 @@ markdownExam (Exam t1 t2 t3 qs) =
   let markdownQuestion (n, Question q m x) =
         let q' = case x of
                    Part61 -> q
-                   PrePart61 -> "~~" ++ q ++ "~~"
-        in show n ++ ". " ++ q' ++ "\n" ++
-           ((=<<) (\b -> b ++ "\n") . zipWith (\n c -> "  " ++ show n ++ ". " ++ c) [1..] . choiceList . onFocus (\a -> "**" ++ a ++ "**") $ m)
+                   PrePart61 -> "~~" <> q <> "~~"
+        in show n <> ". " <> q' <> "\n" <>
+           ((=<<) (\b -> b <> "\n") . zipWith (\n c -> "  " <> show n <> ". " <> c) [1..] . choiceList . onFocus (\a -> "**" <> a <> "**") $ m)
   in intercalate "\n"
       [
-        "# " ++ t1 ++ "\n" ++ 
-        maybe "" (\t -> "## " ++ t ++ "\n\n") t2 ++ 
-        maybe "" (\t -> "#### " ++ t ++ "\n\n") t3
+        "# " <> t1 <> "\n" <> 
+        maybe "" (\t -> "## " <> t <> "\n\n") t2 <> 
+        maybe "" (\t -> "#### " <> t <> "\n\n") t3
       , intercalate "\n" (fmap markdownQuestion (zip [1..] qs))
       ]
 
@@ -115,22 +150,22 @@ flashcardExam (Exam t1 t2 t3 qs) =
   let flashcardQuestion (n, Question q m x) =
         let q' = case x of
                    Part61 -> q
-                   PrePart61 -> "~~" ++ q ++ "~~"
-        in replicate 40 '-' ++
-           "\n\n" ++              
-           q' ++
-           "\n" ++
+                   PrePart61 -> "~~" <> q <> "~~"
+        in replicate 40 '-' <>
+           "\n\n" <>              
+           q' <>
+           "\n" <>
            let z = number m
-               display (c, s) = c : ". " ++ s
-           in (intercalate "\n" . choiceList . fmap display $ z) ++
-              "\n\n" ++
-              display (focus z) ++
+               display (c, s) = c : ". " <> s
+           in (intercalate "\n" . choiceList . fmap display $ z) <>
+              "\n\n" <>
+              display (focus z) <>
               "\n\n"
   in intercalate "\n"
       [
-        "# " ++ t1 ++ "\n" ++ 
-        maybe "" (\t -> "## " ++ t ++ "\n\n") t2 ++ 
-        maybe "" (\t -> "#### " ++ t ++ "\n\n") t3
+        "# " <> t1 <> "\n" <> 
+        maybe "" (\t -> "## " <> t <> "\n\n") t2 <> 
+        maybe "" (\t -> "#### " <> t <> "\n\n") t3
       , intercalate "\n" (fmap flashcardQuestion (zip [1..] qs))
       ]
 
@@ -138,7 +173,7 @@ flashcardExams ::
   [Exam]
   -> String
 flashcardExams =
-  intercalate ("\n\n" ++ replicate 40 '=' ++ "\n\n") . fmap flashcardExam
+  intercalate ("\n\n" <> replicate 40 '=' <> "\n\n") . fmap flashcardExam
 
 atcPreCircuit ::
   Exam
@@ -1427,7 +1462,7 @@ atcBAK =
             [
               "weight 1,012kg, arm 2,999mm."
             ]        
-        , (q56to60PerformanceData ++ "  The pressure altitude of this airfield is:\n") ~>
+        , (q56to60PerformanceData <> "  The pressure altitude of this airfield is:\n") ~>
           Multichoice
             [
               "1,800ft."              
@@ -1439,7 +1474,7 @@ atcBAK =
               "2,260ft."
             , "2,240ft."
             ]
-        , (q56to60PerformanceData ++ "  The density altitude of this airfield is:\n") ~>
+        , (q56to60PerformanceData <> "  The density altitude of this airfield is:\n") ~>
           Multichoice
             [
               "1,800ft."
@@ -1451,7 +1486,7 @@ atcBAK =
 
             [
             ]            
-        , (q56to60PerformanceData ++ "  The headwind component on the duty runway is closest to:\n") ~>
+        , (q56to60PerformanceData <> "  The headwind component on the duty runway is closest to:\n") ~>
           Multichoice
             [
               "5kt."
@@ -1463,7 +1498,7 @@ atcBAK =
 
             [
             ]                          
-        , (q56to60PerformanceData ++ "  Use the Cessna Landing chart ![Cessna Landing Chart](http://i.imgur.com/axGWoHJ.jpg) At the MTOW, the take-off distance required on Runway 12 is closest to:\n") ~>
+        , (q56to60PerformanceData <> "  Use the Cessna Landing chart ![Cessna Landing Chart](http://i.imgur.com/axGWoHJ.jpg) At the MTOW, the take-off distance required on Runway 12 is closest to:\n") ~>
           Multichoice
             [
               "550m."
@@ -1475,7 +1510,7 @@ atcBAK =
             [
               "980m."
             ]                          
-        , (q56to60PerformanceData ++ "  Use the Piper Landing chart ![Piper Landing Chart](http://i.imgur.com/64t1Sju.jpg) Under the conditions given the landing distance required for this aircraft is closest to:\n") ~>
+        , (q56to60PerformanceData <> "  Use the Piper Landing chart ![Piper Landing Chart](http://i.imgur.com/64t1Sju.jpg) Under the conditions given the landing distance required for this aircraft is closest to:\n") ~>
           Multichoice
             [
               "310m."
