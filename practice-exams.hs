@@ -1635,7 +1635,497 @@ taitPreSolo =
         [
           "check the power setting and the resulting airspeed"
         ]        
+    , "A pilot knows that the aircraft is correctly trimmed when" ~>
+      Multichoice
+        [              
+          "it is not losing or gaining any height"
+        , "the wings are level and the 'skid ball' is centred"
+        , "the trim position indicator indicates zero"
+        ]
+
+        "the required nose attitude is maintained even after the controls are released"
+
+        [
+        ]
+    , "As airspeed decreases [eg during the float before touch-down]," ~>
+      Multichoice
+        [              
+          "forward visibility improves"
+        ]
+
+        "a larger degree of control deflection is required to maintain a given attitude"
+
+        [
+          "a given attitude can be maintained with less control deflection"
+        , "full back elevator should be applied to prevent the aircraft sinking"
+        ]
+    , "The most important recovery action required if an aircraft has entered a spiral dive is" ~>
+      Multichoice
+        [              
+        ]
+
+        "level the wings"
+
+        [
+          "lower the nose to increase the airspeed"
+        , "apply full power to assist the recovery"
+        , "pull firmly back on the elevator controls to raise the nose above the horizon"
+        ]
+    , "If airspeed has been allowed to decay to the point where the pilot suspects that a stall is imminent, the most important actions required are" ~>
+      Multichoice
+        [              
+          "apply full power and lift the nose"
+        , "lower the nose and reduce the power"
+        , "reduce the power and lift the nose"
+        ]
+
+        "add power and lower the nose"
+
+        [
+        ]
+    , "In the event of an engine failure during the climb-out after take-off in a single engine aircraft, the most important immediate action required is" ~>
+      Multichoice
+        [              
+        ]
+
+        "lower the nose to maintain a safe airspeed"
+
+        [
+          "raise the nose to maintain a safe airspeed"
+        , "commence a turn back towards the field"
+        , "maintain the nose attitude to prevent an excessive build-up of airspeed"
+        ]
+    , "A change in which of the following factors has no effect on the stalling IAS of an aeroplane?" ~>
+      Multichoice
+        [              
+          "weight"
+        ]
+
+        "wind"
+
+        [
+          "power"
+        , "flap"
+        ]
+    , "If it becomes necessary to commence a go-around during a landing approach, which of the following is the correct sequence of actions to ensure a safe transition to the climb?" ~>
+      Multichoice
+        [              
+          "raise the flap, raise the nose to the climbing attitude and apply full power"
+        , "raise the nose to the climbing attitude, raise the flap and apply full power"
+        ]
+
+        "apply full power while raising the nose to the climbing attitude and raise the flap"
+
+        [
+          "raise the flap while applying full power then raise the nose to the climbing attitude"
+        ]        
+    , "Which of the following combination of symptoms would indicate an approaching stall during final approach to land?" ~>
+      Multichoice
+        [              
+        ]
+
+        "low airspeed, sluggish control response and high nose attitude"
+
+        [
+          "low power setting, high approach path and low nose attitude"
+        , "low airspeed and low nose attitude"
+        , "flatter than normal approach and high power setting"
+        ]        
+    , "If an aircraft which is about to stall suffers a wing drop, the pilot should" ~>
+      Multichoice
+        [              
+        ]
+
+        "lower the nose, keep straight with rudder and use no aileron until the speed increases"
+
+        [
+          "lower the nose, keep straight with aileron and use no rudder until the speed increases"
+        , "raise the nose and apply opposite aileron"
+        , "raise the nose, keep straight with rudder and use no aileron until the speed increases"
+        ]
+    , "During take-off in conditions of no wind, it is normally necessary to apply right rudder to maintain a straight take-off path. This is necessary because of" ~>
+      Multichoice
+        [              
+          "the propeller slipstream pushing on the left side of the rudder"
+        , "engine torque pushing the left wheel harder onto the runway surface"
+        , "the lower airspeed over the ailerons during the take-off run"
+        ]
+
+        "Both the propeller slipstream pushing on the left side of the rudder and engine torque pushing the left wheel harder onto the runway surface"
+
+        [
+        ]
+    , "Compared to a normal approach, during a flapless approach at a given IAS the pilot will notice" ~>
+      Multichoice
+        [              
+        ]
+
+        "a higher nose attitude and a flatter approach path"
+
+        [
+          "a lower nose attitude and a flatter approach path"
+        , "a higher nose attitude and a steeper approach path"
+        , "a lower attitude and a steeper approach path"
+        ]
+    , "During an approach on a windy day the pilot notices that the windsock is indicating frequent changes in surface wind speed and direction. In these conditions the pilot should" ~>
+      Multichoice
+        [              
+          "approach at a lower IAS and higher nose attitude than normal"
+        , "be prepared to add power to restore IAS if wind shear is encountered"
+        , "be prepared to lower the nose to restore IAS if wind shear is encountered"
+        ]
+
+        "be prepared to add power and lower the nose to restore IAS if wind shear is encountered"
+
+        [
+        ]        
+    , "During a glide approach in no wind at the recommended gliding IAS, raising the nose slightly will result in a slower approach speed but a flatter approach angle" ~>
+      Multichoice
+        [
+          "the statement is true"              
+        ]
+
+        "the statement is false"
+
+        [
+        ]
+    , "The indication on the balance indicator *with ball to the left of centre* would require the pilot to" ~>
+      Multichoice
+        [              
+          "apply more right aileron"
+        , "apply more right rudder"
+        , "apply more left aileron"
+        ]
+
+        "apply more left rudder"
+
+        [
+        ]
+    , "If the aerodrome ground marker *with two adjacent unfilled plus signs* is displayed near the wind sock of an uncontrolled aerodrome it indicates that" ~>
+      Multichoice
+        [              
+        ]
+
+        "gliding operations are in progress"
+
+        [
+          "the aerodrome is closed to all operations"
+        , "all unsealed areas are unserviceable"
+        , "the aerodrome is suitable for light aircraft only"
+        ]        
+    , "By convention the downwind leg of the circuit for piston engine aeroplanes is flown at a height of" ~>
+      Multichoice
+        [              
+          "1000ft AMSL"
+        , "1500ft AMSL"
+        ]
+
+        "1000ft AGL"
+
+        [
+          "1500ft AGL"
+        ]
+    , "What is the minimum height at which an aeroplane may commence a turn in the direction of the circuit after take-off" ~>
+      Multichoice
+        [
+          "1000ft AGL"
+        , "1500ft AGL"              
+        ]
+
+        "500ft AGL"
+
+        [
+          "200ft AGL"
+        ]
+    , "If the pilot sets the QNH while on the ground at an aerodrome, the altimeter will read" ~>
+      Multichoice
+        [              
+          "height above the aerodrome"
+        ]
+
+        "height above sea-level"
+
+        [
+          "height in the standard atmosphere"
+        , "height above terrain"
+        ]        
+    , "You are lining up to take off behind another aircraft which has just landed on the same runway. You may not commence your take off run until that aircraft has" ~>
+      Multichoice
+        [              
+          "finished its landing run and stopped"
+        , "commenced a turn towards a taxiway exit"
+        ]
+
+        "vacated the runway and is taxiing away"
+
+        [
+          "passed a point 600m ahead of your present position"
+        ]        
+    , "A landing aeroplane must be established on a straight final approach path by" ~>
+      Multichoice
+        [              
+          "500 metres from the aerodrome boundary"
+        ]
+
+        "500 feet AGL"
+        
+        [
+          "800 feet AGL"
+        , "1500 metres from the aerodrome boundary"
+        ]
+    , "A taxiway leading into a runway *has a transverse solid white line and immediately subsequent transverse dashed white line*. What is the significance of the solid and dashed white lines across the taxiway?" ~>
+      Multichoice
+        [              
+        ]
+
+        "Aircraft taxiing in the direction of the arrow must hold short and check before entering the runway"
+
+        [
+          "No significance providing you are taxiing in the direction of the arrow"
+        , "Aircraft vacating the runway must hold at this point and check that the taxiway is clear"
+        , "Runway edge marker -- no significance to taxiing aircraft"
+        ]
+    , "You observe another aircraft approaching head on at your level. The correct action to take is" ~>
+      Multichoice
+        [              
+          "dive to pass beneath the approaching aircraft"
+        , "climb to pass above the approaching aircraft"
+        , "turn to your left toavoid the approaching aircraft"
+        ]
+
+        "turn to your right to avoid the approaching aircraft"
+
+        [
+        ]
+    , "After you turn onto final approach at an uncontrolled aerodrome you notice another aircraft below you and slightly ahead of you on approach to the same runway. You should" ~>
+      Multichoice
+        [              
+          "continue the approach because the lower aircraft must give way"
+        , "descend beneath the other aircraft and land to one side of it"
+        , "remain above the other aircraft and land to one side of it"
+        ]
+
+        "commence a go-around and give way to the lower aircraft"
+
+        [
+        ]
+    , "You intend to fly in the morning at 6.00 am. What is the latest time at which you may have an alcoholic drink prior to this flight?" ~>
+      Multichoice
+        [              
+          "midnight before the flight"
+        ]
+
+        "10pm on the evening before the flight"
+
+        [
+          "5.00 am on the morning of the flight"
+        , "24 hours before the proposed flight"
+        ]
+    , "The top of the white arc on an Airspeed Indicator marks" ~>
+      Multichoice
+        [              
+          "the lowest IAS at which an approach to land should be made"
+        , "the highest IAS at which the aircraft should be permitted to remain on the ground during the take-off run"
+        , "the IAS which will produce the best rate of climb"
+        ]
+
+        "the maximum IAS at which flaps should be lowered"
+
+        [
+        ]
+    , "An aircraft is taxiing toward you on a taxiway. What is the correct procedure to adopt to pass the other aircraft?" ~>
+      Multichoice
+        [              
+          "move to the left side of the taxiway"
+        ]
+
+        "move to the right side of the taxiway"
+
+        [
+          "the smaller aircraft should pull off the taxiway and allow the bigger one to pass"
+        , "move to whichever side of the taxiway is closest to you at the time"
+        ]        
+    , "When must the flying controls be checked for full, free and correct movement?" ~>
+      Multichoice
+        [              
+          "immediately before start-up"
+        , "immediately after start-up"
+        , "before taxiing commences"
+        ]
+
+        "immediately before take-off"
+
+        [
+        ]
+    , "Find the following about your aircraft engine:\n  * What make or model is it?\n  * How many cylinders does it have?\n  * What is its capacity and rated power output?\n  * Does it have a carburettor or is it fuel injected?\n  * What is the recommended oil level before start-up?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What is the significance of the red line on the tachometer?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What is the recommended procedure to adot in the event of an engine fire?\n  * On the ground\n  * In flight" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What is the recommended IAS for:\n  * Lift off\n  * Normal Climb\n  * Best Rate of Climb\n  * Normal Approach\n  * Flapless Approach\n  * Glide Approach\n  * Stall with flap\n  * Stall without flap" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What should you look for after start-up on the:\n  * Tachometer\n  * Oil Pressure Gauge\n  * Oil Temperature Gauge\n  * Vacuum Gauge\n  * Ammeter" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What RPM should be used to check the magnetos?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What is the maximum allowable drop in RPM when one magneto is selected?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What is the maximum difference between the RPM indicated on each magneto?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What might be wrong if there *no* RPM drop?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What should you see when you select carburettor heat?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What would it mean if the selection of carburettor heat had no effect?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "When should carburettor heat be used in flight?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What RPM would you normally expect to see during the take-off run?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What would you do if you noticed the RPM significantly below *the normally expected during the take-off run*?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What type of oil does your aeroplane take?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What type of fuel does your aeroplane take? How much does it hold?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+    , "What is the normal fuel consumption in Litres per Hour?" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+
     ]
+
+{-
+
+    , "" ~>
+      Multichoice
+        [              
+        ]
+
+        "**RESEARCH THIS QUESTION FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
+
+-}
 
 exams ::
   [Exam]
