@@ -222,3 +222,54 @@
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=)
 
 <a href="tracks/png/20160218-vh-afr.png?raw=true"><img src="tracks/png/20160218-vh-afr.png" width="360" alt="20160218 VH-AFR Circuit Emergencies" /></a>
+
+<div style="text-align: justify">
+  <a href="images/20160218-vh-afr/20160218_090347.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090347.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090348.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090348.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090351.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090351.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090409.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090409.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090411.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090411.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090421.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090421.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090423.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090423.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090432.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090432.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090436.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090436.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090441.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090441.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>  
+  <a href="images/20160218-vh-afr/20160218_090446.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090446.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090452.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090452.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090454.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090454.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090459.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090459.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090501.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090501.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+  <a href="images/20160218-vh-afr/20160218_090502.jpg?raw=true">
+    <img src="images/20160218-vh-afr/20160218_090502.jpg" width="120" alt="20160218 VH-AFR Circuits" />
+  </a>
+</div>
