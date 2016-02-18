@@ -204,3 +204,21 @@
 * **Head camera:** [youtube](https://www.youtube.com/watch?v=e7UcjgxOmDw)
 
 <a href="tracks/png/20160212-vh-afr.png?raw=true"><img src="tracks/png/20160212-vh-afr.png" width="360" alt="20160212 VH-AFR Circuits" /></a>
+
+----
+
+### P2.5 Circuit Emergencies
+
+* **Date:** 20160218
+* **Sequence:** P2.5 Circuit Emergencies
+* **Aircraft:** C172/AFR
+* **Dual day:** 1.1 hours
+* **Dual prog:** 12.8 hours
+* **Instructor:** David Schofield
+* **Total:** 12.8 hours
+* **Track log:** [gpx](tracks/20160218-vh-afr.gpx?raw=true)
+* **Google Earth:** [kml](tracks/google-earth/20160218-vh-afr.kml?raw=true) [kmz](tracks/google-earth/20160218-vh-afr.kmz?raw=true)
+* **Flight visualisation:** [doarama.com](http://doarama.com/view/644663)
+* **Head camera:** [youtube](https://www.youtube.com/watch?v=)
+
+<a href="tracks/png/20160218-vh-afr.png?raw=true"><img src="tracks/png/20160218-vh-afr.png" width="360" alt="20160218 VH-AFR Circuit Emergencies" /></a>
