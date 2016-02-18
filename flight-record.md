@@ -219,7 +219,7 @@
 * **Track log:** [gpx](tracks/20160218-vh-afr.gpx?raw=true)
 * **Google Earth:** [kml](tracks/google-earth/20160218-vh-afr.kml?raw=true) [kmz](tracks/google-earth/20160218-vh-afr.kmz?raw=true)
 * **Flight visualisation:** [doarama.com](http://doarama.com/view/644663)
-* **Head camera:** [youtube](https://www.youtube.com/watch?v=)
+* **Head camera:** [youtube](https://www.youtube.com/watch?v=EO4D4zFnpIU)
 
 <a href="tracks/png/20160218-vh-afr.png?raw=true"><img src="tracks/png/20160218-vh-afr.png" width="360" alt="20160218 VH-AFR Circuit Emergencies" /></a>
 
