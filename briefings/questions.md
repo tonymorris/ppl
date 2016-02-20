@@ -127,6 +127,10 @@
 
 * **What is Vy?**
 
+  Best rate of climb.
+
+* **How is Vy calculated?**
+
   Vy is the greatest difference between Power Available (PA) and Power Required
   (PR) on a power versus speed graph.
 
