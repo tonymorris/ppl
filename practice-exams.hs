@@ -2609,7 +2609,7 @@ taitPreAreaSolo =
         [
         ]
 
-        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
         ]
@@ -2618,7 +2618,7 @@ taitPreAreaSolo =
         [
         ]
 
-        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
         ]
@@ -2627,7 +2627,7 @@ taitPreAreaSolo =
         [
         ]
 
-        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
         ]
@@ -2636,7 +2636,7 @@ taitPreAreaSolo =
         [
         ]
 
-        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
         ]
@@ -2645,7 +2645,7 @@ taitPreAreaSolo =
         [
         ]
 
-        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
         ]
@@ -2654,7 +2654,7 @@ taitPreAreaSolo =
         [
         ]
 
-        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
         ]
@@ -2663,7 +2663,7 @@ taitPreAreaSolo =
         [
         ]
 
-        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
         ]
@@ -2672,7 +2672,7 @@ taitPreAreaSolo =
         [
         ]
 
-        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
         ]
@@ -2681,7 +2681,7 @@ taitPreAreaSolo =
         [
         ]
 
-        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
         ]
@@ -2690,7 +2690,7 @@ taitPreAreaSolo =
         [
         ]
 
-        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
         ]
@@ -3064,6 +3064,64 @@ taitPreRPL =
         , "requires the use of a higher IAS during the climb after take-off"
         , "reduces the engine power available during the take-off run"
         ]
+    , "Refer to the take-off chart in your supplement. ![Bob Tait RPL Study Guide supplement](https://github.com/tonymorris/ppl/raw/master/handouts/RPL_Supplement.pdf). Given that Airfield pressure height = 2000ft, Outside air temperature = 20 degrees Celsius, TODA = 600 metres, Surface = short wet grass, Slope = level, Wind = 10 kt headwind, The maximum take-off weight permitted by the chart is closest to" ~>
+      Multichoice
+        [
+        ]
+
+        "925 kg"
+
+        [
+          "1060 kg"
+        , "1090 kg"
+        , "850 kg"
+        ]
+    , "Refer to the take-off chart in your supplement. ![Bob Tait RPL Study Guide supplement](https://github.com/tonymorris/ppl/raw/master/handouts/RPL_Supplement.pdf). Given that Airfield pressure height = 1500ft, Outside air temperature = 30 degrees Celsius, Surface = short dry grass, Wind = calm, Slope = 1% down, Take off weight = 1000kg, The take-off distance required by the chart is closest to" ~>
+      Multichoice
+        [
+          "600 m"
+        , "800 m"
+        ]
+
+        "680 m"
+
+        [
+          "710 m"
+        ]
+    , "Refer to the landing chart in your supplement. ![Bob Tait RPL Study Guide supplement](https://github.com/tonymorris/ppl/raw/master/handouts/RPL_Supplement.pdf). Given that Pressure height = 3500ft, Outside air temperature = 15 degrees Celsius, Wind = 10 knot headwind, Slope = 1% down, The landing distance required by the chart is" ~>
+      Multichoice
+        [
+          "600 m"
+        , "450 m"
+        , "550 m"
+        ]
+
+        "525 m"
+
+        [
+        ]
+    , "Refer to the loading system in your supplement. ![Bob Tait RPL Study Guide supplement](https://github.com/tonymorris/ppl/raw/master/handouts/RPL_Supplement.pdf). Given that the empty aircraft weight and moment index is 1250 lbs and 109.64 respectively, determine if it is safe to fly with the following load distribution. Engine oil = 15lb, Fuel = 25 US Gallons, Front seats = Pilot and passenger each weighing 150lbs, Rear seats = Two passengers weighing 155lbs and 130lbs, Baggage = 20lbs. With this load distribution the aircraft is safe or unsafe to fly?" ~>
+      Multichoice
+        [
+          "safe to fly"
+        ]
+
+        "unsafe to fly"
+
+        [
+        ]
+    , "Which of the following overnight conditions is most likely to be followed by early morning fog?" ~>
+      Multichoice
+        [
+          "heavy rain and low cloud"
+        , "clear skies, strong winds and high humidity"
+        ]
+
+        "clear skies, light winds and high humidity"
+
+        [
+          "cloudy skies, light winds and high humidity"
+        ]
     , "" ~>
       Multichoice
         [
@@ -3073,57 +3131,163 @@ taitPreRPL =
 
         [
         ]
-    , "" ~>
+    , "What conditions apply to the carriage of passengers in an aircraft fitted with dual controls?" ~>
+      Multichoice
+        [
+          "passengers must not occupy a control seat"
+        , "passengers may occupy a control seat only if they are a student pilot"
+        ]
+
+        "a passenger in a control seat must be instructed not to interfere with the controls and there must be a means of communication available between the pilot and that passenger"
+
+        [
+          "passengers must not occupy a control seat if they do not understand English"
+        ]
+    , "What age defines an infant?" ~>
       Multichoice
         [
         ]
 
-        ""
+        "under the age of 3 years"
 
         [
+          "under the age of 2 years"
+        , "under the age of 1 year"
+        , "any child who cannot walk unassisted"
         ]
-    , "" ~>
+    , "Two children may occupy the same seat on an aircraft providing" ~>
       Multichoice
         [
         ]
 
-        ""
+        "their combined weights do not exceed 77kg"
+
+        [
+          "one sits on the other's lap"
+        , "they are both under the age of 12 years"
+        , "only one wears the seat belt"
+        ]
+    , "What is the maximum number of persons, including children and infants, that may be carried on a four-seat aircraft?" ~>
+      Multichoice
+        [
+          "4"
+        , "7"
+        , "6"
+        ]
+
+        "5"
 
         [
         ]
-    , "" ~>
+    , "When *must* the pilot of a single pilot aeroplane wear a seat belt?" ~>
+      Multichoice
+        [
+          "during take-off and landing only"
+        ]
+
+        "at all times during flight"
+
+        [
+          "during take-off, landing and in turbulence"
+        , "whenever the aircraft is less than 1000ft AGL"
+        ]        
+    , "What is the minimum distance between an aircraft being fuelled and another stationary aircraft?" ~>
+      Multichoice
+        [
+          "10 m"
+        , "15 m"
+        ]
+
+        "6 m"
+
+        [
+          "5 m"
+        ]
+    , "Flight through a restricted area is permitted provided that" ~>
       Multichoice
         [
         ]
 
-        ""
+        "a clearance is obtained from the operating authority"
 
         [
+          "the pilot keeps a good lookout for other aircraft"
+        , "the flight remains below 500ft AGL"
+        , "a constant heading is maintained while passing through the area"
         ]
-    , "" ~>
+    , "What is the empty weight of the aeroplane you fly most often?" ~>
       Multichoice
         [
         ]
 
-        ""
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
+        ]    
+    , "What is its maximum take-off weight? The difference between the maximum take-off weight and the empty weight is the weight available for fuel, passengers, pilot and baggage, what is it for this aircraft?" ~>
+      Multichoice
+        [
         ]
+
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]                
+    , "If you carried fuel, how much weight would be left for passengers, pilot and baggage?" ~>
+      Multichoice
+        [
+        ]
+
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]                
+    , "If you had 10kg of baggage and all passenger seats were occupied by a person weighing 77kg, how much fuel could you carry, in litres?" ~>
+      Multichoice
+        [
+        ]
+
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]                
+    , "What is the maximum weight allowed in your baggage compartment in kg?" ~>
+      Multichoice
+        [
+        ]
+
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]                
+    , "How long could you fly this aircraft on a full tank of fuel, in minutes?" ~>
+      Multichoice
+        [
+        ]
+
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]                
+    , "Could you have each seat occupied by a 77kg passenger and still carry full fuel?" ~>
+      Multichoice
+        [
+        ]
+
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]                
+    , "Under the same conditions, which is greater, the landing distance or the take-off distance?" ~>
+      Multichoice
+        [
+        ]
+
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]                
     ]
-
-{-
-
-    , "" ~>
-      Multichoice
-        [
-        ]
-
-        ""
-
-        [
-        ]
-
--}
 
 exams ::
   [Exam]
