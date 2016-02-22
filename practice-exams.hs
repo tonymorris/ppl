@@ -2685,6 +2685,15 @@ taitPreAreaSolo =
 
         [
         ]
+    , "List all the radio calls you would make from start-up to shut-down for a flight to and from your local training area." ~>
+      Multichoice
+        [
+        ]
+
+        "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK WITH YOUR FLYING INSTRUCTOR.**"
+
+        [
+        ]
     ]
 
 exams ::
