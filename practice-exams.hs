@@ -3064,7 +3064,7 @@ taitPreRPL =
         , "requires the use of a higher IAS during the climb after take-off"
         , "reduces the engine power available during the take-off run"
         ]
-    , "Refer to the take-off chart in your supplement. ![Bob Tait RPL Study Guide supplement](https://github.com/tonymorris/ppl/raw/master/handouts/RPL_Supplement.pdf). Given that Airfield pressure height = 2000ft, Outside air temperature = 20 degrees Celsius, TODA = 600 metres, Surface = short wet grass, Slope = level, Wind = 10 kt headwind, The maximum take-off weight permitted by the chart is closest to" ~>
+    , "Refer to the take-off chart in your supplement. [Bob Tait RPL Study Guide supplement](https://github.com/tonymorris/ppl/raw/master/handouts/RPL_Supplement.pdf). Given that Airfield pressure height = 2000ft, Outside air temperature = 20 degrees Celsius, TODA = 600 metres, Surface = short wet grass, Slope = level, Wind = 10 kt headwind, The maximum take-off weight permitted by the chart is closest to" ~>
       Multichoice
         [
         ]
@@ -3076,7 +3076,7 @@ taitPreRPL =
         , "1090 kg"
         , "850 kg"
         ]
-    , "Refer to the take-off chart in your supplement. ![Bob Tait RPL Study Guide supplement](https://github.com/tonymorris/ppl/raw/master/handouts/RPL_Supplement.pdf). Given that Airfield pressure height = 1500ft, Outside air temperature = 30 degrees Celsius, Surface = short dry grass, Wind = calm, Slope = 1% down, Take off weight = 1000kg, The take-off distance required by the chart is closest to" ~>
+    , "Refer to the take-off chart in your supplement. [Bob Tait RPL Study Guide supplement](https://github.com/tonymorris/ppl/raw/master/handouts/RPL_Supplement.pdf). Given that Airfield pressure height = 1500ft, Outside air temperature = 30 degrees Celsius, Surface = short dry grass, Wind = calm, Slope = 1% down, Take off weight = 1000kg, The take-off distance required by the chart is closest to" ~>
       Multichoice
         [
           "600 m"
@@ -3088,7 +3088,7 @@ taitPreRPL =
         [
           "710 m"
         ]
-    , "Refer to the landing chart in your supplement. ![Bob Tait RPL Study Guide supplement](https://github.com/tonymorris/ppl/raw/master/handouts/RPL_Supplement.pdf). Given that Pressure height = 3500ft, Outside air temperature = 15 degrees Celsius, Wind = 10 knot headwind, Slope = 1% down, The landing distance required by the chart is" ~>
+    , "Refer to the landing chart in your supplement. [Bob Tait RPL Study Guide supplement](https://github.com/tonymorris/ppl/raw/master/handouts/RPL_Supplement.pdf). Given that Pressure height = 3500ft, Outside air temperature = 15 degrees Celsius, Wind = 10 knot headwind, Slope = 1% down, The landing distance required by the chart is" ~>
       Multichoice
         [
           "600 m"
@@ -3100,7 +3100,7 @@ taitPreRPL =
 
         [
         ]
-    , "Refer to the loading system in your supplement. ![Bob Tait RPL Study Guide supplement](https://github.com/tonymorris/ppl/raw/master/handouts/RPL_Supplement.pdf). Given that the empty aircraft weight and moment index is 1250 lbs and 109.64 respectively, determine if it is safe to fly with the following load distribution. Engine oil = 15lb, Fuel = 25 US Gallons, Front seats = Pilot and passenger each weighing 150lbs, Rear seats = Two passengers weighing 155lbs and 130lbs, Baggage = 20lbs. With this load distribution the aircraft is safe or unsafe to fly?" ~>
+    , "Refer to the loading system in your supplement. [Bob Tait RPL Study Guide supplement](https://github.com/tonymorris/ppl/raw/master/handouts/RPL_Supplement.pdf). Given that the empty aircraft weight and moment index is 1250 lbs and 109.64 respectively, determine if it is safe to fly with the following load distribution. Engine oil = 15lb, Fuel = 25 US Gallons, Front seats = Pilot and passenger each weighing 150lbs, Rear seats = Two passengers weighing 155lbs and 130lbs, Baggage = 20lbs. With this load distribution the aircraft is safe or unsafe to fly?" ~>
       Multichoice
         [
           "safe to fly"
