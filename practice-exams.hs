@@ -2696,6 +2696,435 @@ taitPreAreaSolo =
         ]
     ]
 
+taitPreRPL ::
+  Exam
+taitPreRPL =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "Pre-RPL Practice Exam")
+    [
+      "The purpose of streamlining and fairings in aircraft design is to" ~>
+      Multichoice
+        [
+          "reduce induced drag"
+        ]
+
+        "reduce parasite drag"
+
+        [
+          "increase lift"
+        , "increase weight"
+        ]
+    , "Mass imbalances should be inspected before flight. The loss of a mass balance could result in " ~>
+      Multichoice
+        [
+          "the controls becoming too heavy to move"
+        ]
+
+        "flutter of the control surface and vibration in the control column"
+
+        [
+          "unpredictable response to control inputs"
+        , "the controls jamming in one position"
+        ]
+    , "If a trim cable failed during flight, making movement of the elevator trim tab impossible" ~>
+      Multichoice
+        [
+          "the aircraft would become uncontrollable"
+        , "the elevator control surface would become over sensitive"
+        ]
+
+        "a strong forward or back pressure may be required to maintain a given nose attitude"
+
+        [
+          "the aircraft nose would pitch nose-up"
+        ]
+    , "Which of the following factors would decrease the length of the take-off run?" ~>
+      Multichoice
+        [
+          "a decrease in headwind component"
+        , "applying full flap for take-off"
+        , "an increase in air temperature"
+        ]
+
+        "a down-hill slope for take-off"
+
+        [
+        ]
+    , "Which of the following conditions would cause the greatest increase in landing distance?" ~>
+      Multichoice
+        [
+        ]
+
+        "approaching at a higher IAS than normal"
+
+        [
+          "landing at maximum weight"
+        , "landing on an up-hill slope"
+        , "raising the flaps immediately after touch-down"
+        ]
+    , "An aircraft cannot enter a spin unless" ~>
+      Multichoice
+        [
+          "it is over its maximum take-off weight"
+        ]
+
+        "the pilot allows it to stall"
+
+        [
+          "the centre of gravity is beyond the aft limit"
+        , "the pilot has allowed the angle of bank to become too steep"
+        ]
+    , "Which of the following is the most vital action required following an engine failure just after take-off?" ~>
+      Multichoice
+        [
+          "raise the nose to maintain height"
+        ]
+
+        "lower the nose to maintain airspeed"
+
+        [
+          "immediately commence a turn back towards the field"
+        , "apply full flap to reduce the rate of descent"
+        ]
+    , "In a four-stroke internal combustion engine the valves open when the push rod pushes against the" ~>
+      Multichoice
+        [
+          "valve spring"
+        , "connecting rod"
+        ]
+
+        "rocker arm"
+
+        [
+          "crankshaft"
+        ]
+    , "An exhaust gas temperature gauge is designed to respond to changes in" ~>
+      Multichoice
+        [
+          "throttle position"
+        , "air density"
+        , "RPM"
+        ]
+
+        "mixture strength"
+
+        [
+        ]
+    , "Black smoke coming from the exhaust pipe of a taxiing aircraft would be an indication of" ~>
+      Multichoice
+        [
+        ]
+
+        "mixture too rich"
+
+        [
+          "mixture too lean"
+        , "carburettor heat is left on"
+        , "an oil leak"
+        ]
+    , "Which of the following is true of a fuel-injected engine?" ~>
+      Multichoice
+        [
+          "it cannot become flooded during start-up"
+        , "it does not need a mixture control"
+        ]
+
+        "it does not need a carburettor"
+
+        [
+          "it can only be used in a gravity fed system"
+        ]
+    , "A thorough warm up period before take-off is essential because" ~>
+      Multichoice
+        [
+        ]
+
+        "the engine oil must be brought to its correct viscosity to ensure proper lubrication"
+
+        [
+          "it takes time for the oil pressure to reach its correct value"
+        , "impurities must be removed by the oil filter before full power is applied"
+        , "oil is too thin when it is cold and it must be thickened by heating"
+        ]
+    , "Which of the following would indicate the most serious engine problem, requiring an immediate landing" ~>
+      Multichoice
+        [
+          "oil temperature gauge indicating zero"
+        , "oil temperature gauge indicating in the top end of the green arc"
+        , "oil pressure gauge on the red line on the high end of the scale"
+        ]
+
+        "oil pressure gauge indicating zero"
+
+        [
+        ]
+    , "If an engine is allowed to overspeed [RPM past the red line], engine damage could result because of" ~>
+      Multichoice
+        [
+          "excessive cooling by the high speed airflow"
+        , "excessive heating due to the increased power"
+        ]
+
+        "internal stresses on the bearings and valves"
+
+        [
+          "excessively lean mixture due to the increased air flow"
+        ]
+    , "The electrical current which is delivered to the spark plugs in an aircraft engine comes from" ~>
+      Multichoice
+        [
+          "the battery"
+        ]
+
+        "magnetos"
+
+        [
+          "the alternator"
+        , "the voltage regulator"
+        ]
+    , "When the magnetos are checked prior to take-off, there is a slight RPM drop when the switches are selected from 'BOTH' to 'RIGHT'. This indicates that" ~>
+      Multichoice
+        [
+        ]
+
+        "the left magneto is off and the engine is running on the right magneto only"
+
+        [
+          "the right magneto is off and the engine is running on the left magneto only"
+        , "both magnetos are operating, but the right one is weak"
+        , "there is a fault in the magneto switch and it should be reported"
+        ]
+    , "During a magneto check prior to take-off, there is *no* RPM drop when the switches are selected from 'BOTH' to 'LEFT' or from 'BOTH' to 'RIGHT'. This indicates that" ~>
+      Multichoice
+        [
+          "both magnetos are in perfect condition"
+        ]
+
+        "there is a dangerous fault in the switch and it should be reported"
+
+        [
+          "all cylinders are completely free of oil fouling"
+        , "all spark plugs are functioning perfectly"
+        ]
+    , "The propeller of an inoperative engine should never be handled by an inexperienced person because" ~>
+      Multichoice
+        [
+          "the engine should never be moved when there is no oil pressure"
+        , "the ignition timing could be spoilt"
+        , "fuel vapour could escape from the cylinders"
+        ]
+
+        "there is always a possibility that a magneto could be 'live'"
+
+        [
+        ]
+    , "The normal reading for a centre-zero ammeter during flight is" ~>
+      Multichoice
+        [
+          "zero"
+        ]
+
+        "a slight charge"
+
+        [
+          "a slight discharge"
+        , "variable depending on the number of electrical loads turned on"
+        ]
+    , "The purpose of a fuse or circuit breaker is to" ~>
+      Multichoice
+        [
+        ]
+
+        "protect the equipment from too much current"
+
+        [
+          "stop current flowing in the circuit when the equipment is turned off"
+        , "ensure the correct voltage exists in the circuit"
+        , "to convert direct current to alternating current"
+        ]
+    , "Which of the following is true of a magnetic compass?" ~>
+      Multichoice
+        [
+          "the compass always reads the true direction in which the aircraft is pointing"
+        , "the compass always reads correctly, even when the aircraft is turning"
+        ]
+
+        "errors can be induced in the compass if magnetic materials are placed close by"
+
+        [
+          "the reading of a compass should be checked for accuracy against the directional gyro before take-off"
+        ]
+    , "The sea-level pressure in the international standard atmosphere is normally expressed as" ~>
+      Multichoice
+        [
+        ]
+
+        "1013hPa"
+
+        [
+          "29.9 Hg\""
+        , "14.7 psi"
+        , "QNH"
+        ]
+    , "You are flying at 3000 ft AMSL. The pressure of the air around you is" ~>
+      Multichoice
+        [
+          "1000 hPa"
+        ]
+
+        "100 hPa less than that at sea-level"
+
+        [
+          "100hPa"
+        , "10 hPa less than that at sea-level"
+        ]
+    , "The term 'QNH' is used to indicate" ~>
+      Multichoice
+        [
+          "the atmospheric pressure of the ambient air"
+        , "the atmospheric pressure of the air at sea-level in the standard atmosphere"
+        ]
+
+        "the atmospheric of the air at sea-level at any given time or place"
+
+        [
+          "the atmospheric pressure at the airfield"
+        ]
+    , "A field has an elevation of 1200ft. If the QNH is 1022 hPa, what is the pressure height?" ~>
+      Multichoice
+        [
+          "1200 ft"
+        , "1470 ft"
+        ]
+
+        "930 ft"
+
+        [
+          "1500 ft"
+        ]
+    , "Which of the following would increase the take-off distance required?" ~>
+      Multichoice
+        [
+          "an increase in air temperature"
+        ]
+
+        "a decrease in air temperature"
+
+        [
+          "a decrease in pressure height"
+        , "an increase in headwind component"
+        ]
+    , "The take-off distance required is defined as the distance" ~>
+      Multichoice
+        [
+          "from the beginning of the take-off run to lift-off"
+        , "from lift-off to reaching a height of 50 ft"
+        , "from the beginning of the take-off run to passing through the stalling IAS"
+        ]
+
+        "from the beginning of the take-off run to reaching a height of 50 ft"
+
+        [
+        ]
+    , "The zero fuel weight [ZFW] of an aircraft is" ~>
+      Multichoice
+        [
+          "the maximum weight at which it can safely take-off"
+        ]
+
+        "the weight of the fully-loaded aircraft without fuel"
+
+        [
+          "the weight of the aircraft without passengers or fuel"
+        , "the weight of the aircraft without passengers, crew, cargo or fuel"
+        ]
+    , "Taking off up-hill may" ~>
+      Multichoice
+        [
+          "have no significant effect providing there is no wind"
+        ]
+
+        "significantly increase the take-off distance required"
+
+        [
+          "assist take-off because some height is being gained during the take-off run"
+        , "improve directional control during take-off"
+        ]
+    , "Taking off down-wind greatly increases the take-off distance required. It also" ~>
+      Multichoice
+        [
+        ]
+
+        "greatly decreases the ability to clear obstacles during the climb after take-off"
+
+        [
+          "reduces the effectiveness of the aircraft's controls after take-off"
+        , "requires the use of a higher IAS during the climb after take-off"
+        , "reduces the engine power available during the take-off run"
+        ]
+    , "" ~>
+      Multichoice
+        [
+        ]
+
+        ""
+
+        [
+        ]
+    , "" ~>
+      Multichoice
+        [
+        ]
+
+        ""
+
+        [
+        ]
+    , "" ~>
+      Multichoice
+        [
+        ]
+
+        ""
+
+        [
+        ]
+    , "" ~>
+      Multichoice
+        [
+        ]
+
+        ""
+
+        [
+        ]
+    , "" ~>
+      Multichoice
+        [
+        ]
+
+        ""
+
+        [
+        ]
+    ]
+
+{-
+
+    , "" ~>
+      Multichoice
+        [
+        ]
+
+        ""
+
+        [
+        ]
+
+-}
+
 exams ::
   [Exam]
 exams =
@@ -2705,6 +3134,7 @@ exams =
   , atcBAK
   , taitPreSolo
   , taitPreAreaSolo
+  , taitPreRPL
   ]
 
 main ::
