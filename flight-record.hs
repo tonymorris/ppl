@@ -147,9 +147,9 @@ data PoB =
   PoB Int
   deriving (Eq, Ord, Show)
 
-single ::
+solo ::
   PoB
-single =
+solo =
   PoB 1
 
 dual ::
@@ -265,7 +265,7 @@ data Totals =
   Totals
     Hours -- total
     Hours -- dual
-    Hours -- single
+    Hours -- solo
     (Map String Hours) -- type
     (Map String Hours) -- aircraft
     Hours -- single-engine
@@ -543,7 +543,7 @@ instance Markdown PoB where
         "* PoB: **`"
       , case n of
           0 -> "unmanned"
-          1 -> "single"
+          1 -> "solo"
           2 -> "dual"
           _ -> show n
       , "`**\n"
