@@ -1,6 +1,9 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 import Data.List
+import Data.Map(Map)
+import qualified Data.Map as Map
+import Data.Monoid
 import Data.Maybe
 import Data.String
 
@@ -97,6 +100,25 @@ data Hours =
     Int  -- partial
   deriving (Eq, Ord, Show)
 
+zeroHours ::
+  Hours
+zeroHours =
+  Hours 0 0
+
+addHours ::
+  Hours 
+  -> Hours
+  -> Hours
+Hours f1 p1 `addHours` Hours f2 p2 =
+  let (h, q) = divMod (p1 + p2) 10
+  in  Hours (f1 + f2 + h) q 
+
+instance Monoid Hours where
+  mempty =
+    zeroHours
+  mappend =
+    addHours
+
 data PoB =
   PoB Int
   deriving (Eq, Ord, Show)
@@ -153,6 +175,24 @@ instance IsString PiC where
   fromString =
     PiC
 
+newtype DOB =
+  DOB
+    String
+  deriving (Eq, Ord, Show)
+
+instance IsString DOB where
+  fromString =
+    DOB
+
+newtype ARN =
+  ARN
+    String
+  deriving (Eq, Ord, Show)
+
+instance IsString ARN where
+  fromString =
+    ARN
+
 {-
 
 This data structure currently only handles Day VFR. More modifications are
@@ -176,9 +216,100 @@ data FlightLogEntry =
     Videos
   deriving (Eq, Ord, Show)
 
-newtype FlightLog =
-  FlightLog
+newtype FlightLogEntries =
+  FlightLogEntries
     [FlightLogEntry]
+  deriving (Eq, Ord, Show)
+
+data Totals =
+  Totals
+    Hours -- total
+    Hours -- dual
+    Hours -- single
+    (Map String Hours) -- type
+    (Map String Hours) -- aircraft
+    Hours -- single-engine
+    Hours -- multi-engine
+    Hours -- day
+    Hours -- night
+    Hours -- day & night
+    (Map String Hours) -- pilot in command
+  deriving (Eq, Ord, Show)
+
+zeroTotals ::
+  Totals
+zeroTotals =
+  Totals
+    zeroHours
+    zeroHours
+    zeroHours
+    Map.empty
+    Map.empty
+    zeroHours
+    zeroHours
+    zeroHours
+    zeroHours
+    zeroHours
+    Map.empty
+
+updateTotals ::
+  FlightLogEntry
+  -> Totals
+  -> Totals
+updateTotals (FlightLogEntry _ _ _ (Aircraft atype areg aeng) hours (PoB pob) _ dn (PiC pic) _ _ _ _) (Totals total dual single intype inreg singleengine multiengine day night daynight pic') =
+  Totals
+    (hours `mappend` total)
+    (
+      dual `mappend` case pob of
+        2 -> hours
+        _ -> zeroHours
+    )
+    (
+      dual `mappend` case pob of
+        1 -> hours
+        _ -> zeroHours
+    )
+    (Map.insertWith mappend atype hours intype)
+    (Map.insertWith mappend areg hours inreg)
+    (
+      singleengine `mappend` case aeng of
+        Single -> hours
+        _ -> zeroHours
+    )
+    (
+      multiengine `mappend` case aeng of
+        Multi -> hours
+        _ -> zeroHours
+    )
+    (
+      day `mappend` case dn of
+        Day -> hours
+        _ -> zeroHours
+    )
+    (
+      night `mappend` case dn of
+        Night -> hours
+        _ -> zeroHours
+    )
+    (
+      daynight `mappend` case dn of
+        DayNight -> hours
+        _ -> zeroHours
+    )
+    (Map.insertWith mappend pic hours pic')
+
+totals ::
+  FlightLogEntries
+  -> Totals
+totals (FlightLogEntries e) =
+  foldl' (flip updateTotals) zeroTotals e
+
+data FlightLog =
+  FlightLog
+    Name
+    DOB -- dob
+    ARN -- ARN
+    FlightLogEntries
   deriving (Eq, Ord, Show)
 
 class Markdown s where
@@ -425,9 +556,57 @@ instance Markdown FlightLogEntry where
       , markdown images
       ]
 
-instance Markdown FlightLog where
-  markdown (FlightLog g) =
+instance Markdown FlightLogEntries where
+  markdown (FlightLogEntries g) =
     intercalate "\n\n----\n\n" (fmap markdown g)
+
+instance Markdown DOB where
+  markdown (DOB s) =
+    "* Date of Birth: **`" ++ s ++ "`**\n"
+    
+instance Markdown ARN where
+  markdown (ARN s) =
+    "* Aviation Reference Number: **`" ++ s ++ "`**\n"
+    
+instance Markdown FlightLog where
+  markdown (FlightLog (Name name) dob arn entries) =
+    let Totals total dual solo intype inreg singleengine multiengine day night daynight pic = totals entries
+        displayHours (Hours f p) =
+          show f ++ "." ++ show p
+        displayPoint x h =
+          "* " ++ x ++ ": **`" ++ displayHours h ++ "`**\n"
+        displayMap x m =
+          "* " ++ x ++ "\n" ++ Map.foldrWithKey (\k h s -> "  * " ++ k ++ ": **`" ++ displayHours h ++ "`**\n" ++ s) "" m
+        summary =
+          concat
+            [
+              "##### Summary\n"
+            , displayPoint "Total Hours" total
+            , displayPoint "Dual Hours" dual
+            , displayPoint "Solo Hours" solo
+            , displayMap "Hours in type" intype
+            , displayMap "Hours in registration" inreg
+            , displayPoint "Single-engine Hours" singleengine
+            , displayPoint "Multi-engine Hours" multiengine
+            , displayPoint "Day Hours" day
+            , displayPoint "Night Hours" night
+            , displayPoint "Day & Night Hours" daynight
+            , displayMap "Hours with PiC" pic
+            ]
+    in  concat
+          [
+            "# Pilot Personal Log Book\n"
+          , "### [Civil Aviation Safety Regulation 1998 (61.345)](https://i.imgur.com/mYXEka2.png)\n\n"
+          , "* "
+          , name
+          , "\n"
+          , markdown dob
+          , markdown arn
+          , "\n----\n\n"
+          , summary
+          , "\n----\n"
+          , markdown entries
+          ]
 
 ----
 
@@ -455,10 +634,10 @@ ybaf2ybaf =
     []
     "YBAF"
 
-flightlog ::
-  FlightLog
-flightlog =
-  FlightLog
+flightlogentries ::
+  FlightLogEntries
+flightlogentries =
+  FlightLogEntries
     [
       FlightLogEntry
         "P1.1 Effects of Controls"
@@ -1067,3 +1246,12 @@ flightlog =
           ]  
         )            
     ]
+
+flightlog ::
+  FlightLog
+flightlog =
+  FlightLog
+    "Tony John Morris"
+    "19771102"
+    "1007036"
+    flightlogentries
