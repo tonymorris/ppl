@@ -631,7 +631,7 @@ instance Markdown FlightLog where
             , displayPoint "Day Hours" day
             , displayPoint "Night Hours" night
             , displayPoint "Day & Night Hours" daynight
-            , displayMap "Hours with PiC" pic
+            , displayMap "Hours with PiC" pic            
             ]
     in  concat
           [
@@ -644,7 +644,7 @@ instance Markdown FlightLog where
           , markdown arn
           , "\n----\n\n"
           , summary
-          , "\n----\n"
+          , "\n----\n\n"
           , markdown entries
           ]
 
