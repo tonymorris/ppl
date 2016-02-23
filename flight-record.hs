@@ -256,7 +256,7 @@ updateTotals ::
   FlightLogEntry
   -> Totals
   -> Totals
-updateTotals (FlightLogEntry _ _ _ (Aircraft atype areg aeng) hours (PoB pob) _ dn (PiC pic) _ _ _ _) (Totals total dual single intype inreg singleengine multiengine day night daynight pic') =
+updateTotals (FlightLogEntry _ _ _ (Aircraft atype areg aeng) hours (PoB pob) _ dn (PiC pic) _ _ _ _) (Totals total dual solo intype inreg singleengine multiengine day night daynight pic') =
   Totals
     (hours `mappend` total)
     (
@@ -265,7 +265,7 @@ updateTotals (FlightLogEntry _ _ _ (Aircraft atype areg aeng) hours (PoB pob) _ 
         _ -> zeroHours
     )
     (
-      dual `mappend` case pob of
+      solo `mappend` case pob of
         1 -> hours
         _ -> zeroHours
     )
@@ -596,7 +596,7 @@ instance Markdown FlightLog where
     in  concat
           [
             "# Pilot Personal Log Book\n"
-          , "### [Civil Aviation Safety Regulation 1998 (61.345)](https://i.imgur.com/mYXEka2.png)\n\n"
+          , "### Civil Aviation Safety Regulation 1998 (61.345) [*austlii.edu.au*](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.345.html)\n\n"
           , "* "
           , name
           , "\n"
@@ -607,6 +607,21 @@ instance Markdown FlightLog where
           , "\n----\n"
           , markdown entries
           ]
+
+printMarkdownFile ::
+  Markdown s =>
+  s
+  -> IO ()
+printMarkdownFile =
+  putStrLn . markdown
+
+writeMarkdownFile ::
+  Markdown s =>
+  FilePath
+  -> s
+  -> IO ()
+writeMarkdownFile p =
+  writeFile p . markdown
 
 ----
 
@@ -1132,8 +1147,8 @@ flightlogentries =
           ]
         )                                                            
     , FlightLogEntry
-        "P2.5 Circuits"
-        "P2.5 Circuits"
+        "P2.5 Circuit Emergencies"
+        "P2.5 Circuit Emergencies"
         "20160218"
         vhafr
         (
