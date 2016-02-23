@@ -24,6 +24,12 @@ newtype Videos =
     [Video]
   deriving (Eq, Ord, Show)
     
+instance Monoid Videos where
+  mempty =
+    Videos []
+  Videos v1 `mappend` Videos v2 =
+    Videos (v1 `mappend` v2)
+
 data ImageType =
   Png
   | Jpg
@@ -41,6 +47,12 @@ newtype Images =
     [Image]
   deriving (Eq, Ord, Show)
     
+instance Monoid Images where
+  mempty =
+    Images []
+  Images i1 `mappend` Images i2 =
+    Images (i1 `mappend` i2)
+
 data VisualisationType =
   Doarama
   deriving (Eq, Ord, Show)
@@ -57,6 +69,12 @@ newtype Visualisations =
     [Visualisation]
   deriving (Eq, Ord, Show)
     
+instance Monoid Visualisations where
+  mempty =
+    Visualisations []
+  Visualisations v1 `mappend` Visualisations v2 =
+    Visualisations (v1 `mappend` v2)
+
 data TrackLogType =
   Gpx
   | Kml
@@ -75,6 +93,12 @@ newtype TrackLogs =
   TrackLogs
     [TrackLog]
   deriving (Eq, Ord, Show)
+
+instance Monoid TrackLogs where
+  mempty =
+    TrackLogs []
+  TrackLogs t1 `mappend` TrackLogs t2 =
+    TrackLogs (t1 `mappend` t2)
 
 data DayNight =
   Day
@@ -139,6 +163,16 @@ data FlightPath =
     [String] -- touch-downs
     String -- end
   deriving (Eq, Ord, Show)
+
+directPath ::
+  String
+  -> String
+  -> FlightPath
+directPath fr to =
+  FlightPath
+    fr
+    []
+    to
 
 newtype Name =
   Name
@@ -220,6 +254,12 @@ newtype FlightLogEntries =
   FlightLogEntries
     [FlightLogEntry]
   deriving (Eq, Ord, Show)
+
+instance Monoid FlightLogEntries where
+  mempty =
+    FlightLogEntries []
+  FlightLogEntries e1 `mappend` FlightLogEntries e2 =
+    FlightLogEntries (e1 `mappend` e2)
 
 data Totals =
   Totals
@@ -307,8 +347,8 @@ totals (FlightLogEntries e) =
 data FlightLog =
   FlightLog
     Name
-    DOB -- dob
-    ARN -- ARN
+    DOB
+    ARN
     FlightLogEntries
   deriving (Eq, Ord, Show)
 
@@ -456,7 +496,7 @@ instance Markdown TrackLogs where
   markdown (TrackLogs t) =
     case t of
       [] ->
-        []
+        ""
       _ ->
         "* **Track**\n" ++ (t >>= \u -> markdown u ++ "\n")
     
@@ -644,9 +684,8 @@ vhafr =
 ybaf2ybaf ::
   FlightPath
 ybaf2ybaf =
-  FlightPath
+  directPath
     "YBAF"
-    []
     "YBAF"
 
 flightlogentries ::
@@ -668,22 +707,10 @@ flightlogentries =
         ybaf2ybaf
         Day
         "Michael Ward"
-        (
-          TrackLogs
-            []
-        )
-        (
-          Visualisations
-            []
-        )
-        (
-          Images
-          []
-        )
-        (
-          Videos
-          []
-        )
+        mempty
+        mempty
+        mempty
+        mempty
     , FlightLogEntry
         "P1.2 Straight & Level"
         "P1.2 Straight & Level"
@@ -720,10 +747,7 @@ flightlogentries =
               Doarama
           ]
         )
-        (
-          Images
-          []
-        )
+        mempty
         (
           Videos
           [
@@ -769,10 +793,7 @@ flightlogentries =
               Doarama
           ]
         )
-        (
-          Images
-          []
-        )
+        mempty
         (
           Videos
           [
@@ -818,14 +839,8 @@ flightlogentries =
               Doarama
           ]
         )
-        (
-          Images
-          []
-        )
-        (
-          Videos
-          []  
-        )
+        mempty
+        mempty
     , FlightLogEntry
         "P1.5 Stalling"
         "P1.5 Stalling"
@@ -862,14 +877,8 @@ flightlogentries =
               Doarama
           ]
         )
-        (
-          Images
-          []
-        )
-        (
-          Videos
-          []                          
-        )
+        mempty
+        mempty
     , FlightLogEntry
         "P1.6 Consolidation"
         "P1.6 Consolidation"
@@ -906,14 +915,8 @@ flightlogentries =
               Doarama
           ]
         )
-        (
-          Images
-          []
-        )
-        (
-          Videos
-          []                
-        )
+        mempty
+        mempty
     , FlightLogEntry
         "P2.1 Circuits"
         "P2.1 Circuits"
@@ -956,43 +959,43 @@ flightlogentries =
             Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160122-vh-afr/20160122_082411.jpg"
               Nothing
-              Png
+              Jpg
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160122-vh-afr/20160122_082856.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160122-vh-afr/20160122_082902.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160122-vh-afr/20160122_082905.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160122-vh-afr/20160122_083348.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160122-vh-afr/20160122_083352.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160122-vh-afr/20160122_083353.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160122-vh-afr/20160122_084902.jpg"
               Nothing
-              Png 
+              Jpg 
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160122-vh-afr/20160122_084906.jpg"
               Nothing
-              Png 
+              Jpg 
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160122-vh-afr/20160122_084908.jpg"
               Nothing
-              Png                                     
+              Jpg                                     
           ]
         )
         (
@@ -1040,10 +1043,7 @@ flightlogentries =
               Doarama
           ]
         )
-        (
-          Images
-          []
-        )
+        mempty
         (
           Videos
           [
@@ -1089,14 +1089,8 @@ flightlogentries =
               Doarama
           ]
         )
-        (
-          Images
-          []
-        )
-        (
-          Videos
-          []  
-        )
+        mempty
+        mempty
     , FlightLogEntry
         "P2.4 Circuits"
         "P2.4 Circuits"
@@ -1133,10 +1127,7 @@ flightlogentries =
               Doarama
           ]
         )
-        (
-          Images
-          []
-        )
+        mempty
         (
           Videos
           [
@@ -1188,67 +1179,67 @@ flightlogentries =
             Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090347.jpg"
               Nothing
-              Png
+              Jpg
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090348.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090351.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090409.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090411.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090421.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090423.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090432.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090436.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090441.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090446.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090452.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090454.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090459.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090501.jpg"
               Nothing
-              Png            
+              Jpg            
           , Image
               "https://raw.githubusercontent.com/tonymorris/ppl/master/images/20160218-vh-afr/20160218_090502.jpg"
               Nothing
-              Png            
+              Jpg            
           ]
         )
         (
