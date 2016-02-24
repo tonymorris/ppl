@@ -170,7 +170,7 @@ atcPreCircuit =
           , "be completed not closer than 500 metres from the threshold."
           ]
 
-          "be completed not closer than 500 metres from aerodrome perimeter."
+          "be completed not closer than 500 metres from the aerodrome perimeter."
 
           [
             "be completed not closer than 500 metres away from any displaced threshold."
