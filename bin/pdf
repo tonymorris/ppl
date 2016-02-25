@@ -9,7 +9,6 @@ pandoc="./.cabal-sandbox/bin/pandoc"
 files="\
   departure-briefing\
   documentation-received\
-  flight-record\
   part61-mos\
   ppl-costs-and-breakdown\
   README\
@@ -26,6 +25,7 @@ briefings="\
   briefings/20160104-stalling\
   briefings/20160108-circuits\
   briefings/20160212-circuit-emergencies\
+  briefings/20160225-circuit-emergencies2\
   briefings/questions\
 "
 
