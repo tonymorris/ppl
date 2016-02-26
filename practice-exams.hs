@@ -3122,15 +3122,6 @@ taitPreRPL =
         [
           "cloudy skies, light winds and high humidity"
         ]
-    , "" ~>
-      Multichoice
-        [
-        ]
-
-        ""
-
-        [
-        ]
     , "What conditions apply to the carriage of passengers in an aircraft fitted with dual controls?" ~>
       Multichoice
         [
