@@ -2649,7 +2649,7 @@ taitPreAreaSolo =
 
         [
         ]
-    , "what is the minimum amount of fuel that must be on board your aircraft at start-up if you intend to carry out a one hour flight in the training area?" ~>
+    , "What is the minimum amount of fuel that must be on board your aircraft at start-up if you intend to carry out a one hour flight in the training area?" ~>
       Multichoice
         [
         ]
