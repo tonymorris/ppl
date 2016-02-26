@@ -2459,7 +2459,7 @@ taitPreAreaSolo =
 
         [
         ]
-    , "Which of the following instruments would be affected by a failure of the vaccuum pump?" ~>
+    , "Which of the following instruments would be affected by a failure of the vacuum pump?" ~>
       Multichoice
         [
           "the altimeter"
