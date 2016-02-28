@@ -33,6 +33,6 @@
 
 * **N**avigate
 
-* **C**ommunicate**
+* **C**ommunicate
 
 * **A**dministrate
