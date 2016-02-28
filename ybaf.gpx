@@ -17,7 +17,7 @@
 
 <metadata>
   <name>YBAF Archerfield Airport</name>
-  <desc>YBAF Archerfield Airport, Brisbane, Australia</desc>
+  <desc>YBAF Archerfield Airport, Brisbane, Australia https://i.imgur.com/jwYSfX4.png</desc>
   <author>
     <name>Tony Morris</name>
     <email id="tmorris" domain="tmorris.net"/>
@@ -29,14 +29,19 @@
   <copyright author="Tony Morris">
     <year>2015</year>
     <license>http://en.wikipedia.org/wiki/Beerware</license>
-  </copyright>    
+  </copyright>
+  <link href="https://www.airservicesaustralia.com/aip/current/ersa/FAC_YBAF_12-Nov-2015.pdf">
+    <text>ERSA Archerfield 12 November 2015</text>
+    <type>HTTP</type>
+  </link>
+
 </metadata>
 
 <wpt lat="-27.565742" lon="153.009253">
   <ele>19.500</ele>
   <name>Runway 22R</name>
   <cmt>Runway 22R</cmt>
-  <desc>Runway 22R, 3553 ft x 98 ft (1083 m x 30 m)</desc>
+  <desc>Runway 22R, 1245m</desc>
   <sym>Navaid, Green</sym>
 </wpt>
 
@@ -44,7 +49,7 @@
   <ele>19.500</ele>
   <name>Runway 04L</name>
   <cmt>Runway 04L</cmt>
-  <desc>Runway 04L, 3553 ft x 98 ft (1083 m x 30 m)</desc>
+  <desc>Runway 04L, 1245m</desc>
   <sym>Navaid, Green</sym>
 </wpt>
 
@@ -52,7 +57,7 @@
   <ele>19.500</ele>
   <name>Runway 04R</name>
   <cmt>Runway 04R</cmt>
-  <desc>Runway 04R, 3140 ft x 98 ft (957 m x 30 m)</desc>
+  <desc>Runway 04R, 1100m</desc>
   <sym>Navaid, Green</sym>
 </wpt>
 
@@ -60,7 +65,7 @@
   <ele>19.500</ele>
   <name>Runway 22L</name>
   <cmt>Runway 22L</cmt>
-  <desc>Runway 22L, 3140 ft x 98 ft (957 m x 30 m)</desc>
+  <desc>Runway 22L, 1100m</desc>
   <sym>Navaid, Green</sym>
 </wpt>
 
@@ -68,7 +73,7 @@
   <ele>19.500</ele>
   <name>Runway 10L</name>
   <cmt>Runway 10L</cmt>
-  <desc>Runway 10L, 4221 ft x 98 ft (1287 m x 30 m)</desc>
+  <desc>Runway 10L, 1471m</desc>
   <sym>Navaid, Green</sym>
 </wpt>
 
@@ -76,7 +81,7 @@
   <ele>19.500</ele>
   <name>Runway 28R</name>
   <cmt>Runway 28R</cmt>
-  <desc>Runway 28R, 4221 ft x 98 ft (1287 m x 30 m)</desc>
+  <desc>Runway 28R, 1471m</desc>
   <sym>Navaid, Green</sym>
 </wpt>
 
@@ -84,7 +89,7 @@
   <ele>19.500</ele>
   <name>Runway 10R</name>
   <cmt>Runway 10R</cmt>
-  <desc>Runway 10R, 3136 ft x 98 ft (956 m x 30 m)</desc>
+  <desc>Runway 10R, 1100m</desc>
   <sym>Navaid, Green</sym>
 </wpt>
 
@@ -92,8 +97,200 @@
   <ele>19.500</ele>
   <name>Runway 28L</name>
   <cmt>Runway 28L</cmt>
-  <desc>Runway 28L, 3136 ft x 98 ft (956 m x 30 m)</desc>
+  <desc>Runway 28L, 1100m</desc>
   <sym>Navaid, Green</sym>
+</wpt>
+
+<wpt lat="-27.576093" lon="153.004240">
+  <ele>19.500</ele>
+  <name>TWR</name>
+  <cmt>Archerfield Tower</cmt>
+  <desc>Archerfield Tower. 119.9 GND, 118.1/123.6 TWR, 125.7 Brisbane Centre</desc>
+  <sym>Short Tower</sym>
+</wpt>
+
+<wpt lat="-27.569759" lon="152.999254">
+  <ele>19.500</ele>
+  <name>Windsock (West)</name>
+  <cmt>Illuminated Windsock (West)</cmt>
+  <desc>Illuminated Windsock (West)</desc>
+  <sym>Light</sym>
+</wpt>
+
+<wpt lat="-27.571327" lon="153.008065">
+  <ele>19.500</ele>
+  <name>Windsock (East)</name>
+  <cmt>Illuminated Windsock (East)</cmt>
+  <desc>Illuminated Windsock (East)</desc>
+  <sym>Light</sym>
+</wpt>
+
+<wpt lat="-27.566018" lon="153.007634">
+  <ele>19.500</ele>
+  <name>Windsock (North)</name>
+  <cmt>Unlighted Windsock (North)</cmt>
+  <desc>Unlighted Windsock (North)</desc>
+  <sym>Light</sym>
+</wpt>
+
+<wpt lat="-27.569530" lon="153.001502">
+  <ele>19.500</ele>
+  <name>Heli (EMQ)</name>
+  <cmt>Heli (EMQ)</cmt>
+  <desc>Heli (EMQ)</desc>
+  <sym>Pin, Blue</sym>
+</wpt>
+
+<wpt lat="-27.565796" lon="153.013784">
+  <ele>19.500</ele>
+  <name>Heli (North)</name>
+  <cmt>Heli (North)</cmt>
+  <desc>Heli (North)</desc>
+  <sym>Pin, Blue</sym>
+</wpt>
+
+<wpt lat="-27.570800" lon="153.008585">
+  <ele>19.500</ele>
+  <name>Heli (Central)</name>
+  <cmt>Heli (Central)</cmt>
+  <desc>Heli (Central)</desc>
+  <sym>Pin, Blue</sym>
+</wpt>
+
+<wpt lat="-27.574777" lon="153.008808">
+  <ele>19.500</ele>
+  <name>A1 Hold</name>
+  <cmt>A1 Hold</cmt>
+  <desc>A1 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.573948" lon="153.005907">
+  <ele>19.500</ele>
+  <name>A2 Hold</name>
+  <cmt>A2 Hold</cmt>
+  <desc>A2 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.573270" lon="153.003543">
+  <ele>19.500</ele>
+  <name>A3 Hold</name>
+  <cmt>A3 Hold</cmt>
+  <desc>A3 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.572606" lon="153.001186">
+  <ele>19.500</ele>
+  <name>A4 Hold</name>
+  <cmt>A4 Hold</cmt>
+  <desc>A4 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.571773" lon="152.998270">
+  <ele>19.500</ele>
+  <name>A5 Hold</name>
+  <cmt>A5 Hold</cmt>
+  <desc>A5 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.570591" lon="152.996635">
+  <ele>19.500</ele>
+  <name>A6 Hold</name>
+  <cmt>A6 Hold</cmt>
+  <desc>A6 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.573874" lon="153.011243">
+  <ele>19.500</ele>
+  <name>B1 Hold</name>
+  <cmt>B1 Hold</cmt>
+  <desc>B1 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.572754" lon="153.007197">
+  <ele>19.500</ele>
+  <name>B2 Hold</name>
+  <cmt>B2 Hold</cmt>
+  <desc>B2 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.572024" lon="153.004627">
+  <ele>19.500</ele>
+  <name>B3 Hold</name>
+  <cmt>B3 Hold</cmt>
+  <desc>B3 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.570925" lon="153.000773">
+  <ele>19.500</ele>
+  <name>B4 Hold</name>
+  <cmt>B4 Hold</cmt>
+  <desc>B4 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.569921" lon="152.997341">
+  <ele>19.500</ele>
+  <name>B5 Hold</name>
+  <cmt>B5 Hold</cmt>
+  <desc>B5 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.569798" lon="152.996919">
+  <ele>19.500</ele>
+  <name>B6 Hold</name>
+  <cmt>B6 Hold</cmt>
+  <desc>B6 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.569324" lon="152.998767">
+  <ele>19.500</ele>
+  <name>B7 Hold</name>
+  <cmt>B7 Hold</cmt>
+  <desc>B7 Hold</desc>
+  <sym>Pin, Red</sym>
+</wpt>
+
+<wpt lat="-27.570276" lon="153.016049">
+  <ele>19.500</ele>
+  <name>NDB (AF) 419KHz</name>
+  <cmt>NDB (AF) 419KHz</cmt>
+  <desc>NDB (AF) 419KHz</desc>
+  <sym>Radio Beacon</sym>
+</wpt>
+
+<wpt lat="-27.572747" lon="153.009907">
+  <ele>19.500</ele>
+  <name>Mobil Fuel 128.95MHz</name>
+  <cmt>Mobil: Archerfield Refuelling Services 128.95MHz</cmt>
+  <desc>Mobil: Archerfield Refuelling Services 128.95MHz</desc>
+  <sym>Gas Station</sym>
+</wpt>
+
+<wpt lat="-27.572445" lon="153.009970">
+  <ele>19.500</ele>
+  <name>Shell Fuel 128.95MHz</name>
+  <cmt>Shell: Archerfield Refuelling Services 128.95MHz</cmt>
+  <desc>Shell: Archerfield Refuelling Services 128.95MHz</desc>
+  <sym>Gas Station</sym>
+</wpt>
+
+<wpt lat="-27.572606" lon="153.009549">
+  <ele>19.500</ele>
+  <name>BP Fuel 122.15MHz</name>
+  <cmt>BP: Archerfield Airfuels 122.15MHz</cmt>
+  <desc>BP: Archerfield Airfuels 122.15MHz</desc>
+  <sym>Gas Station</sym>
 </wpt>
 
 </gpx>
