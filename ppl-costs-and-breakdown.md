@@ -6,7 +6,7 @@
 * three segments
   1. pre-solo (0-15 hours)
   2. solo 
-  3. aero-solo (30 hours)
+  3. area-solo (30 hours)
 
 * 35hr recreational (RPL)
   * solo exam
