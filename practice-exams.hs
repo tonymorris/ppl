@@ -2291,7 +2291,7 @@ taitPreAreaSolo =
         , "60 KIAS"
         , "100 KIAS"
         ]        
-    , "The elevator control is abruptly pulled to te fully aft position to induce a stall" ~>
+    , "The elevator control is abruptly pulled to the fully aft position to induce a stall" ~>
       Multichoice
         [
         ]
