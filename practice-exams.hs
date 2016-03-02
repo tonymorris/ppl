@@ -2183,7 +2183,7 @@ taitPreAreaSolo =
         [
           "at a speed about equal to the best gliding speed, with the flaps extended"
         ]
-    , "The IAS which procudes the best gliding performance in still air is" ~>
+    , "The IAS which produces the best gliding performance in still air is" ~>
       Multichoice
         [
           "the IAS which produces maximum lift"
