@@ -590,6 +590,52 @@ flightlogentries =
               YouTube
           ]  
         )            
+    , FlightLogEntry
+        "P3.1 Circuit Emergencies"
+        "P3.1 Circuit Emergencies"
+        "20160218"
+        vhafr
+        (
+          Hours
+            1
+            1
+        )
+        dual
+        ybaf2ybaf
+        Day
+        "David Schofield"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160304-vh-afr.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160304-vh-afr.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/712308"
+              Nothing
+              Doarama
+          ]
+        )
+        (
+          Images
+            [
+            ]
+        )
+        (
+          Videos
+            [
+            ]
+        )                        
     ]
 
 flightlog ::
