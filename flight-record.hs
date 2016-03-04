@@ -477,8 +477,8 @@ flightlogentries =
           ]
         )                                                            
     , FlightLogEntry
-        "P2.5 Circuit Emergencies"
-        "P2.5 Circuit Emergencies"
+        "P3.1 Circuit Emergencies"
+        "P3.1 Circuit Emergencies"
         "20160218"
         vhafr
         (
