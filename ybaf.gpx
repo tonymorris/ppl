@@ -295,10 +295,82 @@
 
 <wpt lat="-27.704270" lon="153.039110">
   <ele>80.000</ele>
-  <name>Park Ridge Water Tower</name>
-  <cmt>Park Ridge Water Tower (stay east of Greenbank, >= 1500ft)</cmt>
-  <desc>Park Ridge Water Tower (stay east of Greenbank, >= 1500ft)</desc>
+  <name>Park Ridge Water Tower [report INBD]</name>
+  <cmt>Park Ridge Water Tower [report INBD] (stay east of Greenbank, 1500ft ASL)</cmt>
+  <desc>Park Ridge Water Tower [report INBD] (stay east of Greenbank, 1500ft ASL)</desc>
   <sym>Tall Tower</sym>
+</wpt>
+
+<wpt lat="-27.613682" lon="153.127284">
+  <ele>35.000</ele>
+  <name>Target, Springwood [report INBD]</name>
+  <cmt>Target, Springwood [report INBD] (1500ft ASL)</cmt>
+  <desc>Target, Springwood [report INBD] (1500ft ASL)</desc>
+  <sym>Shopping Center</sym>
+</wpt>
+
+<wpt lat="-27.615693" lon="152.893793">
+  <ele>57.000</ele>
+  <name>Goodna [report INBD]</name>
+  <cmt>Goodna [report INBD] (1500ft ASL)</cmt>
+  <desc>Goodna [report INBD] (1500ft ASL)</desc>
+  <sym>Navaid, Green</sym>
+</wpt>
+
+<wpt lat="-27.470380" lon="152.941171">
+  <ele>252.000</ele>
+  <name>TV Towers [report INBD]</name>
+  <cmt>TV Towers [report INBD] (1500ft ASL)</cmt>
+  <desc>TV Towers [report INBD] (1500ft ASL)</desc>
+  <sym>Tall Tower</sym>
+</wpt>
+
+<wpt lat="-27.266365" lon="152.911578">
+  <ele>41.000</ele>
+  <name>Lake Samsonvale</name>
+  <cmt>Lake Samsonvale</cmt>
+  <desc>Lake Samsonvale</desc>
+  <sym>Dam</sym>
+</wpt>  
+
+<wpt lat="-27.479169" lon="152.767359">
+  <ele>53.000</ele>
+  <name>Lake Manchester</name>
+  <cmt>Lake Manchester</cmt>
+  <desc>Lake Manchester</desc>
+  <sym>Dam</sym>
+</wpt>
+
+<wpt lat="-27.737196" lon="152.932530">
+  <ele>95.000</ele>
+  <name>Spring Mountain</name>
+  <cmt>Spring Mountain</cmt>
+  <desc>Spring Mountain</desc>
+  <sym>Summit</sym>
+</wpt>
+
+<wpt lat="-27.505902" lon="152.974014">
+  <ele>7.000</ele>
+  <name>Walter Taylor Bridge</name>
+  <cmt>Walter Taylor Bridge</cmt>
+  <desc>Walter Taylor Bridge</desc>
+  <sym>Bridge</sym>
+</wpt>
+
+<wpt lat="-27.659435" lon="152.812845">
+  <ele>55.000</ele>
+  <name>Swanbank Power</name>
+  <cmt>Swanbank Power Station (>= 2000ft &lt;= 3500ft)</cmt>
+  <desc>Swanbank Power Station (>= 2000ft &lt;= 3500ft)</desc>
+  <sym>Building</sym>
+</wpt>
+
+<wpt lat="-27.527497" lon="152.947010">
+  <ele>7.000</ele>
+  <name>Centenary Bridge</name>
+  <cmt>Centenary Bridge</cmt>
+  <desc>Centenary Bridge</desc>
+  <sym>Bridge</sym>
 </wpt>
 
 </gpx>
