@@ -3280,6 +3280,268 @@ taitPreRPL =
         ]                
     ]
 
+airborneAviationAreaSolo ::
+  Exam
+airborneAviationAreaSolo =
+  Exam
+    "airborne-aviation.com.au Area Solo"
+    Nothing
+    (Just "AREASOLO01/AREASOLO02/AREASOLO03/AREASOLO04")
+    [
+      "A number of factors affect the stalling IAS of an aircraft. Which is not a factor?" ~>
+      Multichoice
+        [
+          "Power"
+        , "Load factor (G)"
+        ]
+
+        "Altitude"
+
+        [
+          "Aircraft weight"
+        ]
+    , "You are flying in the training area at 1,800ft. What is the minimum requirements to ensure you remain in Visual Meteorological Conditions (VMC)?" ~>
+      Multichoice
+        [
+        ]
+
+        "Clear of cloud with 5km visibility"
+
+        [
+          "1,000ft clear of cloud vertically with 5km visibility"
+        , "1,000ft clear of cloud vertically with 8km visibility"
+        , "Whatever seems appropriate to the pilot"
+        ]        
+    , "Induced drag acting on an aircraft during straight and level flight is:" ~>
+      Multichoice
+        [
+          "greatest when airspeed is low and the aircraft is light"
+        ]
+
+        "greatest when airspeed is low and the aircraft is heavy"
+
+        [
+          "greatest when airspeed is high and the aircraft is light"
+        , "greatest when airspeed is high and the aircraft is heavy"
+        ] 
+    , "Detonation of an aircraft engine is most likely to occur when?" ~>
+      Multichoice
+        [
+        ]
+
+        "During a full power climb with the mixture set lean"
+
+        [
+          "During descent at idle power"
+        , "During the cruise with a mixture too rich"
+        , "During take-off with the mixture at full rich"
+        ]  
+    , "If you are flying late in the afternoon. You must ensure you plan to land how long before the end of daylight?" ~>
+      Multichoice
+        [
+          "0 minutes - simply ensure you last before dark"
+        , "30 minutes"
+        , "5 minutes"
+        ]
+
+        "10 minutes"
+
+        [
+        ]
+    , "After take-off the altimeter fails to climb, what is the most likely cause?" ~>
+      Multichoice
+        [
+        ]
+
+        "A blocked static port"
+
+        [
+          "The QNH was set incorrectly"
+        , "A blocked pitot tube"
+        , "An electrical failure in the instrument panel"
+        ]                                       
+    , "When would carburettor ice be most difficult to detect?" ~>
+      Multichoice
+        [
+          "During the cruise in freezing rain"
+        ]
+
+        "During a descent at low power"
+
+        [
+          "During take-off at full power"
+        , "During a cruise climb at an intermediate power setting"
+        ] 
+    , "What is the legal minimum requirement with respect to performing a fuel system inspection?" ~>
+      Multichoice
+        [
+          "Before each and every flight"
+        ]
+
+        "Before the first flight of the day and after refueling"
+
+        [
+          "Only after refueling"
+        , "Before the first flight of the day"
+        ]                                               
+    , "You are carrying out a level turn of 60° angle of bank. Which of the following is correct?" ~>
+      Multichoice
+        [
+          "Lift is equal to weight"
+        , "Lift is 3.0 times weight"
+        ]
+
+        "Lift is 2.0 times weight"
+
+        [
+          "Lift is 1.4 times weight"
+        ]                                               
+    , "Your aircraft has been filled with JET A1 (AVTUR) instead of AVGAS as specified in the flight manual. Which of the following statements is correct?" ~>
+      Multichoice
+        [
+        ]
+
+        "There would be power loss and rough running or engine failure - you should not depart"
+
+        [
+          "The performance of your aircraft would increase substantially when running on jet fuel"
+        , "There would be no performance impact and you would be safe to proceed with your planned flight"
+        , "There would be a slight reduction in power however you could proceed with your planned flight"
+        ]                                               
+    , "You are climbing with one magneto that is unserviceable. What is the effect on climb performance?" ~>
+      Multichoice
+        [
+          "Reduced angle of climb"
+        , "Reduced rate of climb"
+        ]
+
+        "Reduced rate and angle of climb"
+
+        [
+          "No effect as the other magneto is still operating"
+        ]                                               
+    , "You are climbing with one magneto that is unserviceable. What is the effect on climb performance?" ~>
+      Multichoice
+        [
+          "Reduced angle of climb"
+        , "Reduced rate of climb"
+        ]
+
+        "Reduced rate and angle of climb"
+
+        [
+          "No effect as the other magneto is still operating"
+        ]                                               
+    , "The maximum speed an aircraft is permitted to fly is abbreviated as:" ~>
+      Multichoice
+        [
+        ]
+
+        "VNE"
+
+        [
+          "VNO"
+        , "VA"
+        , "VMAX"
+        ]                                               
+    , "During a level steep turn, the load factor:" ~>
+      Multichoice
+        [
+          "Decreases due to increased power being used"
+        ]
+
+        "Increases with increasing angle of bank"
+
+        [
+          "Remains unchanged"
+        , "Increases due to increasing angle of attack"
+        ]                                               
+    , "An increase in parasite drag would result from which of the following actions?" ~>
+      Multichoice
+        [
+        ]
+
+        "Increasing the IAS"
+
+        [
+          "Decreasing the IAS"
+        , "Reducing or raising the flaps"
+        , "Retracting the undercarriage"
+        ]                                               
+    , "In your before takeoff checks you notice that there is no RPM drop when carburettor heat is moved to \"ON\". What is the most likely cause?" ~>
+      Multichoice
+        [
+          "The engine is not yet to normal operating temperature"
+        , "Carburettor ice is present"
+        , "The outside air temperature (OAT) is high and we do not expect a drop"
+        ]
+
+        "The carburettor heat mechanism is defective"
+
+        [
+        ]                                               
+    , "The load factor (G force) that an average person might start to \"grey out\" is:" ~>
+      Multichoice
+        [
+        ]
+
+        "3.5 G"
+
+        [
+          "5.0 G"
+        , "2.0 G"
+        , "7.0 G"
+        ]                                               
+    , "One of the early symptoms of carbon monoxide poisoning is a:" ~>
+      Multichoice
+        [
+          "Loss of vision"
+        ]
+
+        "Slight headache"
+
+        [
+          "Severe headache"
+        , "Loss of muscular power"
+        ]                                               
+    , "What colour is AVGAS 100LL when sampled?" ~>
+      Multichoice
+        [
+          "Green"
+        ]
+
+        "Blue"
+
+        [
+          "Clear"
+        , "Yellow"
+        ]                                               
+    , "As a student pilot (pre-GFPT) how many hours are you permitted to fly solo before a dual check must be carried out?" ~>
+      Multichoice
+        [
+          "1.0 hour"
+        , "5.0 hours"
+        ]
+
+        "3.0 hours"
+
+        [
+          "2.0 hours"
+        ]                                               
+    , "You're in flight and there is a glider approaching on your right at the same level, you should:" ~>
+      Multichoice
+        [
+        ]
+
+        "Turn right to pass behind the glider "
+
+        [
+          "Climb over and above the glider"
+        , "Expect the glider to give way"
+        , "Descend beneath the glider"
+        ]                                               
+    ]
+
 exams ::
   [Exam]
 exams =
