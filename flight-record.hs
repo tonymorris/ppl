@@ -591,9 +591,9 @@ flightlogentries =
           ]  
         )            
     , FlightLogEntry
-        "P3.1 Circuit Emergencies"
-        "P3.1 Circuit Emergencies"
-        "20160218"
+        "P3.2 Circuit Emergencies"
+        "P3.2 Circuit Emergencies"
+        "20160304"
         vhafr
         (
           Hours
