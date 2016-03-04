@@ -628,13 +628,17 @@ flightlogentries =
         )
         (
           Images
-            [
-            ]
+          [
+          ]
         )
         (
           Videos
-            [
-            ]
+          [
+            Video
+              "https://www.youtube.com/watch?v=jWUijREg4aE"
+              (Just "Head camera")
+              YouTube
+          ]
         )                        
     ]
 
