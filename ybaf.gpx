@@ -293,4 +293,12 @@
   <sym>Gas Station</sym>
 </wpt>
 
+<wpt lat="-27.704270" lon="153.039110">
+  <ele>80.000</ele>
+  <name>Park Ridge Water Tower</name>
+  <cmt>Park Ridge Water Tower (stay east of Greenbank, >= 1500ft)</cmt>
+  <desc>Park Ridge Water Tower (stay east of Greenbank, >= 1500ft)</desc>
+  <sym>Tall Tower</sym>
+</wpt>
+
 </gpx>
