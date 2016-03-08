@@ -2474,7 +2474,7 @@ taitPreAreaSolo =
     , "If the altimeter fails to indicate any height change after take-off the most likely cause is" ~>
       Multichoice
         [
-          "the vaccuum pump has failed"
+          "the vacuum pump has failed"
         , "the pitot tube is blocked"
         ]
 
