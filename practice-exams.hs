@@ -3934,18 +3934,6 @@ airborneAviationAreaSolo =
         [
           "No effect as the other magneto is still operating"
         ]                                               
-    , "You are climbing with one magneto that is unserviceable. What is the effect on climb performance?" ~>
-      Multichoice
-        [
-          "Reduced angle of climb"
-        , "Reduced rate of climb"
-        ]
-
-        "Reduced rate and angle of climb"
-
-        [
-          "No effect as the other magneto is still operating"
-        ]                                               
     , "The maximum speed an aircraft is permitted to fly is abbreviated as:" ~>
       Multichoice
         [
