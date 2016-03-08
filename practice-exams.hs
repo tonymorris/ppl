@@ -2249,10 +2249,10 @@ taitPreAreaSolo =
           "the angle of climb will decrease but the rate of climb will increase"
         ]
 
-        "both angle and rate of climb with decrease"
+        "both angle and rate of climb will decrease"
 
         [
-          "both angle and rate of climb with increase"
+          "both angle and rate of climb will increase"
         , "the angle of climb will increase but the rate of climb will decrease"
         ]
     , "An aircraft is flying level at 5000 feet at constant power setting in a tail wind. Which of the following is true?" ~>
