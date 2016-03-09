@@ -1,4 +1,6 @@
 /.cabal-sandbox
 /cabal.sandbox.config
 /dist
+/static
+/.hledger-web_client_session_key.aes
 .DS_Store
