@@ -1,0 +1,205 @@
+2015/12/10 * Flight One Invoice 30217 ; flight one:, 30217:
+    assets:balance:open                     0.00
+    ; briefing:
+    expenses:school:briefing                0.5 @ 77.00
+    assets:balance:close                    -38.50
+
+2015/12/14 * Flight One Invoice 30233 ; flight one:, 30233:
+    assets:balance:open                     38.50
+    ; vh-ldo:, instruction
+    expenses:school:flight:instruction      1.2 @ 341.00
+    ; vh-ldo:, terminal
+    expenses:school:flight:terminal         29.79
+    ; briefing:
+    expenses:school:briefing                0.8 @ 77.00
+    assets:balance:close                    -539.09
+
+2015/12/18 * Flight One Invoice 30261 ; flight one:, 30261:
+    assets:balance:open                     539.09
+    ; vh-ldo:, instruction
+    expenses:school:flight:instruction      1.0 @ 341.00
+    ; vh-ldo:, terminal
+    expenses:school:flight:terminal         29.79
+    ; briefing:
+    expenses:school:briefing                1.0 @ 77.00
+    assets:balance:close                    -986.88
+    
+2015/12/20 * Flight One Invoice 30266 ; flight one:, 30266:
+    assets:balance:open                     986.88
+    ; vh-ldo:, instruction
+    expenses:school:flight:instruction      1.1 @ 341.00
+    ; vh-ldo:, terminal
+    expenses:school:flight:terminal         29.79
+    ; briefing:
+    expenses:school:briefing                1.0 @ 77.00
+    assets:balance:close                    -1468.77
+
+2015/12/21 * Aviation Theory Centre Student Pilot Kit ; book:
+    assets:balance:open                     1468.77
+    expenses:books                          130.00
+    assets:balance:close                    -1598.77
+
+2015/12/28 * QT Halo Headset ; headset:
+    assets:balance:open                     1598.77
+    expenses:headset                        533.00
+    assets:balance:close                    -2131.77
+
+2016/01/04 * Flight One Invoice 30313 ; flight one:, 30313:
+    assets:balance:open                     2131.77
+    ; vh-ldo:, instruction
+    expenses:school:flight:instruction      1.3 @ 341.00
+    ; vh-ldo:, terminal
+    expenses:school:flight:terminal         29.79
+    ; briefing:
+    expenses:school:briefing                1.0 @ 77.00
+    expenses:school:headset                 10.00
+    assets:balance:close                    -2691.86
+
+2016/01/04 * Flight One Invoice 30313 ; flight one:, 30313:
+    assets:balance:open                     2691.86
+    ; vh-ldo:, instruction
+    expenses:school:flight:instruction      1.3 @ 341.00
+    ; vh-ldo:, terminal
+    expenses:school:flight:terminal         29.79
+    ; briefing:
+    expenses:school:briefing                1.0 @ 77.00
+    assets:balance:close                    -3241.95
+
+2016/01/15 * Flight One Invoice 30369 ; flight one:, 30369:
+    assets:balance:open                     3241.95
+    ; vh-afr:, instruction
+    expenses:school:flight:instruction      1.4 @ 418.00
+    ; vh-afr:, terminal
+    expenses:school:flight:terminal         32.73
+    assets:balance:close                    -3859.88
+
+2016/01/17 * MONO 3.5mm 1/8" FEMALE to MONO 6.35mm 1/4" MALE - Audio Adapter ; adaptor:, audio:
+    assets:balance:open                     3859.88
+    expenses:audio                          2.99
+    assets:balance:close                    -3862.87
+
+2016/01/17 * 6.35mm 1/4 inch Mono Male Jack to 2x 1/4 inch Stereo Female Y Splitter Adaptor ; adaptor:, audio:
+    assets:balance:open                     3862.87
+    expenses:audio                          3.99
+    assets:balance:close                    -3866.86
+
+2016/01/17 * PA-80 GA Smartphone/GoPro Audio Adaptor ; adaptor:, audio:
+    assets:balance:open                     3866.86
+    expenses:audio                          61.00
+    assets:balance:close                    -3927.86
+
+2016/01/18 * Class 2 Civil Aviation Medical Certificate ; medical:
+    assets:balance:open                     3927.86
+    expenses:medical                        242.00
+    assets:balance:close                    -4169.86
+
+2016/01/19 * 6.35mm 1/4" Female to 3.5mm Male Stereo Audio Hifi Mic Jack Adapter Converter ; adaptor:, audio:
+    assets:balance:open                     4169.86
+    expenses:audio                          3.95
+    assets:balance:close                    -4173.81
+
+2016/01/21 * Bob Tait RPL Study Guide ; book:
+    assets:balance:open                     4173.81
+    expenses:books                          94.95
+    assets:balance:close                    -4268.76
+
+2016/01/22 * Flight One Invoice 30396 ; flight one:, 30396:
+    assets:balance:open                     4268.76
+    ; vh-afr:, instruction
+    expenses:school:flight:instruction      1.1 @ 418.00
+    ; vh-afr:, terminal
+    expenses:school:flight:terminal         32.73
+    assets:balance:close                    -4761.29
+
+2016/01/22 * Sleeve Carry Case ; case:, audio:
+    assets:balance:open                     4761.29
+    expenses:audio                          18.95
+    assets:balance:close                    -4780.24
+
+2016/01/23 * 12cm Angled 2.5mm Male to 3.5mm Female Stereo Audio Adapter Wire Cable ; adaptor:, audio:
+    assets:balance:open                     4780.24
+    expenses:audio                          4.95
+    assets:balance:close                    -4785.19
+
+2016/01/29 * Flight One Invoice 30432 ; flight one:, 30432:
+    assets:balance:open                     4785.19
+    ; vh-afr:, instruction
+    expenses:school:flight:instruction      1.1 @ 418.00
+    ; vh-afr:, terminal
+    expenses:school:flight:terminal         32.73
+    assets:balance:close                    -5277.72
+
+2016/01/31 * CASA VFR Guide ; book:
+    assets:balance:open                     5277.72
+    expenses:books                          49.95
+    assets:balance:close                    -5327.67
+
+2016/02/05 * Flight One Invoice 30460 ; flight one:, 30460:
+    assets:balance:open                     5327.67
+    ; vh-afr:, instruction
+    expenses:school:flight:instruction      1.1 @ 418.00
+    ; vh-afr:, terminal
+    expenses:school:flight:terminal         32.73
+    assets:balance:close                    -5820.20
+
+2016/02/12 * Flight One Invoice 30484 ; flight one:, 30484: ***
+    assets:balance:open                     5820.20
+    ; vh-afr:, instruction
+    expenses:school:flight:instruction      1.1 @ 418.00
+    ; vh-afr:, terminal
+    expenses:school:flight:terminal         32.73
+    ; briefing:
+    expenses:school:briefing                0.5 @ 77.00
+    assets:balance:close                    -6351.23
+
+2016/02/14 * 16GB Rechargeable Digital Audio Voice Recorder Telephone Dictaphone MP3 Player ; audio:
+    assets:balance:open                     6351.23
+    expenses:audio                          32.95
+    assets:balance:close                    -6384.18
+
+2016/02/18 * Flight One Invoice 30519 ; flight one:, 30519:
+    assets:balance:open                     6384.18
+    ; vh-afr:, instruction
+    expenses:school:flight:instruction      1.1 @ 418.00
+    ; vh-afr:, terminal
+    expenses:school:flight:terminal         32.73
+    assets:balance:close                    -6876.71
+
+2016/02/18 * Flight One Invoice 30521 ; flight one:, 30521:
+    assets:balance:open                     6876.71
+    ; briefing:
+    expenses:school:briefing                0.5 @ 77.00
+    assets:balance:close                    -6915.21
+
+2016/02/25 * Flight One Invoice 30576 ; flight one:, 30576:
+    assets:balance:open                     6915.21
+    ; briefing:
+    expenses:school:briefing                0.5 @ 77.00
+    ; exam: pre-circuit solo
+    expenses:school:exam                    132.00
+    assets:balance:close                    -7085.71
+
+2016/02/28 * Australian Security Identity Card (ASIC) application full security check ; asic:
+    assets:balance:open                     7085.71
+    expenses:asic                           200.50
+    assets:balance:close                    -7286.21
+
+2016/03/04 * Flight One Invoice 30604 ; flight one:, 30604:
+    assets:balance:open                     7286.21
+    ; vh-afr:, instruction
+    expenses:school:flight:instruction      1.1 @ 418.00
+    ; vh-afr:, terminal
+    expenses:school:flight:terminal         32.73
+    ; briefing:
+    expenses:school:briefing                0.7 @ 77.00
+    assets:balance:close                    -7832.64
+
+2016/03/05 * 6.35MM MALE TO 3.5MM MALE AUDIO JACK CABLE LEAD CONNECTORS ; cable:, audio:
+    assets:balance:open                     7832.64
+    expenses:audio                          5.39
+    assets:balance:close                    -7838.03
+
+2016/03/05 * RAM Camera Plate Suction Cup Mount (RAM-B-166-202AU) ; camera:, audio:
+    assets:balance:open                     7838.03
+    expenses:audio                          66.00
+    assets:balance:close                    -7904.03
