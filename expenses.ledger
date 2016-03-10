@@ -203,3 +203,11 @@
     assets:balance:open                     7838.03
     expenses:audio                          66.00
     assets:balance:close                    -7904.03
+
+2016/02/25 * Flight One Invoice 30626 ; flight one:, 30626:
+    assets:balance:open                     7904.03
+    ; briefing:
+    expenses:school:briefing                77.00 @ 0.5
+    ; exam: pre-area solo
+    expenses:school:exam                    132.00
+    assets:balance:close                    -8074.53
