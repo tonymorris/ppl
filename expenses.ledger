@@ -142,7 +142,7 @@
     expenses:school:flight:terminal         32.73
     assets:balance:close                    -5820.20
 
-2016/02/12 * Flight One Invoice 30484 ; flight one:, 30484: ***
+2016/02/12 * Flight One Invoice 30484 ; flight one:, 30484:
     assets:balance:open                     5820.20
     ; vh-afr:, instruction
     expenses:school:flight:instruction      418.00 @ 1.1
