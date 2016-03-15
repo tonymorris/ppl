@@ -1,6 +1,6 @@
-# General Aviation plugs
+# General Aviation Audio plugs (aeroplane)
 
-##### Audio
+##### Speaker
 
 * PJ-055
 
