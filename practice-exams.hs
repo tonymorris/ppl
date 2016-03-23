@@ -4401,7 +4401,7 @@ airborneAviationMeteorology =
         [
           "200NM of the aircraft"
         ]
-    , "A TAF commences and finishes as follows:\n\n> TAF YCOM 070635Z 0708/0720 ... Q 1020 1021 1019 1018\n\nThe forecast QNH for time 071320 is:" ~>
+    , "A TAF commences and finishes as follows:\n\n  > TAF YCOM 070635Z 0708/0720 ... Q 1020 1021 1019 1018\n\n  The forecast QNH for time 071320 is:" ~>
       Multichoice
         [
           "1020"
