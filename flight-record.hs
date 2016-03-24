@@ -20,6 +20,14 @@ vhafr =
     "VH-AFR"
     Single
 
+vhzwy ::
+  Aircraft
+vhzwy =
+  Aircraft
+    "2000 Cessna 172S Skyhawk"
+    "VH-ZWY"
+    Single
+
 ybaf2ybaf ::
   FlightPath
 ybaf2ybaf =
@@ -636,6 +644,56 @@ flightlogentries =
           [
             Video
               "https://www.youtube.com/watch?v=jWUijREg4aE"
+              (Just "Head camera")
+              YouTube
+          ]
+        )                        
+    , FlightLogEntry
+        "P3.3 Circuit Emergencies"
+        "P3.3 Circuit Emergencies"
+        "20160324"
+        vhzwy
+        (
+          Hours
+            1
+            0
+        )
+        dual
+        ybaf2ybaf
+        Day
+        "David Schofield"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160324-vh-zwy.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160324-vh-zwy.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/691106"
+              Nothing
+              Doarama
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        (
+          Videos
+          [
+            Video
+              "https://www.youtube.com/watch?v="
               (Just "Head camera")
               YouTube
           ]
