@@ -693,8 +693,8 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v="
-              (Just "Head camera")
+              "https://www.youtube.com/watch?v=RNiYu3ZsfZw"
+              (Just "Forward camera")
               YouTube
           ]
         )                        
