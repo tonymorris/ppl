@@ -211,3 +211,13 @@
     ; exam: pre-area solo
     expenses:school:exam                    132.00
     assets:balance:close                    -8074.53
+
+2016/03/24 * Flight One Invoice 30697 ; flight one:, 30697:
+    assets:balance:open                     8074.53
+    ; vh-zwy:, instruction
+    expenses:school:flight:instruction      418.00 @ 1.0
+    ; vh-zwy:, terminal
+    expenses:school:flight:terminal         32.73
+    ; briefing:
+    expenses:school:briefing                77.00 @ 0.4
+    assets:balance:close                    -8556.06
