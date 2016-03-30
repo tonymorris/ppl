@@ -698,6 +698,98 @@ flightlogentries =
               YouTube
           ]
         )                        
+    , FlightLogEntry
+        "P3.4 Circuits"
+        "P3.4 Circuits"
+        "20160330"
+        vhzwy
+        (
+          Hours
+            0
+            9
+        )
+        dual
+        ybaf2ybaf
+        Day
+        "David Schofield"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160330-vh-zwy.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160330-vh-zwy.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/"
+              Nothing
+              Doarama
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        (
+          Videos
+          [
+          ]
+        )
+    , FlightLogEntry
+        "P3.4 Circuits"
+        "P3.4 Circuits"
+        "20160330"
+        vhzwy
+        (
+          Hours
+            0
+            4
+        )
+        solo
+        ybaf2ybaf
+        Day
+        "Tony Morris"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160330-vh-zwy.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160330-vh-zwy.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/"
+              Nothing
+              Doarama
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        (
+          Videos
+          [
+          ]
+        )                                
     ]
 
 flightlog ::
