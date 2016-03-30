@@ -1,0 +1,286 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mlt title="Anonymous Submission" version="0.9.0" root="/home/tmorris" LC_NUMERIC="en_AU.UTF-8">
+ <profile width="1440" display_aspect_den="9" colorspace="709" frame_rate_den="1" description="HDV 1440x1080i 25 fps" height="1080" display_aspect_num="16" frame_rate_num="25" progressive="0" sample_aspect_num="4" sample_aspect_den="3"/>
+ <producer in="0" out="53077" id="black">
+  <property name="mlt_type">producer</property>
+  <property name="length">53078</property>
+  <property name="eof">pause</property>
+  <property name="resource">black</property>
+  <property name="aspect_ratio">0</property>
+  <property name="mlt_service">colour</property>
+ </producer>
+ <playlist id="black_track">
+  <entry in="0" out="21818" producer="black"/>
+ </playlist>
+ <playlist id="playlist1"/>
+ <playlist id="playlist2"/>
+ <playlist id="playlist3"/>
+ <producer in="0" out="124" id="6">
+  <property name="mlt_type">producer</property>
+  <property name="length">125</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="xmldata">&lt;kdenlivetitle width="1920" duration="125" height="1080" LC_NUMERIC="en_AU.UTF-8">
+ &lt;item z-index="5" type="QGraphicsTextItem">
+  &lt;position x="688" y="810.2857142857143">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-outline-color="0,0,0,255" font-pixel-size="48" font-italic="0" font-underline="0" font-weight="50" font="Sans Serif" font-outline="0">Right-hand circuit 28R&lt;/content>
+ &lt;/item>
+ &lt;item z-index="4" type="QGraphicsTextItem">
+  &lt;position x="801" y="390.2857142857143">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-outline-color="0,0,0,255" font-pixel-size="48" font-italic="0" font-underline="0" font-weight="50" font="Sans Serif" font-outline="0">Cessna 172S&lt;/content>
+ &lt;/item>
+ &lt;item z-index="3" type="QGraphicsTextItem">
+  &lt;position x="895" y="604.5714285714286">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-outline-color="0,0,0,255" font-pixel-size="48" font-italic="0" font-underline="0" font-weight="50" font="Sans Serif" font-outline="0">YBAF&lt;/content>
+ &lt;/item>
+ &lt;item z-index="2" type="QGraphicsTextItem">
+  &lt;position x="846" y="701.7142857142858">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-outline-color="0,0,0,255" font-pixel-size="48" font-italic="0" font-underline="0" font-weight="50" font="Sans Serif" font-outline="0">First Solo&lt;/content>
+ &lt;/item>
+ &lt;item z-index="1" type="QGraphicsTextItem">
+  &lt;position x="857" y="273.1428571428572">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-outline-color="0,0,0,255" font-pixel-size="48" font-italic="0" font-underline="0" font-weight="50" font="Sans Serif" font-outline="0">VH-ZWY&lt;/content>
+ &lt;/item>
+ &lt;item z-index="0" type="QGraphicsTextItem">
+  &lt;position x="834" y="164.5714285714286">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-outline-color="0,0,0,255" font-pixel-size="48" font-italic="0" alignment="4" font-underline="0" font-weight="50" font="Sans Serif" font-outline="0">20160330&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="force_reload">0</property>
+ </producer>
+ <playlist id="playlist4">
+  <entry in="0" out="87" producer="6"/>
+ </playlist>
+ <producer in="0" out="53077" id="4">
+  <property name="mlt_type">producer</property>
+  <property name="length">53078</property>
+  <property name="eof">pause</property>
+  <property name="resource">Desktop/20160330-vh-zwy/MAH00334.MP4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">29.97</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">15980879</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-01-01 01:10:48</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">127968</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-01-01 01:10:48</property>
+  <property name="meta.attr.major_brand.markup">MSNV</property>
+  <property name="meta.attr.minor_version.markup">19595376</property>
+  <property name="meta.attr.compatible_brands.markup">MSNVmp42isom</property>
+  <property name="meta.attr.creation_time.markup">2012-01-01 01:10:48</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <producer in="0" out="10797" id="5">
+  <property name="mlt_type">producer</property>
+  <property name="length">10798</property>
+  <property name="eof">pause</property>
+  <property name="resource">Desktop/20160330-vh-zwy/MAH00335.MP4</property>
+  <property name="meta.media.nb_streams">2</property>
+  <property name="meta.media.0.stream.type">video</property>
+  <property name="meta.media.0.stream.frame_rate">29.97</property>
+  <property name="meta.media.0.stream.sample_aspect_ratio">0</property>
+  <property name="meta.media.0.codec.width">1920</property>
+  <property name="meta.media.0.codec.height">1080</property>
+  <property name="meta.media.0.codec.frame_rate">29.97</property>
+  <property name="meta.media.0.codec.pix_fmt">yuv420p</property>
+  <property name="meta.media.0.codec.sample_aspect_ratio">1</property>
+  <property name="meta.media.0.codec.colorspace">709</property>
+  <property name="meta.media.0.codec.name">h264</property>
+  <property name="meta.media.0.codec.long_name">H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10</property>
+  <property name="meta.media.0.codec.bit_rate">15979190</property>
+  <property name="meta.attr.0.stream.creation_time.markup">2012-01-01 01:46:11</property>
+  <property name="meta.media.1.stream.type">audio</property>
+  <property name="meta.media.1.codec.sample_fmt">fltp</property>
+  <property name="meta.media.1.codec.sample_rate">48000</property>
+  <property name="meta.media.1.codec.channels">2</property>
+  <property name="meta.media.1.codec.name">aac</property>
+  <property name="meta.media.1.codec.long_name">AAC (Advanced Audio Coding)</property>
+  <property name="meta.media.1.codec.bit_rate">127968</property>
+  <property name="meta.attr.1.stream.creation_time.markup">2012-01-01 01:46:11</property>
+  <property name="meta.attr.major_brand.markup">MSNV</property>
+  <property name="meta.attr.minor_version.markup">19595376</property>
+  <property name="meta.attr.compatible_brands.markup">MSNVmp42isom</property>
+  <property name="meta.attr.creation_time.markup">2012-01-01 01:46:11</property>
+  <property name="seekable">1</property>
+  <property name="meta.media.sample_aspect_num">1</property>
+  <property name="meta.media.sample_aspect_den">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mlt_service">avformat</property>
+  <property name="meta.media.frame_rate_num">30000</property>
+  <property name="meta.media.frame_rate_den">1001</property>
+  <property name="meta.media.colorspace">709</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="meta.media.top_field_first">0</property>
+  <property name="meta.media.progressive">1</property>
+ </producer>
+ <playlist id="playlist5">
+  <blank length="50"/>
+  <entry in="34822" out="53077" producer="4"/>
+  <entry in="0" out="3512" producer="5"/>
+ </playlist>
+ <tractor title="Anonymous Submission" global_feed="1" in="0" out="21818" id="maintractor">
+  <property name="meta.volume">1</property>
+  <track producer="black_track"/>
+  <track hide="video" producer="playlist1"/>
+  <track hide="video" producer="playlist2"/>
+  <track producer="playlist3"/>
+  <track producer="playlist4"/>
+  <track producer="playlist5"/>
+  <transition id="transition0">
+   <property name="a_track">1</property>
+   <property name="b_track">2</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition1">
+   <property name="a_track">1</property>
+   <property name="b_track">3</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition2">
+   <property name="a_track">1</property>
+   <property name="b_track">4</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition id="transition3">
+   <property name="a_track">1</property>
+   <property name="b_track">5</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">mix</property>
+   <property name="always_active">1</property>
+   <property name="combine">1</property>
+   <property name="internal_added">237</property>
+  </transition>
+  <transition in="50" out="87" id="transition4">
+   <property name="a_track">4</property>
+   <property name="b_track">5</property>
+   <property name="factory">loader</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">luma</property>
+   <property name="automatic">1</property>
+   <property name="kdenlive_id">dissolve</property>
+   <property name="force_track">0</property>
+   <property name="reverse">0</property>
+  </transition>
+ </tractor>
+ <kdenlivedoc profile="hdv_1080_50i" kdenliveversion="0.9.6" version="0.88" projectfolder="/home/tmorris/Desktop/kdenlive">
+  <customeffects/>
+  <documentproperties proxyimageminsize="2000" zonein="0" enableproxy="0" zoneout="100" generateproxy="0" zoom="5" verticalzoom="1" proxyextension="ts" position="355" documentid="1459306687449" generateimageproxy="0" proxyminsize="1000" proxyparams="-f mpegts -acodec libmp3lame -ac 2 -ab 128k -ar 48000 -vcodec mpeg2video -g 5 -deinterlace -s 480x270 -vb 400k"/>
+  <documentmetadata/>
+  <documentnotes>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">
+&lt;html>&lt;head>&lt;meta name="qrichtext" content="1" />&lt;style type="text/css">
+p, li { white-space: pre-wrap; }
+&lt;/style>&lt;/head>&lt;body style=" font-family:'Sans Serif'; font-size:8pt; font-weight:400; font-style:normal;">
+&lt;p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;">&lt;br />&lt;/p>&lt;/body>&lt;/html></documentnotes>
+  <profileinfo width="1440" display_aspect_den="9" frame_rate_den="1" description="HDV 1440x1080i 25 fps" height="1080" frame_rate_num="25" display_aspect_num="16" progressive="0" sample_aspect_num="4" sample_aspect_den="3"/>
+  <tracksinfo>
+   <trackinfo blind="1" mute="0" locked="0" trackname="Audio 2" type="audio"/>
+   <trackinfo blind="1" mute="0" locked="0" trackname="Audio 1" type="audio"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Video 3"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Video 2"/>
+   <trackinfo blind="0" mute="0" locked="0" trackname="Video 1"/>
+  </tracksinfo>
+  <kdenlive_producer audio_max="37" id="1" pix_fmt="yuv420p" default_video="0" fps="29.97" analysisdata="" name="MAH00331.MP4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/home/tmorris/Desktop/20160330-vh-zwy/MAH00331.MP4" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" duration="25" file_hash="f13b305445f26fbe8309ad9ba7caf1d4" aspect_ratio="1" channels="2" frequency="48000" video_max="0" progressive="1" type="3" frame_size="1920x1080" file_size="2096967">
+   <metaproperty tool="" name="meta.attr.0.stream.creation_time">2012-01-01 00:00:34</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.creation_time">2012-01-01 00:00:34</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">MSNVmp42isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.creation_time">2012-01-01 00:00:34</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">MSNV</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">19595376</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer audio_max="63" id="2" pix_fmt="yuv420p" default_video="0" fps="29.97" analysisdata="" name="MAH00332.MP4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/home/tmorris/Desktop/20160330-vh-zwy/MAH00332.MP4" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" duration="53078" file_hash="4bb0191b71edd4bfec262f0340ee4111" aspect_ratio="1" channels="2" frequency="48000" video_max="0" progressive="1" type="3" frame_size="1920x1080" file_size="4275992200">
+   <metaproperty tool="" name="meta.attr.0.stream.creation_time">2012-01-01 00:00:02</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.creation_time">2012-01-01 00:00:02</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">MSNVmp42isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.creation_time">2012-01-01 00:00:02</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">MSNV</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">19595376</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer audio_max="63" id="3" pix_fmt="yuv420p" default_video="0" fps="29.97" analysisdata="" name="MAH00333.MP4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/home/tmorris/Desktop/20160330-vh-zwy/MAH00333.MP4" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" duration="53078" file_hash="95008bd40a7a2d2b6c4bafdc4e7dd310" aspect_ratio="1" channels="2" frequency="48000" video_max="0" progressive="1" type="3" frame_size="1920x1080" file_size="4275896432">
+   <metaproperty tool="" name="meta.attr.0.stream.creation_time">2012-01-01 00:35:25</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.creation_time">2012-01-01 00:35:25</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">MSNVmp42isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.creation_time">2012-01-01 00:35:25</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">MSNV</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">19595376</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer audio_max="63" id="4" pix_fmt="yuv420p" default_video="0" fps="29.97" analysisdata="" name="MAH00334.MP4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/home/tmorris/Desktop/20160330-vh-zwy/MAH00334.MP4" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" duration="53078" file_hash="1bb6469ff3153f409781ca80f654b117" aspect_ratio="1" channels="2" frequency="48000" video_max="0" progressive="1" type="3" frame_size="1920x1080" file_size="4275872773">
+   <metaproperty tool="" name="meta.attr.0.stream.creation_time">2012-01-01 01:10:48</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.creation_time">2012-01-01 01:10:48</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">MSNVmp42isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.creation_time">2012-01-01 01:10:48</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">MSNV</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">19595376</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer audio_max="63" id="5" pix_fmt="yuv420p" default_video="0" fps="29.97" analysisdata="" name="MAH00335.MP4" videocodecid="h264" colorspace="709" videocodec="H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10" resource="/home/tmorris/Desktop/20160330-vh-zwy/MAH00335.MP4" default_audio="1" audiocodec="AAC (Advanced Audio Coding)" duration="10798" file_hash="9fb2062b7bfd55954defff59a8226e50" aspect_ratio="1" channels="2" frequency="48000" video_max="0" progressive="1" type="3" frame_size="1920x1080" file_size="869801037">
+   <metaproperty tool="" name="meta.attr.0.stream.creation_time">2012-01-01 01:46:11</metaproperty>
+   <metaproperty tool="" name="meta.attr.1.stream.creation_time">2012-01-01 01:46:11</metaproperty>
+   <metaproperty tool="" name="meta.attr.compatible_brands">MSNVmp42isom</metaproperty>
+   <metaproperty tool="" name="meta.attr.creation_time">2012-01-01 01:46:11</metaproperty>
+   <metaproperty tool="" name="meta.attr.major_brand">MSNV</metaproperty>
+   <metaproperty tool="" name="meta.attr.minor_version">19595376</metaproperty>
+  </kdenlive_producer>
+  <kdenlive_producer duration="125" transparency="1" frame_size="1440x1080" thumbnail="100" in="0" analysisdata="" aspect_ratio="0" out="124" xmldata="&lt;kdenlivetitle width=&quot;1920&quot; duration=&quot;125&quot; height=&quot;1080&quot; LC_NUMERIC=&quot;en_AU.UTF-8&quot;>&#xa; &lt;item z-index=&quot;5&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;688&quot; y=&quot;810.2857142857143&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-outline-color=&quot;0,0,0,255&quot; font-pixel-size=&quot;48&quot; font-italic=&quot;0&quot; font-underline=&quot;0&quot; font-weight=&quot;50&quot; font=&quot;Sans Serif&quot; font-outline=&quot;0&quot;>Right-hand circuit 28R&lt;/content>&#xa; &lt;/item>&#xa; &lt;item z-index=&quot;4&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;801&quot; y=&quot;390.2857142857143&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-outline-color=&quot;0,0,0,255&quot; font-pixel-size=&quot;48&quot; font-italic=&quot;0&quot; font-underline=&quot;0&quot; font-weight=&quot;50&quot; font=&quot;Sans Serif&quot; font-outline=&quot;0&quot;>Cessna 172S&lt;/content>&#xa; &lt;/item>&#xa; &lt;item z-index=&quot;3&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;895&quot; y=&quot;604.5714285714286&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-outline-color=&quot;0,0,0,255&quot; font-pixel-size=&quot;48&quot; font-italic=&quot;0&quot; font-underline=&quot;0&quot; font-weight=&quot;50&quot; font=&quot;Sans Serif&quot; font-outline=&quot;0&quot;>YBAF&lt;/content>&#xa; &lt;/item>&#xa; &lt;item z-index=&quot;2&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;846&quot; y=&quot;701.7142857142858&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-outline-color=&quot;0,0,0,255&quot; font-pixel-size=&quot;48&quot; font-italic=&quot;0&quot; font-underline=&quot;0&quot; font-weight=&quot;50&quot; font=&quot;Sans Serif&quot; font-outline=&quot;0&quot;>First Solo&lt;/content>&#xa; &lt;/item>&#xa; &lt;item z-index=&quot;1&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;857&quot; y=&quot;273.1428571428572&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-outline-color=&quot;0,0,0,255&quot; font-pixel-size=&quot;48&quot; font-italic=&quot;0&quot; font-underline=&quot;0&quot; font-weight=&quot;50&quot; font=&quot;Sans Serif&quot; font-outline=&quot;0&quot;>VH-ZWY&lt;/content>&#xa; &lt;/item>&#xa; &lt;item z-index=&quot;0&quot; type=&quot;QGraphicsTextItem&quot;>&#xa;  &lt;position x=&quot;834&quot; y=&quot;164.5714285714286&quot;>&#xa;   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>&#xa;  &lt;/position>&#xa;  &lt;content font-color=&quot;255,255,255,255&quot; font-outline-color=&quot;0,0,0,255&quot; font-pixel-size=&quot;48&quot; font-italic=&quot;0&quot; alignment=&quot;4&quot; font-underline=&quot;0&quot; font-weight=&quot;50&quot; font=&quot;Sans Serif&quot; font-outline=&quot;0&quot;>20160330&lt;/content>&#xa; &lt;/item>&#xa; &lt;startviewport rect=&quot;0,0,1920,1080&quot;/>&#xa; &lt;endviewport rect=&quot;0,0,1920,1080&quot;/>&#xa; &lt;background color=&quot;0,0,0,0&quot;/>&#xa;&lt;/kdenlivetitle>&#xa;" type="6" id="6" name="Title clip"/>
+  <markers/>
+  <groups/>
+ </kdenlivedoc>
+</mlt>
