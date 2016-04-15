@@ -729,7 +729,7 @@ flightlogentries =
           Visualisations
           [
             Visualisation
-              "http://doarama.com/view/"
+              "http://doarama.com/view/696748"
               Nothing
               Doarama
           ]
@@ -789,7 +789,53 @@ flightlogentries =
           Videos
           [
           ]
-        )                                
+        )           
+    , FlightLogEntry
+        "P3.5 Circuits (Crosswind)"
+        "P3.5 Circuits (Crosswind)"
+        "20160415"
+        vhafr
+        (
+          Hours
+            1
+            0
+        )
+        dual
+        ybaf2ybaf
+        Day
+        "David Schofield"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160415-vh-afr.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160415-vh-afr.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/"
+              Nothing
+              Doarama
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        (
+          Videos
+          [
+          ]
+        )                             
     ]
 
 flightlog ::
