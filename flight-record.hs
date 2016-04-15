@@ -821,7 +821,7 @@ flightlogentries =
           Visualisations
           [
             Visualisation
-              "http://doarama.com/view/"
+              "http://doarama.com/view/711553"
               Nothing
               Doarama
           ]
