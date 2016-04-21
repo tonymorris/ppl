@@ -3007,13 +3007,13 @@ taitPreRPL =
     , "Which of the following would increase the take-off distance required?" ~>
       Multichoice
         [
-          "an increase in air temperature"
         ]
 
-        "a decrease in air temperature"
+        "an increase in air temperature"
 
         [
-          "a decrease in pressure height"
+          "a decrease in air temperature"
+        , "a decrease in pressure height"
         , "an increase in headwind component"
         ]
     , "The take-off distance required is defined as the distance" ~>
