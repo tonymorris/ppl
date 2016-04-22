@@ -835,7 +835,99 @@ flightlogentries =
           Videos
           [
           ]
-        )                             
+        )
+    , FlightLogEntry
+        "P3.6 Circuits (Solo check)"
+        "P3.6 Circuits (Solo check)"
+        "20160422"
+        vhafr
+        (
+          Hours
+            0
+            5
+        )
+        dual
+        ybaf2ybaf
+        Day
+        "David Schofield"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160422-vh-afr.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160422-vh-afr.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/719248"
+              Nothing
+              Doarama
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        (
+          Videos
+          [
+          ]
+        )                                     
+    , FlightLogEntry
+        "P3.6 Circuits (Solo)"
+        "P3.6 Circuits (Solo)"
+        "20160422"
+        vhafr
+        (
+          Hours
+            1
+            0
+        )
+        solo
+        ybaf2ybaf
+        Day
+        "Tony Morris"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160422-vh-afr.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160422-vh-afr.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/719248"
+              Nothing
+              Doarama
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        (
+          Videos
+          [
+          ]
+        )                                     
     ]
 
 flightlog ::
