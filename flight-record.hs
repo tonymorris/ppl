@@ -880,6 +880,10 @@ flightlogentries =
         (
           Videos
           [
+            Video
+              "https://www.youtube.com/watch?v=UR1IkF5RSh4"
+              (Just "Forward camera")
+              YouTube
           ]
         )                                     
     , FlightLogEntry
@@ -926,6 +930,10 @@ flightlogentries =
         (
           Videos
           [
+            Video
+              "https://www.youtube.com/watch?v=UR1IkF5RSh4"
+              (Just "Forward camera")
+              YouTube
           ]
         )                                     
     ]
