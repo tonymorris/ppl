@@ -749,6 +749,148 @@
   <property name="kdenlive:file_hash">f1f9fa0bb3b165f3489675672d4906f6</property>
   <property name="global_feed">1</property>
  </producer>
+ <producer out="348" title="Anonymous Submission" id="20" in="0">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">349</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">Title clip</property>
+  <property name="xmldata">&lt;kdenlivetitle out="125" width="1920" height="1080" duration="125" LC_NUMERIC="en_AU.UTF-8">
+ &lt;item z-index="2" type="QGraphicsTextItem">
+  &lt;position x="0" y="116.8">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-pixel-size="36" font-italic="0" font="DejaVu Sans" font-weight="50" font-underline="0">⚫ Begin turn onto final leg&lt;/content>
+ &lt;/item>
+ &lt;item z-index="1" type="QGraphicsTextItem">
+  &lt;position x="0" y="59.8401">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-pixel-size="36" font-italic="0" font="DejaVu Sans" font-weight="50" font-underline="0">⚫ 500ft AGL&lt;/content>
+ &lt;/item>
+ &lt;item z-index="0" type="QGraphicsTextItem">
+  &lt;position x="0" y="11.7297">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-pixel-size="36" font-italic="0" font="DejaVu Sans" font-weight="50" font-underline="0">⚫ Aligned to runway extended centre line&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="kdenlive:file_hash">c0003ebcea3b8df56e1d2107e273f6ec</property>
+  <property name="global_feed">1</property>
+ </producer>
+ <producer out="1670" title="Anonymous Submission" id="21" in="0">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">1671</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">Title clip (copy) (copy) (copy) (copy)</property>
+  <property name="xmldata">&lt;kdenlivetitle out="125" width="1920" height="1080" duration="125" LC_NUMERIC="en_AU.UTF-8">
+ &lt;item z-index="0" type="QGraphicsTextItem">
+  &lt;position x="17.0801" y="986.819">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,0,255,255" font-pixel-size="48" font-italic="0" font="DejaVu Sans" font-weight="50" font-underline="0">Circuit Leg: FINAL&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="force_reload">0</property>
+  <property name="kdenlive:file_hash">7b2180b092f02e3661173de2788db5c0</property>
+  <property name="global_feed">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer out="124" title="Anonymous Submission" id="22" in="0">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">00:01:06:21</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">Title clip (copy) (copy) (copy) (copy) (copy)</property>
+  <property name="xmldata">&lt;kdenlivetitle out="125" width="1920" height="1080" duration="125" LC_NUMERIC="en_AU.UTF-8">
+ &lt;item z-index="0" type="QGraphicsTextItem">
+  &lt;position x="17.0801" y="986.819">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,0,255,255" font-pixel-size="48" font-italic="0" font="DejaVu Sans" font-weight="50" font-underline="0">Circuit Leg: TOUCH DOWN&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="force_reload">0</property>
+  <property name="kdenlive:file_hash">7b2180b092f02e3661173de2788db5c0</property>
+  <property name="global_feed">1</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+ </producer>
+ <producer out="1518" title="Anonymous Submission" id="23" in="0">
+  <property name="mlt_type">mlt_producer</property>
+  <property name="length">1519</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">Title clip</property>
+  <property name="xmldata">&lt;kdenlivetitle out="125" width="1920" height="1080" duration="125" LC_NUMERIC="en_AU.UTF-8">
+ &lt;item z-index="3" type="QGraphicsTextItem">
+  &lt;position x="0" y="221.024">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-pixel-size="36" font-italic="0" font="DejaVu Sans" font-weight="50" font-underline="0">⚫ Take third stage flap 30° [optional, not taken here due to crosswind]&lt;/content>
+ &lt;/item>
+ &lt;item z-index="2" type="QGraphicsTextItem">
+  &lt;position x="0" y="157.61">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-pixel-size="36" font-italic="0" font="DejaVu Sans" font-weight="50" font-underline="0">⚫ Track slightly left of heading, due to right crosswind&lt;/content>
+ &lt;/item>
+ &lt;item z-index="1" type="QGraphicsTextItem">
+  &lt;position x="0" y="96.6341">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-pixel-size="36" font-italic="0" font="DejaVu Sans" font-weight="50" font-underline="0">⚫ Manage throttle and pitch&lt;/content>
+ &lt;/item>
+ &lt;item z-index="0" type="QGraphicsTextItem">
+  &lt;position x="0" y="35.2651">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-color="255,255,255,255" font-pixel-size="36" font-italic="0" font="DejaVu Sans" font-weight="50" font-underline="0">⚫ Aim toward runway threshold numbers at constant rate of descent&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="kdenlive:file_hash">320f3e66666b4a4276f12ce3e317c17a</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist kdenlive:customeffects="&lt;customeffects/>&#xa;" id="main bin">
   <property name="kdenlive:customeffects">&lt;customeffects/>
 </property>
@@ -757,7 +899,7 @@
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
   <property name="kdenlive:docproperties.kdenliveversion">15.12.3</property>
-  <property name="kdenlive:docproperties.position">6089</property>
+  <property name="kdenlive:docproperties.position">7806</property>
   <property name="kdenlive:docproperties.profile">atsc_1080p_25</property>
   <property name="kdenlive:docproperties.projectfolder">kdenlive</property>
   <property name="kdenlive:docproperties.proxyextension">mpg</property>
@@ -790,6 +932,10 @@
   <entry out="124" producer="17" in="0"/>
   <entry out="3384" producer="18" in="0"/>
   <entry out="124" producer="19" in="0"/>
+  <entry out="124" producer="20" in="0"/>
+  <entry out="124" producer="21" in="0"/>
+  <entry out="1670" producer="22" in="0"/>
+  <entry out="124" producer="23" in="0"/>
  </playlist>
  <producer out="37673" id="black" in="0">
   <property name="mlt_type">producer</property>
@@ -878,6 +1024,8 @@
   <entry out="835" producer="10" in="0"/>
   <entry out="2017" producer="13" in="0"/>
   <entry out="1162" producer="18" in="0"/>
+  <entry out="1573" producer="21" in="0"/>
+  <entry out="213" producer="22" in="0"/>
  </playlist>
  <playlist id="playlist5">
   <property name="kdenlive:track_name">Video 1</property>
@@ -899,6 +1047,9 @@
   <entry out="656" producer="16" in="0"/>
   <entry out="537" producer="17" in="0"/>
   <entry out="753" producer="19" in="0"/>
+  <blank length="61"/>
+  <entry out="347" producer="20" in="0"/>
+  <entry out="1440" producer="23" in="0"/>
  </playlist>
  <tractor out="8151" global_feed="1" title="Anonymous Submission" id="maintractor" in="0">
   <track producer="black_track"/>
@@ -1024,7 +1175,43 @@
    <property name="shear_y">0</property>
    <property name="shear_z">0</property>
   </transition>
-  <transition out="263" id="transition9" in="191">
+  <transition out="7937" id="transition9" in="6364">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="fill">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition out="8151" id="transition10" in="7938">
+   <property name="a_track">3</property>
+   <property name="b_track">4</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="fill">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition out="263" id="transition11" in="191">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="factory">loader</property>
@@ -1035,7 +1222,7 @@
    <property name="force_track">1</property>
    <property name="reverse">1</property>
   </transition>
-  <transition out="847" id="transition10" in="611">
+  <transition out="847" id="transition12" in="611">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="distort">0</property>
@@ -1053,7 +1240,7 @@
    <property name="shear_y">0</property>
    <property name="shear_z">0</property>
   </transition>
-  <transition out="1033" id="transition11" in="848">
+  <transition out="1033" id="transition13" in="848">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="distort">0</property>
@@ -1071,7 +1258,7 @@
    <property name="shear_y">0</property>
    <property name="shear_z">0</property>
   </transition>
-  <transition out="1521" id="transition12" in="1243">
+  <transition out="1521" id="transition14" in="1243">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="distort">0</property>
@@ -1089,7 +1276,7 @@
    <property name="shear_y">0</property>
    <property name="shear_z">0</property>
   </transition>
-  <transition out="2066" id="transition13" in="1811">
+  <transition out="2066" id="transition15" in="1811">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="distort">0</property>
@@ -1107,7 +1294,7 @@
    <property name="shear_y">0</property>
    <property name="shear_z">0</property>
   </transition>
-  <transition out="2831" id="transition14" in="2707">
+  <transition out="2831" id="transition16" in="2707">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="distort">0</property>
@@ -1125,7 +1312,7 @@
    <property name="shear_y">0</property>
    <property name="shear_z">0</property>
   </transition>
-  <transition out="3100" id="transition15" in="2832">
+  <transition out="3100" id="transition17" in="2832">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="distort">0</property>
@@ -1143,7 +1330,7 @@
    <property name="shear_y">0</property>
    <property name="shear_z">0</property>
   </transition>
-  <transition out="3525" id="transition16" in="3280">
+  <transition out="3525" id="transition18" in="3280">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="distort">0</property>
@@ -1161,7 +1348,7 @@
    <property name="shear_y">0</property>
    <property name="shear_z">0</property>
   </transition>
-  <transition out="3925" id="transition17" in="3526">
+  <transition out="3925" id="transition19" in="3526">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="distort">0</property>
@@ -1179,7 +1366,7 @@
    <property name="shear_y">0</property>
    <property name="shear_z">0</property>
   </transition>
-  <transition out="4662" id="transition18" in="4006">
+  <transition out="4662" id="transition20" in="4006">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="distort">0</property>
@@ -1197,7 +1384,7 @@
    <property name="shear_y">0</property>
    <property name="shear_z">0</property>
   </transition>
-  <transition out="5200" id="transition19" in="4663">
+  <transition out="5200" id="transition21" in="4663">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="distort">0</property>
@@ -1215,7 +1402,43 @@
    <property name="shear_y">0</property>
    <property name="shear_z">0</property>
   </transition>
-  <transition out="5954" id="transition20" in="5201">
+  <transition out="5954" id="transition22" in="5201">
+   <property name="a_track">3</property>
+   <property name="b_track">5</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="fill">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition out="6363" id="transition23" in="6016">
+   <property name="a_track">3</property>
+   <property name="b_track">5</property>
+   <property name="distort">0</property>
+   <property name="geometry">0/0:100%x100%:100%</property>
+   <property name="fill">1</property>
+   <property name="mlt_type">transition</property>
+   <property name="mlt_service">affine</property>
+   <property name="automatic">1</property>
+   <property name="force_track">1</property>
+   <property name="keyed">1</property>
+   <property name="rotate_x">0</property>
+   <property name="rotate_y">0</property>
+   <property name="rotate_z">0</property>
+   <property name="shear_x">0</property>
+   <property name="shear_y">0</property>
+   <property name="shear_z">0</property>
+  </transition>
+  <transition out="7804" id="transition24" in="6364">
    <property name="a_track">3</property>
    <property name="b_track">5</property>
    <property name="distort">0</property>
