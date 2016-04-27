@@ -954,7 +954,7 @@ flightlogentries =
             0
             6
         )
-        solo
+        dual
         ybaf2ybaf
         Day
         "David Schofield"
