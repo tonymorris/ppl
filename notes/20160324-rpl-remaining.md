@@ -2,7 +2,7 @@
 
 #### 20160324
 
-* 3 or 4 hours circuits (2 solo)
+* ~~3 or 4 hours circuits (2 solo)~~
 
 * training area
   * forced landings (x2)
