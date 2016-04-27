@@ -1,11 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<mlt LC_NUMERIC="en_AU.UTF-8" version="6.0.0" title="Anonymous Submission" producer="main bin" root="/home/tmorris">
- <profile description="HD 1080p 25 fps" sample_aspect_den="1" frame_rate_den="1" progressive="1" sample_aspect_num="1" frame_rate_num="25" display_aspect_num="16" display_aspect_den="9" width="1920" colorspace="709" height="1080"/>
- <producer title="Anonymous Submission" id="1" out="53077" in="0">
+<mlt version="6.0.0" LC_NUMERIC="en_AU.UTF-8" title="Anonymous Submission" producer="main bin" root="/home/tmorris">
+ <profile display_aspect_den="9" frame_rate_num="25" height="1080" sample_aspect_den="1" frame_rate_den="1" width="1920" sample_aspect_num="1" colorspace="709" progressive="1" description="HD 1080p 25 fps" display_aspect_num="16"/>
+ <producer in="0" title="Anonymous Submission" id="1" out="53077">
   <property name="mlt_type">mlt_producer</property>
   <property name="length">00:35:23:03</property>
   <property name="eof">pause</property>
   <property name="resource">Desktop/20160427-vh-vvo/MAH00362.MP4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
@@ -40,10 +44,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
   <property name="meta.media.colorspace">709</property>
@@ -56,11 +56,15 @@
   <property name="kdenlive:file_hash">131da795b6566cd0380389721c71ec40</property>
   <property name="global_feed">1</property>
  </producer>
- <producer title="Anonymous Submission" id="2" out="37499" in="0">
+ <producer in="0" title="Anonymous Submission" id="2" out="37499">
   <property name="mlt_type">mlt_producer</property>
   <property name="length">00:25:00:00</property>
   <property name="eof">pause</property>
   <property name="resource">Desktop/20160427-vh-vvo/MAH00363.MP4</property>
+  <property name="audio_index">1</property>
+  <property name="video_index">0</property>
+  <property name="mute_on_pause">1</property>
+  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.nb_streams">2</property>
   <property name="meta.media.0.stream.type">video</property>
   <property name="meta.media.0.stream.frame_rate">29.97</property>
@@ -95,10 +99,6 @@
   <property name="meta.media.sample_aspect_num">1</property>
   <property name="meta.media.sample_aspect_den">1</property>
   <property name="aspect_ratio">1</property>
-  <property name="audio_index">1</property>
-  <property name="video_index">0</property>
-  <property name="mute_on_pause">1</property>
-  <property name="mlt_service">avformat-novalidate</property>
   <property name="meta.media.frame_rate_num">30000</property>
   <property name="meta.media.frame_rate_den">1001</property>
   <property name="meta.media.colorspace">709</property>
@@ -111,9 +111,9 @@
   <property name="kdenlive:file_hash">93e6d2e95ea2b7a23af8cbc5e5c6a1bc</property>
   <property name="global_feed">1</property>
  </producer>
- <producer title="Anonymous Submission" id="3" out="158" in="0">
+ <producer in="0" title="Anonymous Submission" id="3" out="158">
   <property name="mlt_type">mlt_producer</property>
-  <property name="length">159</property>
+  <property name="length">00:00:06:09</property>
   <property name="eof">pause</property>
   <property name="resource"/>
   <property name="progressive">1</property>
@@ -158,12 +158,14 @@
   <property name="global_feed">1</property>
  </producer>
  <playlist kdenlive:customeffects="&lt;customeffects/>&#xa;" id="main bin">
+  <property name="kdenlive:customeffects">&lt;customeffects/>
+</property>
   <property name="kdenlive:docproperties.documentid">1461742250943</property>
   <property name="kdenlive:docproperties.enableproxy">0</property>
   <property name="kdenlive:docproperties.generateimageproxy">0</property>
   <property name="kdenlive:docproperties.generateproxy">0</property>
   <property name="kdenlive:docproperties.kdenliveversion">15.12.3</property>
-  <property name="kdenlive:docproperties.position">70</property>
+  <property name="kdenlive:docproperties.position">0</property>
   <property name="kdenlive:docproperties.profile">atsc_1080p_25</property>
   <property name="kdenlive:docproperties.projectfolder">kdenlive</property>
   <property name="kdenlive:docproperties.proxyextension">mpg</property>
@@ -179,11 +181,11 @@
   <property name="kdenlive:clipgroups">&lt;groups/>
 </property>
   <property name="xml_retain">1</property>
-  <entry producer="1" out="53077" in="0"/>
-  <entry producer="2" out="37499" in="0"/>
-  <entry producer="3" out="124" in="0"/>
+  <entry in="0" producer="1" out="53077"/>
+  <entry in="0" producer="2" out="37499"/>
+  <entry in="0" producer="3" out="124"/>
  </playlist>
- <producer id="black" out="65498" in="0">
+ <producer in="0" id="black" out="65498">
   <property name="mlt_type">producer</property>
   <property name="length">65499</property>
   <property name="eof">pause</property>
@@ -192,7 +194,7 @@
   <property name="mlt_service">colour</property>
  </producer>
  <playlist id="black_track">
-  <entry producer="black" out="64314" in="0"/>
+  <entry in="0" producer="black" out="64314"/>
  </playlist>
  <playlist id="playlist1">
   <property name="kdenlive:track_name">Audio 2</property>
@@ -205,7 +207,7 @@
  <playlist id="playlist3">
   <property name="kdenlive:track_name">Video 3</property>
  </playlist>
- <producer title="Anonymous Submission" id="1_playlist4" out="53077" in="0">
+ <producer in="0" title="Anonymous Submission" id="1_playlist4" out="53077">
   <property name="mlt_type">producer</property>
   <property name="length">00:35:23:03</property>
   <property name="eof">pause</property>
@@ -261,7 +263,7 @@
   <property name="meta.media.top_field_first">0</property>
   <property name="meta.media.progressive">1</property>
  </producer>
- <producer title="Anonymous Submission" id="2_playlist4" out="37499" in="0">
+ <producer in="0" title="Anonymous Submission" id="2_playlist4" out="37499">
   <property name="mlt_type">producer</property>
   <property name="length">00:25:00:00</property>
   <property name="eof">pause</property>
@@ -280,17 +282,17 @@
  <playlist id="playlist4">
   <property name="kdenlive:track_name">Video 2</property>
   <blank length="96"/>
-  <entry producer="1_playlist4" out="53077" in="26359"/>
-  <entry producer="2_playlist4" out="37499" in="0"/>
+  <entry in="26359" producer="1_playlist4" out="53077"/>
+  <entry in="0" producer="2_playlist4" out="37499"/>
  </playlist>
  <playlist id="playlist5">
   <property name="kdenlive:track_name">Video 1</property>
-  <entry producer="3" out="157" in="0"/>
+  <entry in="0" producer="3" out="157"/>
  </playlist>
- <tractor title="Anonymous Submission" id="maintractor" out="64314" global_feed="1" in="0">
+ <tractor in="0" title="Anonymous Submission" global_feed="1" id="maintractor" out="64314">
   <track producer="black_track"/>
-  <track producer="playlist1" hide="video"/>
-  <track producer="playlist2" hide="video"/>
+  <track hide="video" producer="playlist1"/>
+  <track hide="video" producer="playlist2"/>
   <track producer="playlist3"/>
   <track producer="playlist4"/>
   <track producer="playlist5"/>
@@ -339,7 +341,7 @@
    <property name="combine">1</property>
    <property name="internal_added">237</property>
   </transition>
-  <transition id="transition5" out="157" in="96">
+  <transition in="96" id="transition5" out="157">
    <property name="a_track">4</property>
    <property name="b_track">5</property>
    <property name="factory">loader</property>
