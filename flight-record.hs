@@ -20,6 +20,14 @@ vhafr =
     "VH-AFR"
     Single
 
+vhvvo ::
+  Aircraft
+vhvvo =
+  Aircraft
+    "2000 Cessna 172R Skyhawk"
+    "VH-VVO"
+    Single
+
 vhzwy ::
   Aircraft
 vhzwy =
@@ -934,6 +942,98 @@ flightlogentries =
               "https://www.youtube.com/watch?v=UR1IkF5RSh4"
               (Just "Forward camera")
               YouTube
+          ]
+        )                                     
+    , FlightLogEntry
+        "P3.7 Circuits (Dual)"
+        "P3.7 Circuits (Dual)"
+        "20160427"
+        vhafr
+        (
+          Hours
+            0
+            6
+        )
+        solo
+        ybaf2ybaf
+        Day
+        "David Schofield"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160427-vh-vvo.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160427-vh-vvo.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/724934"
+              Nothing
+              Doarama
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        (
+          Videos
+          [
+          ]
+        )                                     
+    , FlightLogEntry
+        "P3.7 Circuits (Solo)"
+        "P3.7 Circuits (Solo)"
+        "20160427"
+        vhafr
+        (
+          Hours
+            0
+            8
+        )
+        solo
+        ybaf2ybaf
+        Day
+        "Tony Morris"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160427-vh-vvo.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160427-vh-vvo.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/724934"
+              Nothing
+              Doarama
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        (
+          Videos
+          [
           ]
         )                                     
     ]
