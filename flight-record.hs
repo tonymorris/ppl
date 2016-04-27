@@ -898,7 +898,7 @@ flightlogentries =
         "P3.6 Circuits (Solo)"
         "P3.6 Circuits (Solo)"
         "20160422"
-        vhvvo
+        vhafr
         (
           Hours
             1
@@ -994,7 +994,7 @@ flightlogentries =
         "P3.7 Circuits (Solo)"
         "P3.7 Circuits (Solo)"
         "20160427"
-        vhafr
+        vhvvo
         (
           Hours
             0
