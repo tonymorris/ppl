@@ -4,7 +4,7 @@ set -e
 
 mkdir -p "dist" "dist/briefings" "dist/drills" "dist/notes"
 
-pandoc="./.cabal-sandbox/bin/pandoc"
+pandoc="pandoc"
 
 files="\
   departure-briefing\
@@ -41,6 +41,8 @@ drills="\
 notes="\
   notes/20160122-circuits\
   notes/20160129-exam\
+  notes/20160309-bak-exam\
+  notes/20160324-rpl-remaining\
   notes/aviation-plugs\
   notes/before-flight\
   notes/vh-afr-flight-deck\
