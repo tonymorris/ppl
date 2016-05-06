@@ -15,3 +15,5 @@
 * short field take-off & landing
 * pre-cautionary search
 * general revision
+* area solo
+* circuit *(possible)*
