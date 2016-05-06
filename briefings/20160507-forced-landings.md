@@ -114,7 +114,7 @@
 
   * other useful information
 
-  * set Transponder to `7700`.
+  * set Transponder to `7700`
 
 5. PAX briefing
 
