@@ -259,3 +259,9 @@
     ; vh-zwy:, terminal
     expenses:school:flight:terminal         32.73 @ 2.0
     assets:balance:close                    -10964.54
+
+2016/05/07 * Flight One Invoice 30917 ; flight one:, 30917:
+    assets:balance:open                     10964.54
+    ; briefing
+    expenses:school:briefing                77.00 @ 1.1
+    assets:balance:close                    -11049.24
