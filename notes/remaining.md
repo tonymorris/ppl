@@ -34,7 +34,7 @@
 
 * revision as required **(0-4)**
 
-* nav brief **3-3.5hrs**
+* nav brief **(3-3.5hrs)**
 
 * nav 01 **(1)**
 
@@ -48,7 +48,7 @@
 
 * nav 05 solo *outside CTA* **(1)**
 
-* nav brief Controlled Airspace **1.5-2hrs**
+* nav brief Controlled Airspace **(1.5-2hrs)**
 
 * nav 06 CTA 01 **(1)**
 
