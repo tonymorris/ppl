@@ -8,7 +8,7 @@
 
 * **FLT** steep turns **(2)**
 
-* **FLT** crosswind in circuit **(2)**
+* **FLT** crosswind in circuit **(~~2~~1)**
 
 * **FLT** side-slipping **(1)**
 
