@@ -60,7 +60,7 @@
 
     * fuel selector on BOTH
 
-    * fuel valve OFF
+    * fuel valve ON
 
     * mixture RICH
 
