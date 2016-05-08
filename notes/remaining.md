@@ -2,62 +2,60 @@
 
 ### up to RPL
 
-* ~~3 or 4 hours circuits (2 solo)~~
+* ~~**FLT** solo circuits **(2)**~~
 
-* training area
+* **FLT** forced landings **(2)**
 
-  * forced landings **(2)**
+* **FLT** steep turns **(2)**
 
-  * steep turns **(2)**
+* **FLT** crosswind in circuit **(2)**
 
-  * crosswind in circuit **(2)**
+* **FLT** side-slipping **(1)**
 
-  * side-slipping **(1)**
+* **FLT** area solo check **(1)**
 
-* area solo check **(1)**
+* **FLT** area solo **(2)**
 
-* area solo **(2)**
+* **FLT** basic instrument flying **(1)**
 
-* basic instrument flying **(1)**
+* **FLT** short field take-off & landing **(1)**
 
-* short field take-off & landing **(1)**
+* **FLT** pre-cautionary search **(1)**
 
-* pre-cautionary search **(1)**
+* **FLT** general revision **(1)**
 
-* general revision **(1)**
+* **FLT** area solo **(1)**
 
-* area solo **(1)**
-
-* circuit revision as required **(0-1)**
+* **FLT** circuit revision as required **(0-1)**
 
 ### RPL to PPL
 
-* revision as required **(0-4)**
+* **FLT** revision as required **(0-4)**
 
-* nav brief **(3-3.5hrs)**
+* **BRF** nav brief **(3-3.5hrs)**
 
-* nav 01 **(1)**
+* **FLT** nav 01 **(1)**
 
-* nav 02 **(1)**
+* **FLT** nav 02 **(1)**
 
-* nav 03 **(1)**
+* **FLT** nav 03 **(1)**
 
-* nav 04 solo check **(1)**
+* **FLT** nav 04 solo check **(1)**
 
-* nav revision as required **(0-1)**
+* **FLT** nav revision as required **(0-1)**
 
-* nav 05 solo *outside CTA* **(1)**
+* **FLT** nav 05 solo *outside CTA* **(1)**
 
-* nav brief Controlled Airspace **(1.5-2hrs)**
+* **BRF** nav brief Controlled Airspace **(1.5-2hrs)**
 
-* nav 06 CTA 01 **(1)**
+* **FLT** nav 06 CTA 01 **(1)**
 
-* nav 07 CTA 02 solo check **(1)**
+* **FLT** nav 07 CTA 02 solo check **(1)**
 
-* nav CTA revision as required **(0-1)**
+* **FLT** nav CTA revision as required **(0-1)**
 
-* nav 08 CTA solo **(1)**
+* **FLT** nav 08 CTA solo **(1)**
 
-* nav 09 recommendation flight **(1)**
+* **FLT** nav 09 recommendation flight **(1)**
 
-* nav 10 PPL flight test **(1)**
+* **FLT** nav 10 PPL flight test **(1)**
