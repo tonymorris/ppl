@@ -28,7 +28,7 @@
 
 * area solo **(1)**
 
-* circuit **(0-1)**
+* circuit revision as required **(0-1)**
 
 # RPL to PPL
 
