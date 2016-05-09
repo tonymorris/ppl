@@ -4,7 +4,7 @@
 
 * ~~**FLT** solo circuits **(2)**~~
 
-* **FLT** forced landings **(2)**
+* **FLT** forced landings **(~~2~~1)**
 
 * **FLT** steep turns **(2)**
 
