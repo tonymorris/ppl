@@ -18,13 +18,15 @@
 
 * **FLT** basic instrument flying **(1)**
 
+* **SIM** basic instrument flying **(1)**
+
 * **FLT** short field take-off & landing **(1)**
 
-* **FLT** pre-cautionary search **(1)**
+* **FLT** pre-cautionary search and landing **(1)**
 
 * **FLT** general revision **(1)**
 
-* **FLT** area solo **(1)**
+* **FLT** area solo consolidation **(1)**
 
 * **FLT** circuit revision as required **(0-1)**
 
