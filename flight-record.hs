@@ -1084,6 +1084,10 @@ flightlogentries =
         (
           Videos
           [
+            Video
+              "https://www.youtube.com/watch?v=o1dx3hZuov0"
+              (Just "Forward camera")
+              YouTube
             -- https://bambuser.com/v/6250595
           ]
         )                                             
