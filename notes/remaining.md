@@ -17,7 +17,7 @@
 * **FLT** area solo **(2)**
 
 * **FLT** basic instrument flying **(1)**
-
+zv.,nlvhxvhsdafv;jksd
 * **SIM** basic instrument flying **(1)**
 
 * **FLT** short field take-off & landing **(1)**
