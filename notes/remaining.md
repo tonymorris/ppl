@@ -4,11 +4,11 @@
 
 * ~~**FLT** solo circuits **(2)**~~
 
-* **FLT** forced landings **(~~2~~1)**
+* **FLT** forced landings **(1~~2~~)**
 
 * **FLT** steep turns **(2)**
 
-* **FLT** crosswind in circuit **(~~2~~1)**
+* **FLT** crosswind in circuit **(1~~2~~)**
 
 * **FLT** side-slipping **(1)**
 
