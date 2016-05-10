@@ -1,12 +1,48 @@
 # Remaining
 
-### up to RPL
+### ab initio to RPL
+
+* ~~**BRF** effect of controls **(1)**~~
+
+* ~~**FLT** effect of controls **(1)**~~
+
+* ~~**FLT** straight and level **(1)**~~
+
+* ~~**BRF** straight and level **(1)**~~
+
+* ~~**FLT** climbing and descending **(1)**~~
+
+* ~~**BRF** climbing and descending **(1)**~~
+
+* ~~**FLT** turning **(1)**~~
+
+* ~~**BRF** turning **(1)**~~
+
+* ~~**FLT** stalling **(1)**~~
+
+* ~~**BRF** stalling **(1)**~~
+
+* ~~**FLT** consolidation **(1)**~~
+
+* ~~**BRF** circuits **(1)**~~
+
+* ~~**FLT** circuits **(4)**~~
+
+* ~~**BRF** circuit emergencies **(3)**~~
+
+* ~~**FLT** circuit emergencies **(3)**~~
+
+* ~~**FLT** circuit solo check **(1)**~~
+
+* ~~**FLT** circuit solo **(1)**~~
 
 * ~~**FLT** solo circuits **(2)**~~
 
 * **FLT** forced landings **(1~~2~~)**
 
 * **FLT** steep turns **(2)**
+
+* ~~**BRF** crosswind in circuit **(1)**~~
 
 * **FLT** crosswind in circuit **(1~~2~~)**
 
