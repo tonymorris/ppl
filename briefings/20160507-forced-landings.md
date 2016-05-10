@@ -66,6 +66,8 @@
 
     * carburettor heat ON
 
+    * throttle CYCLE
+
     * fuel pump ON
 
     * magnetos BOTH
