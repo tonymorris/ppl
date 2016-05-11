@@ -54,8 +54,6 @@
 
   * conserve altitude, trim to 68KIAS
 
-  * throttle to idle
-
   * check
 
     * fuel selector on BOTH
