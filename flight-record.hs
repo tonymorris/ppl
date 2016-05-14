@@ -1041,8 +1041,8 @@ flightlogentries =
           ]
         ) 
     , FlightLogEntry
-        "Forced Landings"
-        "Forced Landings"
+        "Practice Forced Landings"
+        "Practice Forced Landings"
         "20160509"
         vhafr
         (
@@ -1095,8 +1095,8 @@ flightlogentries =
           ]
         )          
         , FlightLogEntry
-        "Forced Landings"
-        "Forced Landings"
+        "Practice Forced Landings"
+        "Practice Forced Landings"
         "20160514"
         vhvvo
         (
