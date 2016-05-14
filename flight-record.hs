@@ -1139,7 +1139,7 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v="
+              "https://www.youtube.com/watch?v=vw9KjjqkOEg"
               (Just "Forward camera")
               YouTube
           , Video
