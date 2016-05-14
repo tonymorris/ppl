@@ -1112,11 +1112,11 @@ flightlogentries =
           TrackLogs
             [
               TrackLog
-              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160514-vh-afr.gpx"
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160514-vh-vvo.gpx"
               Nothing
               Gpx      
             , TrackLog
-              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160514-vh-afr.png"
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160514-vh-vvo.png"
               Nothing
               (ImageLog Png)                    
             ]
