@@ -1090,6 +1090,57 @@ flightlogentries =
               YouTube
             -- https://bambuser.com/v/6250595
           ]
+        )          
+        , FlightLogEntry
+        "Forced Landings"
+        "Forced Landings"
+        "20160514"
+        vhvvo
+        (
+          Hours
+            1
+            2
+        )
+        dual
+        ybaf2ybaf
+        Day
+        "David Schofield"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160514-vh-afr.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160514-vh-afr.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/748638"
+              Nothing
+              Doarama
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        (
+          Videos
+          [
+            Video
+              "https://www.youtube.com/watch?v="
+              (Just "Forward camera")
+              YouTube
+            -- https://bambuser.com/v/6258610
+          ]
         )                                             
     ]
 
