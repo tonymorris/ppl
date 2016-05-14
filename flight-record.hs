@@ -1088,7 +1088,10 @@ flightlogentries =
               "https://www.youtube.com/watch?v=o1dx3hZuov0"
               (Just "Forward camera")
               YouTube
-            -- https://bambuser.com/v/6250595
+          , Video
+              "https://bambuser.com/v/6250595"
+              (Just "Live stream")
+              Bambuser
           ]
         )          
         , FlightLogEntry
@@ -1139,7 +1142,10 @@ flightlogentries =
               "https://www.youtube.com/watch?v="
               (Just "Forward camera")
               YouTube
-            -- https://bambuser.com/v/6258610
+          , Video
+              "https://bambuser.com/v/6258610"
+              (Just "Live stream")
+              Bambuser
           ]
         )                                             
     ]
