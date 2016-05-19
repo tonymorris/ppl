@@ -17,6 +17,7 @@
       <license>http://en.wikipedia.org/wiki/Beerware</license>
     </copyright>    
   </metadata>    
+  <trk>
     <trkseg>
       <trkpt lat="-27.566775" lon="153.014611">
         <ele>17</ele>
