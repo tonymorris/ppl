@@ -213,6 +213,58 @@
   <property name="kdenlive:file_size">2927049</property>
   <property name="kdenlive:file_hash">98360e2316a41d77d41ad5287db153df</property>
  </producer>
+ <producer id="5" title="Anonymous Submission" out="124" in="0">
+  <property name="length">00:00:05:00</property>
+  <property name="eof">pause</property>
+  <property name="resource"/>
+  <property name="progressive">1</property>
+  <property name="aspect_ratio">1</property>
+  <property name="seekable">1</property>
+  <property name="mlt_service">kdenlivetitle</property>
+  <property name="kdenlive:clipname">Title clip</property>
+  <property name="xmldata">&lt;kdenlivetitle width="1920" duration="125" out="125" height="1080" LC_NUMERIC="en_AU.UTF-8">
+ &lt;item z-index="4" type="QGraphicsTextItem">
+  &lt;position x="490" y="880">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-italic="0" letter-spacing="0" font-weight="50" box-height="56" shadow="0;#64000000;3;3;3" font="DejaVu Sans" font-underline="0" font-pixel-size="48" box-width="933.875" font-color="255,255,255,255" alignment="1">Archerfield Airport, Queensland [YBAF]&lt;/content>
+ &lt;/item>
+ &lt;item z-index="3" type="QGraphicsTextItem">
+  &lt;position x="636" y="598">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-italic="0" letter-spacing="0" font-weight="50" box-height="56" shadow="0;#64000000;3;3;3" font="DejaVu Sans" font-underline="0" font-pixel-size="48" box-width="642.078" font-color="255,255,255,255" alignment="1">Steep Turns &amp;amp; Spiral Dives&lt;/content>
+ &lt;/item>
+ &lt;item z-index="2" type="QGraphicsTextItem">
+  &lt;position x="800" y="233">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-italic="0" letter-spacing="0" font-weight="50" box-height="56" shadow="0;#64000000;3;3;3" font="DejaVu Sans" font-underline="0" font-pixel-size="48" line-spacing="0" box-width="313.062" font-color="255,255,255,255" alignment="1">Cessna 172R&lt;/content>
+ &lt;/item>
+ &lt;item z-index="1" type="QGraphicsTextItem">
+  &lt;position x="836" y="342">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-italic="0" letter-spacing="0" font-weight="50" box-height="112" shadow="0;#64000000;3;3;3" font="DejaVu Sans" font-underline="0" font-pixel-size="48" box-width="244.25" font-color="255,255,255,255" alignment="1">20160519
+&lt;/content>
+ &lt;/item>
+ &lt;item z-index="0" type="QGraphicsTextItem">
+  &lt;position x="864" y="138">
+   &lt;transform>1,0,0,0,1,0,0,0,1&lt;/transform>
+  &lt;/position>
+  &lt;content font-italic="0" letter-spacing="0" font-weight="50" box-height="56" shadow="0;#64000000;3;3;3" font="DejaVu Sans" font-underline="0" font-pixel-size="48" box-width="189.672" font-color="255,255,255,255" alignment="1">VH-VVO&lt;/content>
+ &lt;/item>
+ &lt;startviewport rect="0,0,1920,1080"/>
+ &lt;endviewport rect="0,0,1920,1080"/>
+ &lt;background color="0,0,0,0"/>
+&lt;/kdenlivetitle>
+</property>
+  <property name="force_reload">0</property>
+  <property name="meta.media.width">1920</property>
+  <property name="meta.media.height">1080</property>
+  <property name="kdenlive:file_hash">7352c42f0acb56625b15c889f1f52199</property>
+  <property name="global_feed">1</property>
+ </producer>
  <playlist id="main bin">
   <property name="kdenlive:docproperties.documentid">1463645928682</property>
   <property name="kdenlive:docproperties.enableproxy">0</property>
@@ -237,6 +289,7 @@
   <entry out="53077" producer="2" in="0"/>
   <entry out="15014" producer="3" in="0"/>
   <entry out="37" producer="4" in="0"/>
+  <entry out="124" producer="5" in="0"/>
  </playlist>
  <producer id="black" out="500" in="0">
   <property name="length">15000</property>
