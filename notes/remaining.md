@@ -40,7 +40,7 @@
 
 * ~~**FLT** forced landings **(2)**~~
 
-* **FLT** steep turns **(2)**
+* **FLT** steep turns **(1~~2~~)**
 
 * ~~**BRF** crosswind in circuit **(1)**~~
 
