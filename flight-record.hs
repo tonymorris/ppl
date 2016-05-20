@@ -3,6 +3,8 @@
 module Main where
 
 import Data.Aviation.Casr.Logbook
+import System.Environment
+import System.IO
 
 vhldo ::
   Aircraft
@@ -50,7 +52,6 @@ flightlogentries =
     [
       FlightLogEntry
         "P1.1 Effects of Controls"
-        "P1.1 Effects of Controls"
         "20151214"
         vhldo
         (
@@ -67,7 +68,6 @@ flightlogentries =
         mempty
         mempty
     , FlightLogEntry
-        "P1.2 Straight & Level"
         "P1.2 Straight & Level"
         "20151218"
         vhldo
@@ -99,7 +99,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/595690"
               Nothing
-              Doarama
+              (Doarama "k=6rAdypE")
           ]
         )
         mempty
@@ -107,13 +107,12 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=13BVior4VmY"
+              "13BVior4VmY"
               (Just "Head camera")
               YouTube
           ]
         )
     , FlightLogEntry
-        "P1.3 Climbing & Descending"
         "P1.3 Climbing & Descending"
         "20151220"
         vhldo
@@ -145,7 +144,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/596790"
               Nothing
-              Doarama
+              (Doarama "6rZrPp6")
           ]
         )
         mempty
@@ -153,13 +152,12 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=8tZ8kxsVz6E"
+              "8tZ8kxsVz6E"
               (Just "Head camera")
               YouTube
           ]      
         )
     , FlightLogEntry
-        "P1.4 Turning"
         "P1.4 Turning"
         "20160104"
         vhldo
@@ -191,13 +189,12 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/607004"
               Nothing
-              Doarama
+              (Doarama "6x5Az8e")
           ]
         )
         mempty
         mempty
     , FlightLogEntry
-        "P1.5 Stalling"
         "P1.5 Stalling"
         "20160108"
         vhldo
@@ -229,13 +226,12 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/611980"
               Nothing
-              Doarama
+              (Doarama "eYQA7ve")
           ]
         )
         mempty
         mempty
     , FlightLogEntry
-        "P1.6 Consolidation"
         "P1.6 Consolidation"
         "20160115"
         vhafr
@@ -267,13 +263,12 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/617610"
               Nothing
-              Doarama
+              (Doarama "k8p38wk")
           ]
         )
         mempty
         mempty
     , FlightLogEntry
-        "P2.1 Circuits"
         "P2.1 Circuits"
         "20160122"
         vhafr
@@ -305,7 +300,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/622258"
               Nothing
-              Doarama
+              (Doarama "k0nXwd6")
           ]
         )
         (
@@ -357,13 +352,12 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=gz8Ivcjas9o"
+              "gz8Ivcjas9o"
               (Just "Head camera")
               YouTube
           ]
         )     
     , FlightLogEntry
-        "P2.2 Circuits"
         "P2.2 Circuits"
         "20160129"
         vhafr
@@ -395,7 +389,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/626694"
               Nothing
-              Doarama
+              (Doarama "6b7RKAe")
           ]
         )
         mempty
@@ -403,13 +397,12 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=k9c1GdxkdQY"
+              "k9c1GdxkdQY"
               (Just "Head camera")
               YouTube
           ]       
         )
     , FlightLogEntry
-        "P2.3 Circuits"
         "P2.3 Circuits"
         "20160205"
         vhafr
@@ -441,13 +434,12 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/635027"
               Nothing
-              Doarama
+              (Doarama "eBdaGlE")
           ]
         )
         mempty
         mempty
     , FlightLogEntry
-        "P2.4 Circuits"
         "P2.4 Circuits"
         "20160212"
         vhafr
@@ -479,7 +471,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/640001"
               Nothing
-              Doarama
+              (Doarama "E2y3mnk")
           ]
         )
         mempty
@@ -487,13 +479,12 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=e7UcjgxOmDw"
+              "e7UcjgxOmDw"
               (Just "Head camera")
               YouTube
           ]
         )                                                            
     , FlightLogEntry
-        "P3.1 Circuit Emergencies"
         "P3.1 Circuit Emergencies"
         "20160218"
         vhafr
@@ -525,7 +516,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/644663"
               Nothing
-              Doarama
+              (Doarama "Ep1r9P6")
           ]
         )
         (
@@ -601,13 +592,12 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=EO4D4zFnpIU"
+              "EO4D4zFnpIU"
               (Just "Head camera")
               YouTube
           ]  
         )            
     , FlightLogEntry
-        "P3.2 Circuit Emergencies"
         "P3.2 Circuit Emergencies"
         "20160304"
         vhafr
@@ -639,7 +629,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/674600"
               Nothing
-              Doarama
+              (Doarama "6XbQDjk")
           ]
         )
         (
@@ -651,13 +641,12 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=jWUijREg4aE"
+              "jWUijREg4aE"
               (Just "Head camera")
               YouTube
           ]
         )                        
     , FlightLogEntry
-        "P3.3 Circuit Emergencies"
         "P3.3 Circuit Emergencies"
         "20160324"
         vhzwy
@@ -689,7 +678,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/691106"
               Nothing
-              Doarama
+              (Doarama "6bPVnnk")
           ]
         )
         (
@@ -701,13 +690,12 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=RNiYu3ZsfZw"
+              "RNiYu3ZsfZw"
               (Just "Forward camera")
               YouTube
           ]
         )                        
     , FlightLogEntry
-        "P3.4 Circuits"
         "P3.4 Circuits"
         "20160330"
         vhzwy
@@ -739,7 +727,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/696748"
               Nothing
-              Doarama
+              (Doarama "6xV5dVk")
           ]
         )
         (
@@ -753,7 +741,6 @@ flightlogentries =
           ]
         )
     , FlightLogEntry
-        "P3.4 Circuits"
         "P3.4 Circuits"
         "20160330"
         vhzwy
@@ -785,7 +772,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/696748"
               Nothing
-              Doarama
+              (Doarama "6xV5dVk")
           ]
         )
         (
@@ -799,7 +786,6 @@ flightlogentries =
           ]
         )           
     , FlightLogEntry
-        "P3.5 Circuits (Crosswind)"
         "P3.5 Circuits (Crosswind)"
         "20160415"
         vhafr
@@ -831,7 +817,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/711553"
               Nothing
-              Doarama
+              (Doarama "k9nWdbE")
           ]
         )
         (
@@ -845,7 +831,6 @@ flightlogentries =
           ]
         )
     , FlightLogEntry
-        "P3.6 Circuits (Solo check)"
         "P3.6 Circuits (Solo check)"
         "20160422"
         vhafr
@@ -877,7 +862,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/719248"
               Nothing
-              Doarama
+              (Doarama "6xVbR8k")
           ]
         )
         (
@@ -889,13 +874,12 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=UR1IkF5RSh4"
+              "UR1IkF5RSh4"
               (Just "Forward camera")
               YouTube
           ]
         )                                     
     , FlightLogEntry
-        "P3.6 Circuits (Solo)"
         "P3.6 Circuits (Solo)"
         "20160422"
         vhafr
@@ -927,7 +911,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/719248"
               Nothing
-              Doarama
+              (Doarama "6xVbR8k")
           ]
         )
         (
@@ -939,13 +923,12 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=UR1IkF5RSh4"
+              "UR1IkF5RSh4"
               (Just "Forward camera")
               YouTube
           ]
         )                                     
     , FlightLogEntry
-        "P3.7 Circuits (Dual)"
         "P3.7 Circuits (Dual)"
         "20160427"
         vhvvo
@@ -977,7 +960,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/724934"
               Nothing
-              Doarama
+              (Doarama "eo1yvBE")
           ]
         )
         (
@@ -991,7 +974,6 @@ flightlogentries =
           ]
         )                                     
     , FlightLogEntry
-        "P3.7 Circuits (Solo)"
         "P3.7 Circuits (Solo)"
         "20160427"
         vhvvo
@@ -1023,7 +1005,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/724934"
               Nothing
-              Doarama
+              (Doarama "eo1yvBE")
           ]
         )
         (
@@ -1035,13 +1017,12 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=2QNp74n2Lx8"
+              "2QNp74n2Lx8"
               (Just "Forward camera")
               YouTube
           ]
         ) 
     , FlightLogEntry
-        "Practice Forced Landings"
         "Practice Forced Landings"
         "20160509"
         vhafr
@@ -1073,7 +1054,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/741813"
               Nothing
-              Doarama
+              (Doarama "edWMLO6")
           ]
         )
         (
@@ -1085,18 +1066,17 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=o1dx3hZuov0"
+              "o1dx3hZuov0"
               (Just "Forward camera")
               YouTube
           , Video
-              "https://bambuser.com/v/6250595"
+              "6250595"
               (Just "Live stream")
               Bambuser
           ]
         )          
-        , FlightLogEntry
-        "Practice Forced Landings"
-        "Practice Forced Landings"
+      , FlightLogEntry
+        "Steep Turns"
         "20160514"
         vhvvo
         (
@@ -1127,7 +1107,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/748638"
               Nothing
-              Doarama
+              (Doarama "6jAODJE")
           ]
         )
         (
@@ -1139,70 +1119,16 @@ flightlogentries =
           Videos
           [
             Video
-              "https://www.youtube.com/watch?v=vw9KjjqkOEg"
+              "vw9KjjqkOEg"
               (Just "Forward camera")
               YouTube
           , Video
-              "https://bambuser.com/v/6258610"
+              "6258610"
               (Just "Live stream")
               Bambuser
           ]
-        )             , FlightLogEntry
-        "Practice Forced Landings"
-        "Practice Forced Landings"
-        "20160509"
-        vhafr
-        (
-          Hours
-            1
-            0
-        )
-        dual
-        ybaf2ybaf
-        Day
-        "David Schofield"
-        (
-          TrackLogs
-            [
-              TrackLog
-              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160509-vh-afr.gpx"
-              Nothing
-              Gpx      
-            , TrackLog
-              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160509-vh-afr.png"
-              Nothing
-              (ImageLog Png)                    
-            ]
-        )
-        (
-          Visualisations
-          [
-            Visualisation
-              "http://doarama.com/view/741813"
-              Nothing
-              Doarama
-          ]
-        )
-        (
-          Images
-          [
-          ]
-        )
-        (
-          Videos
-          [
-            Video
-              "https://www.youtube.com/watch?v=o1dx3hZuov0"
-              (Just "Forward camera")
-              YouTube
-          , Video
-              "https://bambuser.com/v/6250595"
-              (Just "Live stream")
-              Bambuser
-          ]
-        )          
+        )                                             
       , FlightLogEntry
-        "Steep Turns"
         "Steep Turns"
         "20160519"
         vhvvo
@@ -1234,7 +1160,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/756397"
               Nothing
-              Doarama
+              (Doarama "k9nNR4E")
           ]
         )
         (
@@ -1245,8 +1171,9 @@ flightlogentries =
         (
           Videos
           [
+            -- todo youtube
             Video
-              "https://bambuser.com/v/6267124"
+              "6267124"
               (Just "Live stream")
               Bambuser
           ]
@@ -1265,4 +1192,10 @@ flightlog =
 main ::
   IO ()
 main =
-  printMarkdown flightlog
+  do  a <- getArgs
+      case a of
+        [md, html] ->
+          do  writeMarkdownFile md flightlog
+              writeHtmlFile html flightlog
+        _ -> 
+          hPutStrLn stderr "args: <markdown-file> <html-file>"

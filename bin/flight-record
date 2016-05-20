@@ -4,4 +4,5 @@ set -e
 
 mkdir -p "dist/flight-record"
 
-runhaskell flight-record.hs > dist/flight-record/flight-record.md
+runhaskell flight-record.hs dist/flight-record/flight-record.md dist/flight-record/flight-record.html
+
