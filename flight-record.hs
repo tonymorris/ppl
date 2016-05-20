@@ -1076,7 +1076,7 @@ flightlogentries =
           ]
         )          
       , FlightLogEntry
-        "Steep Turns"
+        "Practice Forced Landings"
         "20160514"
         vhvvo
         (
