@@ -279,3 +279,10 @@
     ; briefing
     expenses:school:flight:instruction      418.00 @ 1.2
     assets:balance:close                    -12084.34
+
+2016/05/20 * VTC/VNC ; chart: vtc: vnc:
+    assets:balance:open                     12084.34
+    expenses:charts:vtc                     12.00
+    expenses:charts:vnc                     12.00
+    expenses:charts:shipping                12.00
+    assets:balance:close                    -12120.34
