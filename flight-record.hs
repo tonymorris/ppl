@@ -51,7 +51,7 @@ flightlogentries =
   FlightLogEntries
     [
       FlightLogEntry
-        "P1.1 Effects of Controls"
+        "Effects of Controls"
         "20151214"
         vhldo
         (
@@ -68,7 +68,7 @@ flightlogentries =
         mempty
         mempty
     , FlightLogEntry
-        "P1.2 Straight & Level"
+        "Straight & Level"
         "20151218"
         vhldo
         (
@@ -113,7 +113,7 @@ flightlogentries =
           ]
         )
     , FlightLogEntry
-        "P1.3 Climbing & Descending"
+        "Climbing & Descending"
         "20151220"
         vhldo
         (
@@ -158,7 +158,7 @@ flightlogentries =
           ]      
         )
     , FlightLogEntry
-        "P1.4 Turning"
+        "Turning"
         "20160104"
         vhldo
         (
@@ -195,7 +195,7 @@ flightlogentries =
         mempty
         mempty
     , FlightLogEntry
-        "P1.5 Stalling"
+        "Stalling"
         "20160108"
         vhldo
         (
@@ -232,7 +232,7 @@ flightlogentries =
         mempty
         mempty
     , FlightLogEntry
-        "P1.6 Consolidation"
+        "Consolidation"
         "20160115"
         vhafr
         (
@@ -269,7 +269,7 @@ flightlogentries =
         mempty
         mempty
     , FlightLogEntry
-        "P2.1 Circuits"
+        "Circuits"
         "20160122"
         vhafr
         (
@@ -358,7 +358,7 @@ flightlogentries =
           ]
         )     
     , FlightLogEntry
-        "P2.2 Circuits"
+        "Circuits"
         "20160129"
         vhafr
         (
@@ -403,7 +403,7 @@ flightlogentries =
           ]       
         )
     , FlightLogEntry
-        "P2.3 Circuits"
+        "Circuits"
         "20160205"
         vhafr
         (
@@ -440,7 +440,7 @@ flightlogentries =
         mempty
         mempty
     , FlightLogEntry
-        "P2.4 Circuits"
+        "Circuits"
         "20160212"
         vhafr
         (
