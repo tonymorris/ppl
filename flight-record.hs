@@ -99,7 +99,7 @@ flightlogentries =
             Visualisation
               "http://doarama.com/view/595690"
               Nothing
-              (Doarama "k=6rAdypE")
+              (Doarama "6rAdypE")
           ]
         )
         mempty
