@@ -485,7 +485,7 @@ flightlogentries =
           ]
         )                                                            
     , FlightLogEntry
-        "P3.1 Circuit Emergencies"
+        "Circuit Emergencies"
         "20160218"
         vhafr
         (
@@ -598,7 +598,7 @@ flightlogentries =
           ]  
         )            
     , FlightLogEntry
-        "P3.2 Circuit Emergencies"
+        "Circuit Emergencies"
         "20160304"
         vhafr
         (
@@ -647,7 +647,7 @@ flightlogentries =
           ]
         )                        
     , FlightLogEntry
-        "P3.3 Circuit Emergencies"
+        "Circuit Emergencies"
         "20160324"
         vhzwy
         (
@@ -696,7 +696,7 @@ flightlogentries =
           ]
         )                        
     , FlightLogEntry
-        "P3.4 Circuits"
+        "Circuits"
         "20160330"
         vhzwy
         (
@@ -741,7 +741,7 @@ flightlogentries =
           ]
         )
     , FlightLogEntry
-        "P3.4 Circuits"
+        "Circuits"
         "20160330"
         vhzwy
         (
@@ -786,7 +786,7 @@ flightlogentries =
           ]
         )           
     , FlightLogEntry
-        "P3.5 Circuits (Crosswind)"
+        "Circuits (Crosswind)"
         "20160415"
         vhafr
         (
@@ -831,7 +831,7 @@ flightlogentries =
           ]
         )
     , FlightLogEntry
-        "P3.6 Circuits (Solo check)"
+        "Circuits (Solo check)"
         "20160422"
         vhafr
         (
@@ -880,7 +880,7 @@ flightlogentries =
           ]
         )                                     
     , FlightLogEntry
-        "P3.6 Circuits (Solo)"
+        "Circuits (Solo)"
         "20160422"
         vhafr
         (
@@ -929,7 +929,7 @@ flightlogentries =
           ]
         )                                     
     , FlightLogEntry
-        "P3.7 Circuits (Dual)"
+        "Circuits (Dual)"
         "20160427"
         vhvvo
         (
@@ -974,7 +974,7 @@ flightlogentries =
           ]
         )                                     
     , FlightLogEntry
-        "P3.7 Circuits (Solo)"
+        "Circuits (Solo)"
         "20160427"
         vhvvo
         (
