@@ -10,7 +10,7 @@ vhwkm ::
   Aircraft
 vhwkm =
   Aircraft
-    "1980 American Champion Citabria 7GCBC (1180-80)"
+    "1980 American Champion Citabria 7GCBC"
     "VH-WKM"
     Single
 
