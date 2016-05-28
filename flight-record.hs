@@ -6,6 +6,14 @@ import Data.Aviation.Casr.Logbook
 import System.Environment
 import System.IO
 
+vhwkm ::
+  Aircraft
+vhwkm =
+  Aircraft
+    "1980 American Champion Citabria 7GCBC (1180-80)"
+    "VH-WKM"
+    Single
+
 vhldo ::
   Aircraft
 vhldo =
@@ -1179,6 +1187,39 @@ flightlogentries =
               "6267124"
               (Just "Live stream")
               Bambuser
+          ]
+        )
+        , FlightLogEntry
+        "Sydney Circuit, Stalls"
+        "20160528"
+        vhwkm
+        (
+          Hours
+            1
+            8
+        )
+        dual
+        (FlightPath "YSCN" ["PSP", "PAR", "LRF", "V1", "JIBN", "SECF"] "YSCN")
+        Day
+        "Ken Osbourne"
+        (
+          TrackLogs
+            [
+            ]
+        )
+        (
+          Visualisations
+          [
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        ( 
+          Videos
+          [
           ]
         )                                             
     ]
