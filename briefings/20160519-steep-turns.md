@@ -4,11 +4,11 @@
 
 ### Objectives
 
-*  Recall the effect of LF on stall speed
+* Recall the effect of LF on stall speed
 
 * Recall distribution and magnitude of forces during a steep turn
 
-* Recall the correct technique for ntering/exiting steep turn
+* Recall the correct technique for entering/exiting steep turn
 
 ### Revision
 
