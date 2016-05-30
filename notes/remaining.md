@@ -40,13 +40,13 @@
 
 * ~~**FLT** forced landings **(2)**~~
 
-* **FLT** steep turns **(1~~2~~)**
+* ~~**FLT** steep turns **(2)**~~
 
 * ~~**BRF** crosswind in circuit **(1)**~~
 
 * **FLT** crosswind in circuit **(1~~2~~)**
 
-* **FLT** side-slipping **(1)**
+* ~~**FLT** side-slipping **(1)**~~
 
 * **FLT** area solo check **(1)**
 
