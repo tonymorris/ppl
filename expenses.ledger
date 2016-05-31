@@ -234,7 +234,7 @@
     assets:balance:open                     9132.19
     ; vh-afr:, instruction
     expenses:school:flight:instruction      418.00 @ 1.0
-    ; vh-zwy:, terminal
+    ; vh-afr:, terminal
     expenses:school:flight:terminal         32.73
     assets:balance:close                    -9582.92
 
@@ -248,7 +248,7 @@
     assets:balance:open                     9621.42
     ; vh-afr:, instruction
     expenses:school:flight:instruction      418.00 @ 1.5
-    ; vh-zwy:, terminal
+    ; vh-afr:, terminal
     expenses:school:flight:terminal         32.73 @ 2.0
     assets:balance:close                    -10313.88
 
@@ -276,13 +276,37 @@
 
 2016/05/14 * Flight One Invoice 30960 ; flight one:, 30960:
     assets:balance:open                     11582.74
-    ; briefing
+    ; vh-vvo:, instruction
     expenses:school:flight:instruction      418.00 @ 1.2
     assets:balance:close                    -12084.34
 
-2016/05/20 * VTC/VNC ; chart: vtc: vnc:
+2016/05/19 * Flight One Invoice 30988 ; flight one:, 30988:
     assets:balance:open                     12084.34
+    ; vh-vvo:, instruction
+    expenses:school:flight:instruction      418.00 @ 1.1
+    ; vh-vvo:, terminal
+    expenses:school:flight:terminal         32.73 @ 2.0
+    ; briefing
+    expenses:school:briefing                77.00 @ 0.5
+    assets:balance:close                    -12648.10
+
+2016/05/20 * VTC/VNC ; chart: vtc: vnc:
+    assets:balance:open                     12648.10
     expenses:charts:vtc                     12.00
     expenses:charts:vnc                     12.00
     expenses:charts:shipping                12.00
-    assets:balance:close                    -12120.34
+    assets:balance:close                    -12684.10
+
+2016/05/28 * Curtis Aviation ; curtis:
+    assets:balance:open                     12684.10
+    ; vh-wkm:, instruction
+    expenses:school:flight:instruction      519.20
+    assets:balance:close                    -13203.30
+
+2016/05/30 * Flight One Invoice 31038 ; flight one:, 31038:
+    assets:balance:open                     13203.30
+    ; vh-vvo:, instruction
+    expenses:school:flight:instruction      418.00 @ 1.1
+    ; vh-vvo:, terminal
+    expenses:school:flight:terminal         32.73 @ 2.0
+    assets:balance:close                    -13728.56
