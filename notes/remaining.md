@@ -44,7 +44,7 @@
 
 * ~~**BRF** crosswind in circuit **(1)**~~
 
-* **FLT** crosswind in circuit **(1~~2~~)**
+* ~~**FLT** crosswind in circuit **(2)**~~
 
 * ~~**FLT** side-slipping **(1)**~~
 
