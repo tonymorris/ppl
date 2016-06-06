@@ -1270,6 +1270,55 @@ flightlogentries =
               (Just "Live stream")
               Bambuser
           ]
+        )      
+      , FlightLogEntry
+        "Circuits (Crosswind)"
+        "20160606"
+        vhvvo
+        (
+          Hours
+            0
+            9
+        )
+        dual
+        ybaf2ybaf
+        Day
+        "David Schofield"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160606-vh-vvo.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160606-vh-vvo.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/778822"
+              Nothing
+              (Doarama "eOrqL86")
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        ( 
+          Videos
+          [ 
+           Video
+              "6300417"
+              (Just "Live stream")
+              Bambuser
+          ]
         )                                           
     ]
 
