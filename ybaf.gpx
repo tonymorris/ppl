@@ -373,4 +373,100 @@
   <sym>Bridge</sym>
 </wpt>
 
+<wpt lat="-27.391146" lon="153.443556">
+  <ele>0.000</ele>
+  <name>Amity</name>
+  <cmt>Amity, track 110-230</cmt>
+  <desc>Amity, track 110-230</desc>
+  <sym>Navaid, Red</sym>
+</wpt>
+
+<wpt lat="-27.425231" lon="153.544702">
+  <ele>0.000</ele>
+  <name>Point Lookout</name>
+  <cmt>Point Lookout, track 200-290</cmt>
+  <desc>Point Lookout, track 200-290</desc>
+  <sym>Navaid, Red</sym>
+</wpt>
+
+<wpt lat="-27.635465" lon="153.466238">
+  <ele>0.000</ele>
+  <name>Russell Island</name>
+  <cmt>Russell Island, track 190-015</cmt>
+  <desc>Russell Island, track 190-015</desc>
+  <sym>Navaid, Red</sym>
+</wpt>
+
+<wpt lat="-27.790564" lon="153.438908">
+  <ele>0.000</ele>
+  <name>Tuleen Island</name>
+  <cmt>Tuleen Island, track 250-010</cmt>
+  <desc>Tuleen Island, track 250-010</desc>
+  <sym>Navaid, Red</sym>
+</wpt>
+
+<wpt lat="-27.857273" lon="153.308985">
+  <ele>0.000</ele>
+  <name>Dreamworld</name>
+  <cmt>Dreamworld, track 265-060</cmt>
+  <desc>Dreamworld, track 265-060</desc>
+  <sym>Navaid, Red</sym>
+</wpt>
+
+<wpt lat="-27.861967" lon="153.160863">
+  <ele>0.000</ele>
+  <name>Tamborine</name>
+  <cmt>Tamborine, track 300-070 [190-300 to southern area]</cmt>
+  <desc>Tamborine, track 300-070 [190-300 to southern area]</desc>
+  <sym>Navaid, Red</sym>
+</wpt>
+
+<wpt lat="-28.168279" lon="153.095039">
+  <ele>0.000</ele>
+  <name>Cainbable</name>
+  <cmt>Cainbable, track 270-010</cmt>
+  <desc>Cainbable, track 270-010</desc>
+  <sym>Navaid, Red</sym>
+</wpt>
+
+<wpt lat="-28.168638" lon="152.850471">
+  <ele>0.000</ele>
+  <name>Innisplain</name>
+  <cmt>Innisplain, track 000-090</cmt>
+  <desc>Innisplain, track 000-090</desc>
+  <sym>Navaid, Red</sym>
+</wpt>
+
+<wpt lat="-27.899978" lon="152.849716">
+  <ele>0.000</ele>
+  <name>Mount Joyce</name>
+  <cmt>Mount Joyce, track 040-180</cmt>
+  <desc>Mount Joyce, track 040-180</desc>
+  <sym>Navaid, Red</sym>
+</wpt>
+
+<wpt lat="-27.761109" lon="152.967149">
+  <ele>0.000</ele>
+  <name>North Maclean</name>
+  <cmt>North Maclean, track 125-220, 030-120 to eastern area</cmt>
+  <desc>North Maclean, track 125-220, 030-120 to eastern area</desc>
+  <sym>Navaid, Red</sym>
+</wpt>
+
+<wpt lat="-27.562328" lon="153.080216">
+  <ele>0.000</ele>
+  <name>Sunnybank</name>
+  <cmt>Sunnybank, track 085-210</cmt>
+  <desc>Sunnybank, track 085-210</desc>
+  <sym>Navaid, Red</sym>
+</wpt>
+
+<wpt lat="-27.515146" lon="153.288936">
+  <ele>0.000</ele>
+  <name>Cleveland</name>
+  <cmt>Cleveland, track 050-260</cmt>
+  <desc>Cleveland, track 050-260</desc>
+  <sym>Navaid, Red</sym>
+</wpt>
+
 </gpx>
