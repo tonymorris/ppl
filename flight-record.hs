@@ -1313,8 +1313,12 @@ flightlogentries =
         )
         ( 
           Videos
-          [ 
-           Video
+          [
+            Video
+              "OYuR7E1xjyg"
+              (Just "Forward camera")
+              YouTube            
+          , Video
               "6300417"
               (Just "Live stream")
               Bambuser
