@@ -308,5 +308,13 @@
     ; vh-vvo:, instruction
     expenses:school:flight:instruction      418.00 @ 1.1
     ; vh-vvo:, terminal
-    expenses:school:flight:terminal         32.73 @ 2.0
-    assets:balance:close                    -13728.56
+    expenses:school:flight:terminal         32.73 @ 1.0
+    assets:balance:close                    -13695.83
+
+2016/06/06 * Flight One Invoice 31067 ; flight one:, 31067:
+    assets:balance:open                     13761.32
+    ; vh-vvo:, instruction
+    expenses:school:flight:instruction      418.00 @ 0.9
+    ; vh-vvo:, terminal
+    expenses:school:flight:terminal         32.73 @ 1.0
+    assets:balance:close                    -14170.25
