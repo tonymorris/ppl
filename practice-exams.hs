@@ -6,32 +6,43 @@ import Data.Monoid
 import Data.String
 import System.Environment
 
-data Multichoice a =
-  Multichoice [a] a [a]
+data Answer a =
+  DirectAnswer a
+  | Multichoice [a] a [a]
   deriving (Eq, Ord, Show)
 
-instance Functor Multichoice where
+instance Functor Answer where
+  fmap f (DirectAnswer a) =
+    DirectAnswer (f a)
   fmap f (Multichoice l x r) =
     Multichoice (fmap f l) (f x) (fmap f r)
 
-instance Foldable Multichoice where
+instance Foldable Answer where
+  foldr f z (DirectAnswer a) =
+    f a z
   foldr f z (Multichoice l x r) =
     foldr f (f x (foldr f z r)) l
 
-instance Traversable Multichoice where
+instance Traversable Answer where
+  traverse f (DirectAnswer a) =
+    DirectAnswer <$> f a
   traverse f (Multichoice l x r) =
     Multichoice <$> traverse f l <*> f x <*> traverse f r
 
 choiceList ::
-  Multichoice a
+  Answer a
   -> [a]
+choiceList (DirectAnswer a) =
+  [a]
 choiceList (Multichoice l x r) =
   l <> (x : r)
 
 onFocus ::
   (a -> a)
-  -> Multichoice a
-  -> Multichoice a
+  -> Answer a
+  -> Answer a
+onFocus f (DirectAnswer a) =
+  DirectAnswer (f a)
 onFocus f (Multichoice l x r) =
   Multichoice l (f x) r
 
@@ -43,26 +54,29 @@ number q =
   evalState (traverse (\x -> state (\c -> ((c, x), succ c))) q) 'a'
 
 focus ::
-  Multichoice a
+  Answer a
   -> a
+focus (DirectAnswer a) =
+  a
 focus (Multichoice _ x _) =
   x
 
 data Question a =
   Question
     String -- question
-    (Multichoice String)
+    (Answer String)
     a
   deriving (Eq, Ord, Show)
 
 data Manual =
   Part61
   | PrePart61
+  | NoManual
   deriving (Eq, Ord, Show)
 
 (~>) ::
   String
-  -> Multichoice String
+  -> Answer String
   -> Question Manual
 (~>) s q =
   Question s q Part61
@@ -71,12 +85,21 @@ infixr 5 ~>
 
 (!>) ::
   String
-  -> Multichoice String
+  -> Answer String
   -> Question Manual
 (!>) s q =
   Question s q PrePart61
 
 infixr 5 !>
+
+(!-) ::
+  String
+  -> Answer String
+  -> Question Manual
+(!-) s q =
+  Question s q NoManual
+
+infixr 5 !-
 
 data Exam =
   Exam
@@ -94,6 +117,7 @@ markdownExam (Exam t1 t2 t3 qs) =
         let q' = case x of
                    Part61 -> q
                    PrePart61 -> "~~" <> q <> "~~"
+                   NoManual -> "**" <> q <> "**"
         in  show n <> ". " <> q' <> "\n" <>
             ((=<<) (\b -> b <> "\n") . zipWith (\n c -> "  " <> fromString (show n) <> ". " <> c) [1..] . choiceList . onFocus (\a -> "**" <> a <> "**") $ m)
 
@@ -119,6 +143,7 @@ flashcardExam (Exam t1 t2 t3 qs) =
         let q' = case x of
                    Part61 -> q
                    PrePart61 -> "~~" <> q <> "~~"
+                   NoManual -> "**" <> q <> "**"
         in  replicate 40 '-' <>
             "\n\n" <> 
             q' <>
@@ -4581,6 +4606,29 @@ taitPart13Meteorology =
         ]
     ]
 
+
+frol ::
+  Exam
+frol =
+  Exam
+    "Flight Radio Operator Licence"
+    (Just "Aircraft Radio Operator Certificate of Proficiency")
+    (Just "Self-made practice exam")
+    [
+      "*Initial contact* ARCHER TOWER. Callsign AFR" !-
+      DirectAnswer
+        "Archer Tower Alpha Foxtrot Romeo"
+    , "*Readback* Delta Alpha November cleared to land runway two eight right" !-
+      DirectAnswer
+        "cleared to land runway two eight right Delta Alpha November"
+    , "*Readback* India Echo Sierra descend to and maintain three thousand five hundred" !-
+      DirectAnswer
+        "three thousand five hundred India Echo Sierra"
+    , "*Readback* Oscar Romeo Echo squawk two thousand" !-
+      DirectAnswer
+        "two thousand Oscar Romeo Echo [transponder to 2000]"
+    ]
+
 exams ::
   [Exam]
 exams =
@@ -4595,6 +4643,7 @@ exams =
   , airborneAviationPreSolo
   , airborneAviationAreaSolo
   , airborneAviationMeteorology
+  , frol
   ]
 
 main ::
