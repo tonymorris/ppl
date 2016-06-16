@@ -1416,6 +1416,10 @@ flightlogentries =
         ( 
           Videos
           [
+            Video
+              "6318524"
+              (Just "Live stream")
+              Bambuser
           ] 
         )                                           
     ]
