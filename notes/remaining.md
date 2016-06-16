@@ -48,7 +48,7 @@
 
 * ~~**FLT** side-slipping **(1)**~~
 
-* **FLT** area solo check **(1)**
+* ~~**FLT** area solo check **(1)**~~
 
 * **FLT** area solo **(2)**
 
