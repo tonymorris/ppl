@@ -16,6 +16,8 @@
 
   * Heading bug 335 from Park Ridge Water Tower.
 
+  * BUMFISH.
+
   * Radio call @ Logan Motorway.
 
   * ~20 degree right turn to join base for 28.
