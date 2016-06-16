@@ -4,7 +4,7 @@
 
 # 20160616
 
-* Inbound checklist
+* Southern Area Inbound checklist
 
   * ATIS.
 
@@ -14,7 +14,7 @@
 
   * Compass/DG.
 
-  * Heading bug 335.
+  * Heading bug 335 from Park Ridge Water Tower.
 
   * Radio call @ Logan Motorway.
 
