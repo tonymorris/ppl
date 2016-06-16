@@ -1324,6 +1324,98 @@ flightlogentries =
               Bambuser
           ]
         )                                           
+      , FlightLogEntry
+        "Steep Turns and Sideslipping"
+        "20160530"
+        vhvvo
+        (
+          Hours
+            1
+            1
+        )
+        dual
+        ybaf2ybaf
+        Day
+        "Damien Boyer"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160530-vh-vvo.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160530-vh-vvo.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/770143"
+              Nothing
+              (Doarama "65oMwXk")
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        ( 
+          Videos
+          [ 
+           Video
+              "6288135"
+              (Just "Live stream")
+              Bambuser
+          ]
+        )      
+      , FlightLogEntry
+        "Area Solo Check"
+        "20160616"
+        vhvvo
+        (
+          Hours
+            1
+            1
+        )
+        dual
+        ybaf2ybaf
+        Day
+        "David Schofield"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160616-vh-vvo.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160616-vh-vvo.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/798173"
+              Nothing
+              (Doarama "67W2vz6")
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        ( 
+          
+        )                                           
     ]
 
 flightlog ::
