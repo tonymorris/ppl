@@ -14,7 +14,13 @@
 
   * Compass/DG.
 
-  * Heading bug 335 from Park Ridge Water Tower.
+  * Park Ridge Water Tower.
+
+    * Inbound radio call.
+
+    * Heading bug 335.
+
+    * Transponder 3000.
 
   * BUMFISH.
 
