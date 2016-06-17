@@ -50,7 +50,7 @@
 
 * ~~**FLT** area solo check **(1)**~~
 
-* **FLT** area solo **(2)**
+* **FLT** area solo **(1~~2~~)**
 
 * **FLT** basic instrument flying **(1)**
 
