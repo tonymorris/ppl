@@ -1464,8 +1464,16 @@ flightlogentries =
         )
         ( 
           Videos
-          [
+          [ 
             Video
+              "zF51UQ377E8"
+              (Just "Forward camera -- Eastern Departure")
+              YouTube            
+          , Video
+              "AWLegaBJGFs"
+              (Just "Forward camera -- Practice Forced Landings")
+              YouTube            
+          , Video
               "6320415"
               (Just "Live stream")
               Bambuser
