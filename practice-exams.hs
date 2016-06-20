@@ -4606,6 +4606,129 @@ taitPart13Meteorology =
         ]
     ]
 
+atcFROL1 ::
+  Exam
+atcFROL1 =
+  Exam
+    "Aviation Theory Centre"
+    (Just "Flight Radio for Pilots VFR Operations")
+    (Just "Review Questions 1")
+    [
+      "What is the unit of frequency called, and what is its abbreviation?" !-
+      DirectAnswer
+        "Hertz, Hz"
+    , "A frequency of 1,000 hertz can also be described as one (kilohertz/megahertz/microhertz)." !-
+      DirectAnswer
+        "Kilohertz."
+    , "Sketch a typical wave and label it with wavelength and amplitude." !-
+      DirectAnswer
+        "Refer to figure A2-1."
+    , "In your own words, define wavelength and amplitude." !-
+      DirectAnswer
+        "Wavelength is the length of one cycle of the wave; amplitude is the maximum extent of an oscillation as measured from the position of equilibrium."
+    , "Radio waves travel at the speed of (light/sound)." !-
+      DirectAnswer
+        "Light."
+    , "Light waves travel (slower than/the same speed as/faster than) sound waves." !-
+      DirectAnswer
+        "Faster than."
+    , "What is the preferred frequency band for aeronautical radio communication?" !-
+      DirectAnswer
+        "VHF."
+    , "The range of VHF transmissions (increases/decreases) with gain of height." !-
+      DirectAnswer
+        "Increases."
+    , "What control is used on VHF-COM radio sets to minimise unwanted background noise?" !-
+      DirectAnswer
+        "Squelch."
+    , "When transmitting on a particular frequency, can other people in the vicinity be transmitting on that frequency simultaneously?" !-
+      DirectAnswer
+        "No."
+    , "If the transmit button becomes stuck in the transmit position or is not released after a transmission, will other transmissions be affected? Will it block that frequency?" !-
+      DirectAnswer
+        "Yes. Yes."
+    , "The VOR radio navaid operates in a range of frequencies within the (VHF/MF/UHF) band." !-
+      DirectAnswer
+        "VHF."
+    , "In which frequency bands do the NDB radio beacons operate?" !-
+      DirectAnswer
+        "LF and MF."
+    , "What equipment enables an air traffic radar controller to identify your aircraft by receiving coded signals?" !-
+      DirectAnswer
+        "Transponder."
+    , "For long-range voice communications, some aircraft are fitted with (UHF/MF/HF) radio equipment." !-
+      DirectAnswer
+        "HF."        
+    ]
+
+atcFROL2 ::
+  Exam
+atcFROL2 =
+  Exam
+    "Aviation Theory Centre"
+    (Just "Flight Radio for Pilots VFR Operations")
+    (Just "Review Questions 2")
+    [
+      "Write out and say the phonetic alphabet that is used to transmit letters." !-
+      DirectAnswer
+        "Refer to table 2-1, page 23."
+    , "How would transmit the number 59?" !-
+      DirectAnswer
+        "Five nine (pronounced FIFE NINer)."   
+    , "How would you transmit the number 8,500?" !-
+      DirectAnswer
+        "Eight thousand five hundred (pronounced AIT TOU-SAND FIFE HUN-dred)."
+    , "What word or phrase would you use to express \"yes\" or \"that is correct\"?" !-
+      DirectAnswer
+        "Affirm."
+    , "What word or phrase means \"no\"?" !-
+      DirectAnswer
+        "Negative."
+    , "How would you transmit the callsign of an aircraft registered VH-RQT?" !-
+      DirectAnswer
+        "Romeo Quebec Tango (pronounced ROW-me-oh Keh-BECK TANG-go)."
+    , "How would you transmit the callsign of VH-UVP?" !-
+      DirectAnswer
+        "Uniform Victor Papa (pronounced YOU-nee-form VIK-tah Pah-PAH)."
+    , "How would you transmit the hours and minutes of 0835 UTC?" !-
+      DirectAnswer
+        "Zero eight three five (pronounced ZE-RO AIT TREE FIFE)."
+    , "The time for aviation purposes is specific in (UTC/EST/LST)." !-
+      DirectAnswer
+        "UTC."
+    , "UTC is 10 hours (ahead of/behind) Eastern Standard Time." !-
+      DirectAnswer
+        "Behind."
+    , "UTC is 9 hours 30 minutes (ahead of/behind) Central Standard Time." !-
+      DirectAnswer
+        "Behind."
+    , "1810 CST is ... UTC" !-
+      DirectAnswer
+        "0840 UTC."
+    , "UTC is ... hours (ahead of/behind) Western Standard Time." !-
+      DirectAnswer
+        "8, behind"
+    , "2000 WST is ... UTC." !-
+      DirectAnswer
+        "1200 UTC."
+    , "0030 UTC is ... EST." !-
+      DirectAnswer
+        "1030 EST."
+    , "0800 EST ... UTC." !-
+      DirectAnswer
+        "2200 UTC the previous day."
+    , "0700 WST is ... UTC." !-
+      DirectAnswer
+        "2300 UTC the previous day."
+    ]
+
+atcFROL ::
+  [Exam]
+atcFROL =
+  [
+    atcFROL1
+  , atcFROL2
+  ]
 
 frol ::
   Exam
@@ -4644,7 +4767,8 @@ exams =
   , airborneAviationAreaSolo
   , airborneAviationMeteorology
   , frol
-  ]
+  ] ++ 
+  atcFROL
 
 main ::
   IO ()
