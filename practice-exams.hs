@@ -4722,12 +4722,345 @@ atcFROL2 =
         "2300 UTC the previous day."
     ]
 
+atcFROL3 ::
+  Exam
+atcFROL3 =
+  Exam
+    "Aviation Theory Centre"
+    (Just "Flight Radio for Pilots VFR Operations")
+    (Just "Review Questions 3")
+    [
+      "Radio transmissions fall into three categories: reports, broadcasts and calls. Explain these." !-
+      DirectAnswer
+        "Reports are made to a specific air traffic services unit i.e. air traffic control or FLIGHTWATCH, as appropriate. Broadcasts are mandatory or voluntary traffic advisory transmissions prefixed with \"all stations\". Calls are made to specfic stations, e.g. when requesting information from air traffic services or FLIGHTWATCH or when contacting another aircraft direct to arrange mutual separation."
+    , "In general terms, what should you transmit when establishing radio contact?" !-
+      DirectAnswer
+        "The name of the station you are calling plus your callsign."
+    , "If you were in VH-POW, how would you establish contact with Cairns Tower?" !-
+      DirectAnswer
+        "Cairns Tower, Papa Oscar Whisky."
+    , "Having established radio contact on a particular frequency and there is no danger of confusion with another aircraft or another ground station, what procedure is adopted for subsequent transmissions?" !-
+      DirectAnswer
+        "The callsign of the addressed station is dropped."
+    , "How should you acknowledge calls directed at your aircraft?" !-
+      DirectAnswer
+        "With your callsign."
+    , "Which of the following is/are required to be read back? (a) Clear to taxi. (b) Clearance to track via the Westgate Bridge, one thousand five hundred. (c) Line up. (d) Cleared for takeoff. (e) Amended route track via the city, eight thousand. (f) Cleared to land." !-
+      DirectAnswer
+        "All clearances from (a) to (f)."
+    , "Does the pilot need to read back any item notified in an airways clearance as *amended*?" !-
+      DirectAnswer
+        "Yes."
+    , "Should cruise levels specified in an airways clearance granted to you by air traffic control for flight in controlled airspace be read back?" !-
+      DirectAnswer
+        "Yes, they should."
+    , "What standard phrase would you include when making a radio check call on the ground prior to starting up for a flight?" !-
+      DirectAnswer
+        "Radio check (and if you want, add \"how do you read?\")"
+    , "How would you reply to a perfectly readable check call?" !-
+      DirectAnswer
+        "[Callsign], reading you five."
+    , "How would you respond to a check call that was readable, but with difficulty?" !-
+      DirectAnswer
+        "[Callsign], reading you three."
+    , "If a response to your signal check inflight is *reading you four*, how would you interpret this?" !-
+      DirectAnswer
+        "Readable, but not perfect."
+    , "You are the pilot of VH-DRY. How would air traffic control tell you to turn the transponder on?" !-
+      DirectAnswer
+        "Delta Romeo Yankee, squawk normal."
+    , "What is meant by *squawk ident*?" !-
+      DirectAnswer
+        "Press the transponder ident button."
+    , "What is meant by *squawk standby*?" !-
+      DirectAnswer
+        "Select standby on the transponder."
+    , "How would you acknowledge the following instruction from air control: *Delta Romeo Yankee, squawk 4162*?" !-
+      DirectAnswer
+        "Four one six two, Delta Romeo Yankee."
+    , "How would you acknowledge the following: *Delta Romeo Yankee, squawk normal*?" !-
+      DirectAnswer
+        "Delta Romeo Yankee."
+    , "If you squawk on code 7600, what does it mean?" !-
+      DirectAnswer
+        "A radio failure."
+    , "In an emergency, what code would you select?" !-
+      DirectAnswer
+        "Code 7700."
+    ]
+
+atcFROL4 ::
+  Exam
+atcFROL4 =
+  Exam
+    "Aviation Theory Centre"
+    (Just "Flight Radio for Pilots VFR Operations")
+    (Just "Review Questions 4")
+    [
+      "What are the two fundamental types of airspace?" !-
+      DirectAnswer
+        ""
+    , "Information to flights in Class G airspace is provided by (air traffic control/FLIGHTWATCH)." !-
+      DirectAnswer
+        ""
+    , "What are the two divisions of controlled airspace?" !-
+      DirectAnswer
+        ""
+    , "What are the types of control zones?" !-
+      DirectAnswer
+        ""
+    , "The abbreviation CTR stands for (control zone/control area/controlled terminal radar)." !-
+      DirectAnswer
+        ""
+    , "At aerodromes in Class G airspace, traffic advisory frequencies have been established. What are these?" !-
+      DirectAnswer
+        ""
+    , "The abbreviation FIA stands for (flight information aerodrome/flight information area)." !-
+      DirectAnswer
+        ""
+    , "When inbound to a non-towered aerodrome, pilots should make a broadcast on the CTAF by what distance?" !-
+      DirectAnswer
+        ""
+    , "Outside tower hours of operation, may controlled aerodromes revert to non-towered aerodromes with mandatory carriage and use of radio?" !-
+      DirectAnswer
+        ""
+    , "Where a discrete CTAF frequency is not listed for a non-towered aerodrome, broadcasts should be made on what frequency?" !-
+      DirectAnswer
+        ""
+    , "Carriage of radio (is/is not) mandatory at a CERT aerodrome." !-
+      DirectAnswer
+        ""
+    , "What are the broadcasts you must make at a CERT or REG non-towered aerodrome?" !-
+      DirectAnswer
+        ""
+    , "At a CTAF (UNCR), the carriage of radio (is/is not) mandatory." !-
+      DirectAnswer
+        ""
+    , "When a Class D control zone is deactivated after tower hours of operation, the zone can/cannot become a CTAF with mandatory radio." !-
+      DirectAnswer
+        ""
+    , "At a REG aerodrome, the clearance to taxi (is/is not) required." !-
+      DirectAnswer
+        ""
+    , "Before taking off from a registered aerodrome with a CTAF, is an airways clearance required?" !-
+      DirectAnswer
+        ""
+    , "When operating in Class G airspace, not near a CTAF, you should listen out on appropriate (ATC centre frequency/FIA frequency/UNICOM frequency)." !-
+      DirectAnswer
+        ""
+    , "What are the two types of air traffic clearances which can be issued for operating in controlled airspace?" !-
+      DirectAnswer
+        ""
+    , "List the classes of airspace and explain what each means." !-
+      DirectAnswer
+        ""
+    , "What facilities are provided to you in a flight information area (FIA)?" !-
+      DirectAnswer
+        ""
+    ]
+
+atcFROL5 ::
+  Exam
+atcFROL5 =
+  Exam
+    "Aviation Theory Centre"
+    (Just "Flight Radio for Pilots VFR Operations")
+    (Just "Review Questions 5")
+    [
+      "What is meant by the abbreviation ATIS?" !-
+      DirectAnswer
+        ""
+    , "List four items of meteorological data which are included in an ATIS broadcast." !-
+      DirectAnswer
+        ""
+    , "The ATIS is usually broadcast (on a navaid or a VHF-COM frequency/by the ATC tower controller/direct from the weather office)." !-
+      DirectAnswer
+        ""
+    , "Before taking off at a controlled aerodrome where ATIS is provided, you should notify receipt of the ATIS broadcast in your (taxiing call/request for airways clearance/request for takeoff)." !-
+      DirectAnswer
+        ""
+    , "Is the duty runway nominated in the ATIS at controlled aerodrome?" !-
+      DirectAnswer
+        ""
+    , "Is the duty runway nominated in the ATIS at a CTAF aerodrome?" !-
+      DirectAnswer
+        ""
+    ]
+
+atcFROL6 ::
+  Exam
+atcFROL6 =
+  Exam
+    "Aviation Theory Centre"
+    (Just "Flight Radio for Pilots VFR Operations")
+    (Just "Review Questions 6")
+    [
+      "Is an ATC clearance required to taxi at an aerodrome in a Class D control zone?" !-
+      DirectAnswer
+        ""
+    , "You are departing from an aerodrome in a Class C CTR for the training area, which is in Class G Airspace. Is an airways clearance required?" !-
+      DirectAnswer
+        ""
+    , "You are departing from an aerodrome in a Class D CTR for a session of circuit work. Is an airways clearance required?" !-
+      DirectAnswer
+        ""
+    , "Prior to departing a Class C controlled aerodrome, you would request your airways clearance (prior to/after) reporting \"ready\" for takeoff." !-
+      DirectAnswer
+        ""
+    , "Over Kywong at 5,500 ft AMSL in Cessna 172 VH-IES en route to Wagga (a Class C CTR) on a cross-country flight from Hay, you call Wagga Tower for an airways clearance. What will you say?" !-
+      DirectAnswer
+        ""        
+    , "If operating from a Class D capital city aerodrome, is an airways clearance required for either circuit work or flights in the local training area?" !-
+      DirectAnswer
+        ""        
+    , "You have received ATIS information Foxtrot at Parafield, a Class D aerodrome, and are taxiing for Runway 21 right in Cessna 182 VH-RON prior to departing for the training area. What will be your taxiing report?" !-
+      DirectAnswer
+        ""        
+    , "Continuing from the previous question, when you reach the runway holding point at Parafield, how would you obtain your take-off clearance? (a) Change to the TWR frequency and report: *'Romeo Oscar November, ready Runway right, for the training area'*. (b) Wait for the ground controller to advise you to call the TWR for takeoff clearance. (c) Call the TWR: *'Request takeoff clearance for the training area, Romeo Oscar November'*." !-
+      DirectAnswer
+        ""        
+    , "On your final approach to land at a controlled aerodrome in VH-WOZ, you noticed an aeroplane still on the runway. How would you advise the TWR that you are discontinuing your approach?" !-
+      DirectAnswer
+        ""        
+    , "When taxiing at a CERT aerodrome within a CTAF, you (must/need not) report taxiing." !-
+      DirectAnswer
+        ""        
+    , "You are taxiing for Runway 20 at Robinvale, a CTAF near Mildura, for circuits in your Warrior VH-BDR. Write down your taxiing broadcast." !-
+      DirectAnswer
+        ""        
+    , "You have just departed from Bairnsdale (a CTAF) for Merimbula in VH-JIM with a planned VFR cruise level of 7,500ft. You are unable to obtain the local DNH from a ground station, so you call FLIGHTWATCH for the area QNH. What would you say?" !-
+      DirectAnswer
+        ""        
+    , "When should you make an inbound broadcast if you are returning from the training area to a non-towered aerodrome?" !-
+      DirectAnswer
+        ""        
+    , "Make up a sample inbound broadcast for arriving at Esperance from the north in VH-ASB, a Piper Lance." !-
+      DirectAnswer
+        ""        
+    , "You wish to cancel SARTIME after landing at Esperance. The Perth FIA frequency is 119.8MHz and the Esperance CTAF is 126.7MHz. What would be your radio call?" !-
+      DirectAnswer
+        ""        
+    , "You are taxiing at Parafield in Warrior VH-DIM for a period of airwork in the local training area. You have received ATIS information 'Golf' and decide the appropriate runway for you to operate on is 21 right. Give your taxi report." !-
+      DirectAnswer
+        ""        
+    , "If Parafield Tower instructs you to join downwind and you intend to do a full-stop landing in Trinidad VH-PES, what is your next call?" !-
+      DirectAnswer
+        ""        
+    ]
+
+atcFROL7 ::
+  Exam
+atcFROL7 =
+  Exam
+    "Aviation Theory Centre"
+    (Just "Flight Radio for Pilots VFR Operations")
+    (Just "Review Questions 7")
+    [
+      "What transponder code should you select if you suffer a VHF-COM radio failure?" !-
+      DirectAnswer
+        ""
+    , "Where can you find the format of the distress (mayday) radio call?" !-
+      DirectAnswer
+        ""    
+    , "Write down the pattern of a Mayday call. (You must get this right!)" !-
+      DirectAnswer
+        ""    
+    , "As further support for a Mayday call, when operating in a radar environment in an aircraft that is fitted with a transponder, what code should you squawk?" !-
+      DirectAnswer
+        ""    
+    , "Write down the pattern of a Pan-pan call." !-
+      DirectAnswer
+        ""    
+    , "Where would you find the procedures to follow in the event of a radio communications failure?" !-
+      DirectAnswer
+        ""    
+    , "When are you required to carry an emergency locator transmitter?" !-
+      DirectAnswer
+        ""    
+    ]
+
+atcFROL8 ::
+  Exam
+atcFROL8 =
+  Exam
+    "Aviation Theory Centre"
+    (Just "Flight Radio for Pilots VFR Operations")
+    (Just "Review Questions 8")
+    [
+      "What are the appropriate frequencies to listen out when operating in Class G airspace?" !-
+      DirectAnswer
+        ""
+    , "List five items which are strictly prohibited for use in radio transmissions." !-
+      DirectAnswer
+        ""    
+    ]
+
+atcFROL9 ::
+  Exam
+atcFROL9 =
+  Exam
+    "Aviation Theory Centre"
+    (Just "Flight Radio for Pilots VFR Operations")
+    (Just "Review Questions 9")
+    [
+      "List the frequency bands used in aviation and state what each band is used for." !-
+      DirectAnswer
+        ""
+    , "The range over which VHF transmissions can be received is known as (visible/radio) horizon." !-
+      DirectAnswer
+        ""    
+    , "What is the expecte range of VHF reception for an aeroplane flying at 7,000ft?" !-
+      DirectAnswer
+        ""    
+    , "What are the approximate ranges of VHF transmissions for an aeroplane when it is at 1,000ft, 5,000ft and 10,000ft?" !-
+      DirectAnswer
+        ""    
+    , "In which CASA publication would you find the expected VHF communication coverage at 5,000ft and 10,000ft?" !-
+      DirectAnswer
+        ""    
+    , "Draw a diagram showing reflecting and refraction of radio waves." !-
+      DirectAnswer
+        ""    
+    , "When a radio wave is attenuated, the signal strength is progressively (increased/decreased)." !-
+      DirectAnswer
+        ""    
+    , "Draw a diagram to show the difference between amplitude and frequency modulation." !-
+      DirectAnswer
+        ""    
+    , "List five fundamental components of a radio transmitter, and briefly explain their function." !-
+      DirectAnswer
+        ""    
+    , "If two radio waves arrive simultaneously at a receiver, and are in phase, the resultant signal will be (stronger/weaker) than when they are received out of phase." !-
+      DirectAnswer
+        ""    
+    , "The layer in the atmoshpere which refracts radio waves back to the surface of the earth is called the (troposphere/ionosphere/mesosphere)." !-
+      DirectAnswer
+        ""    
+    , "The radio waves that are refracted back to the earth's surface by a layer in the atmosphere are in the (VHF/HF/UHF) band." !-
+      DirectAnswer
+        ""    
+    , "When using HF for voice communications at night, the (lower/higher) the frequency, the greater the transmission range." !-
+      DirectAnswer
+        ""    
+    , "As a general rule, when using HF communications, the closer you are to a station, the (lower/higher) frequency you should use." !-
+      DirectAnswer
+        ""    
+    , "Draw a diagram and show skip distance varying with radio transmission frequency." !-
+      DirectAnswer
+        ""    
+    ]
+
 atcFROL ::
   [Exam]
 atcFROL =
   [
     atcFROL1
   , atcFROL2
+  , atcFROL3
+  , atcFROL4
+  , atcFROL5
+  , atcFROL6
+  , atcFROL7
   ]
 
 frol ::
