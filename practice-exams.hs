@@ -117,7 +117,7 @@ markdownExam (Exam t1 t2 t3 qs) =
         let q' = case x of
                    Part61 -> q
                    PrePart61 -> "~~" <> q <> "~~"
-                   NoManual -> "**" <> q <> "**"
+                   NoManual -> q
         in  show n <> ". " <> q' <> "\n" <>
             ((=<<) (\b -> b <> "\n") . zipWith (\n c -> "  " <> fromString (show n) <> ". " <> c) [1..] . choiceList . onFocus (\a -> "**" <> a <> "**") $ m)
 
@@ -143,7 +143,7 @@ flashcardExam (Exam t1 t2 t3 qs) =
         let q' = case x of
                    Part61 -> q
                    PrePart61 -> "~~" <> q <> "~~"
-                   NoManual -> "**" <> q <> "**"
+                   NoManual -> q
         in  replicate 40 '-' <>
             "\n\n" <> 
             q' <>
@@ -4909,13 +4909,13 @@ atcFROL6 =
         "Prior to."
     , "Over Kywong at 5,500 ft AMSL in Cessna 172 VH-IES en route to Wagga (a Class C CTR) on a cross-country flight from Hay, you call Wagga Tower for an airways clearance. What will you say?" !-
       DirectAnswer
-        "**Wagga Tower India Echo Sierra Cessna 172 Kywong five thousand five hundred inbound received... [ATIS code letter] request clearance.**"
+        "Wagga Tower India Echo Sierra Cessna 172 Kywong five thousand five hundred inbound received... [ATIS code letter] request clearance."
     , "If operating from a Class D capital city aerodrome, is an airways clearance required for either circuit work or flights in the local training area?" !-
       DirectAnswer
         "No, unless the training area is in other controlled airspace (unlikely)."
     , "You have received ATIS information Foxtrot at Parafield, a Class D aerodrome, and are taxiing for Runway 21 right in Cessna 182 VH-RON prior to departing for the training area. What will be your taxiing report?" !-
       DirectAnswer
-        "**Parafield Ground Romeo Oscar November received Foxtrot Cessna 182 for the training area Runway 21 right, request taxi.**"
+        "Parafield Ground Romeo Oscar November received Foxtrot Cessna 182 for the training area Runway 21 right, request taxi."
     , "Continuing from the previous question, when you reach the runway holding point at Parafield, how would you obtain your take-off clearance? (a) Change to the TWR frequency and report: *'Romeo Oscar November, ready Runway right, for the training area'*. (b) Wait for the ground controller to advise you to call the TWR for takeoff clearance. (c) Call the TWR: *'Request takeoff clearance for the training area, Romeo Oscar November'*." !-
       DirectAnswer
         "Answer (a)."        
@@ -4927,25 +4927,25 @@ atcFROL6 =
         "Must."
     , "You are taxiing for Runway 20 at Robinvale, a CTAF near Mildura, for circuits in your Warrior VH-BDR. Write down your taxiing broadcast." !-
       DirectAnswer
-        "**Robinvale traffic Bravo Delta Romeo Warrior taxiing at Robinvale**"
+        "Robinvale traffic Bravo Delta Romeo Warrior taxiing at Robinvale"
     , "You have just departed from Bairnsdale (a CTAF) for Merimbula in VH-JIM with a planned VFR cruise level of 7,500ft. You are unable to obtain the local DNH from a ground station, so you call FLIGHTWATCH for the area QNH. What would you say?" !-
       DirectAnswer
-        "**Melbourne Centre FLIGHTWATCH Juliet India Mike departed Bairnsdale for Merimbula on climb to seven thousand five hundred request area QNH.**"        
+        "Melbourne Centre FLIGHTWATCH Juliet India Mike departed Bairnsdale for Merimbula on climb to seven thousand five hundred request area QNH."        
     , "When should you make an inbound broadcast if you are returning from the training area to a non-towered aerodrome?" !-
       DirectAnswer
         "Inbound broadcast prior to entering the vicinity of the aerodrome (10nm), a circuit joining broadcast is also required as you approach the circuit area."        
     , "Make up a sample inbound broadcast for arriving at Esperance from the north in VH-ASB, a Piper Lance." !-
       DirectAnswer
-        "For example: **Esperance traffic Alfa Sierra Bravo Piper Lance one eight miles north of Esperance on descent from three thousand inbound estimate Esperance at three three Esperance.**"
+        "For example: Esperance traffic Alfa Sierra Bravo Piper Lance one eight miles north of Esperance on descent from three thousand inbound estimate Esperance at three three Esperance."
     , "You wish to cancel SARTIME after landing at Esperance. The Perth FIA frequency is 119.8MHz and the Esperance CTAF is 126.7MHz. What would be your radio call?" !-
       DirectAnswer
-        "**Melbourne Centre FLIGHTWATCH Alfa Sierra Bravo landed Esperance cancel SARTIME (on area frequency 119.8).**"        
+        "Melbourne Centre FLIGHTWATCH Alfa Sierra Bravo landed Esperance cancel SARTIME (on area frequency 119.8)."        
     , "You are taxiing at Parafield in Warrior VH-DIM for a period of airwork in the local training area. You have received ATIS information 'Golf' and decide the appropriate runway for you to operate on is 21 right. Give your taxi report." !-
       DirectAnswer
-        "**Parafield Ground Delta India Mike Warrior received Golf for the training ara Runway 21 right, request taxi.**"
+        "Parafield Ground Delta India Mike Warrior received Golf for the training ara Runway 21 right, request taxi."
     , "If Parafield Tower instructs you to join downwind and you intend to do a full-stop landing in Trinidad VH-PES, what is your next call?" !-
       DirectAnswer
-        "**Papa Echo Sierra downwind full stop.**"
+        "Papa Echo Sierra downwind full stop."
     ]
 
 atcFROL7 ::
