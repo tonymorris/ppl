@@ -114,13 +114,16 @@ markdownExam ::
   -> String
 markdownExam (Exam t1 t2 t3 qs) =
   let markdownQuestion (n, Question q m x) = 
-        let q' = case x of
-                   Part61 -> q
-                   PrePart61 -> "~~" <> q <> "~~"
-                   NoManual -> q
-        in  show n <> ". " <> q' <> "\n" <>
-            ((=<<) (\b -> b <> "\n") . zipWith (\n c -> "  " <> fromString (show n) <> ". " <> c) [1..] . choiceList . onFocus (\a -> "**" <> a <> "**") $ m)
-
+        let markdownSource =  case x of
+                                Part61 -> q
+                                PrePart61 -> "~~" <> q <> "~~"
+                                NoManual -> q
+        in  show n <> ". " <> markdownSource <> "\n" <> 
+              case m of                
+                Multichoice l z r ->
+                  zipWith (\n c -> "  " <> show n <> ". " <> c) [1..] (l ++ ("**" ++ z ++ "**") : r) >>= (<> "\n")
+                DirectAnswer a ->
+                  "\n  **" ++ a ++ "**\n"
   in  intercalate "\n"
         [
           "# " <> t1 <> "\n" <> 
@@ -140,20 +143,21 @@ flashcardExam ::
   -> String
 flashcardExam (Exam t1 t2 t3 qs) =
   let flashcardQuestion (n, Question q m x) =
-        let q' = case x of
-                   Part61 -> q
-                   PrePart61 -> "~~" <> q <> "~~"
-                   NoManual -> q
-        in  replicate 40 '-' <>
-            "\n\n" <> 
-            q' <>
-            "\n" <>
-            let z = number m
-                display (c, s) = c : (". " <> s)
-            in  (intercalate "\n" . choiceList . fmap display $ z) <>
-                "\n\n" <>
-                display (focus z) <>
-                "\n\n"
+        let flashcardSource = case x of
+                                Part61 -> q
+                                PrePart61 -> "~~" <> q <> "~~"
+                                NoManual -> q
+        in  replicate 40 '-' <> "\n\n" <> flashcardSource <> "\n" <>
+              case m of
+                Multichoice _ _ _ ->
+                  let z = number m
+                      display (c, s) = c : (". " <> s)
+                  in  (intercalate "\n" . choiceList . fmap display $ z) <>
+                      "\n\n" <>
+                      display (focus z) <>
+                      "\n\n"
+                DirectAnswer a ->
+                  "\n" ++ a ++ "\n"
   in  intercalate "\n"
         [
           "# " <> t1 <> "\n" <> 
