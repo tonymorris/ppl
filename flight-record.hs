@@ -53,12 +53,12 @@ ybaf2ybaf =
     "YBAF"
     "YBAF"
 
-flightlogentries ::
-  FlightLogEntries
-flightlogentries =
-  FlightLogEntries
+entries ::
+  Entries
+entries =
+  Entries
     [
-      FlightLogEntry
+      flight
         "Effects of Controls"
         "20151214"
         vhldo
@@ -75,7 +75,7 @@ flightlogentries =
         mempty
         mempty
         mempty
-    , FlightLogEntry
+    , flight
         "Straight & Level"
         "20151218"
         vhldo
@@ -120,7 +120,7 @@ flightlogentries =
               YouTube
           ]
         )
-    , FlightLogEntry
+    , flight
         "Climbing & Descending"
         "20151220"
         vhldo
@@ -165,7 +165,7 @@ flightlogentries =
               YouTube
           ]      
         )
-    , FlightLogEntry
+    , flight
         "Turning"
         "20160104"
         vhldo
@@ -202,7 +202,7 @@ flightlogentries =
         )
         mempty
         mempty
-    , FlightLogEntry
+    , flight
         "Stalling"
         "20160108"
         vhldo
@@ -239,7 +239,7 @@ flightlogentries =
         )
         mempty
         mempty
-    , FlightLogEntry
+    , flight
         "Consolidation"
         "20160115"
         vhafr
@@ -276,7 +276,7 @@ flightlogentries =
         )
         mempty
         mempty
-    , FlightLogEntry
+    , flight
         "Circuits"
         "20160122"
         vhafr
@@ -365,7 +365,7 @@ flightlogentries =
               YouTube
           ]
         )     
-    , FlightLogEntry
+    , flight
         "Circuits"
         "20160129"
         vhafr
@@ -410,7 +410,7 @@ flightlogentries =
               YouTube
           ]       
         )
-    , FlightLogEntry
+    , flight
         "Circuits"
         "20160205"
         vhafr
@@ -447,7 +447,7 @@ flightlogentries =
         )
         mempty
         mempty
-    , FlightLogEntry
+    , flight
         "Circuits"
         "20160212"
         vhafr
@@ -492,7 +492,7 @@ flightlogentries =
               YouTube
           ]
         )                                                            
-    , FlightLogEntry
+    , flight
         "Circuit Emergencies"
         "20160218"
         vhafr
@@ -604,8 +604,16 @@ flightlogentries =
               (Just "Head camera")
               YouTube
           ]  
-        )            
-    , FlightLogEntry
+        )         
+    , exam
+        "20160225"
+        "First Solo Theory Exam"
+        "David Schofield"
+        "FIR II"
+        (ARN "589522")
+        31
+        40
+    , flight
         "Circuit Emergencies"
         "20160304"
         vhafr
@@ -653,8 +661,16 @@ flightlogentries =
               (Just "Head camera")
               YouTube
           ]
-        )                        
-    , FlightLogEntry
+        )      
+    , exam
+        "20160309"
+        "Area Solo Theory Exam"
+        "David Schofield"
+        "FIR II"
+        (ARN "589522")
+        38
+        40                  
+    , flight
         "Circuit Emergencies"
         "20160324"
         vhzwy
@@ -703,7 +719,7 @@ flightlogentries =
               YouTube
           ]
         )                        
-    , FlightLogEntry
+    , flight
         "Circuits"
         "20160330"
         vhzwy
@@ -748,7 +764,7 @@ flightlogentries =
           [
           ]
         )
-    , FlightLogEntry
+    , flight
         "Circuits"
         "20160330"
         vhzwy
@@ -793,7 +809,7 @@ flightlogentries =
           [
           ]
         )           
-    , FlightLogEntry
+    , flight
         "Circuits (Crosswind)"
         "20160415"
         vhafr
@@ -838,7 +854,7 @@ flightlogentries =
           [
           ]
         )
-    , FlightLogEntry
+    , flight
         "Circuits (Solo check)"
         "20160422"
         vhafr
@@ -887,7 +903,7 @@ flightlogentries =
               YouTube
           ]
         )                                     
-    , FlightLogEntry
+    , flight
         "Circuits (Solo)"
         "20160422"
         vhafr
@@ -936,7 +952,7 @@ flightlogentries =
               YouTube
           ]
         )                                     
-    , FlightLogEntry
+    , flight
         "Circuits (Dual)"
         "20160427"
         vhvvo
@@ -981,7 +997,7 @@ flightlogentries =
           [
           ]
         )                                     
-    , FlightLogEntry
+    , flight
         "Circuits (Solo)"
         "20160427"
         vhvvo
@@ -1030,7 +1046,7 @@ flightlogentries =
               YouTube
           ]
         ) 
-    , FlightLogEntry
+    , flight
         "Practice Forced Landings"
         "20160509"
         vhafr
@@ -1083,7 +1099,7 @@ flightlogentries =
               Bambuser
           ]
         )          
-      , FlightLogEntry
+      , flight
         "Practice Forced Landings"
         "20160514"
         vhvvo
@@ -1136,7 +1152,7 @@ flightlogentries =
               Bambuser
           ]
         )                                             
-      , FlightLogEntry
+      , flight
         "Steep Turns"
         "20160519"
         vhvvo
@@ -1189,7 +1205,7 @@ flightlogentries =
               Bambuser
           ]
         )
-        , FlightLogEntry
+        , flight
         "Sydney Circuit, Stalls"
         "20160528"
         vhwkm
@@ -1222,7 +1238,7 @@ flightlogentries =
           [
           ]
         )          
-      , FlightLogEntry
+      , flight
         "Steep Turns and Sideslipping"
         "20160530"
         vhvvo
@@ -1271,7 +1287,7 @@ flightlogentries =
               Bambuser
           ]
         )      
-      , FlightLogEntry
+      , flight
         "Circuits (Crosswind)"
         "20160606"
         vhvvo
@@ -1324,7 +1340,7 @@ flightlogentries =
               Bambuser
           ]
         )                                           
-      , FlightLogEntry
+      , flight
         "Steep Turns and Sideslipping"
         "20160530"
         vhvvo
@@ -1373,7 +1389,7 @@ flightlogentries =
               Bambuser
           ]
         )      
-      , FlightLogEntry
+      , flight
         "Area Solo Check"
         "20160616"
         vhvvo
@@ -1422,7 +1438,7 @@ flightlogentries =
               Bambuser
           ] 
         )                                           
-      , FlightLogEntry
+      , flight
         "Area Solo Check"
         "20160617"
         vhvvo
@@ -1481,22 +1497,22 @@ flightlogentries =
         )                                           
     ]
 
-flightlog ::
-  FlightLog
-flightlog =
-  FlightLog
+logbook ::
+  Log
+logbook =
+  Log
     "Tony John Morris"
     "19771102"
     "1007036"
-    flightlogentries
+    entries
 
 main ::
   IO ()
 main =
   do  a <- getArgs
       case a of
-        [md, html] ->
-          do  writeMarkdownFile md flightlog
-              writeHtmlFile html flightlog
+        [md, h] ->
+          do  writeMarkdownFile md logbook
+              writeHtmlFile h logbook
         _ -> 
           hPutStrLn stderr "args: <markdown-file> <html-file>"
