@@ -6,7 +6,7 @@
 
 2015/12/14 * Flight One Invoice 30233 ; flightone:, 30233:
     assets:balance:open                     38.50
-    ; vh-ldo:, instruction
+    ; vh-ldo:, instruction:
     expenses:school:flight:instruction      341.00 @ 1.2
     ; vh-ldo:, terminal
     expenses:school:flight:terminal         29.79
@@ -16,7 +16,7 @@
 
 2015/12/18 * Flight One Invoice 30261 ; flightone:, 30261:
     assets:balance:open                     539.09
-    ; vh-ldo:, instruction
+    ; vh-ldo:, instruction:
     expenses:school:flight:instruction      341.00 @ 1.0
     ; vh-ldo:, terminal
     expenses:school:flight:terminal         29.79
@@ -26,7 +26,7 @@
     
 2015/12/20 * Flight One Invoice 30266 ; flightone:, 30266:
     assets:balance:open                     986.88
-    ; vh-ldo:, instruction
+    ; vh-ldo:, instruction:
     expenses:school:flight:instruction      341.00 @ 1.1
     ; vh-ldo:, terminal
     expenses:school:flight:terminal         29.79
@@ -46,7 +46,7 @@
 
 2016/01/04 * Flight One Invoice 30313 ; flightone:, 30313:
     assets:balance:open                     2131.77
-    ; vh-ldo:, instruction
+    ; vh-ldo:, instruction:
     expenses:school:flight:instruction      341.00 @ 1.3
     ; vh-ldo:, terminal
     expenses:school:flight:terminal         29.79
@@ -57,7 +57,7 @@
 
 2016/01/04 * Flight One Invoice 30313 ; flightone:, 30313:
     assets:balance:open                     2691.86
-    ; vh-ldo:, instruction
+    ; vh-ldo:, instruction:
     expenses:school:flight:instruction      341.00 @ 1.3
     ; vh-ldo:, terminal
     expenses:school:flight:terminal         29.79
@@ -67,7 +67,7 @@
 
 2016/01/15 * Flight One Invoice 30369 ; flightone:, 30369:
     assets:balance:open                     3241.95
-    ; vh-afr:, instruction
+    ; vh-afr:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.4
     ; vh-afr:, terminal
     expenses:school:flight:terminal         32.73
@@ -105,7 +105,7 @@
 
 2016/01/22 * Flight One Invoice 30396 ; flightone:, 30396:
     assets:balance:open                     4268.76
-    ; vh-afr:, instruction
+    ; vh-afr:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.1
     ; vh-afr:, terminal
     expenses:school:flight:terminal         32.73
@@ -123,7 +123,7 @@
 
 2016/01/29 * Flight One Invoice 30432 ; flightone:, 30432:
     assets:balance:open                     4785.19
-    ; vh-afr:, instruction
+    ; vh-afr:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.1
     ; vh-afr:, terminal
     expenses:school:flight:terminal         32.73
@@ -136,7 +136,7 @@
 
 2016/02/05 * Flight One Invoice 30460 ; flightone:, 30460:
     assets:balance:open                     5327.67
-    ; vh-afr:, instruction
+    ; vh-afr:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.1
     ; vh-afr:, terminal
     expenses:school:flight:terminal         32.73
@@ -144,7 +144,7 @@
 
 2016/02/12 * Flight One Invoice 30484 ; flightone:, 30484:
     assets:balance:open                     5820.20
-    ; vh-afr:, instruction
+    ; vh-afr:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.1
     ; vh-afr:, terminal
     expenses:school:flight:terminal         32.73
@@ -159,7 +159,7 @@
 
 2016/02/18 * Flight One Invoice 30519 ; flightone:, 30519:
     assets:balance:open                     6384.18
-    ; vh-afr:, instruction
+    ; vh-afr:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.1
     ; vh-afr:, terminal
     expenses:school:flight:terminal         32.73
@@ -186,7 +186,7 @@
 
 2016/03/04 * Flight One Invoice 30604 ; flightone:, 30604:
     assets:balance:open                     7286.21
-    ; vh-afr:, instruction
+    ; vh-afr:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.1
     ; vh-afr:, terminal
     expenses:school:flight:terminal         32.73
@@ -214,7 +214,7 @@
 
 2016/03/24 * Flight One Invoice 30697 ; flightone:, 30697:
     assets:balance:open                     8074.53
-    ; vh-zwy:, instruction
+    ; vh-zwy:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.0
     ; vh-zwy:, terminal
     expenses:school:flight:terminal         32.73
@@ -224,7 +224,7 @@
 
 2016/03/30 * Flight One Invoice 30708 ; flightone:, 30708:
     assets:balance:open                     8556.06
-    ; vh-zwy:, instruction
+    ; vh-zwy:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.3
     ; vh-zwy:, terminal
     expenses:school:flight:terminal         32.73
@@ -232,7 +232,7 @@
 
 2016/04/15 * Flight One Invoice 30794 ; flightone:, 30794:
     assets:balance:open                     9132.19
-    ; vh-afr:, instruction
+    ; vh-afr:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.0
     ; vh-afr:, terminal
     expenses:school:flight:terminal         32.73
@@ -246,7 +246,7 @@
 
 2016/04/22 * Flight One Invoice 30834 ; flightone:, 30834:
     assets:balance:open                     9621.42
-    ; vh-afr:, instruction
+    ; vh-afr:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.5
     ; vh-afr:, terminal
     expenses:school:flight:terminal         32.73 @ 2.0
@@ -254,7 +254,7 @@
 
 2016/04/27 * Flight One Invoice 30857 ; flightone:, 30857:
     assets:balance:open                     10313.88
-    ; vh-afr:, instruction
+    ; vh-afr:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.4
     ; vh-zwy:, terminal
     expenses:school:flight:terminal         32.73 @ 2.0
@@ -270,19 +270,19 @@
     assets:balance:open                     11049.24
     ; briefing
     expenses:school:briefing                77.00 @ 1.5
-    ; vh-afr:, instruction
+    ; vh-afr:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.0
     assets:balance:close                    -11582.74
 
 2016/05/14 * Flight One Invoice 30960 ; flightone:, 30960:
     assets:balance:open                     11582.74
-    ; vh-vvo:, instruction
+    ; vh-vvo:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.2
     assets:balance:close                    -12084.34
 
 2016/05/19 * Flight One Invoice 30988 ; flightone:, 30988:
     assets:balance:open                     12084.34
-    ; vh-vvo:, instruction
+    ; vh-vvo:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.1
     ; vh-vvo:, terminal
     expenses:school:flight:terminal         32.73 @ 2.0
@@ -299,13 +299,13 @@
 
 2016/05/28 * Curtis Aviation ; curtis:
     assets:balance:open                     12684.10
-    ; vh-wkm:, instruction
+    ; vh-wkm:, instruction:
     expenses:school:flight:instruction      519.20
     assets:balance:close                    -13203.30
 
 2016/05/30 * Flight One Invoice 31038 ; flightone:, 31038:
     assets:balance:open                     13203.30
-    ; vh-vvo:, instruction
+    ; vh-vvo:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.1
     ; vh-vvo:, terminal
     expenses:school:flight:terminal         32.73 @ 1.0
@@ -313,7 +313,7 @@
 
 2016/06/06 * Flight One Invoice 31067 ; flightone:, 31067:
     assets:balance:open                     13761.32
-    ; vh-vvo:, instruction
+    ; vh-vvo:, instruction:
     expenses:school:flight:instruction      418.00 @ 0.9
     ; vh-vvo:, terminal
     expenses:school:flight:terminal         32.73 @ 1.0
@@ -321,7 +321,7 @@
 
 2016/06/16 * Flight One Invoice 31142 ; flightone:, 31142:
     assets:balance:open                     14170.25
-    ; vh-vvo:, instruction
+    ; vh-vvo:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.1
     ; vh-vvo:, terminal
     expenses:school:flight:terminal         32.73 @ 1.0
@@ -331,7 +331,7 @@
 
 2016/06/17 * Flight One Invoice 31149 ; flightone:, 31149:
     assets:balance:open                     14701.28
-    ; vh-vvo:, instruction
+    ; vh-vvo:, instruction:
     expenses:school:flight:instruction      418.00 @ 1.5
     ; vh-vvo:, terminal
     expenses:school:flight:terminal         32.73 @ 1.0
