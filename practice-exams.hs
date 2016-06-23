@@ -5327,10 +5327,9 @@ flightOneFROL =
         [
           "All of the above"
         ]
-    , "" ~>
+    , "The HF Radio relies primarily on which of the following types of wave propagation?" ~>
       Multichoice
         [
-          "The HF Radio relies primarily on which of the following types of wave propagation?"
         ]
 
         "Sky waves"
@@ -5578,7 +5577,7 @@ flightOneFROL =
 
         [
           "ONE TWO TREE DECIMAL SIX"
-        , "WUN TOO TREE DAYCIMAL SIX"
+        , "WUN TOO TREE DAYCIMAL SIIIX"
         ]          
     ]
 
