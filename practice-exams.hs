@@ -5597,6 +5597,7 @@ exams =
   , airborneAviationAreaSolo
   , airborneAviationMeteorology
   , frol
+  , flightOneFROL
   ] ++ 
   atcFROL
 
