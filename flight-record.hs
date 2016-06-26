@@ -1439,7 +1439,7 @@ entries =
           ] 
         )                                           
       , flight
-        "Area Solo Check"
+        "Area Solo"
         "20160617"
         vhvvo
         (
@@ -1494,7 +1494,52 @@ entries =
               (Just "Live stream")
               Bambuser
           ] 
-        )                                           
+        )    
+      , flight
+        "Area Solo"
+        "20160626"
+        vhvvo
+        (
+          Hours
+            1
+            1
+        )
+        solo
+        ybaf2ybaf
+        Day
+        "Tony Morris"
+        (
+          TrackLogs
+            [
+              TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160626-vh-vvo.gpx"
+              Nothing
+              Gpx      
+            , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160626-vh-vvo.png"
+              Nothing
+              (ImageLog Png)                    
+            ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/815958"
+              Nothing
+              (Doarama "k0zbK26")
+          ]
+        )
+        (
+          Images
+          [
+          ]
+        )
+        ( 
+          Videos
+          [ 
+          ] 
+        )                                                   
     ]
 
 logbook ::
