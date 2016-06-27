@@ -1538,7 +1538,10 @@ entries =
         ( 
           Videos
           [ 
-          ] 
+            Video
+              "G0-RoTxRsGw"
+              (Just "Eastern Arrival, fly-over")
+              YouTube          ] 
         )                                                   
     ]
 
