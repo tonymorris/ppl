@@ -5581,6 +5581,46 @@ flightOneFROL =
         ]          
     ]
 
+instruments ::
+  Exam
+instruments =
+  Exam
+    "Instrument Flight"
+    (Just "Self-made questions")
+    Nothing
+    [
+      "Which instruments are vacuum powered?" !-
+      DirectAnswer
+       "Attitude Indicator, Heading Indicator"
+    , "Which instruments are pitot-static powered?" !-
+      DirectAnswer
+        "Air Speed Indicator, Altimeter, Vertical Speed Indicator"
+    , "Which pitot-static powered instruments use only the static port?" !-
+      DirectAnswer
+        "Altimeter, Vertical Speed Indicator"     
+    , "Which instruments are electric gyrometer powered?" !-
+      DirectAnswer
+        "Turn Indicator"                
+    , "How is the Air Speed Indicator powered?" !-
+      DirectAnswer
+        "Pitot-static"  
+    , "How is the Altimeter powered?" !-
+      DirectAnswer
+        "Pitot-static (static port only)"
+    , "How is the Vertical Speed Indicator powered?" !-
+      DirectAnswer
+        "Pitot-static (static port only)"
+    , "How is the Attitude Indicator powered?" !-
+      DirectAnswer
+        "Vacuum"
+    , "How is the Heading Indicator powered?" !-
+      DirectAnswer
+        "Vacuum"
+    , "How is the Turn Indicator powered?" !-
+      DirectAnswer
+        "Electric gyrometer"
+    ]
+
 exams ::
   [Exam]
 exams =
@@ -5597,8 +5637,12 @@ exams =
   , airborneAviationMeteorology
   , frol
   , flightOneFROL
-  ] ++ 
-  atcFROL
+  ] ++
+  atcFROL ++
+  [
+    instruments
+  ]
+
 
 main ::
   IO ()
