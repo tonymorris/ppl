@@ -52,9 +52,9 @@
 
 * ~~**FLT** area solo **(2)**~~
 
-* **FLT** basic instrument flying **(1)**
+* ~~**FLT** basic instrument flying **(1)**~~
 
-* **SIM** basic instrument flying **(1)**
+* ~~**SIM** basic instrument flying **(1)**~~
 
 * **FLT** short field take-off & landing **(1)**
 

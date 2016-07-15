@@ -1543,7 +1543,14 @@ entries =
               (Just "Eastern Arrival, fly-over")
               YouTube          ] 
         )
-    -- todo FROL 20160626
+    , exam
+        "20160626"
+        "Flight Radiotelephone Operator Licence"
+        "David Schofield"
+        "FIR II"
+        (ARN "589522")
+        38
+        40
     -- todo 0.5 Basic IF simulator 20160706
     , flight
         "Basic Instrument Flight"
