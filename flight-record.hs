@@ -1339,56 +1339,7 @@ entries =
               (Just "Live stream")
               Bambuser
           ]
-        )                                           
-      , flight
-        "Steep Turns and Sideslipping"
-        "20160530"
-        vhvvo
-        (
-          Hours
-            1
-            1
-        )
-        dual
-        ybaf2ybaf
-        Day
-        "Damien Boyer"
-        (
-          TrackLogs
-            [
-              TrackLog
-              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160530-vh-vvo.gpx"
-              Nothing
-              Gpx      
-            , TrackLog
-              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160530-vh-vvo.png"
-              Nothing
-              (ImageLog Png)                    
-            ]
-        )
-        (
-          Visualisations
-          [
-            Visualisation
-              "http://doarama.com/view/770143"
-              Nothing
-              (Doarama "65oMwXk")
-          ]
-        )
-        (
-          Images
-          [
-          ]
-        )
-        ( 
-          Videos
-          [ 
-           Video
-              "6288135"
-              (Just "Live stream")
-              Bambuser
-          ]
-        )      
+        )                                                 
       , flight
         "Area Solo Check"
         "20160616"
