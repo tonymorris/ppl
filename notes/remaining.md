@@ -56,7 +56,7 @@
 
 * ~~**SIM** basic instrument flying **(1)**~~
 
-* **FLT** short field take-off & landing **(1)**
+* ~~**FLT** short field take-off & landing **(1)**~~
 
 * **FLT** pre-cautionary search and landing **(1)**
 

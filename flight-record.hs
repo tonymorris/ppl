@@ -1492,7 +1492,8 @@ entries =
             Video
               "G0-RoTxRsGw"
               (Just "Eastern Arrival, fly-over")
-              YouTube          ] 
+              YouTube
+          ] 
         )
     , exam
         "20160626"
@@ -1540,7 +1541,51 @@ entries =
         )
         mempty
         mempty
-
+    , flight
+        "Short field take-off and landing"
+        "20160722"
+        vhafr
+        ( 
+          Hours
+            1
+            1
+        )
+        dual
+        ybaf2ybaf
+        Day
+        "Ryan Meyles"
+        (
+          TrackLogs
+          [
+            TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160722-vh-afr.gpx"
+              Nothing
+              Gpx
+          , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160722-vh-afr.png"
+              Nothing
+              (ImageLog Png)
+          ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/854963"
+              Nothing
+              (Doarama "EpoX79k")
+          ]
+        )
+        mempty
+        (
+          Videos
+          [ 
+            Video
+              "9o8OM_f5Uxg"
+              (Just "Cabin live stream")
+              YouTube
+          ]          
+        )        
     ]
 
 logbook ::
