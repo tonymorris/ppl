@@ -92,7 +92,7 @@
 
 * **FLT** nav CTA revision as required **(0-1)**
 
-* **FLT** nav 08 CTA solo **(1)**
+* ~~**FLT** nav 08 CTA solo **(1)**~~
 
 * **FLT** nav 09 recommendation flight **(1)**
 
