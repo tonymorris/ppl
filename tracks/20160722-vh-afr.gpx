@@ -18,9 +18,6 @@
     </copyright>    
   </metadata>
   <trk>
-    <extensions>
-      <topografix:color>c0c0c0</topografix:color>
-    </extensions>
     <trkseg>
       <trkpt lat="-27.56686" lon="153.014427">
         <ele>105</ele>
