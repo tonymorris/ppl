@@ -477,4 +477,12 @@
   <sym>Navaid, Green</sym>
 </wpt>
 
+<wpt lat="-27.706038" lon="153.109868">
+  <ele>15</ele>
+  <name>Logan airstrip (760m)</name>
+  <cmt>Logan airstrip (760m)</cmt>
+  <desc>Logan airstrip (760m)</desc>
+  <sym>Navaid, Green</sym>
+</wpt>
+
 </gpx>
