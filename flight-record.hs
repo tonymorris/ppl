@@ -1589,7 +1589,7 @@ entries =
       , flight
         "Precautionary search and landing"
         "20160729"
-        vhafr
+        vhvvo
         ( 
           Hours
             1
