@@ -366,3 +366,23 @@
     ; briefing:
     expenses:school:briefing                77.00 @ 0.3
     assets:balance:close                    -16639.77
+
+2016/07/23 * Flight One Invoice 31435 ; flightone:, 31435:
+    assets:balance:open                     16639.77
+    ; vh-afr:, instruction:
+    expenses:school:flight:instruction      418.00 @ 1.1
+    ; vh-afr:, terminal:
+    expenses:school:flight:terminal         32.73
+    ; briefing:
+    expenses:school:briefing                77.00 @ 0.5
+    assets:balance:close                    -17170.80
+
+2016/07/29 * Flight One Invoice 31509 ; flightone:, 31509:
+    assets:balance:open                     17170.80
+    ; vh-afr:, instruction:
+    expenses:school:flight:instruction      418.00 @ 1.1
+    ; vh-afr:, terminal:
+    expenses:school:flight:terminal         32.73
+    ; briefing:
+    expenses:school:briefing                77.00 @ 0.5
+    assets:balance:close                    -17701.83
