@@ -1585,7 +1585,52 @@ entries =
               (Just "Cabin live stream")
               YouTube
           ]          
-        )        
+        ) 
+      , flight
+        "Precautionary search and landing"
+        "20160729"
+        vhafr
+        ( 
+          Hours
+            1
+            1
+        )
+        dual
+        ybaf2ybaf
+        Day
+        "Ryan Meyles"
+        (
+          TrackLogs
+          [
+            TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160729-vh-vvo.gpx"
+              Nothing
+              Gpx
+          , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160729-vh-vvo.png"
+              Nothing
+              (ImageLog Png)
+          ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/865050"
+              Nothing
+              (Doarama "6bWZjWe")
+          ]
+        )
+        mempty
+        (
+          Videos
+          [ 
+            Video
+              "lBq9InluAPo"
+              (Just "Cabin live stream")
+              YouTube
+          ]          
+        )       
     ]
 
 logbook ::
