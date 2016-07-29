@@ -469,4 +469,12 @@
   <sym>Navaid, Red</sym>
 </wpt>
 
+<wpt lat="-27.850143" lon="152.928487">
+  <ele>53</ele>
+  <name>Kagaru airstrip</name>
+  <cmt>Kagaru airstrip</cmt>
+  <desc>Kagaru airstrip</desc>
+  <sym>Navaid, Green</sym>
+</wpt>
+
 </gpx>
