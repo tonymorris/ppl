@@ -66,8 +66,6 @@
 
 * **FLT** RPL recommendation **(1)** *20160818*
 
-* **FLT** circuit revision as required **(0-1)**
-
 ### RPL to PPL
 
 * **FLT** revision as required **(0-4)**
