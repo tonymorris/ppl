@@ -1631,6 +1631,48 @@ entries =
               YouTube
           ]          
         )       
+      , flight
+        "General revision"
+        "20160805"
+        vhafr
+        ( 
+          -- 0.5 Basic IF
+          Hours
+            1
+            1
+        )
+        dual
+        ybaf2ybaf
+        Day
+        "Ryan Meyles"
+        (
+          TrackLogs
+          [
+            TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160805-vh-afr.gpx"
+              Nothing
+              Gpx
+          , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160805-vh-afr.png"
+              Nothing
+              (ImageLog Png)
+          ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/876462"
+              Nothing
+              (Doarama "kLZ8Kp6")
+          ]
+        )
+        mempty
+        (
+          Videos
+          [ 
+          ]          
+        )       
     ]
 
 logbook ::
