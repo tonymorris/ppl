@@ -60,9 +60,11 @@
 
 * ~~**FLT** pre-cautionary search and landing **(1)**~~
 
-* **FLT** general revision **(1)**
+* ~~**FLT** general revision **(1)**~~
 
 * **FLT** area solo consolidation **(1)**
+
+* **FLT** RPL recommendation **(1)**
 
 * **FLT** circuit revision as required **(0-1)**
 
