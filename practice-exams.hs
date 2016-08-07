@@ -3016,7 +3016,7 @@ taitPreRPL =
         , "the atmospheric pressure of the air at sea-level in the standard atmosphere"
         ]
 
-        "the atmospheric of the air at sea-level at any given time or place"
+        "the atmospheric pressure of the air at sea-level at any given time or place"
 
         [
           "the atmospheric pressure at the airfield"
