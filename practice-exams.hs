@@ -5621,6 +5621,3054 @@ instruments =
         "Electric gyrometer"
     ]
 
+bobTaitChapterRevisionA1 ::
+  Exam
+bobTaitChapterRevisionA1 =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "A1 Aerodynamics, Motion and Control")
+    [
+      "Deflection of the elevators in flight cause the aeroplane to" ~>
+      Multichoice
+        [
+          "pitch about its normal axis"
+        ]
+
+        "pitch about its lateral axis"
+
+        [
+          "yaw about its normal axis"
+        , "pitch about its longitudinal axis"
+        ]
+    , "Which of the following correctly associates the control surface, type of motion involved and the axis about which that motion occurs?" ~>
+      Multichoice
+        [
+          "rudder, yaw, longitudinal"
+        , "elevator, pitch, normal"
+        ]
+
+        "aileron, roll, longitudinal"
+
+        [
+          "rudder, pitch, normal"
+        ]
+    , "The centre of gravity of an aircraft is a point" ~>
+      Multichoice
+        [
+          "halfway along the longitudinal axis"
+        , "in the centre of the wing"
+        ]
+
+        "at which all three axes intersect"
+
+        [
+          "directly above the wheels"
+        ]
+    , "The best indication of nose attitude is obtained when the pilot" ~>
+      Multichoice
+        [
+          "looks to the side and notes the position of the wing tips in relation to the horizon"
+        ]
+
+        "looks to the front and notes the position of the horizon in the aircraft's windscreen"
+
+        [
+          "looks at the instrument panel and notes the aircraft's present height and speed"
+        , "looks to the right and asks the instructor to point it out"
+        ]
+    , "When the control column is turned to the left during flight" ~>
+      Multichoice
+        [
+          "the right aileron is raised and the aircraft rolls to the right"
+        ]
+
+        "the left aileron is raised and the aircraft rolls to the left"
+
+        [
+          "the right aileron is raised and the aircraft rolls to the left"
+        , "the left aileron is raised and the aircraft rolls to the right"
+        ]
+    , "When the right rudder pedal is depressed during flight" ~>
+      Multichoice
+        [
+          "the rudder moves to the left and the aircraft yaws to the left"
+        , "the rudder moves to the left and the aircraft yaws to the right"
+        , "the rudder moves to the right and the aircraft yaws to the left"
+        ]
+
+        "the rudder moves to the right and the aircraft yaws to the right"
+
+        [
+        ]
+    , "When a back pressure is applied to the control column during straight and level flight" ~>
+      Multichoice
+        [
+        ]
+
+        "the elevator is deflected up and the aircraft adopts a higher nose attitude"
+
+        [
+          "the elevator is deflected up and the aircraft adopts a lower nose attitude"
+        , "the elevator is deflected down and the aircraft adopts a lower nose attitude"
+        , "the elevator is deflected down and the aircraft adopts a higher nose attitude"
+        ]
+    , "If no control input is made by the pilot, which of the following types of aircraft motion will always occur simultaneously?" ~>
+      Multichoice
+        [
+          "pitch and yaw"
+        , "pitch and roll"
+        , "pitch, yaw and roll"
+        ]
+
+        "yaw and roll"
+
+        [
+        ]
+    , "Which is the most appropriate recovery action if an aircraft is allowed to enter a spiral dive?" ~>
+      Multichoice
+        [
+          "pull back firmly on the control column"
+        , "apply full rudder against the direction of turn"
+        ]
+
+        "apply opposite aileron to level the wings"
+
+        [
+          "apply aileron in the direction of turn until the wings are level"
+        ]
+    , "A single-engine aircraft is climbing with high power applied and low airspeed. Which of the following will be true concerning the effectiveness of the flying controls?" ~>
+      Multichoice
+        [
+          "the ailerons and rudder will be more effective than the elevator"
+        ]
+
+        "the ailerons will be less effective than the elevator or rudder"
+
+        [
+          "the ailerons will be more effective than the elevator or rudder"
+        , "the ailerons and elevator will be more effective than the rudder"
+        ]
+    ]
+
+bobTaitChapterRevisionA2 ::
+  Exam
+bobTaitChapterRevisionA2 =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "A2 Aerodynamics - Vectors, Forces and Stalling - LIFT")
+    [
+      "The relative airflow is always" ~>
+      Multichoice
+        [
+          "opposite the direction of motion and faster than the true airspeed"
+        , "in the same direction as motion and equal to the true airspeed"
+        ]
+
+        "opposite the direction of motion and equal to the true airspeed"
+
+        [
+          "in the same direction as motion and faster to the true airspeed"
+        ]
+    , "All of the aerodynamic forces acting on an aerofoil can be resolved into a single force acting on a single point. This single force is called" ~>
+      Multichoice
+        [
+          "lift"
+        , "drag"
+        ]
+
+        "the total reaction"
+
+        [
+          "total lift"
+        ]
+    , "The force of lift is" ~>
+      Multichoice
+        [
+        ]
+
+        "that component of the total reaction acting at right angles to the relative airflow"
+
+        [
+          "that component of the total reaction acting parallel to the relative airflow"
+        , "the combined effect of all forces acting on an aerofoil"
+        , "that component of the total reaction acting at right angles to the chord line"
+        ]
+    , "The angle of attack of an aerofoil is the angle between" ~>
+      Multichoice
+        [
+          "the relative airflow and the bottom surface of the wing"
+        , "the nose of the aircraft and the horizon"
+        , "the chord line and the horizon"
+        ]
+
+        "the chord line and the direction of the relative airflow"
+
+        [
+        ]
+    , "The magnitude of the total aerodynamic reaction on an aerofoil depends upon" ~>
+      Multichoice
+        [
+          "the speed of the relative airflow only"
+        , "the angle of attack only"
+        ]
+
+        "both the angle of attack of the aerofoil and the speed of the relative airflow"
+
+        [
+          "the forward speed of the aerofoil only"
+        ]
+    , "To maintain level flight at a lower airspeed" ~>
+      Multichoice
+        [
+        ]
+
+        "the aircraft must fly at a higher nose attitude and an increased angle of attack"
+
+        [
+          "the aircraft must fly at a lower nose attitude and an increased angle of attack"
+        , "the aircraft must fly at a higher nose attitude and an decreased angle of attack"
+        , "the aircraft must fly at a lower nose attitude and an decreased angle of attack"
+        ]
+    , "Once the stalling angle has been reached, any further increase in angle of attack will result in" ~>
+      Multichoice
+        [
+          "more lift and less drag"
+        , "more lift and more drag"
+        ]
+
+        "less lift and less drag"
+
+        [
+          "less lift and more drag"
+        ]
+    , "Level flight is not possible at speeds below the stalling speed because" ~>
+      Multichoice
+        [
+        ]
+
+        "the maximum lift available is less than weight"
+
+        [
+          "there is no lift available"
+        , "drag becomes greater than lift"
+        , "the air flowing over the control surfaces produces no reaction"
+        ]
+    , "For any given airspeed, the stalling angle of attack at which" ~>
+      Multichoice
+        [
+          "drag reaches its maximum value"
+        , "lift reaches its minimum value"
+        , "drag reaches its minimum value"
+        ]
+
+        "lift reaches its maximum value"
+
+        [
+        ]
+    , "As the angle of attack is increased from zero to beyond the stalling angle at a constant airspeed, the magnitude of the force of lift" ~>
+      Multichoice
+        [
+          "increases continuously"
+        ]
+
+        "increases then decreases"
+
+        [
+          "decreases continuously"
+        , "decreases then increases"
+        ]
+    ]
+
+bobTaitChapterRevisionA3 ::
+  Exam
+bobTaitChapterRevisionA3 =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "A3 Aerodynamics - Vectors, Forces and Stalling - DRAG")
+    [
+      "Drag is that component of the total reaction which acts" ~>
+      Multichoice
+        [
+          "at right angles to the relative airflow"
+        ]
+
+        "opposite to the direction of motion and parallel to the relative airflow"
+
+        [
+          "at right angles to the chord line"
+        , "in the same direction as motion and parallel to the relative airflow"
+        ]
+    , "The chief source of drag on an aircraft flying level at low airspeed is" ~>
+      Multichoice
+        [
+          "lift is no longer acting at right angles to the relative airflow"
+        ]
+
+        "air spilling over the wingtips producing vortices and eddies"
+
+        [
+          "the angle of attack being lower than at normal cruising speed"
+        , "the elevator requiring a large degree of deflection"
+        ]
+    , "The form of drag which predominates at low airspeed is called" ~>
+      Multichoice
+        [
+          "parasite drag"
+        , "total drag"
+        , "airflow drag"
+        ]
+
+        "induced drag"
+
+        [
+        ]
+    , "The form of drag which predominates at high airspeed is called" ~>
+      Multichoice
+        [
+        ]
+
+        "parasite drag"
+
+        [
+          "total drag"
+        , "airflow drag"
+        , "induced drag"
+        ]
+    , "As airspeed is increased in level flight from just above stalling speed to maximum speed, the induced drag acting" ~>
+      Multichoice
+        [
+          "increases continuously"
+        ]
+
+        "decreases continuously"
+
+        [
+          "increases then decreases"
+        , "decreases then increases"
+        ]
+    , "As airspeed is increased in level flight from just above stalling speed to maximum speed, the parasite drag acting" ~>
+      Multichoice
+        [
+        ]
+
+        "increases continuously"
+
+        [
+          "decreases continuously"
+        , "increases then decreases"
+        , "decreases then increases"
+        ]
+    , "The combined effect of induced drag and parasite drag gives rise to total drag. The *least* total drag occurs" ~>
+      Multichoice
+        [
+          "at low airspeed when parasite drag is lowest"
+        , "at high airspeed when parasite drag is lowest"
+        ]
+
+        "at an intermediate airspeed when both induced and parasite drag are fairly low"
+
+        [
+          "at the stalling speed when the speed of the relative airflow is lowest"
+        ]
+    , "As speed is reduced in level flight from maximum speed to the stalling speed, the total drag acting" ~>
+      Multichoice
+        [
+          "increases continuously"
+        , "decreases continuously"
+        , "increases then decreases"
+        ]
+
+        "decreases then increases"
+
+        [
+        ]
+    , "A wing enjoys its maximum efficiency in level flight when" ~>
+      Multichoice
+        [
+          "airspeed is highest"
+        , "airspeed is lowest"
+        ]
+
+        "total drag is least"
+
+        [
+          "lift is greatest"
+        ]
+    , "The best lift/drag ratio occurs" ~>
+      Multichoice
+        [
+          "at the stalling angle where maximum lift is being produced"
+        , "at the smallest possible angle of attack where minimum drag is being produced"
+        ]
+
+        "at a medium angle of attack where the required lift is accompanied by least drag"
+
+        [
+          "at the lowest airspeed where the least disturbance to the airflow occurs"
+        ]
+    ]
+
+bobTaitChapterRevisionA4 ::
+  Exam
+bobTaitChapterRevisionA4 =    
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "A4 Aerodynamics - Design and Performance")
+    [
+      "The application of high power with low airspeed is accompanied by" ~>
+      Multichoice
+        [
+        ]
+
+        "engine torque producing a roll"
+
+        [
+          "a reduction in elevator effectiveness"
+        , "engine torque producing a yaw"
+        , "slipstream effect producing a roll"
+        ]
+    , "The effect of propellor slipstream on a single-engine aeroplane is to" ~>
+      Multichoice
+        [
+        ]
+
+        "produce a yaw at low IAS and high power"
+
+        [
+          "produce a roll at low IAS and high power"
+        , "produce a yaw at high IAS and low power"
+        , "product a nose-down pitch at low IAS and high power"
+        ]
+    , "The effect of a strong crosswind from the left while taxiing on level ground is" ~>
+      Multichoice
+        [
+        ]
+
+        "the aircraft will tend to yaw to the left"
+
+        [
+          "the aircraft will tend to yaw to the right"
+        , "the aircraft will tend to roll to the left"
+        , "the aircraft will tend to roll and yaw to the right"
+        ]
+    , "Consider an aircraft flying at 5,500ft in a headwind. Under these conditions" ~>
+      Multichoice
+        [
+          "IAS would be higher than TAS which would be higher than GS"
+        , "GS would be higher than TAS which would be higher than IAS"
+        , "IAS would be higher than TAS which would be lower than GS"
+        ]
+
+        "IAS would be lower than TAS which would be higher than GS"
+
+        [
+        ]
+    , "Which of the following would be most effective in reducing induced drag?" ~>
+      Multichoice
+        [
+          "fitting wheel fairings"
+        , "streamlining all surfaces exposed to the airflow"
+        , "fitting wing root fairings"
+        ]
+
+        "increasing the aspect ratio of the wing"
+
+        [
+        ]
+    , "If airspeed is kept constant, which of the following is an effect of extending flap during level flight?" ~>
+      Multichoice
+        [
+          "lift increases and drag decreases"
+        ]
+
+        "lift increases and drag increases"
+
+        [
+          "lift decreases and drag decreases"
+        , "lift decreases and drag increases"
+        ]
+    , "Which of the following is an effect of lowering full flap during a glide?" ~>
+      Multichoice
+        [
+        ]
+
+        "a steeper descent path may be flown at the same airspeed"
+
+        [
+          "the extra lift will produce a flatter descent path"
+        , "the aircraft will be able to fly down the same descent path at a lower airspeed"
+        , "forward visibility will be reduced"
+        ]
+    , "Under what circumstances should flap be used for take-off?" ~>
+      Multichoice
+        [
+          "flap should never be used for take-off under any circumstances"
+        ]
+
+        "flap should be used only as specified by the manufacturer"
+
+        [
+          "full flap should be used if the field is of marginal length"
+        , "flap should be used during the take-off roll if the pilot feels it is necessary"
+        ]
+    , "If airspeed is kept constant, which of the following is an effect of extending flap during level flight?" ~>
+      Multichoice
+        [
+          "a higher nose attitude is required to maintain lift"
+        ]
+
+        "it is possible to fly level with a lower nose attitude"
+
+        [
+          "less power is required to maintain a given airspeed"
+        , "the elevator and rudder controls will become more effective"
+        ]
+    , "If all other factors remain the same, what effect will a decrease in air density have on the take off distance required?" ~>
+      Multichoice
+        [
+        ]
+
+        "the distance required increases"
+
+        [
+          "the distance required remains the same unless weight is increased"
+        , "the distance required decreases because of reduced drag"
+        , "the distance required remains the same providing full power is used"
+        ]
+    , "Which of the figures below correctly shows the relative positions of the tailplane, elevator and trim tab on an aircraft which has been trimmed for level flight at low airspeed?" ~>
+      Multichoice
+        [
+        ]
+
+        "elevator deflecting upward from aerofoil, trim tab deflecting downward from elevator"
+
+        [
+          "elevator deflecting downward from aerofoil, trim tab deflecting downward from elevator"
+        , "elevator deflecting downward from aerofoil, trim tab deflecting upward from elevator"
+        , "elevator deflecting upward from aerofoil, trim tab deflecting upward from elevator"
+        ]
+    , "Compared to nil wind conditions, a tailwind component during take-off will result in" ~>
+      Multichoice
+        [
+          "a decrease in the distance required for take-off"
+        ]
+
+        "an increase in the distance required for take-off"
+
+        [
+          "a decrease in the IAS required for take-off"
+        , "an increase in the IAS required for take-off"
+        ]
+    , "Which of the following combination of factors would have the most detrimental effect on the take-off performance of an aeroplane?" ~>
+      Multichoice
+        [
+          "high temperature, high airfield elevation and a high pressure system"
+        ]
+
+        "high temperature, high airfield elevation and a low pressure system"
+
+        [
+          "low temperature, low airfield elevation and a low pressure system"
+        , "high temperature, low airfield elevation and a low pressure system"
+        ]
+    , "If frost forms on the wings of an aircraft overnight and is not removed before flight" ~>
+      Multichoice
+        [
+          "the acceleration during the take-off run will be less than normal"
+        , "the stalling angle will be higher than normal"
+        ]
+
+        "the take-off sitance could be greatly increased"
+
+        [
+          "there will be an increase in stalling speed and stalling angle"
+        ]
+    , "The purpose of aerodynamic balancing of control surfaces is to" ~>
+      Multichoice
+        [
+        ]
+
+        "lighten the in-flight loads on the control column"
+
+        [
+          "prevent the control surface from fluttering"
+        , "to increase the rate at which the aircraft responds to control inputs"
+        , "ensure the aircraft will be controllable at low airspeed"
+        ]
+    ]
+
+bobTaitChapterRevisionA5 ::
+  Exam
+bobTaitChapterRevisionA5 =    
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "A5 Climbing and Descending")
+    [
+      "During an approach, what is the effect of a sudden decrease in headwind component on IAS and rate of descent?" ~>
+      Multichoice
+        [
+          "IAS and rate of descent would both increase"
+        , "IAS and rate of descent would both decrease"
+        ]
+
+        "IAS would decrease and rate of descent would increase"
+
+        [
+          "IAS would increase and rate of descent would decrease"
+        ]
+    , "Partial extension of flap in a glide at constant indicated air speed will result in" ~>
+      Multichoice
+        [
+        ]
+
+        "an increase in rate and angle of descent"
+
+        [
+          "a decrease in rate and angle of descent"
+        , "an increase in rate of descent and a decrease in angle of descent"
+        , "an increase in angle of descent and a decrease in rate of descent"
+        ]
+    , "A wind shear on final approach which produces a sudden drop in headwind component will result in" ~>
+      Multichoice
+        [
+        ]
+
+        "a drop in IAS and a decrease in lift"
+
+        [
+          "a rise in IAS and a decrease in lift"
+        , "a drop in IAS and an increase in lift"
+        , "a rise in IAS and an increase in lift"
+        ]
+    , "Extension of flap in a glide at a constant indicated air speed will result in" ~>
+      Multichoice
+        [
+          "less drag and a steeper approach path"
+        , "less drag and a shallower approach path"
+        ]
+
+        "more drag and a steeper approach path"
+
+        [
+          "more drag and a shallower approach path"
+        ]
+    , "If the pilot maintains the same IAS, which of the following would produce the steepest angle of descent?" ~>
+      Multichoice
+        [
+          "an increase in power and an increase in flap extension"
+        ]
+
+        "a decrease in power and an increase in flap extension"
+
+        [
+          "an increase in power and a decrease in flap extension"
+        , "a decrease in power and a decrease in flap extension"
+        ]
+    , "Which of the following would cause climb performance to decrease?" ~>
+      Multichoice
+        [
+          "a reduction in aircraft weight"
+        , "an increase in thrust available"
+        ]
+
+        "a turn during the climb"
+
+        [
+          "an increase in headwind component"
+        ]
+    , "Which of the following describes the effect of a headwind on a descent at constant IAS?" ~>
+      Multichoice
+        [
+          "the angle of descent remains the same but the rate of descent increases"
+        , "the angle of descent decreases but the rate of descent remains the same"
+        , "the angle of descent increases but the rate of descent increases"
+        ]
+
+        "the angle of descent increases but the rate of descent remains the same"
+
+        [
+        ]
+    , "An aircraft is trimmed to cruise in straight and level flight with no flap extended. Which of the following would result if 20deg flap is extended and the aircraft is re-trimmed to maintain straight and level flight with no change in power?" ~>
+      Multichoice
+        [
+          "the cruising IAS will increase and the nose attitude will be lower"
+        ]
+
+        "the cruising IAS will decrease and the nose attitude will be lower"
+
+        [
+          "the cruising IAS will increase and the nose attitude will be higher"
+        , "the cruising IAS will decrease and the nose attitude will be higher"
+        ]
+    , "Compared to nil wind conditions, which of the following effects will be noticed when climbing into a headwind?" ~>
+      Multichoice
+        [
+          "both the rate and angle of climb will increase"
+        , "angle of climb will increase and rate of climb will decrease"
+        , "both the rate and angle of climb will decrease"
+        ]
+
+        "angle of climb will increase and rate of climb will remain unaltered"
+
+        [
+        ]
+    , "The recommended IAS to achieve the maximum angle of climb at sea-level is 60kt for a particular aircraft. Which of the following would reduce the angle of climb?" ~>
+      Multichoice
+        [
+        ]
+
+        "a decrease in IAS"
+
+        [
+          "a headwind"
+        , "an increase in air density"
+        , "a reduction in take-off weight"
+        ]
+    , "If nose attitude and power are kept constant, which of the following would have the effect of decreasing the angle of climb?" ~>
+      Multichoice
+        [
+          "an increased headwind component"
+        , "a decrease in aircraft weight"
+        ]
+
+        "an increase in air temperature"
+
+        [
+          "a decrease in density height"
+        ]
+    , "Comparing the best rate of climb speed to the best angle of climb speed. The best rate of climb occurs" ~>
+      Multichoice
+        [
+        ]
+
+        "at a lower nose attitude and higher airspeed"
+
+        [
+          "at a higher nose attitude and higher airspeed"
+        , "at a lower nose attitude and lower airspeed"
+        , "at a higher nose attitude and lower airspeed"
+        ]
+    , "Which of the following would produce the highest reading on the vertical speed indicator?" ~>
+      Multichoice
+        [
+          "climbing at the IAS for best angle of climb?"
+        , "climbing at the IAS lower than that recommended for the best angle of climb?"
+        ]
+
+        "climbing at the IAS for best rate of climb?"
+
+        [
+          "climbing at the IAS lower than that recommended for the best rate of climb?"
+        ]
+    , "Which of the following describes the effect of a tailwind on climb performance?" ~>
+      Multichoice
+        [
+          "angle of climb is lower and rate of climb is higher"
+        , "angle of climb is higher and rate of climb is higher"
+        ]
+
+        "angle of climb is lower and rate of climb is unchanged"
+
+        [
+          "angle of climb is higher and rate of climb is unchanged"
+        ]
+    , "Which of the following combination of factors would require highest nose attitude in level flight?" ~>
+      Multichoice
+        [
+        ]
+
+        "an increase in weight and a decrease in airspeed"
+
+        [
+          "a decrease in weight and a decrease in airspeed"
+        , "an increase in weight and an increase in airspeed"
+        , "a decrease in weight and an increase in airspeed"
+        ]
+    ]
+
+bobTaitChapterRevisionA6 ::
+  Exam
+bobTaitChapterRevisionA6 =    
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "A6 Turning, Stalling, Spins and Spirals")
+    [
+      "An aerofoil is said to be at its stalling angle if any increase or decrease in angle of attack" ~>
+      Multichoice
+        [
+          "produces less lift and less drag"
+        , "produces a lower lift/drag ratio"
+        ]
+
+        "produces less lift"
+
+        [
+          "produces more drag"
+        ]
+    , "If angle of attack is increased from zero to beyond the stalling angle at constant indicated air speed, the magnitude of the force of drag" ~>
+      Multichoice
+        [
+          "increases then decreases"
+        , "decreases continuously"
+        , "decreases then increases"
+        ]
+
+        "increases continuously"
+
+        [
+        ]
+    , "Any increase in the angle of attack of an aerofoil up to the stalling angle, at constant indicated air speed causes" ~>
+      Multichoice
+        [
+        ]
+
+        "lift to increase and drag to increase"
+
+        [
+          "lift to increase and drag to decrease"
+        , "lift to decrease and drag to increase"
+        , "lift to decrease and drag to decrease"
+        ]
+    , "A pilot must maintain a back pressure on the control column during a level balanced turn. This is necessary to" ~>
+      Multichoice
+        [
+        ]
+
+        "increase the angle of attack"
+
+        [
+          "create extra drag to slow the aircraft down during the turn"
+        , "allow the elevators to help turn the aircraft in the desired direction"
+        , "improve the visibility in the direction of the turn"
+        ]
+    , "If an aircraft is slipping during a level turn, a remedy would be" ~>
+      Multichoice
+        [
+        ]
+
+        "apply more rudder in the direction of turn"
+
+        [
+          "apply less rudder in the direction of turn"
+        , "apply more bank in the direction of turn"
+        , "apply greater back pressure on control column"
+        ]
+    , "Which of the following would be the best definition of the stalling speed?" ~>
+      Multichoice
+        [
+          "the speed which requires the lowest angle of attack in level flight"
+        ]
+
+        "the speed which requires the stalling angle to produce the necessary lift"
+
+        [
+          "the speed at which the aircraft should become airborne during take-off"
+        , "the speed which produces the best angle of climb after take-off"
+        ]
+    , "Which of the following would decrease the IAS at which the stall occurred?" ~>
+      Multichoice
+        [
+          "an increase in angle of bank during a turn"
+        ]
+
+        "an increase in flap extension during level flight"
+
+        [
+          "a decrease in engine power"
+        , "a strong headwind"
+        ]
+    , "If the aircraft suffers a wing-drop at the point of stall due to turbulent conditions, the correct control input to safely recover would be to" ~>
+      Multichoice
+        [
+          "maintain strong back pressure and apply full opposite aileron"
+        , "maintain strong back pressure and apply opposite rudder"
+        , "relax the back pressure and apply full opposite aileron"
+        ]
+
+        "relax the back pressure and apply opposite rudder"
+
+        [
+        ]
+    , "You are about to take off from a runway immediately after a heavy jet has taken off from the same runway. Which of the following actions would give the best change of avoiding its wake turbulence?" ~>
+      Multichoice
+        [
+          "taking off beyond its lift-point, using a shallower angle of climb and maintaining runway heading"
+        , "taking off before its lift-off point, using a steeper angle of climb and turning to remain down wind of its flight path"
+        , "taking off before its lift-off point, using a steeper angle of climb and maintaining runway heading"
+        ]
+
+        "taking off before its lift-off point, using a steeper angle of climb and turning to remain up wind of its flight path"
+
+        [
+        ]
+    , "Compared to nil wind conditions, which of the following effects will be noticed when climbing into a headwind?" ~>
+      Multichoice
+        [
+          "both the rate and angle of climb will increase"
+        , "angle of climb will increase and rate of climb will decrease"
+        , "both the rate and angle of climb will decrease"
+        ]
+
+        "angle of climb will increase and rate of climb will remain unaltered"
+
+        [
+        ]
+    , "Wingtip vortices in level flight will be strongest when" ~>
+      Multichoice
+        [
+          "weight is increased and speed is increased"
+        ]
+
+        "weight is increased and speed is decreased"
+
+        [
+          "weight is decreased and speed is decreased"
+        , "weight is decreased and speed is increased"
+        ]
+    , "You are about to take off from a runway immediately after a heavy jet aircraft has taken off from the same runway. Which of the following is the most dangerous hazard that could affect your take-off?" ~>
+      Multichoice
+        [
+          "difficulty in directional control caused by the blast of the jet engine exhaust"
+        ]
+
+        "turbulence after lift-off caused by the wing-tip vortices of the larger aircraft"
+
+        [
+          "difficulty in directional control during the take-off run caused by the wing-tip vortices of the jet"
+        , "reduction in engine power because of the heated air behind the departing jet"
+        ]
+    , "As the angle of bank in a level turn is increased, the load factor" ~>
+      Multichoice
+        [
+          "increases and the stalling speed decreases"
+        ]
+
+        "increases and the stalling speed increases"
+
+        [
+          "decreases and the stalling speed decreases"
+        , "decreases and the stalling speed increases"
+        ]
+    , "During a 60deg bank level turn, the load factor will be" ~>
+      Multichoice
+        [
+          "the same as in level flight"
+        ]
+
+        "twice that in level flight"
+
+        [
+          "40% greater than in level flight"
+        , "40% less than in level flight"
+        ]
+    , "During a 60deg level turn, the stalling speed will be" ~>
+      Multichoice
+        [
+          "the same as in level flight"
+        , "twice that in level flight"
+        ]
+
+        "40% greater than in level flight"
+
+        [
+          "40% less than in level flight"
+        ]
+    , "When turning at low level on a very windy day a pilot may notice" ~>
+      Multichoice
+        [
+        ]
+
+        "an illusion of slipping or skidding when turning cross wind"
+
+        [
+          "an increased rate of turn when turning upwind"
+        , "difficulty balancing the turn"
+        , "a tendency to overbank"
+        ]
+    , "One result of the application of abrupt back pressure on the control column during a dive would be" ~>
+      Multichoice
+        [
+          "a decrease in the angle of attack and less lift"
+        , "a decrease in the angle of attack and more lift"
+        ]
+
+        "an increase in the angle of attack and possibly a stall"
+
+        [
+          "an decrease in the angle of attack and possibly a stall"
+        ]
+    , "Wake turbulence would be most severe behind" ~>
+      Multichoice
+        [
+        ]
+
+        "a heavy aircraft flying slowly"
+
+        [
+          "a light aircraft flying slowly"
+        , "a heavy aircraft flying fast"
+        , "a light aircraft flying fast"
+        ]
+    ]
+
+bobTaitChapterRevisionGK1 ::
+  Exam
+bobTaitChapterRevisionGK1 =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "GK1 Engines and Fuel systems")
+    [
+      "The onset of detonation in an engine is indicated by" ~>
+      Multichoice
+        [
+        ]
+
+        "vibration, rising temperatures and reduced indicated air speed"
+
+        [
+          "vibration, falling temperatures and reduced indicated air speed"
+        , "vibration, rising temperatures and increased indicated air speed"
+        , "vibration, falling temperatures and increased indicated air speed"
+        ]
+    , "Applying carburettor heat when ice is present in the carburettor is accompanied by" ~>
+      Multichoice
+        [
+          "a drop in engine RPM with no further change"
+        ]
+
+        "a drop in engine RPM followed by a rise"
+
+        [
+          "an immediate rise in engine RPM"
+        , "an initial rise in engine RPM followed by a drop"
+        ]
+    , "The application of carburettor heat when no ice is present in the carburettor is accompanied by" ~>
+      Multichoice
+        [
+        ]
+
+        "a drop in engine RPM with no further change"
+
+        [
+          "a drop in engine RPM followed by a rise"
+        , "an immediate rise in engine RPM"
+        , "an initial rise in engine RPM followed by a drop"
+        ]
+    , "The reason for filling the tanks of an aircraft which is left parked over night in cold weather is" ~>
+      Multichoice
+        [
+        ]
+
+        "to prevent water from collecting in the tank due to condensation"
+
+        [
+          "to increase the weight of the aircraft in case of strong wind gusts"
+        , "to ensure you don't get caught if the price of fuel goes up overnight"
+        , "to prevent contamination from entering the tank through the vent"
+        ]
+    , "The pressure exerted on the piston during the power stroke increases as the amount of gas induced" ~>
+      Multichoice
+        [
+        ]
+
+        "increases and combustion temperature increases"
+
+        [
+          "decreases and combustion temperature increases"
+        , "increases and combustion temperature decreases"
+        , "decreases and combustion temperature decreases"
+        ]
+    , "As the throttle is moved towards the fully open position" ~>
+      Multichoice
+        [
+          "manifold pressure increases and gas flow decreases"
+        , "manifold pressure decreases and gas flow increases"
+        ]
+
+        "manifold pressure increases and gas flow increases"
+
+        [
+          "manifold pressure decreases and gas flow decreases"
+        ]
+    , "The best action to take at the onset of detonation in an engine is" ~>
+      Multichoice
+        [
+          "lean the mixture and reduce the power"
+        , "lean the mixture and increase the power"
+        , "decrease the indicated air speed and maintain the power"
+        ]
+
+        "select mixture fully rich and decrease the power"
+
+        [
+        ]
+    , "The colour of 100 octane low lead [100 LL] aviation fuel is" ~>
+      Multichoice
+        [
+          "green"
+        , "red"
+        ]
+
+        "blue"
+
+        [
+          "clear"
+        ]
+    , "Which of the following is the correct sequence for the four strokes of a four-stroke internal combustion engine?" ~>
+      Multichoice
+        [
+          "induction, compression, exhaust and power"
+        , "induction, power, compression and exhaust"
+        , "induction, exhaust, compression and power"
+        ]
+
+        "induction, compression, power and exhaust"
+
+        [
+        ]
+    , "If AVTUR was misidentified as AVGAS and added to the tanks of a piston engine aircraft, which of the following would be the most likely result?" ~>
+      Multichoice
+        [
+          "engine damage due to the extra power generated at take-off"
+        , "reduced power output and low engine temperature"
+        , "increased power output and high engine temperature"
+        ]
+
+        "reduced power output due to severe detonation"
+
+        [
+        ]
+    , "If a blockage in a fuel tank vent in a gravity fed system is not discovered and removed before flight" ~>
+      Multichoice
+        [
+          "there will be no effect providing the aircraft remains at low level"
+        , "the engine will not start"
+        , "fuel is likely to be lost overboard during flight"
+        ]
+
+        "the engine may fail completely due to fuel starvation"
+
+        [
+        ]
+    , "The octane rating of a fuel is a measure of" ~>
+      Multichoice
+        [
+          "its specific gravity"
+        ]
+
+        "its resistance to detonation"
+
+        [
+          "its resistance to vaporisation"
+        , "its anti-misting properties in the event of fire"
+        ]
+    ]
+
+bobTaitChapterRevisionGK2 ::
+  Exam    
+bobTaitChapterRevisionGK2 =    
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "GK2 Engine Systems and Instruments")
+    [
+      "Which of the following most completely describes the function of the oil system?" ~>
+      Multichoice
+        [
+          "it keeps the engine clean"
+        , "it provides lubrication"
+        , "it helps to cool the engine"
+        ]
+
+        "it does all of the above"
+
+        [
+        ]
+    , "Which of the following is a likely result of operating an engine with oil temperature too low?" ~>
+      Multichoice
+        [
+        ]
+
+        "higher than normal oil pressure and poor lubrication due to high oil viscosity"
+
+        [
+          "lower than normal oil pressure and poor lubrication due to low oil viscosity"
+        , "lower than normal oil pressure and poor lubrication due to high oil viscosity"
+        , "higher than normal oil pressure and poor lubrication due to low oil viscosity"
+        ]
+    , "The heat collected by the oil as it passes through the engine is dissipated to the outside airflow at the" ~>
+      Multichoice
+        [
+          "oil filter"
+        , "oil pump"
+        ]
+
+        "oil cooler"
+
+        [
+          "oil sump"
+        ]
+    , "Which of the following in-flight indications would suggest the most serious threat to the safety of an aircraft and its passengers?" ~>
+      Multichoice
+        [
+          "high oil pressure"
+        , "high oil temperature"
+        ]
+
+        "no oil pressure"
+
+        [
+          "low oil temperature"
+        ]
+    , "Which of the following is a reason for a warm-up period before take-off?" ~>
+      Multichoice
+        [
+          "to allow the oil pump to build up sufficient oil pressure"
+        ]
+
+        "to ensure the oil is brought to the correct viscosity"
+
+        [
+          "to allow any dirty oil to be cleaned by the oil filter"
+        , "to ensure the spark plugs become hot enough for proper combustion of the fuel"
+        ]
+    , "Which of the following is true of magneto ignition?" ~>
+      Multichoice
+        [
+        ]
+
+        "the spark is produced mechanically without any outside electrical power"
+
+        [
+          "the magneto cannot operate unless the aircraft's electrical system is switched on"
+        , "magneto ignition does not require any shileding to prevent radio interference"
+        , "magneto ignition makes it safe to handle the propellor when the engine is stopped"
+        ]
+    , "During a pre take-off check, the pilot notices no drop in RPM when the switches are moved from 'both' to 'R' and the engine continues to run smoothly. A likely cause would be" ~>
+      Multichoice
+        [
+          "the right magneto is in excellent condition"
+        ]
+
+        "there is a fault in the ignition switch or wiring"
+
+        [
+          "there is a fault in the right magneto"
+        , "the spark plugs are fouled with oil"
+        ]
+    , "Oil fouling of spark plugs is most likely" ~>
+      Multichoice
+        [
+          "after long periods of operation at high power output"
+        , "when the engine is first started and the oil is cold"
+        , "when the oil is overdue for changing"
+        ]
+
+        "after long periods of operation at taxi or idle power"
+
+        [
+        ]
+    , "The purpose of an impulse coupling is to" ~>
+      Multichoice
+        [
+          "provide a hotter spark when the engine is at full power"
+        , "prevent oil fouling of the spark plugs"
+        ]
+
+        "provide sparks when the engine is being cranked during start up"
+
+        [
+          "allow both magnetos to fire at once"
+        ]
+    , "Is the following statement true or false? If the aircraft electrical system is turned off and the magneto switches are selected to 'off, it is safe to handle the propellor because there is no danger of 'kick back' when the switches are off." ~>
+      Multichoice
+        [
+          "the statement is true"
+        ]
+
+        "the statement is false"
+
+        [
+        ]
+    ]
+
+bobTaitChapterRevisionGK3 ::
+  Exam
+bobTaitChapterRevisionGK3 =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "GK3 Engine Systems and Instruments")
+    [
+      "Which of the following is a limitation of the directional gyro?" ~>
+      Multichoice
+        [
+          "the directional gyro is more difficult to read accurately"
+        , "the directional gyro wobbles about in turbulent conditions"
+        ]
+
+        "the directional gyro does not automatically line up with north, it must be set by reference to a compass"
+
+        [
+          "the directional gyro reads incorrectly during turns"
+        ]
+    , "When setting a directional gyro, care should be taken to ensure that" ~>
+      Multichoice
+        [
+          "the aircraft is facing north"
+        , "the aircraft is not losing or gaining any height"
+        , "the aircraft's electrical system is turned off"
+        ]
+
+        "the aircraft is in steady wings-level flight in smooth air"
+
+        [
+        ]
+    , "Which of the following instruments rely on the static vent to give a reliable reading?" ~>
+      Multichoice
+        [
+        ]
+
+        "Airspeed Indicator, Altimeter and Vertical Speed Indicator"
+
+        [
+          "Airspeed Indicator, Artificial Horizon and Vertical Speed Indicator"
+        , "Turn and Balance Indicator, Artificial Horizon and Altimeter"
+        , "Vertical Speed Indicator, Turn and Balance Indicator and Airspeed Indicator"
+        ]
+    , "What is the significant of the white arc on the face of the airspeed indicator?" ~>
+      Multichoice
+        [
+          "it indicates the fastest and slowest speeds at which it is safe to fly"
+        , "it indicates the safe climbing speeds for use after take-off"
+        , "it indicates the range of approach speeds that may be used for landing"
+        ]
+
+        "it indicates the safe speeds at which the aeroplane may be operated with flap extended"
+
+        [
+        ]
+    , "VNE is the maximum indicated airspeed at which" ~>
+      Multichoice
+        [
+          "the flaps may be lowered"
+        , "a turn may be commenced"
+        ]
+
+        "the aircraft may operate under any circumstances"
+
+        [
+          "the aircraft may operate in turbulence"
+        ]
+    , "The function of a battery is to" ~>
+      Multichoice
+        [
+        ]
+
+        "store electrical energy for the system to use when the alternator is not operating"
+
+        [
+          "supply the current to allow the spark plugs to generate a spark"
+        , "supply all the electrical demands of the system during flight"
+        , "to keep the alternator fully charged"
+        ]
+    , "The function of an alternator is to" ~>
+      Multichoice
+        [
+        ]
+
+        "supply all the electrical demands of the system during flight"
+
+        [
+          "supply current to the spark plugs during start-up"
+        , "to act as a back-up in case the battery fails"
+        , "to store electrical energy when the engine is not running"
+        ]
+    , "The normal reading on a centre zero ammeter during flight should be" ~>
+      Multichoice
+        [
+          "zero"
+        , "a charge indication which depends on the number of electrical loads turned on"
+        ]
+
+        "a constant small charge"
+
+        [
+          "a discharge depending on the number of electrical loads turned on"
+        ]
+    , "Continued cranking of an engine which is difficult to start could result in" ~>
+      Multichoice
+        [
+          "damage to engine components due to low oil pressure during start-up"
+        , "a fire risk due to surplus fuel vapour flowing through the engine"
+        , "stone damage to the propellor"
+        ]
+
+        "overheating and damage to the battery and/or starter motor"
+
+        [
+        ]
+    , "Which of the following describes the difference between a circuit breaker and a fuse?" ~>
+      Multichoice
+        [
+          "a circuit breaker interrupts the current while a fuse does not"
+        , "a circuit breaker is not suitable for use when the current flow is high, while a fuse is"
+        , "a circuit breaker does not interrupt the current flow while a fuse does"
+        ]
+
+        "a circuit breaker may be reset after it has been 'tripped' but a fuse cannot"
+
+        [
+        ]
+    ]
+
+bobTaitChapterRevisionBAP ::
+  Exam
+bobTaitChapterRevisionBAP =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "Basic Aeroplane Performance")
+    [
+      "An aircraft with this loading system has 200lbs on the rear seats. The moment index generated by this weight would be closest to" ~>
+      Multichoice
+        [
+          "30"
+        ]
+
+        "25.2"
+
+        [
+          "12.5"
+        , "33"
+        ]
+    , "The combined weight of the pilot and front passenger in an aircraft with this loading system is 340lbs. The moment index generated by this weight would be closest to" ~>
+      Multichoice
+        [
+          "3"
+        , "309"
+        , "134"
+        ]
+
+        "31"
+
+        [
+        ]
+    , "An aircraft which uses this loading system is loaded as follows. Basic empty weight, 1240lb, 100.80 moment index. Row 1, Pilot and passenger 339lbs. Row 2, empty. Baggage, 50lbs. Fuel at take-off 37 US gal." ~>
+      Multichoice
+        [
+        ]
+
+        "This aircraft WILL remain within balance limits at all stages of the flight"
+
+        [
+          "This aircraft WILL NOT remain within balance limits at all stages of the flight"
+        ]
+    , "An aircraft with this loading system is loaded so that its gross weight is 1950lbs and the total moment index is 170 index units. The position of the centre of gravity with this load configuration in inches aft of the datum is closest to" ~>
+      Multichoice
+        [
+        ]
+
+        "87 inches aft of the datum"
+
+        [
+          "67 inches aft of the datum"
+        , "101 inches aft of the datum"
+        , "120 inches aft of the datum"
+        ]
+    , "An aircraft with this loading system has been loaded so that its take-off totals are as follows. Gross Weight=2100lbs. Total moment index 196. If the baggage compartment is full, what is the minimum weight which must be removed to ensure that the aircraft is within balance limits for take-off?" ~>
+      Multichoice
+        [
+          "none"
+        ]
+
+        "25lbs"
+
+        [
+          "50lbs"
+        , "100lbs"
+        ]
+    ]
+
+bobTaitChapterRevisionHPr1 ::
+  Exam
+bobTaitChapterRevisionHPr1 =    
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "REVISION 1 Human Performance")
+    [
+      "The most common cause of pilot incapacitation during flight is" ~>
+      Multichoice
+        [
+          "heart attack"
+        , "dehydration"
+        , "blocked sinus passages"
+        ]
+
+        "food or drink poisoning [gastro-intestinal disorders]"
+
+        [
+        ]
+    , "The symptoms of dehydration include" ~>
+      Multichoice
+        [
+          "profuse sweating"
+        ]
+
+        "drying of the nasal passages and a prickly sensation in the eyes"
+
+        [
+          "'runny' eyes and nose"
+        , "stomach cramps and a high temperature"
+        ]
+    , "The CASA has recommended a period on the ground after making a blood donation of at least" ~>
+      Multichoice
+        [
+          "six hours"
+        ]
+
+        "twenty-four hours"
+
+        [
+          "twelve hours"
+        , "forty-eight hours"
+        ]
+    , "CAR 256 requires *total* abstinence by all pilots from *any* alcohol for a period of" ~>
+      Multichoice
+        [
+        ]
+
+        "eight hours before departure"
+
+        [
+          "24 hours before departure"
+        , "eight hours before commencing duty"
+        , "12 hours before departure"
+        ]
+    , "Which of the following is true of drugs taken by pilots for medical reasons before flight?" ~>
+      Multichoice
+        [
+          "any drugs that are available 'over the counter' can be considered safe"
+        , "drugs can be considered safe if they are prescribed by a doctor"
+        , "drugs can be considered safe unless there is a warning on the packet"
+        ]
+
+        "the opinion of a DAME should be sought before using *any* drug"
+
+        [
+        ]
+    , "Discomfort or pain in the ears of sinuses is *most likely* during" ~>
+      Multichoice
+        [
+          "long periods of cruising flight at high altitude"
+        ]
+
+        "high rates of descent in unpressurised aircraft"
+
+        [
+          "high rates of climb in unpressurised aircraft"
+        , "long slow descents in unpressurised aircraft"
+        ]
+    , "If an otherwise healthy pilot suffers a bout of dizzy spells, the appropriate action required by CAR 6.16 would be" ~>
+      Multichoice
+        [
+        ]
+
+        "notify a DAME and refrain from all flying until cleared"
+
+        [
+          "notify a DAME and refrain from all commercial flying until cleared"
+        , "notify a DAME and refrain from all instrument flying until cleared"
+        , "resume flying providing there is no recurrence within twenty-four hours"
+        ]
+    , "Pilots can best assist airsick passengers by" ~>
+      Multichoice
+        [
+          "warning them that they will have to clean up the mess if they vomit"
+        , "descending quickly to land before they become sick"
+        , "reassuring them that airsickness is nothing to worry about"
+        ]
+
+        "flying as smoothly as possible and making all manoeuvres and descents gentle"
+
+        [
+        ]
+    , "Too much salt in the diet can lead to" ~>
+      Multichoice
+        [
+          "excessive sweating"
+        , "increased chance of catching cold"
+        ]
+
+        "high blood pressure"
+
+        [
+          "low blood pressure"
+        ]
+    , "Foods most likely to produce intestinal gases are" ~>
+      Multichoice
+        [
+          "salty foods"
+        ]
+
+        "green vegetables"
+
+        [
+          "foods high in sugar"
+        , "chicken"
+        ]
+    ]
+
+bobTaitChapterRevisionHPr2 ::
+  Exam
+bobTaitChapterRevisionHPr2 =    
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "REVISION 2 Human Performance")
+    [
+      "The period of validity of a medical certificate for a pilot over forty years of age, unless otherwise cancelled or suspended is" ~>
+      Multichoice
+        [
+        ]
+
+        "2 years for student and private pilot licences and 1 year for commercial licences"
+
+        [
+          "2 years for student and 1 year for private pilot licences and commercial licences"
+        , "1 year for student and 2 years for private pilot licences and commercial licences"
+        , "2 years for all classes of licence"
+        ]
+    , "Hyperventilation is likely to result in" ~>
+      Multichoice
+        [
+        ]
+
+        "a change in the acidity of the blood caused by a drop in carbon dioxide levels"
+
+        [
+          "severe headaches and vomiting"
+        , "sinus pain and discomfort in the middle ear"
+        , "lightheadedness associated with an increase in carbon dioxide levels"
+        ]
+    , "Abdominal pain caused by the expansion of gases within the body is most likely to be associated with" ~>
+      Multichoice
+        [
+        ]
+
+        "a rapid climb in a high performance unpressurised aircraft"
+
+        [
+          "a rapid descent in a high performance unpressurised aircraft"
+        , "a rapid climb in a high performance pressurised aircraft"
+        , "a rapid descent in a high performance pressurised aircraft"
+        ]
+    , "At an altitude of 18000ft the ambient atmospheric pressure is approximately" ~>
+      Multichoice
+        [
+          "one third of its sea-level value"
+        ]
+
+        "one half of its sea-level value"
+
+        [
+          "two thirds of its sea-level value"
+        , "one tenth of its sea-level value"
+        ]
+    , "At a depth of about 30 feet, the underwater pressure is closest to" ~>
+      Multichoice
+        [
+          "one and a half times normal sea-level atmospheric pressure"
+        ]
+
+        "two times normal sea-level atmospheric pressure"
+
+        [
+          "three times normal sea-level atmospheric pressure"
+        , "one half of normal sea-level atmospheric pressure"
+        ]
+    , "Decompression sickness or the 'bends' is caused by" ~>
+      Multichoice
+        [
+          "difficulty experienced in breathing under the high ambient pressure which occurs in deep water"
+        , "the excess oxygen which dissolves in the blood during a deep dive"
+        ]
+
+        "the release of dissolved nitrogen from the blood during a rapid ascent from deep water"
+
+        [
+          "cramps caused by the low ambient temperature which occurs in deep water"
+        ]
+    , "A SCUBA diver has just completed a dive which did require decompression stops but was of less than four hours duration. The minimum recommended period which should be allowed before flying is" ~>
+      Multichoice
+        [
+          "4 hours"
+        ]
+
+        "12 hours"
+
+        [
+          "24 hours"
+        , "48 hours"
+        ]
+    , "Which of the following would be an appropriate way to combat the effects of hyperventilation?" ~>
+      Multichoice
+        [
+          "breathe more rapidly"
+        ]
+
+        "make a conscious effort to slow down the breathing rate"
+
+        [
+          "take a deep breath and hold it"
+        , "breathe more deeply"
+        ]
+    , "Hyperventilation is caused by" ~>
+      Multichoice
+        [
+          "too much carbon monoxide in the air"
+        , "too much carbon dioxide in the air"
+        ]
+
+        "breathing too fast and/or too deep for the body's requirements"
+
+        [
+          "holding the breath too long"
+        ]
+    , "Alcohol can still be detected in the blood for" ~>
+      Multichoice
+        [
+        ]
+
+        "14 hours after ingestion"
+
+        [
+          "14 hours after the blood alcohol level has reached .05"
+        , "24 hours after ingestion"
+        , "24 hours after the blood alcohol level has reached .05"
+        ]
+    , "Which of the following would be an appropriate remedy for a person who is suffering the efects of hyperventilation?" ~>
+      Multichoice
+        [
+          "hold the breath for about 40 seconds"
+        ]
+
+        "breathe into a paper bag"
+
+        [
+          "increase the rate and depth of breathing"
+        , "use a nasal decongestant"
+        ]
+    , "If it becomes necessary to take sleeping tablets, how much time should be allowed before flying?" ~>
+      Multichoice
+        [
+          "12 hours"
+        ]
+
+        "24 hours"
+
+        [
+          "none if they provided a good night's sleep"
+        , "8 hours"
+        ]
+    , "If a pilot completed a SCUBA dive which required decompression stops during ascent and was more than 4 hours duration, which of the following would apply?" ~>
+      Multichoice
+        [
+          "a rest at sea-level of at least 24 hours is requred before flying"
+        ]
+
+        "a rest at sea-level of at least 48 hours is requred before flying"
+
+        [
+          "a rest at sea-level of at least 12 hours is requred before flying"
+        , "a rest at sea-level of at least 6 hours is requred before flying"
+        ]
+    ]
+
+bobTaitChapterRevisionHPr3 ::
+  Exam
+bobTaitChapterRevisionHPr3 =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "REVISION 3 Human Performance")
+    [
+      "Which of the following is a function of the middle ear?" ~>
+      Multichoice
+        [
+          "to protect the eardrum from the intrusion of foreign bodies"
+        ]
+
+        "to amplify the vibrations arriving at the eardrum and transfer them to the cochlea"
+
+        [
+          "to convert the mechanical energy of vibrations to nerve impulses"
+        , "to assist in maintaining the sense of balance"
+        ]
+    , "Which of the following is a function of the inner ear?" ~>
+      Multichoice
+        [
+          "to protect the eardrum from the intrusion of foreign bodies"
+        , "to amplify the vibrations arriving at the eardrum and transfer them to the cochlea"
+        ]
+
+        "to convert the mechanical energy of vibrations to nerve impulses and assist in maintaining the sense of balance"
+
+        [
+          "to equalise the pressure on either side of the eardrum"
+        ]
+    , "Which of the following mediates the sense of balance?" ~>
+      Multichoice
+        [
+          "the cochlea"
+        ]
+
+        "the semicircular canals"
+
+        [
+          "the hammer, anvil and stirrup"
+        , "the eustachian tube"
+        ]
+    , "Deterioration of hearing caused by exposure to loud noise usually occurs first" ~>
+      Multichoice
+        [
+        ]
+
+        "in the high frequency range, above normal speech"
+
+        [
+          "in the frequency range of normal speech, 300 to 5000Hz"
+        , "in the frequency range below normal speech"
+        , "across the whole range of audible frequencies"
+        ]
+    , "Which of the following is the minimum noise level that would mark the onset of temporary or permanent deafness after prolonged exposure?" ~>
+      Multichoice
+        [
+        ]
+
+        "85dB"
+
+        [
+          "110dB"
+        , "140dB"
+        , "160dB"
+        ]
+    , "Which of the following is the function of the eustachian tube in the human respiratory system?" ~>
+      Multichoice
+        [
+          "it connects the middle ear to the outer ear"
+        , "it connects the middle ear to the inner ear"
+        ]
+
+        "it connects the middle ear to the throat cavity"
+
+        [
+          "it connects the inner ear to the throat cavity"
+        ]
+    , "Hearing loss due to long-term exposure to high noise levels is usually first noticed in the loss of sensitivity to" ~>
+      Multichoice
+        [
+        ]
+
+        "high frequency sounds"
+
+        [
+          "low frequency sounds"
+        , "medium frequency sounds"
+        , "all frequencies of sound"
+        ]
+    , "Which part of the ear is most affected by pressure differences when the eustachian tube is blocked?" ~>
+      Multichoice
+        [
+          "the outer ear"
+        ]
+
+        "the middle ear"
+
+        [
+          "the inner ear"
+        , "the ear lobe"
+        ]
+    ]
+
+bobTaitChapterRevisionHPr4 ::
+  Exam
+bobTaitChapterRevisionHPr4 =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "REVISION 4 Human Performance")
+    [
+      "The two difference types of light sensitive elements on the retina are classified as" ~>
+      Multichoice
+        [
+          "rods which are sensitive to colour and cones which work best in dim light"
+        ]
+
+        "cones which are sensitive to colour and rods which work best in dim light"
+
+        [
+          "rods and cones both of which respond equally to all lighting conditions"
+        , "rods and cones both of which are responsible for colour vision"
+        ]
+    , "The blind spot is" ~>
+      Multichoice
+        [
+          "the area of the lens which is screened by the iris"
+        , "the black spot in the centre of the coloured section of the eye"
+        ]
+
+        "at the junction of the optic nerve and the retina"
+
+        [
+          "an area on the cornea which does not respond to light"
+        ]
+    , "If a pilot whose eyes have fully adapter to darkness is exposed to a bright flash of light, the time required for dark adaptation to be re-established is most likely to be" ~>
+      Multichoice
+        [
+          "3 minutes"
+        , "5 minutes"
+        , "15 minutes"
+        ]
+
+        "30 minutes"
+
+        [
+        ]
+    , "The maximum distance at which a healthy eye in good lighting and contrast could identifiy a circle one metre in diameter is approximately" ~>
+      Multichoice
+        [
+          "one kilometre"
+        , "five kilometres"
+        ]
+
+        "2 nautical miles"
+
+        [
+          "five hundred metres"
+        ]
+    , "In level flight, a collision risk exists if a converging aircraft viewed from your cockpit appears to be" ~>
+      Multichoice
+        [
+        ]
+
+        "on the horizon and maintaining a constant position in your windscreen"
+
+        [
+          "below the horizon and moving closer to the centre of your windscreen"
+        , "on the horizon and moving away from the centre of your windscreen"
+        , "on the horizon"
+        ]
+    , "The most effective way to scan the sky for other aircraft during level flight is to" ~>
+      Multichoice
+        [
+          "move the head in continuous arc from side to side"
+        , "keep the head still and move the eyes continuously from side to side"
+        , "do not look anywhere but straight ahead unless you detect movement"
+        ]
+
+        "move the head about 20deg or 30deg at a time, pausing after each movement to allow the peripheral vision to detect any movement"
+
+        [
+        ]
+    , "Heavy rain may have the effect of making objects viewed through the windscreen appear," ~>
+      Multichoice
+        [
+        ]
+
+        "further away than they actually are"
+
+        [
+          "closer than they actually are"
+        , "larger than they actually are"
+        , "brighter than they actually are"
+        ]
+    ]
+
+bobTaitChapterRevisionHPr5 ::
+  Exam
+bobTaitChapterRevisionHPr5 =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "REVISION 5 Human Performance")
+    [
+      "In sensing the orientation of the body in space, the brain assigns the highest priority to information coming from" ~>
+      Multichoice
+        [
+        ]
+
+        "the eyes"
+
+        [
+          "the inner ear"
+        , "the middle ear"
+        , "the proprioceptive system"
+        ]
+    , "Which of the following is the most likely cause of disorientation?" ~>
+      Multichoice
+        [
+          "a change in the information coming from the inner ear"
+        ]
+
+        "a conflict or ambiguity in the information coming from visual, vestibular and postural cues"
+
+        [
+          "poor lighting reducing the amount of visual information received"
+        , "a rapid transition from level flight to a steep climb"
+        ]
+    , "In the absence of reliable visual information, which of the following states of motion would be most difficult to differentiate?" ~>
+      Multichoice
+        [
+          "a steep turn and a rapid deceleration in level flight"
+        , "a rapid acceleration in level flight and a transition from level flight to a dive"
+        ]
+
+        "a rapid acceleration in level flight and a transition from level flight to a climb"
+
+        [
+          "a rapid deceleration in level flight and a transition from level flight to a climb"
+        ]
+    , "You are making an approach by day into a runway where the terrain slopes up from the threshold of intended landing. The most likely misjudgment during this approach would be" ~>
+      Multichoice
+        [
+          "an overestimate of your height above the runway threshold"
+        ]
+
+        "an underestimate of your height above the runway threshold"
+
+        [
+          "an underestimate of your speed during the approach"
+        , "an overestimate of the length of the runway"
+        ]
+    , "Which of the following organs mediates the sense of balance?" ~>
+      Multichoice
+        [
+          "eustachian tube"
+        , "the eardrum"
+        ]
+
+        "the semicircular canals"
+
+        [
+          "the cochlea"
+        ]
+    , "The susceptibility to disorientation is increased if the pilot is suffering from anxiety, stress or mental fatigue" ~>
+      Multichoice
+        [
+          "this statement is false"
+        ]
+
+        "this statement is true"
+
+        [
+        ]
+    ]
+
+bobTaitChapterRevisionHPr6 ::
+  Exam
+bobTaitChapterRevisionHPr6 =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "REVISION 6 Human Performance")
+    [
+      "Which of the following will always be accompanied by an increase in positive G load?" ~>
+      Multichoice
+        [
+          "increased IAS in a dive"
+        , "any manoeuvre which requires extra power"
+        ]
+
+        "any manoeuvre which requires the pilot to pull back on the control column"
+
+        [
+          "any manoeuvre in which the aircraft's nose is above the horizon"
+        ]
+    , "In which of the following situations would a normal healthy person be most likely to experience loss of consciousness [G-LOC]?" ~>
+      Multichoice
+        [
+          "eight G sustained for two seconds"
+        , "three G sustained for five seconds"
+        ]
+
+        "seven G sustained for seven seconds"
+
+        [
+          "two G sustained for fifteen seconds"
+        ]
+    , "Which of the following is an effect of a sustained negative G load?" ~>
+      Multichoice
+        [
+        ]
+
+        "a slowing of the heart beat"
+
+        [
+          "a decreased flow of oxygenated blood to the brain"
+        , "pooling of blood in the abdomen and legs"
+        , "an irregular heart beat"
+        ]
+    , "At about which sustained G load will a healthy person be likely to begin to experience grey out?" ~>
+      Multichoice
+        [
+          "1.5G"
+        , "2.5G"
+        ]
+
+        "3.5G"
+
+        [
+          "4.5G"
+        ]
+    , "At about which sustained G load will a healthy person be likely to begin to experience black out?" ~>
+      Multichoice
+        [
+          "7G"
+        ]
+
+        "5G"
+
+        [
+          "3.5G"
+        , "2.5G"
+        ]
+    , "Which of the following would most likely lead to carbon monoxide contamination of the cockpit atmosphere?" ~>
+      Multichoice
+        [
+          "excessive use of carburettor heat"
+        , "an electrical short circuit"
+        , "flying low in a very thick smoke haze"
+        ]
+
+        "a leak in the engine exhaust system"
+
+        [
+        ]
+    , "Which of the following is *not* a symptom of carbon monoxide poisoning?" ~>
+      Multichoice
+        [
+          "headache and fatigue"
+        ]
+
+        "a feeling of euphoria"
+
+        [
+          "discomfort in breathing"
+        , "impairment of vision and mental confusion"
+        ]
+    , "Which of the following would be suitable treatment for a person suffering from carbon monoxide poisoning?" ~>
+      Multichoice
+        [
+        ]
+
+        "administer oxygen"
+
+        [
+          "give plenty of water"
+        , "give a sleeping pill"
+        , "have them re-breathe their exhaled breath from a bag placed over the nose and mouth"
+        ]
+    ]
+
+bobTaitChapterRevisionHPr7 ::
+  Exam
+bobTaitChapterRevisionHPr7 =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "REVISION 7 Human Performance")
+    [
+      "The transfer of oxygen to the blood stream during respiration depends most directly upon" ~>
+      Multichoice
+        [
+          "the breathing rate"
+        ]
+
+        "the partial pressure of oxygen within the lungs"
+
+        [
+          "the percentage of lung capacity achieved with each breath [depth of breathing]"
+        , "the volume of oxygen inhaled with each breath"
+        ]
+    , "If a pilot suspects that he/she is suffering the effects of hypoxia, the most appropriate remedy would be" ~>
+      Multichoice
+        [
+          "voluntarily increase the breathing rate to increase the oxygen uptake"
+        , "voluntarily increase the depth of breathing to induce more oxygen into the lungs"
+        , "voluntarily increase both the rate and depth of breathing"
+        ]
+
+        "use supplemental oxygen or descend immediately to a lower level"
+
+        [
+        ]
+    , "Which of the following is *not* normally a symptom of hypoxia?" ~>
+      Multichoice
+        [
+          "cyanosis"
+        , "a feeling of euphoria"
+        ]
+
+        "severe headache"
+
+        [
+          "erratic behaviour"
+        ]
+    , "CAO 20.4.7 requries that supplemental oxygen be provided and used by the pilot at all times during flight above" ~>
+      Multichoice
+        [
+          "20000 feet"
+        ]
+
+        "10000 feet"
+
+        [
+          "14000 feet"
+        , "8000 feet"
+        ]
+    , "One of the effects of hypoxia is a degradation of night vision. This effect begins at about" ~>
+      Multichoice
+        [
+        ]
+
+        "4000 feet"
+
+        [
+          "10000 feet"
+        , "14000 feet"
+        , "20000 feet"
+        ]
+    , "Oxygen is transported around the body by" ~>
+      Multichoice
+        [
+        ]
+
+        "haemoglobin"
+
+        [
+          "white blood cells"
+        , "plasma"
+        , "the nervous system"
+        ]
+    , "A heavy smoker will suffer the effects of hypoxia at a lower altitude than a non-smoker. While flying at an altitude of 5000 feet, a heavy smoker could be experiencing the same degree of hypoxia as a non-smoker at" ~>
+      Multichoice
+        [
+          "5000 feet"
+        ]
+
+        "10000 feet"
+
+        [
+          "15000 feet"
+        , "20000 feet"
+        ]
+    , "Hypoxia may be caused by" ~>
+      Multichoice
+        [
+          "flying with a head cold"
+        ]
+
+        "flying at an altitude where the partial pressure of oxygen is too low"
+
+        [
+          "breathing too quickly and/or too deeply for the requirements of the body"
+        , "flying after a period of underwater diving"
+        ]
+    , "Hypoxia is *always* accompanied by" ~>
+      Multichoice
+        [
+          "high temperature and vomiting"
+        , "dizziness"
+        , "profuse sweating"
+        ]
+
+        "a degradation in the performance of a pilot"
+
+        [
+        ]
+    , "Cyanosis can be identified by" ~>
+      Multichoice
+        [
+          "rapid breathing"
+        ]
+
+        "a blue coloration of the fingernail beds and lips"
+
+        [
+          "slurred speech"
+        , "difficult in maintaining balance"
+        ]
+    ]
+
+bobTaitChapterRevisionHPr8 ::
+  Exam
+bobTaitChapterRevisionHPr8 =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "REVISION 8 Human Performance")
+    [
+      "During which period of the day will the average person find it most difficult to stay awake?" ~>
+      Multichoice
+        [
+          "midday to 2 pm"
+        , "10 pm to 2 am"
+        ]
+
+        "3 am to 5 am"
+
+        [
+          "9 am to midday"
+        ]
+    , "Which of the following is true regarding transmeridian dyschronism [jet lag]." ~>
+      Multichoice
+        [
+        ]
+
+        "flying east requires the body's rhythms to advance"
+
+        [
+          "flying west requires the body's rhythms to advance"
+        , "flying east requires the body's rhythms to delay"
+        , "flying north in summer requires the body's rhythms to advance"
+        ]
+    , "Which of the following would be most vulnerable to fatigue?" ~>
+      Multichoice
+        [
+        ]
+
+        "clear thinking"
+
+        [
+          "hovering a helicopter"
+        , "seeing and hearing clearlythe attention span"
+        , "speaking clearly"
+        ]
+    , "The lapse in performance standards which occurs daily in mid afternoon is known as" ~>
+      Multichoice
+        [
+          "the post-meridian depression"
+        ]
+
+        "the post-prandial dip"
+
+        [
+          "the siesta syndrome"
+        , "the afternoon lapse phase"
+        ]
+    , "Which of the following describes the effect of excess stress on the attention span?" ~>
+      Multichoice
+        [
+        ]
+
+        "the attention span is reduced"
+
+        [
+          "the attention span is increased"
+        , "the attention span is not affected by excess stress"
+        , "the attention span reduces initially but soon returns to normal"
+        ]
+    , "Chronic fatigue differs from acute fatigue in that" ~>
+      Multichoice
+        [
+          "it can usually be relieved by a good night's sleep"
+        , "it is always the result of overexertion"
+        , "it is easily treated by sleeping pills"
+        ]
+
+        "it is usually life-style related and the cause may not be obvious"
+
+        [
+        ]
+    , "Which of the following is true of acute stress?" ~>
+      Multichoice
+        [
+          "it always has a negative effect on performance and should be avoided at all costs"
+        , "it has no affect on performance"
+        ]
+
+        "moderate levels of stress can enhance the dynamics of coping with a particular situation"
+
+        [
+          "the higher the stress levels, the better the performance becomes"
+        ]
+    , "A common source of human error is the false hypothesis. Under certain conditions this is more or less likely than at other times. From the following list, select the situation *least likely* to result in a person arriving at a false hypothesis." ~>
+      Multichoice
+        [
+          "when expectancy of an event is high"
+        , "after a period of intense concentration"
+        , "during a period of preoccupation with another problem"
+        ]
+
+        "in the event of an engine failure"
+
+        [
+        ]
+    , "The illustration at left serves to illustrate the perceptual error known as" ~>
+      Multichoice
+        [
+          "the Coriolis illusion"
+        , "the autokinetic illusion"
+        , "somatogravic illusion"
+        ]
+
+        "mind set"
+
+        [
+        ]
+    ]
+
+bobTaitChapterRevisionHPTEM ::
+  Exam
+bobTaitChapterRevisionHPTEM =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "TEM Human Performance")
+    [
+      "Select the item which best describes an external threat" ~>
+      Multichoice
+        [
+          "a noisy intoxicated passenger"
+        , "a pilot suffering from the effects of a hangover"
+        ]
+
+        "another aircraft entering the runway while you are on late final"
+
+        [
+          "difficulty in understanding the transmission of a foreign pilot"
+        ]
+    , "Select the item which best describes an indesired aircraft state" ~>
+      Multichoice
+        [
+        ]
+
+        "arrival over the threshold too high and too fast on a landing approach"
+
+        [
+          "failing to notice a damaged tyre during a daily inspection"
+        , "failure to realise that a destination aerodrome requires an alternate"
+        , "aircraft overdue for its annual inspection"
+        ]
+    , "An example of an expected threat is" ~>
+      Multichoice
+        [
+        ]
+
+        "thunderstorms forecast on the TAF"
+
+        [
+          "engine failure in flight"
+        , "becoming lost in flight"
+        , "being diverted in flight by ATC"
+        ]
+    , "For the flight crew, the three basic components in the TEM model are" ~>
+      Multichoice
+        [
+        ]
+
+        "threats, errors and undesired aircraft states"
+
+        [
+          "threats, errors and anticipated aircraft states"
+        , "threats, flight crew human resources and aircraft states"
+        , "errors, flight crew human resources and undesired aircraft states"
+        ]
+    , "Which of the following would be classified as an external threat" ~>
+      Multichoice
+        [
+        ]
+
+        "pressure to meet timetables"
+
+        [
+          "pilot fatigue"
+        , "health and fitness"
+        , "lack of familiarity with other crew members"
+        ]
+    , "An example of a latent threat is" ~>
+      Multichoice
+        [
+          "undercarriage will not retract in flight"
+        , "wind gusts exceeding the aircraft's cross wind limitations for landing"
+        ]
+
+        "poor aircraft equipment design"
+
+        [
+          "unexpected high traffic volume in the terminal area"
+        ]
+    , "Entering the incorrect way-point data while operating in a stressful cockpit environment is an example of" ~>
+      Multichoice
+        [
+          "an environmental threat leading to a configuration error"
+        ]
+
+        "an organisational threat leading to a committed error"
+
+        [
+          "an expected threat leading to an unexpected error"
+        , "an unexpected threat leading to an expected error"
+        ]
+    , "The three primary categories of error in the TEM model are" ~>
+      Multichoice
+        [
+          "loss of heading control, loss of attitude control and loss of airspeed control"
+        , "navigational error, radio frequency error and navigation aid error"
+        , "crew resource error, airtrafffic control error and ground handling error"
+        ]
+
+        "aircraft handling errors, procedural errors and communication errors"
+
+        [
+        ]
+    , "Undesired aircraft states are categorised by the TEM model as" ~>
+      Multichoice
+        [
+        ]
+
+        "aircraft handling, ground handling and incorrect aircraft configuration"
+
+        [
+          "aircraft ground handling, vertical navigation and incorrect inflight configuration"
+        , "vertical navigation, ground handling and inflight navigation"
+        , "aircraft configuration, ground handling and inflight aircraft handling"
+        ]
+    , "Track and speed deviation are examples of" ~>
+      Multichoice
+        [
+          "ground navigation state"
+        ]
+
+        "aircraft handling state"
+
+        [
+          "horizontal navigation state"
+        , "aircraft configuration state"
+        ]
+    , "Unauthorised penetration of controlled airspace is an example of an undesired" ~>
+      Multichoice
+        [
+          "ground navigation state"
+        ]
+
+        "aircraft handling state"
+
+        [
+          "air navigation state"
+        , "navigation configuration state"
+        ]
+    , "Being positioned at the incorrect holding point prior to take-off is an example of an undesired" ~>
+      Multichoice
+        [
+          "aircraft handling state"
+        , "aircraft ground configuration state"
+        , "situational awareness state"
+        ]
+
+        "ground navigation state"
+
+        [
+        ]
+    , "Incorrect navigation aid setting is an example of" ~>
+      Multichoice
+        [
+          "ground navigation state"
+        ]
+
+        "aircraft navigation state"
+
+        [
+          "horizontal navigation state"
+        , "situational awareness state"
+        ]
+    , "With regard to TEM, the use of a checklist prior to take-off is an example of" ~>
+      Multichoice
+        [
+          "a desirable aircraft state"
+        , "a safety state"
+        ]
+
+        "a countermeasure"
+
+        [
+          "a safety tactic"
+        ]
+    , "When considering the risk any threat imposes you should consider" ~>
+      Multichoice
+        [
+          "the probability of encountering the threat irrespective of the consequences"
+        , "the seriousness of the consequences irrespective of the probability of encountering the threat"
+        ]
+
+        "the probability of encountering the threat and the seriousness of the consequences"
+
+        [
+          "the probability of encountering the threat at any stage during the flight"
+        ]
+    , "When an undesired aircraft state is identified the primary task should be" ~>
+      Multichoice
+        [
+          "identify the error which led to the undesired aircraft state"
+        , "identify and correct the error which led to the undesired aircraft state"
+        ]
+
+        "deal with the undesired aircraft state and return to controlled stabilised flight"
+
+        [
+          "advise ATC of the undesired aircraft state"
+        ]
+    , "One measure of the effectiveness of actions taken by a crew to manage threats is" ~>
+      Multichoice
+        [
+          "the accuracy of the crew's recall of events during de-briefing"
+        , "the speed with which the crew acted to manage the threat"
+        ]
+
+        "whether the threat was detected in time for the crew to respond appropriately"
+
+        [
+          "whether an undesired aircraft state was avoided"
+        ]
+    , "The most proactive option in thread management is to" ~>
+      Multichoice
+        [
+          "anticipate the recovery action required if the threat occurs"
+        ]
+
+        "anticipate and avoid the threat altogether"
+
+        [
+          "take corrective action once the threat has occurred"
+        , "concentrate on management of any undesired aircraft state that may result"
+        ]
+    , "Mismanaged threats usually lead to" ~>
+      Multichoice
+        [
+        ]
+
+        "errors which are then linked to undesired aircraft states"
+
+        [
+          "undesired aircraft states which are then linked to errors"
+        , "aircraft handling errors which then lead to environmental errors"
+        , "diversion from standard operating procedures"
+        ]
+    , "With regard to TEM, a cockpit systems failure warning light is an example of" ~>
+      Multichoice
+        [
+          "a proactive decision making process"
+        ]
+
+        "a systemic-based countermeasure"
+
+        [
+          "an undesired aircraft state management device"
+        , "a handling error countermeasure"
+        ]
+    ]
+
+bobTaitChapterRevisionAirLaw ::
+  Exam
+bobTaitChapterRevisionAirLaw =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "Air Law")
+    [
+      "When two powered aircraft are converging at the same level, the aircraft that should give way is" ~>
+      Multichoice
+        [
+        ]
+
+        "the one which has the other on its right"
+
+        [
+          "the one which has the other on its left"
+        ]
+    , "If the pilot of a powered aircraft sights a glider converging from his left at the same height" ~>
+      Multichoice
+        [
+          "the aircraft which has the other on its right should give way"
+        ]
+
+        "the pilot of the powered aircraft should give way"
+
+        [
+          "the glider should give way"
+        , "both aircraft should turn to the right"
+        ]
+    , "A pilot must check that all flight controls are free to move in the correct sense and to the full extent of their travel" ~>
+      Multichoice
+        [
+          "only before the first flight of each day"
+        , "during the take-off roll"
+        ]
+
+        "immediately before take-off"
+
+        [
+          "before the aircraft commences to taxi"
+        ]
+    , "During the take-off run it is necessary to check the operation of" ~>
+      Multichoice
+        [
+          "the primary flight controls"
+        ]
+
+        "the air speed indicator"
+
+        [
+          "the radio"
+        , "the brakes"
+        ]
+    , "The fuel system must be inspected for the presence of water" ~>
+      Multichoice
+        [
+          "before taxiing for take-off"
+        , "before starting the engine"
+        ]
+
+        "before the first flight of each day and after each refuelling"
+
+        [
+          "only after refuelling"
+        ]
+    , "Refuelling of aircraft must not commence unless the fuel tank filler cap or vents are at least metres away from" ~>
+      Multichoice
+        [
+          "any sealed building"
+        ]
+
+        "any other parked aircraft"
+
+        [
+          "members of the public"
+        , "any unsealed building"
+        ]
+    , "An aircraft being refuelled must be parked" ~>
+      Multichoice
+        [
+          "as close as possible to the fire extinguisher"
+        , "so that it is facing into the wind"
+        , "with the park brake on and the wheels chocked"
+        ]
+
+        "so that it can be rapidly moved if it becomes necessary"
+
+        [
+        ]
+    , "An aircraft engine must not be started within 5 metres of" ~>
+      Multichoice
+        [
+        ]
+
+        "any sealed building"
+
+        [
+          "any exposed public area"
+        , "any unsealed building"
+        , "any other aircraft"
+        ]
+    , "Except for take-off, landing or by stress of weather, an aircraft must not fly over any town or populous area at a" ~>
+      Multichoice
+        [
+          "1500 ft AGL"
+        , "1500 ft AMSL"
+        ]
+
+        "1000 ft AGL"
+
+        [
+          "1000 ft AMSL"
+        ]
+    , "Except by stress of weather or during take-off or landing, an aircraft must not fly over any area at a height lower than" ~>
+      Multichoice
+        [
+          "1500 ft AGL"
+        , "1500 ft AMSL"
+        ]
+
+        "1000 ft AGL"
+
+        [
+          "1000 ft AMSL"
+        ]
+    , "For a flight in a training area over sea-level terrain and outside controlled airspace at 3500 ft, the required visibility and vertical separation from the cloud base is" ~>
+      Multichoice
+        [
+          "8 km and 1000 ft"
+        , "5 km and 500 ft"
+        ]
+
+        "5 km and 1000 ft"
+
+        [
+          "5 km and clear of cloud"
+        ]
+    , "A recommended means for checking for the presence of water in aviation gasoline, is to drain a small sample of fuel from the fuel drain" ~>
+      Multichoice
+        [
+          "into a clean container and check for a cloudy colour"
+        , "into a clean container and check for the presence of globules of water in the bottom of the sample"
+        ]
+
+        "into a container which already contains a sample of pure fuel and check for a visible demarcation between the two fluids or for globules of water in the bottom of the sample"
+
+        [
+          "remove the fuel filter and check for the presence of water"
+        ]
+    , "Fuel tank vents must be checked for freedom from obstruction" ~>
+      Multichoice
+        [
+          "before each flight"
+        ]
+
+        "before the first flight of each day"
+
+        [
+          "before each take-off"
+        , "after each refuelling"
+        ]
+    , "Two aircraft are on converging courses and there is danger of collision. The ultimate responsibility to avoid collision is on:" ~>
+      Multichoice
+        [
+          "the pilot who has the other on his right"
+        , "the pilot who has the other on his left"
+        , "the pilot of the slower aircraft"
+        ]
+
+        "both pilots are responsible"
+
+        [
+        ]
+    , "Select the conditions which the pilot must maintain when a Special VFR [SVFR] clearance to enter a Class D CTR is issued." ~>
+      Multichoice
+        [
+          "clear of cloud and 5000m visibility"
+        , "1500m from cloud and 1600m visibility"
+        ]
+
+        "clear of cloud and 1600m visibility"
+
+        [
+          "1000ft vertically from cloud and 3000m visibility"
+        ]
+    , "During take-off from a licenced aerodrome your aircraft suffered a bird strike to the windscreen. The aircraft suffered no damage as a result of the collision. As a pilot in command you should" ~>
+      Multichoice
+        [
+          "report the incident immediately by phone and follow up with a written report within 72 hours"
+        ]
+
+        "not make an immediate report but make a written report within 72 hours"
+
+        [
+          "report the incident immediately by phone and follow up with a written report within 48 hours"
+        , "make no report if no damage was done to the aircraft"
+        ]
+    ]
+
+bobTaitChapterRevisionMeteorology ::
+  Exam
+bobTaitChapterRevisionMeteorology =
+  Exam
+    "Bob Tait RPL Study Guide"
+    (Just "A study guide for the Recreational Pilot Licence")
+    (Just "Meteorology")
+    [
+      "Which conditions are most likely to produce radiation fog?" ~>
+      Multichoice
+        [
+          "thin overcast with no wind"
+        , "broken cloud with no wind"
+        ]
+
+        "nil cloud and light wind"
+
+        [
+          "scattered cumulus with light wind"
+        ]
+    , "During what stage of a thunderstorm would lightning be most frequent?" ~>
+      Multichoice
+        [
+          "before any precipitation"
+        , "during the most rapid growth"
+        ]
+
+        "at the mature stage"
+
+        [
+          "during the dissipating stage"
+        ]
+    , "The lifting of fog may be caused by" ~>
+      Multichoice
+        [
+          "a fall of temperature"
+        , "the formation of upper cloud"
+        ]
+
+        "an increase in wind strength"
+
+        [
+          "an increase in humidity"
+        ]
+    , "Which phenomena in a thunderstorm causes low level wind shear at some distance away from the cell?" ~>
+      Multichoice
+        [
+          "updraft"
+        ]
+
+        "downdraft"
+
+        [
+          "hail"
+        , "turbulence"
+        ]
+    , "Where are tornadoes most likely to be encountered?" ~>
+      Multichoice
+        [
+          "over hot desert country"
+        , "with mountain waves"
+        , "strong low pressure systems"
+        ]
+
+        "wide spread severe thunderstorm activity"
+
+        [
+        ]
+    , "Which process is involved in the formation of hoar frost?" ~>
+      Multichoice
+        [
+          "accumulation of ice crystals suspended in the atmosphere"
+        , "liquid water freezing on impact with the aircraft surface"
+        ]
+
+        "deposition of ice directly from the water vapour mixed with the air"
+
+        [
+          "freezing of large supercooled water droplets"
+        ]
+    , "The condition most likely to produce advection fog is" ~>
+      Multichoice
+        [
+          "cold air passing over a cold surface"
+        , "warm air passing over a warm surface"
+        , "cold air passing over a warm surface"
+        ]
+
+        "warm air passing over a cold surface"
+
+        [
+        ]
+    , "One of the prerequisites for the formation of a thunderstorm is" ~>
+      Multichoice
+        [
+        ]
+
+        "the presence of moist air through a considerable depth of the atmosphere"
+
+        [
+          "a rapid drop in surface temperature with an increase in wind strength"
+        , "a gradual increase in cloud cover above 20000ft"
+        , "a cold isothermal later through a considerable depth of the atmosphere"
+        ]
+    , "Advection fog forms when" ~>
+      Multichoice
+        [
+          "cold air passes over a cold surface"
+        , "cold air passes over a warm surface"
+        , "warm air passes over a warm surface"
+        ]
+
+        "warm air passes over a cold surface"
+
+        [
+        ]
+    , "Dust storms are most likely to produce which of the following hazards?" ~>
+      Multichoice
+        [
+          "severe visibility restriction in a localised area below 10000ft"
+        , "severe visibility restriction over a widepsread area below 10000ft"
+        ]
+
+        "severe visibility restriction over a widepsread area to heights above 10000ft"
+
+        [
+        ]
+    , "The most dangerous effect of a mature thunderstorm is" ~>
+      Multichoice
+        [
+        ]
+
+        "turbulence"
+
+        [
+          "lightning"
+        , "hail"
+        , "icing"
+        ]
+    , "Slant visibility in fog causes" ~>
+      Multichoice
+        [
+          "reduced visibility towards the sun"
+        ]
+
+        "the runway is visible from 'over the top' but not in the circuit area or on final"
+
+        [
+          "better visibility looking up than down"
+        , "runway visual range is less than meteorological visibility"
+        ]
+    , "The runway at a coastal aerodrome runs parallel to the coast. When would the crosswind component be likely to be strongest?" ~>
+      Multichoice
+        [
+          "early in the morning"
+        , "late at night"
+        ]
+
+        "in the early afternoon"
+
+        [
+          "at sunset"
+        ]
+    ]
+
+bobTaitChapterRevision ::
+  [Exam]
+bobTaitChapterRevision =
+  [
+    bobTaitChapterRevisionA1
+  , bobTaitChapterRevisionA2
+  , bobTaitChapterRevisionA3
+  , bobTaitChapterRevisionA4
+  , bobTaitChapterRevisionA5
+  , bobTaitChapterRevisionA6
+  , bobTaitChapterRevisionGK1
+  , bobTaitChapterRevisionGK2
+  , bobTaitChapterRevisionGK3
+  , bobTaitChapterRevisionBAP
+  , bobTaitChapterRevisionHPr1
+  , bobTaitChapterRevisionHPr2
+  , bobTaitChapterRevisionHPr3
+  , bobTaitChapterRevisionHPr4
+  , bobTaitChapterRevisionHPr5
+  , bobTaitChapterRevisionHPr6
+  , bobTaitChapterRevisionHPr7
+  , bobTaitChapterRevisionHPr8
+  , bobTaitChapterRevisionHPTEM
+  , bobTaitChapterRevisionAirLaw
+  , bobTaitChapterRevisionMeteorology
+  ]
+
 exams ::
   [Exam]
 exams =
@@ -5641,7 +8689,8 @@ exams =
   atcFROL ++
   [
     instruments
-  ]
+  ] ++
+  bobTaitChapterRevision
 
 
 main ::
