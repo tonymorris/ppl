@@ -6182,7 +6182,7 @@ bobTaitChapterRevisionA4 =
         , "the stalling angle will be higher than normal"
         ]
 
-        "the take-off sitance could be greatly increased"
+        "the take-off distance could be greatly increased"
 
         [
           "there will be an increase in stalling speed and stalling angle"
