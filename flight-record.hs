@@ -1682,7 +1682,7 @@ entries =
             1
             2
         )
-        dual
+        solo
         ybaf2ybaf
         Day
         "Tony Morris"
