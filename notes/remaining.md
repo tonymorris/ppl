@@ -62,7 +62,7 @@
 
 * ~~**FLT** general revision **(1)**~~
 
-* **FLT** area solo consolidation **(1)** *20160809*
+* ~~**FLT** area solo consolidation **(1)**~~
 
 * **FLT** RPL recommendation **(1)** *20160818*
 
