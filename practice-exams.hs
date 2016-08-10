@@ -6848,7 +6848,7 @@ bobTaitChapterRevisionGK2 =
 
         [
           "the magneto cannot operate unless the aircraft's electrical system is switched on"
-        , "magneto ignition does not require any shileding to prevent radio interference"
+        , "magneto ignition does not require any shielding to prevent radio interference"
         , "magneto ignition makes it safe to handle the propellor when the engine is stopped"
         ]
     , "During a pre take-off check, the pilot notices no drop in RPM when the switches are moved from 'both' to 'R' and the engine continues to run smoothly. A likely cause would be" ~>
