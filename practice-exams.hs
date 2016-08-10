@@ -7165,7 +7165,7 @@ bobTaitChapterRevisionHPr1 =
 
         [
         ]
-    , "Discomfort or pain in the ears of sinuses is *most likely* during" ~>
+    , "Discomfort or pain in the ears or sinuses is *most likely* during" ~>
       Multichoice
         [
           "long periods of cruising flight at high altitude"
@@ -7355,7 +7355,7 @@ bobTaitChapterRevisionHPr2 =
         , "24 hours after ingestion"
         , "24 hours after the blood alcohol level has reached .05"
         ]
-    , "Which of the following would be an appropriate remedy for a person who is suffering the efects of hyperventilation?" ~>
+    , "Which of the following would be an appropriate remedy for a person who is suffering the effects of hyperventilation?" ~>
       Multichoice
         [
           "hold the breath for about 40 seconds"
