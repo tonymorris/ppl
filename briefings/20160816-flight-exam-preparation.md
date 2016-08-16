@@ -179,10 +179,11 @@
 
 * [Cessna 172S manual](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf)
 
-TODO: Print Weight and Balance Charts
+----
 
+### TODO
 
-links to ERSA, sections of POH, link to NAIPS
-
-download appropriate CAO because they suck to download
+* Print Weight and Balance Charts
+* links to ERSA
+* download appropriate CAO because they suck to download
 
