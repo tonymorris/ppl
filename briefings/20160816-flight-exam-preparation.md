@@ -57,8 +57,8 @@
    * CAO 20.18(10) Serviceability
    * CAO 20.18(Appendix 1) Instruments required for flight under Visual Flight Rules
    * PoH Section 2 LIMITATIONS - KINDS OF OPERATIONS EQUIPMENT LIST
-     * [Cessna 172R](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=50)
-     * [Cessna 172S](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=50)
+     * [Cessna 172R page 50](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=50)
+     * [Cessna 172S page 50](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=50)
 
 5. **Emergency equipment requirements;**
 
@@ -81,16 +81,16 @@
 8. **Aircraft speed limitations**
 
    * PoH Section 2 LIMITATIONS
-     * [Cessna 172R](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=41)
-     * [Cessna 172S](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=41)
+     * [Cessna 172R page 39](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=39)
+     * [Cessna 172S page 39](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=39)
 
    * PoH Section 3 EMERGENCY PROCEDURES
-     * [Cessna 172R](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=67)
-     * [Cessna 172S](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=67)
+     * [Cessna 172R page 67](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=67)
+     * [Cessna 172S page 67](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=67)
 
    * PoH Section 4 NORMAL PROCEDURES
-     * [Cessna 172R](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=107)
-     * [Cessna 172S](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=107)
+     * [Cessna 172R page 107](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=107)
+     * [Cessna 172S page 107](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=107)
 
 9. **Communicating face-to-face**
 
@@ -125,27 +125,27 @@
 5. **Normal, abnormal and emergency flight procedures;**
 
    * PoH Section 3 EMERGENCY PROCEDURES
-     * [Cessna 172R](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=67)
-     * [Cessna 172S](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=67)
+     * [Cessna 172R page 67](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=67)
+     * [Cessna 172S page 67](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=67)
    * [ERSA for radio failure](http://data.tmorris.net/ersa/ersa-18-Aug-2016.pdf#page=301)
 
 6. **Operating limitations**
 
    * PoH Section 2 LIMITATIONS
-     * [Cessna 172R](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=41)
-     * [Cessna 172S](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=41)
+     * [Cessna 172R page 39](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=39)
+     * [Cessna 172S page 39](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=39)
 
 7. **Weight and balance limitations**
 
    * PoH Section 6 WEIGHT AND BALANCE/EQUIPMENT LIST
-     * [Cessna 172R](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=177)
-     * [Cessna 172S](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=179)
+     * [Cessna 172R page 177](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=177)
+     * [Cessna 172S page 179](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=179)
 
 8. **Aircraft performance data, including take-off and landing performance data**
 
    * PoH Section 5 PERFORMANCE
-     * [Cessna 172R](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=155)
-     * [Cessna 172S](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=155)
+     * [Cessna 172R page 155](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=155)
+     * [Cessna 172S page 155](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=155)
 
    * Short-Field Take-Off for 172S is three tables for different take-off weights, while Short-Field Landing is one table.
 
@@ -176,8 +176,28 @@
 ### Documentation
 
 * [Cessna 172R manual](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf)
-
+  * [TABLE OF CONTENTS](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=7)
+  * [1 GENERAL](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=9)
+  * [2 LIMITATIONS](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=39)
+  * [3 EMERGENCY PROCEDURES](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=67)
+  * [4 NORMAL PROCEDURES](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=107)
+  * [5 PERFORMANCE](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=155)
+  * [6 WEIGHT AND BALANCE/EQUIPMENT LIST](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=177)
+  * [7 AIRPLANE AND SYSTEMS DESCRIPTION](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=201)
+  * [8 AIRPLANE HANDLING, SERVICE AND MAINTENANCE](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=281)
+  * [9 SUPPLEMENTS](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=307)
+  
 * [Cessna 172S manual](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf)
+  * [TABLE OF CONTENTS](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=7)
+  * [1 GENERAL](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=9)
+  * [2 LIMITATIONS](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=39)
+  * [3 EMERGENCY PROCEDURES](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=67)
+  * [4 NORMAL PROCEDURES](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=107)
+  * [5 PERFORMANCE](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=155)
+  * [6 WEIGHT AND BALANCE/EQUIPMENT LIST](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=179)
+  * [7 AIRPLANE AND SYSTEMS DESCRIPTION](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=203)
+  * [8 AIRPLANE HANDLING, SERVICE AND MAINTENANCE](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=283)
+  * [9 SUPPLEMENTS](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=309)
 
 ----
 
