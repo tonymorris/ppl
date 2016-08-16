@@ -2,7 +2,7 @@
 
 # 20160816
 
-### FLIGHT TEST REPORT Recreational Pilot Licence - Aeroplane (Form 61-1466)
+### FLIGHT TEST REPORT Recreational Pilot Licence - Aeroplane [(Form 61-1486)](https://www.casa.gov.au/file/159281/download?token=70JeWftD)
 
 ##### GROUND COMPONENT
 
@@ -102,7 +102,7 @@
 
 ----
 
-### FLIGHT TEST REPORT Class Rating - Single Engine Aeroplane (Form 61-1495)
+### FLIGHT TEST REPORT Class Rating - Single Engine Aeroplane [(Form 61-1495)](https://www.casa.gov.au/file/159336/download?token=FzRyOA3S)
 
 ##### GROUND COMPONENT
 
