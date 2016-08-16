@@ -149,6 +149,15 @@
 
    * Short-Field Take-Off for 172S is three tables for different take-off weights, while Short-Field Landing is one table.
 
+   * Short-Field Take-Off Distance
+     * [Cessna 172R page 169](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=169)
+     * [Cessna 172S page 155](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=169)
+
+   * Short-Field Landing Distance
+     * [Cessna 172R page 176](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=176)
+     * [Cessna 172S page 178](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=178)
+
+
    * Obtain Terminal Area Forecast from [NAIPS](https://www.airservicesaustralia.com/naips/Briefing/Location)
      * wind speed and direction
      * QNH
