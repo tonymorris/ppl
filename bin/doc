@@ -32,7 +32,9 @@ briefings="\
   briefings/20160616-area-solo-check\
   briefings/20160705-basic-if\
   briefings/20160722-stol\
-  briefings/questions\
+  briefings/20160811-rpla-exam\
+  briefings/20160811-rpla-exam\
+  briefings/20160816-flight-exam-preparation\
 "
 
 drills="\
@@ -58,4 +60,5 @@ for doc in $files $briefings $drills $notes
 do
   echo "$doc"
   $pandoc "$doc".md -o dist/"$doc".pdf --tab-stop=2 --template=share/default.latex
+  $pandoc "$doc".md -o dist/"$doc".html --tab-stop=2
 done

@@ -34,24 +34,81 @@
 
 1. **Underpinning Knowledge of 10 to 54**
 
-2. **Privileges and limitations of the single engine aeroplane class rating;
+2. **Privileges and limitations of the single engine aeroplane class rating;**
+
+   * [CASR 61.400](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.400.html)
+   * [CASR 61.745](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.745.html)
 
 3. **Flight Review requirements;**
 
+   * [CASR 61.400](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.400.html)
+   * [CASR 61.745](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.745.html)
+
 4. **Navigating and operating systems;**
+
+   *not applicable*
 
 5. **Normal, abnormal and emergency flight procedures;**
 
+   * PoH Section 3
+     * [Cessna 172R](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=67)
+     * [Cessna 172S](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=67)
+   * [ERSA for radio failure](http://data.tmorris.net/ersa/ersa-18-Aug-2016.pdf#page=301)
+
 6. **Operating limitations**
+
+   * PoH Section 2
+     * [Cessna 172R](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=41)
+     * [Cessna 172S](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=41)
 
 7. **Weight and balance limitations**
 
+   * PoH Section 6
+     * [Cessna 172R](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=177)
+     * [Cessna 172S](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=179)
+
 8. **Aircraft performance data, including take-off and landing performance data**
+
+   * PoH Section 5
+     * [Cessna 172R](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=155)
+     * [Cessna 172S](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=155)
+
+   * Short-Field Take-Off for 172S is three tables for different take-off weights, while Short-Field Landing is one table.
+
+   * Obtain Terminal Area Forecast from [NAIPS](https://www.airservicesaustralia.com/naips/Briefing/Location)
+     * wind speed and direction
+     * QNH
+     * temperature
+
+   * CAO 20.7.4(6) TAKE-OFF DISTANCE REQUIRED
+     * add 15% to all distances for MTOW <= 2000kg (6.1).
 
 9. **Flight planning**
 
+   * Minimum fuel requirements
+     * [CAR1988(234) Fuel requirements](http://www.austlii.edu.au/au/legis/cth/consol_reg/car1988263/s234.html)
+     * [CAAP 234-1(1) GUIDELINES FOR AIRCRAFT FUEL REQUIREMENTS](https://www.casa.gov.au/file/104851/download?token=AC2dkxNS)
+
 10. **Pre-flight actions and procedures**
+   * Required documents to be carried
+     * Maintenance Release
+     * Pilot Operating Handbook
+     * Aviation Medical Certificate
+     
+   * [Maintenance guide for pilots](https://www.casa.gov.au/file/123536/download?token=ZahWNdEA)
 
 ----
 
+### Documentation
+
+* [Cessna 172R manual](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf)
+
+* [Cessna 172S manual](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf)
+
 TODO: Print Weight and Balance Charts
+
+
+links to ERSA, sections of POH, link to NAIPS
+
+download appropriate CAO because they suck to download
+
