@@ -410,3 +410,15 @@
     ; vh-vvo:, terminal:
     expenses:school:flight:terminal         32.73
     assets:balance:close                    -18774.89
+
+2016/08/11 * Flight One Invoice 31626 ; flightone:, 31626:
+    assets:balance:open                     18774.89
+    ; briefing:
+    expenses:school:briefing                77.00 @ 1.5
+    assets:balance:close                    -18890.39
+
+2016/08/16 * Flight One Invoice 31677 ; flightone:, 31677:
+    assets:balance:open                     18890.39
+    ; briefing:
+    expenses:school:briefing                77.00 @ 2.0
+    assets:balance:close                    -19044.39
