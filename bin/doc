@@ -54,6 +54,7 @@ notes="\
   notes/before-flight\
   notes/vh-afr-flight-deck\
   notes/vh-ldo-flight-deck\
+  notes/precautionary-search-landing\
 "
 
 for doc in $files $briefings $drills $notes
