@@ -207,12 +207,3 @@
   * [7 AIRPLANE AND SYSTEMS DESCRIPTION](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=203)
   * [8 AIRPLANE HANDLING, SERVICE AND MAINTENANCE](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=283)
   * [9 SUPPLEMENTS](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=309)
-
-----
-
-### TODO
-
-* Print Weight and Balance Charts
-* links to ERSA
-* download appropriate CAO because they suck to download
-* set phone home page to this document

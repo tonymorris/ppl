@@ -1676,7 +1676,7 @@ entries =
       , flight
         "Area Solo Consolidation"
         "20160809"
-        vhafr
+        vhvvo
         ( 
           Hours
             1
