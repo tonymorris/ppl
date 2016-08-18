@@ -1722,6 +1722,43 @@ entries =
               YouTube
           ]          
         )       
+      , flight
+        "RPL Recommendation"
+        "20160818"
+        vhvvo
+        ( 
+          Hours
+            1
+            3
+        )
+        solo
+        ybaf2ybaf
+        Day
+        "Clint Dudman"
+        (
+          TrackLogs
+          [
+            TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160818-vh-vvo.gpx"
+              Nothing
+              Gpx
+          , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160818-vh-vvo.png"
+              Nothing
+              (ImageLog Png)
+          ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/903352"
+              Nothing
+              (Doarama "emn77Zk")
+          ]
+        )
+        mempty
+        mempty   
     ]
 
 logbook ::
