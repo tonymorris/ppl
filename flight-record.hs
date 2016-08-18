@@ -1722,7 +1722,8 @@ entries =
               YouTube
           ]          
         )       
-      , flight
+      , -- 0.3 IF
+        flight
         "RPL Recommendation"
         "20160818"
         vhvvo
