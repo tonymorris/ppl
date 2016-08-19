@@ -8661,7 +8661,7 @@ airspeedindicatorExam =
         "Vno (maximum structural cruise) to Vne (never exceed)."
     , "What is the significance of the white band?" !-
       DirectAnswer
-        "Vso (stall speed with full flaps) to Vfe (maximum speed with flaps extended)."
+        "Vs0 (stall speed with full flaps) to Vfe (maximum speed with flaps extended)."
     , "Where is the stall speed with full flaps indicated?" !-
       DirectAnswer
         "Start of white band."
@@ -8677,6 +8677,64 @@ airspeedindicatorExam =
     , "Where is the maximum structural cruise indicated?" !-
       DirectAnswer
         "End of green band, start of yellow band."
+    ]
+
+airspeedsExam ::
+  Exam
+airspeedsExam =
+  Exam
+    "Airspeeds Exam"
+    (Just "A self-made exam")
+    Nothing
+    [
+      "What is meant by Vx?" !-
+      DirectAnswer
+        "Best angle of climb."
+    , "What V-speed is best angle of climb?" !-
+      DirectAnswer
+        "Vx"
+    , "What is meant by Vy?" !-
+      DirectAnswer
+        "Best rate of climb."
+    , "What V-speed is best rate of climb?" !-
+      DirectAnswer
+        "Vy"
+    , "What is meant by Va?" !-
+      DirectAnswer
+        "Maximum maneuvering speed; speed of maximum application of a flight control."
+    , "What V-speed is maximum maneuvering speed?" !-
+      DirectAnswer
+        "Va"
+    , "What is meant by Vb?" !-
+      DirectAnswer
+        "Maximum turbulence penetration speed."
+    , "What V-speed is maximum turbulence penetration speed?" !-
+      DirectAnswer
+        "Vb"
+    , "What is meant by Vno?" !-
+      DirectAnswer
+        "Maximum structural cruise speed."
+    , "What V-speed is maximum structural cruise speed?" !-
+      DirectAnswer
+        "Vno"
+    , "What is meant by Vne?" !-
+      DirectAnswer
+        "Never exceed speed."
+    , "What V-speed is never exceed speed?" !-
+      DirectAnswer
+        "Vne"
+    , "What is meant by Vs0?" !-
+      DirectAnswer
+        "Stall speed in landing configuration; full flap, gear extended."
+    , "What V-speed is stall speed in landing configuration?" !-
+      DirectAnswer
+        "Vs0"
+    , "What is meant by Vs1?" !-
+      DirectAnswer
+        "Stall speed in clean configuration; no flap, no gear."
+    , "What V-speed is stall speed in clean configuration?" !-
+      DirectAnswer
+        "Vs1"
     ]
 
 bobTaitChapterRevision ::
@@ -8704,7 +8762,6 @@ bobTaitChapterRevision =
   , bobTaitChapterRevisionHPTEM
   , bobTaitChapterRevisionAirLaw
   , bobTaitChapterRevisionMeteorology
-  , airspeedindicatorExam
   ]
 
 exams ::
@@ -8723,6 +8780,8 @@ exams =
   , airborneAviationMeteorology
   , frol
   , flightOneFROL
+  , airspeedindicatorExam
+  , airspeedsExam
   ] ++
   atcFROL ++
   [
