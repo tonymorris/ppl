@@ -163,12 +163,12 @@
 
 2. **Privileges and limitations of the single engine aeroplane class rating**
 
-  * pilot licence must demonstrated competency of part 61 MoS **[CASR61.400](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.400.html)**
+  * pilot licence must demonstrate competency of part 61 MoS **[CASR61.400](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.400.html)**
   * flight review every 24 months, within 3 months of expiry, and valid to the end of that month **[CASR61.745](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.745.html)**
 
 3. **Flight Review requirements;**
 
-  * pilot licence must demonstrated competency of part 61 MoS **[CASR61.400](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.400.html)**
+  * pilot licence must demonstrate competency of part 61 MoS **[CASR61.400](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.400.html)**
   * flight review every 24 months, within 3 months of expiry, and valid to the end of that month **[CASR61.745](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.745.html)**
 
 4. **Navigating and operating systems;**
