@@ -124,7 +124,7 @@
     * [Cessna 172S page 39](http://data.tmorris.net/c172-documentation/skyhawksp_pim-20130523.pdf#page=39)
       * Vne = 163KIAS
       * Vno = 129KIAS
-      * Va(2450) = 105KIAS
+      * Va(2550) = 105KIAS
       * Va(2200) = 98KIAS
       * Va(1600) = 90KIAS
       * Vfe(10) = 110KIAS
@@ -196,7 +196,7 @@
 
 8. **Aircraft performance data, including take-off and landing performance data**
 
-  * Add 15% to all take-off and landing distances for MTOW <= 2000kg CAO20.7.4(6.1)
+  * Add 15% to all take-off and landing distances for MTOW <= 2000kg **CAO20.7.4(6.1)**
   * PoH Section 5 PERFORMANCE
     * [Cessna 172R page 155](http://data.tmorris.net/c172-documentation/skyhawk_pim-20130523.pdf#page=155)
       * Stall speed(no flap) = 44KIAS
@@ -219,9 +219,7 @@
     * wind speed and direction
     * QNH
     * temperature
-  * **CAO20.7.4(6)** TAKE-OFF DISTANCE REQUIRED
-    * add 15% to all distances for MTOW <= 2000kg (6.1).
-
+ 
 9. **Flight planning**
 
   * Minimum fuel requirements
