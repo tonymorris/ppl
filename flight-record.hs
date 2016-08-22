@@ -1760,6 +1760,44 @@ entries =
         )
         mempty
         mempty   
+      , -- 0.3 IF
+        flight
+        "Area Solo"
+        "20160822"
+        vhvvo
+        ( 
+          Hours
+            1
+            1
+        )
+        solo
+        ybaf2ybaf
+        Day
+        "Tony Morris"
+        (
+          TrackLogs
+          [
+            TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/20160822-vh-afr.gpx"
+              Nothing
+              Gpx
+          , TrackLog
+              "https://raw.githubusercontent.com/tonymorris/ppl/master/tracks/png/20160822-vh-afr.png"
+              Nothing
+              (ImageLog Png)
+          ]
+        )
+        (
+          Visualisations
+          [
+            Visualisation
+              "http://doarama.com/view/911431"
+              Nothing
+              (Doarama "")
+          ]
+        )
+        mempty
+        mempty           
     ]
 
 logbook ::
