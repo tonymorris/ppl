@@ -10,7 +10,7 @@
 
 2. **Privileges and limitations of the recreational pilot licence with aeroplane category rating;**
 
-  * can carry passengers if at least 3 take-offs and landings within previous 90 days **[CASR61.395]((http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.395.html))**
+  * can carry passengers if at least 3 take-offs and landings within previous 90 days **[CASR61.395](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.395.html)**
   * pilot holds and carries **[CASR61.420(b)](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.420.html)** class 1 or 2 medical certificate or RAMCP under conditions in subparagraph 2 **[CASR61.405](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.405.html)**
   * pilot must carry documents; licence, medical certificate, maintenance release, pilot operating handbook
   * must have English proficiency assessment **[CASR61.422](http://www.austlii.edu.au/au/legis/cth/consol_reg/casr1998333/s61.422.html)**
