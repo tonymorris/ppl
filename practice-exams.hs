@@ -8838,7 +8838,7 @@ form61_1486_1495 =
     , "What is the Va for C172S at 2200lbs?" !-
       DirectAnswer
         "98KIAS"
-    , "What is the Va for C172S at 2450lbs?" !-
+    , "What is the Va for C172S at 1600lbs?" !-
       DirectAnswer
         "90KIAS"
     , "What is the Vfe (flap 10) for C172S?" !-
