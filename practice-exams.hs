@@ -8810,13 +8810,10 @@ form61_1486_1495 =
         "60KIAS"
     , "What is the Vy for C172R?" !-
       DirectAnswer
-        ""
-    , "79KIAS" !-
+        "79KIAS"
+    , "What is the short-field take-off speed for C172R?" !-
       DirectAnswer
-        "What is the short-field take-off speed for C172R?"
-    , "57KIAS" !-
-      DirectAnswer
-        ""
+        "57KIAS"
     , "What is the stall speed (no flap) for C172R?" !-
       DirectAnswer
         "44KIAS"
