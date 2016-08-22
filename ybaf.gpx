@@ -485,4 +485,12 @@
   <sym>Navaid, Green</sym>
 </wpt>
 
+<wpt lat="-27.767780" lon="153.339467">
+  <ele>3</ele>
+  <name>Heck field (700m)</name>
+  <cmt>Heck field (700m)</cmt>
+  <desc>Logan airstrip (760m)</desc>
+  <sym>Navaid, Green</sym>
+</wpt>
+
 </gpx>
