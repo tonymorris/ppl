@@ -1,8 +1,0 @@
-#!/bin/sh
-
-set -e
-
-mkdir -p "dist/flight-record"
-
-runhaskell flight-record.hs dist/flight-record/index.md dist/flight-record/index.html
-
