@@ -8932,7 +8932,6 @@ bobTaitChapterRevision =
   , bobTaitChapterRevisionHPTEM
   , bobTaitChapterRevisionAirLaw
   , bobTaitChapterRevisionMeteorology
-  , form61_1486_1495
   ]
 
 exams ::
