@@ -8880,7 +8880,7 @@ form61_1486_1495 =
         "* can carry passengers if at least 3 take-offs and landings within previous 90 days *[CASR61.395]*\n* pilot holds and carries *[CASR61.420(b)]* class 1 or 2 medical certificate or RAMCP under conditions in subparagraph 2 *[CASR61.405]*\n* pilot must carry documents; licence, medical certificate, maintenance release, pilot operating handbook\n* must have English proficiency assessment *[CASR61.422]*\n* pilot only registered aircraft *[CASR61.425]*\n* airspace within 25nm of departure aerodrome, within flight training area and direct between departure aerodrome and flight training area *[CASR61.427]*\n* single-engine aircraft, MTOW <= 1500kg, day VFR, private operation or flight training *[CASR61.460]*"
     , "What are the drug and alcohol regulations?" !-
       DirectAnswer
-        "* 8 hours from consumption of alcohol to departure\n* not intoxicated; 0.02 grams per 210 litres of breath\n* crew will not consume while on board\n* consult DAME regarding use of drugs"
+        "* 8 hours from consumption of alcohol to departure\n* not intoxicated; 0.02 grams per 210 litres of breath\n* crew will not consume while on board\n* consult DAME regarding use of drugs *[CASR99]*"
     , "What are the VFR aircraft instrument requirements?" !-
       DirectAnswer
         "* *CAO20.18(10)* and *CAO20.18(Appendix 1)*\n* airspeed indicator\n* altimeter\n* direct or remote magnetic compass\n* timepiece with hours, minutes, seconds"
@@ -8938,7 +8938,7 @@ exams ::
   [Exam]
 exams =
   [
-    atcPreCircuit
+    atcPreCiwrcuit
   , atcPreArea
   , atcBAK
   , taitPreSolo
