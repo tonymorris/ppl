@@ -8918,10 +8918,10 @@ form61_1486_1495 =
     , "What are the VFR aircraft instrument requirements?" !-
       DirectListAnswer
         [
-          "airspeed indicator *[CAO20.18(10)* and *CAO20.18(Appendix 1)]*"
-        , "altimeter *[CAO20.18(10)* and *CAO20.18(Appendix 1)]*"
-        , "direct or remote magnetic compass *[CAO20.18(10)* and *CAO20.18(Appendix 1)]*"
-        , "timepiece with hours, minutes, seconds *[CAO20.18(10)* and *CAO20.18(Appendix 1)]*"
+          "airspeed indicator *[CAO20.18(10) and CAO20.18(Appendix 1)]*"
+        , "altimeter *[CAO20.18(10) and CAO20.18(Appendix 1)]*"
+        , "direct or remote magnetic compass *[CAO20.18(10) and CAO20.18(Appendix 1)]*"
+        , "timepiece with hours, minutes, seconds *[CAO20.18(10) and CAO20.18(Appendix 1)]*"
         ]
     , "What are the emergency equipment requirements?" !-
       DirectListAnswer
