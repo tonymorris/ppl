@@ -8758,9 +8758,10 @@ airspeedsExam =
         "Vs1"
     ]
 
-c172airspeeds ::
+
+c172Rairspeeds ::
   Exam
-c172airspeeds =
+c172Rairspeeds =
   Exam
     ""
     Nothing
@@ -8826,7 +8827,17 @@ c172airspeeds =
     , "What is the maximum crosswind for C172R?" !-
       DirectAnswer
         "15 knots"
-    , "What is the Vne for C172S?" !-
+    ]
+
+c172Sairspeeds ::
+  Exam
+c172Sairspeeds =
+  Exam
+    ""
+    Nothing
+    Nothing
+    [      
+      "What is the Vne for C172S?" !-
       DirectAnswer
         "163KIAS"
     , "What is the Vno for C172S?" !-
@@ -9033,8 +9044,9 @@ exams =
     instruments
   ] ++
   bobTaitChapterRevision ++
-  [
-    c172airspeeds
+  [ 
+    c172Rairspeeds
+  , c172Sairspeeds
   , form61_1486_1495
   ]
 
