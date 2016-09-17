@@ -18,12 +18,6 @@
     </copyright>    
   </metadata>
   <trk>
-    <name>221 Qantas Avenue</name>
-    <desc />
-    <type>driving</type>
-    <extensions>
-      <topografix:color>c0c0c0</topografix:color>
-    </extensions>
     <trkseg>
       <trkpt lat="-27.566731" lon="153.014985">
         <ele>52</ele>
@@ -2433,8 +2427,6 @@
         <ele>245</ele>
         <time>2016-09-16T05:25:11.000Z</time>
       </trkpt>
-    </trkseg>
-    <trkseg>
       <trkpt lat="-27.555488" lon="152.999812">
         <ele>264</ele>
         <time>2016-09-16T05:25:16.000Z</time>
@@ -3591,8 +3583,6 @@
         <ele>240</ele>
         <time>2016-09-16T05:30:06.000Z</time>
       </trkpt>
-    </trkseg>
-    <trkseg>
       <trkpt lat="-27.554357" lon="153.006795">
         <ele>249</ele>
         <time>2016-09-16T05:30:23.000Z</time>
@@ -5765,8 +5755,6 @@
         <ele>264</ele>
         <time>2016-09-16T05:39:26.000Z</time>
       </trkpt>
-    </trkseg>
-    <trkseg>
       <trkpt lat="-27.555298" lon="153.006305">
         <ele>304</ele>
         <time>2016-09-16T05:39:42.000Z</time>
@@ -8979,8 +8967,6 @@
         <ele>130</ele>
         <time>2016-09-16T05:53:04.000Z</time>
       </trkpt>
-    </trkseg>
-    <trkseg>
       <trkpt lat="-27.55614" lon="153.005706">
         <ele>207</ele>
         <time>2016-09-16T05:53:20.000Z</time>
