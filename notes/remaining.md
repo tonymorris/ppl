@@ -64,7 +64,9 @@
 
 * ~~**FLT** area solo consolidation **(1)**~~
 
-* **FLT** RPL recommendation **(1)** *20160818*
+* ~~**FLT** RPL recommendation **(1)**~~
+
+* ~~**FLT** REPL flight test **(1)**~~
 
 ### RPL to PPL
 
