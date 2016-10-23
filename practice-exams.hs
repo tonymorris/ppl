@@ -236,7 +236,7 @@ atcPreCircuit =
           "8 hours before the departure of the flight."
 
           [
-          ]          
+          ]
     , "The minimum horizontal distance from cloud for a fixed-wing aircraft, operating in Class G airspace, is:" ~>
         Multichoice
           [
@@ -248,7 +248,7 @@ atcPreCircuit =
             "1,500ft."
           , "1,000ft."
           , "clear of cloud."
-          ]          
+          ]
     , "The fuel system in an aircraft must be checked for water contamination:" ~>
         Multichoice
           [
@@ -260,7 +260,7 @@ atcPreCircuit =
           [
             "before the first flight of the day and after the last flight of the day."
           , "at least once a day."
-          ]          
+          ]
     , "One restriction placed on VFR aircraft, operating at or below 2,000ft, is:" ~>
         Multichoice
           [
@@ -284,7 +284,7 @@ atcPreCircuit =
           [
             "he/she has completed 5 hours of cross-country flying."
           , "he/she has had a dual flight within the last 30 days."
-          ]                         
+          ] 
     , "With local QNH set on a subscale, an altimeter will always read:" ~>
         Multichoice
           [
@@ -427,7 +427,7 @@ atcPreCircuit =
           "use hard surfaces only."
 
           [
-          ]           
+          ] 
     , "An aircraft stall-warning device will:" ~>
         Multichoice
           [
@@ -531,7 +531,7 @@ atcPreArea =
         "that the battery is fully charged and the system is working normally."
 
         [
-        ]                
+        ]
     , "If the alternator fails, the electrical system will receive its power from" ~>
       Multichoice
         [
@@ -566,7 +566,7 @@ atcPreArea =
         [
           "reduce the amount of fuel available in the manifold."
         , "adversely affect the oil pressure."
-        ]    
+        ]
     , "Aircraft fuel tanks require a vent, the purpose of which is to:" ~>
       Multichoice
         [
@@ -933,7 +933,7 @@ atcBAK =
             [
               "increase the stalling angle."
             , "decrease the stalling angle."
-            ]        
+            ]
         , "What happens to the lift and drag as the angle of attack approaches the stalling angle?" ~>
           Multichoice
             [
@@ -957,7 +957,7 @@ atcBAK =
             [
               "decrease the glide angle."
             , "decrease the rate of descent."
-            ]          
+            ]
         , "If a tailwind is encountered during a glide descent, when compared with a glide in still-air conditions, the:" ~>
           Multichoice
             [
@@ -969,7 +969,7 @@ atcBAK =
 
             [
               "rate of descent will be less."
-            ]          
+            ]
         , "When compared to the stall IAS at 1,000ft, the stall IAS at 10,000ft will:" ~>
           Multichoice
             [
@@ -981,7 +981,7 @@ atcBAK =
 
             [
               "vary according to the actual density at 10,000ft."
-            ]    
+            ]
         , "When in a 30 degree banked level turn, the load factor:" ~>
           Multichoice
             [
@@ -1005,7 +1005,7 @@ atcBAK =
 
             [
               "Visibility 8,000 metres, clear of cloud."
-            ]                           
+            ] 
         , "A cold front is likely to produce:" ~>
           Multichoice
             [
@@ -1017,7 +1017,7 @@ atcBAK =
 
             [
               "stratiform clouds with turbulent flying conditions."
-            ]  
+            ]
         , "The term INTER on a forecast means that the weather will be:" ~>
           Multichoice
             [
@@ -1029,7 +1029,7 @@ atcBAK =
             "expected to last less than 30 minutes."
 
             [
-            ]   
+            ] 
         , "The cloud base in a TAF is given as a height above:" ~>
           Multichoice
             [
@@ -1041,7 +1041,7 @@ atcBAK =
             "aerodrome level."
 
             [
-            ]     
+            ] 
         , "The wind direction in the ATIS is given in:" ~>
           Multichoice
             [
@@ -1090,7 +1090,7 @@ atcBAK =
             "260 degrees Magnetic."
 
             [
-            ]    
+            ]
         , "Magnetic variation is:" ~>
           Multichoice
             [
@@ -1150,7 +1150,7 @@ atcBAK =
               "chemically correct for the power setting being used."
             , "lean."
             , "having a fuel/air ratio of 100%."
-            ]        
+            ]
         , "What do we call explosive, spontaneous combustion in the cylinders?" ~>
           Multichoice
             [
@@ -1210,7 +1210,7 @@ atcBAK =
 
             [
               "It requires greater care in throttle handling and is more susceptible to fuel contamination."
-            ]               
+            ] 
         , "Fuel that appears to be uncoloured or a very pale yellow is:" ~>
           Multichoice
             [
@@ -1222,7 +1222,7 @@ atcBAK =
             "AVTUR (kerosene) for turbine engines (i.e. jet or prop-jet engines)."
 
             [
-            ]        
+            ]
         , "To improve engine cooling during a maximum power climb, you should:" ~>
           Multichoice
             [
@@ -1246,7 +1246,7 @@ atcBAK =
               "intake, exhaust, power, compression."
             , "intake, power, compression, exhaust."
             , "intake, power, exhaust, compression."
-            ]        
+            ]
         , "Which statement concerning carburettor ice do you consider most accurate?" ~>
           Multichoice
             [
@@ -1258,7 +1258,7 @@ atcBAK =
               "The carburettor heater is a de-icing device that heats the air after it leaves the carburettor."
             , "Carburettor ice will always form when the temperature is below freezing."
             , "The first indication of carburettor icing in an aeroplane with a fixed-pitch propeller is an increase in rpm."
-            ]        
+            ]
         , "If the static vent ices over during a descent, the airspeed indicator will then read:" ~>
           Multichoice
             [
@@ -1282,7 +1282,7 @@ atcBAK =
             "The alternator has failed."
 
             [
-            ]        
+            ]
         , "The pitot-static system supplies pressure for:" ~>
           Multichoice
             [
@@ -1306,7 +1306,7 @@ atcBAK =
             [
               "becoming dehydrated."
             , "developing hypoxia."
-            ]   
+            ] 
         , "Atmospheric pressure variations affect the human body. These pressure changes are:" ~>
           Multichoice
             [
@@ -1318,7 +1318,7 @@ atcBAK =
             "maximum at low level so we need to understand their adverse effects."
 
             [
-            ]  
+            ]
         , "Which of the following drugs are considered acceptable for flying?" ~>
           Multichoice
             [
@@ -1331,7 +1331,7 @@ atcBAK =
             "None of the above."
 
             [
-            ]  
+            ]
         , "If an aeroplane is loaded in such a way that the centre of gravity is outside the forward limit, it will:" ~>
           Multichoice
             [
@@ -1367,7 +1367,7 @@ atcBAK =
               "an overloaded aeroplane is excessively stable in flight."
             , "flight in excess of certificated weights is not possible."
             , "fuel consumption will be greater."
-            ]                                              
+            ]
         , "Which of the following factors improves take-off performance?" ~>
           Multichoice
             [
@@ -1380,7 +1380,7 @@ atcBAK =
             "Low atmospheric temperature."
 
             [
-            ]  
+            ]
         , "Vno is defined as the:" ~>
           Multichoice
             [
@@ -1392,7 +1392,7 @@ atcBAK =
 
             [
               "indicated airspeed beyond which flight is not permitted."
-            ]  
+            ]
         , "Strong wake turbulence produced by wingtip vortices is most likely to form:" ~>
           Multichoice
             [
@@ -1416,7 +1416,7 @@ atcBAK =
 
             [
               "descent will be much more rapid."
-            ]        
+            ]
         , "To load an aeroplane, where would you find the weight and balance details for that aircraft?" ~>
           Multichoice
             [
@@ -1441,7 +1441,7 @@ atcBAK =
             [
               "172kg."
             , "180kg."
-            ]  
+            ]
         , "Using Load System Charlie ![Load System Charlie](http://i.imgur.com/e4AEVb7.jpg), Given:\n\n  > EW 695kg\n  > IU 19.788\n  > The student pilot weighs 60kg and the instructor weighs 75kg\n\n  The maximum amount of fuel on board that will allow \"utility category\" operations immediately after take-off is closest to:" ~>
           Multichoice
             [   
@@ -1454,7 +1454,7 @@ atcBAK =
 
             [
               "135 litres."
-            ]        
+            ]
         , "Using Load System Charlie ![Load System Charlie](http://i.imgur.com/e4AEVb7.jpg), Given:\n\n  > EW 695kg\n  > IU 19.788\n  > The student pilot weighs 60kg and the instructor weighs 75kg\n  > Load the aircraft with 95kg weight of baggage and load 170 litres of fuel\n\n  The zero fuel weight conditions is closest to:" ~>
           Multichoice
             [   
@@ -1466,7 +1466,7 @@ atcBAK =
 
             [
               "weight 990kg, arm 3,004mm."
-            ]        
+            ]
         , "Using Load System Charlie ![Load System Charlie](http://i.imgur.com/e4AEVb7.jpg), Given:\n\n  > EW 695kg\n  > IU 19.788\n  > The student pilot weighs 60kg and the instructor weighs 75kg\n  > Load the aircraft with 95kg weight of baggage and load 170 litres of fuel\n\n  The take-off condition is closest to:" ~>
           Multichoice
             [   
@@ -1479,7 +1479,7 @@ atcBAK =
 
             [
               "weight 1,012kg, arm 2,999mm."
-            ]        
+            ]
         , (q56to60PerformanceData <> "  The pressure altitude of this airfield is:\n") ~>
           Multichoice
             [
@@ -1503,7 +1503,7 @@ atcBAK =
             "2,460ft."
 
             [
-            ]            
+            ]
         , (q56to60PerformanceData <> "  The headwind component on the duty runway is closest to:\n") ~>
           Multichoice
             [
@@ -1515,7 +1515,7 @@ atcBAK =
             "12kt."
 
             [
-            ]                          
+            ]
         , (q56to60PerformanceData <> "  Use the Cessna Landing chart ![Cessna Landing Chart](http://i.imgur.com/axGWoHJ.jpg) At the MTOW, the take-off distance required on Runway 12 is closest to:\n") ~>
           Multichoice
             [
@@ -1527,7 +1527,7 @@ atcBAK =
 
             [
               "980m."
-            ]                          
+            ]
         , (q56to60PerformanceData <> "  Use the Piper Landing chart ![Piper Landing Chart](http://i.imgur.com/64t1Sju.jpg) Under the conditions given the landing distance required for this aircraft is closest to:\n") ~>
           Multichoice
             [
@@ -1539,7 +1539,7 @@ atcBAK =
 
             [
               "640m."
-            ]                          
+            ]
     ]
 
 taitPreSolo ::
@@ -1621,7 +1621,7 @@ taitPreSolo =
           "a passenger becomes very ill and obviously requires medical attention"
         , "a passenger becomes air sick and asks you to land as soon as possible"
         , "you encounter severe turbulence in the circuit area"
-        ]               
+        ] 
     , "Which of the choices would warrant the transmission of a PAN call?" ~>
       Multichoice
         [      
@@ -1645,7 +1645,7 @@ taitPreSolo =
         "he expects to arrive in your circuit area at thirty-five minutes past the current hour"
 
         [
-        ]               
+        ] 
     , "What procedures apply at your local aerodrome if the radio fails while you are doing circuits?" ~>
       Multichoice
         [              
@@ -1654,7 +1654,7 @@ taitPreSolo =
         "*Check with your instructor for the appropriate procedures for your aerodrome.*"
 
         [
-        ]        
+        ]
     , "List the radio calls that apply at your aerodrome for the situations below\n  * At the commencement of taxiing\n  * Before crossing the holding point\n  * Before take-off\n  * Downwind\n  * Base" ~>
       Multichoice
         [              
@@ -1663,7 +1663,7 @@ taitPreSolo =
         "*Check with your instructor for the calls that apply at your aerodrome.*"
 
         [
-        ]  
+        ]
     , "Which of the following types of aircraft motion combine to produce a spiral dive?" ~>
       Multichoice
         [ 
@@ -1687,7 +1687,7 @@ taitPreSolo =
         [
           "look at the artificial horizon"
         , "check the power setting and the resulting airspeed"
-        ]        
+        ]
     , "A pilot knows that the aircraft is correctly trimmed when" ~>
       Multichoice
         [              
@@ -1771,7 +1771,7 @@ taitPreSolo =
 
         [
           "raise the flap while applying full power then raise the nose to the climbing attitude"
-        ]        
+        ]
     , "Which of the following combination of symptoms would indicate an approaching stall during final approach to land?" ~>
       Multichoice
         [              
@@ -1783,7 +1783,7 @@ taitPreSolo =
           "low power setting, high approach path and low nose attitude"
         , "low airspeed and low nose attitude"
         , "flatter than normal approach and high power setting"
-        ]        
+        ]
     , "If an aircraft which is about to stall suffers a wing drop, the pilot should" ~>
       Multichoice
         [              
@@ -1831,7 +1831,7 @@ taitPreSolo =
         "be prepared to add power and lower the nose to restore IAS if wind shear is encountered"
 
         [
-        ]        
+        ]
     , "During a glide approach in no wind at the recommended gliding IAS, raising the nose slightly will result in a slower approach speed but a flatter approach angle" ~>
       Multichoice
         [
@@ -1865,7 +1865,7 @@ taitPreSolo =
           "the aerodrome is closed to all operations"
         , "all unsealed areas are unserviceable"
         , "the aerodrome is suitable for light aircraft only"
-        ]        
+        ]
     , "By convention the downwind leg of the circuit for piston engine aeroplanes is flown at a height of" ~>
       Multichoice
         [              
@@ -1901,7 +1901,7 @@ taitPreSolo =
         [
           "height in the standard atmosphere"
         , "height above terrain"
-        ]        
+        ]
     , "You are lining up to take off behind another aircraft which has just landed on the same runway. You may not commence your take off run until that aircraft has" ~>
       Multichoice
         [              
@@ -1913,7 +1913,7 @@ taitPreSolo =
 
         [
           "passed a point 600m ahead of your present position"
-        ]        
+        ]
     , "A landing aeroplane must be established on a straight final approach path by" ~>
       Multichoice
         [              
@@ -1997,7 +1997,7 @@ taitPreSolo =
         [
           "the smaller aircraft should pull off the taxiway and allow the bigger one to pass"
         , "move to whichever side of the taxiway is closest to you at the time"
-        ]        
+        ]
     , "When must the flying controls be checked for full, free and correct movement?" ~>
       Multichoice
         [              
@@ -2340,7 +2340,7 @@ taitPreAreaSolo =
           "50 KIAS"
         , "60 KIAS"
         , "100 KIAS"
-        ]        
+        ]
     , "The elevator control is abruptly pulled to the fully aft position to induce a stall" ~>
       Multichoice
         [
@@ -2364,7 +2364,7 @@ taitPreAreaSolo =
         "height"
 
         [
-        ]                
+        ]
     , "Where in relation to a heavy aircraft will wake turbulence be worst?" ~>
       Multichoice
         [
@@ -2376,7 +2376,7 @@ taitPreAreaSolo =
         [
           "in front of and below the heavy aircraft"
         , "in front of anf above the heavy aircraft"
-        ]                
+        ]
     , "Which of the following control difficulties is most likely to be associated with an encounter with wake turbulence?" ~>
       Multichoice
         [
@@ -2388,7 +2388,7 @@ taitPreAreaSolo =
         "a violent roll"
 
         [
-        ]                
+        ]
     , "The best way to avoid the wake turbulence behind a heavy aircraft which has just landed is to" ~>
       Multichoice
         [
@@ -2400,7 +2400,7 @@ taitPreAreaSolo =
 
         [
           "aim to touch down behind the heavy aircraft but on one side of the runway"
-        ]                
+        ]
     , "Which of the following would result in a decrease in the rate of climb?" ~>
       Multichoice
         [
@@ -2412,7 +2412,7 @@ taitPreAreaSolo =
           "an increase in headwind component"
         , "a decrease in headwind component"
         , "a reduction in gross weight"
-        ]                
+        ]
     , "The purpose of a carburettor is" ~>
       Multichoice
         [          
@@ -2424,7 +2424,7 @@ taitPreAreaSolo =
           "to remove any dust particles from the air on its way to the engine"
         , "to remove any water from the fuel before it can get to the engine"
         , "to cool the air on its way to the engine to prevent detonation"
-        ]                
+        ]
     , "Under what circumstances can carburettor ice form?" ~>
       Multichoice
         [
@@ -2436,7 +2436,7 @@ taitPreAreaSolo =
 
         [
           "over a very wide range of temperatures, both inside and outside of cloud"
-        ]                
+        ]
     , "Under which of the following circumstances would carburettor ice be difficult to detect?" ~>
       Multichoice
         [
@@ -2448,7 +2448,7 @@ taitPreAreaSolo =
 
         [
           "during cruise just below a cloud base"
-        ]                
+        ]
     , "What is the correct method of using carburettor heat during a long power-off glide?" ~>
       Multichoice
         [
@@ -2460,7 +2460,7 @@ taitPreAreaSolo =
         [
           "carburettor heat should be applied just before power is re-applied at the end of the glide"
         , "carburettor heat should be applied regularly for brief intervals during the glide"
-        ]                
+        ]
     , "Carburettor icing during cruise will be indicated to the pilot by" ~>
       Multichoice
         [
@@ -2653,7 +2653,7 @@ taitPreAreaSolo =
         "14 days"
 
         [
-        ]        
+        ]
     , "State the IAS you would use for climb-out and approach at a short field\n  * Short field take-off climb-out speed\n  * Short field landing approach speed" ~>
       Multichoice
         [
@@ -3231,7 +3231,7 @@ taitPreRPL =
         [
           "during take-off, landing and in turbulence"
         , "whenever the aircraft is less than 1000ft AGL"
-        ]        
+        ]
     , "What is the minimum distance between an aircraft being fuelled and another stationary aircraft?" ~>
       Multichoice
         [
@@ -3264,7 +3264,7 @@ taitPreRPL =
         "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
-        ]    
+        ]
     , "What is its maximum take-off weight? The difference between the maximum take-off weight and the empty weight is the weight available for fuel, passengers, pilot and baggage, what is it for this aircraft?" ~>
       Multichoice
         [
@@ -3273,7 +3273,7 @@ taitPreRPL =
         "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
-        ]                
+        ]
     , "If you carried fuel, how much weight would be left for passengers, pilot and baggage?" ~>
       Multichoice
         [
@@ -3282,7 +3282,7 @@ taitPreRPL =
         "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
-        ]                
+        ]
     , "If you had 10kg of baggage and all passenger seats were occupied by a person weighing 77kg, how much fuel could you carry, in litres?" ~>
       Multichoice
         [
@@ -3291,7 +3291,7 @@ taitPreRPL =
         "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
-        ]                
+        ]
     , "What is the maximum weight allowed in your baggage compartment in kg?" ~>
       Multichoice
         [
@@ -3300,7 +3300,7 @@ taitPreRPL =
         "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
-        ]                
+        ]
     , "How long could you fly this aircraft on a full tank of fuel, in minutes?" ~>
       Multichoice
         [
@@ -3309,7 +3309,7 @@ taitPreRPL =
         "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
-        ]                
+        ]
     , "Could you have each seat occupied by a 77kg passenger and still carry full fuel?" ~>
       Multichoice
         [
@@ -3318,7 +3318,7 @@ taitPreRPL =
         "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
-        ]                
+        ]
     , "Under the same conditions, which is greater, the landing distance or the take-off distance?" ~>
       Multichoice
         [
@@ -3327,7 +3327,7 @@ taitPreRPL =
         "**RESEARCH THESE QUESTIONS FOR YOUR TRAINING AEROPLANE. CHECK YOUR ANSWERS WITH YOUR FLYING INSTRUCTOR.**"
 
         [
-        ]                
+        ]
     ]
 
 airborneAviationPreSolo ::
@@ -3875,7 +3875,7 @@ airborneAviationAreaSolo =
           "1,000ft clear of cloud vertically with 5km visibility"
         , "1,000ft clear of cloud vertically with 8km visibility"
         , "Whatever seems appropriate to the pilot"
-        ]        
+        ]
     , "Induced drag acting on an aircraft during straight and level flight is:" ~>
       Multichoice
         [
@@ -3899,7 +3899,7 @@ airborneAviationAreaSolo =
           "During descent at idle power"
         , "During the cruise with a mixture too rich"
         , "During take-off with the mixture at full rich"
-        ]  
+        ]
     , "If you are flying late in the afternoon. You must ensure you plan to land how long before the end of daylight?" ~>
       Multichoice
         [
@@ -3923,7 +3923,7 @@ airborneAviationAreaSolo =
           "The QNH was set incorrectly"
         , "A blocked pitot tube"
         , "An electrical failure in the instrument panel"
-        ]                                       
+        ] 
     , "When would carburettor ice be most difficult to detect?" ~>
       Multichoice
         [
@@ -3947,7 +3947,7 @@ airborneAviationAreaSolo =
         [
           "Only after refueling"
         , "Before the first flight of the day"
-        ]                                               
+        ] 
     , "You are carrying out a level turn of 60 degrees angle of bank. Which of the following is correct?" ~>
       Multichoice
         [
@@ -3959,7 +3959,7 @@ airborneAviationAreaSolo =
 
         [
           "Lift is 1.4 times weight"
-        ]                                               
+        ] 
     , "Your aircraft has been filled with JET A1 (AVTUR) instead of AVGAS as specified in the flight manual. Which of the following statements is correct?" ~>
       Multichoice
         [
@@ -3971,7 +3971,7 @@ airborneAviationAreaSolo =
           "The performance of your aircraft would increase substantially when running on jet fuel"
         , "There would be no performance impact and you would be safe to proceed with your planned flight"
         , "There would be a slight reduction in power however you could proceed with your planned flight"
-        ]                                               
+        ] 
     , "You are climbing with one magneto that is unserviceable. What is the effect on climb performance?" ~>
       Multichoice
         [
@@ -3983,7 +3983,7 @@ airborneAviationAreaSolo =
 
         [
           "No effect as the other magneto is still operating"
-        ]                                               
+        ] 
     , "The maximum speed an aircraft is permitted to fly is abbreviated as:" ~>
       Multichoice
         [
@@ -3995,7 +3995,7 @@ airborneAviationAreaSolo =
           "VNO"
         , "VA"
         , "VMAX"
-        ]                                               
+        ] 
     , "During a level steep turn, the load factor:" ~>
       Multichoice
         [
@@ -4007,7 +4007,7 @@ airborneAviationAreaSolo =
         [
           "Remains unchanged"
         , "Increases due to increasing angle of attack"
-        ]                                               
+        ] 
     , "An increase in parasite drag would result from which of the following actions?" ~>
       Multichoice
         [
@@ -4019,7 +4019,7 @@ airborneAviationAreaSolo =
           "Decreasing the IAS"
         , "Reducing or raising the flaps"
         , "Retracting the undercarriage"
-        ]                                               
+        ] 
     , "In your before takeoff checks you notice that there is no RPM drop when carburettor heat is moved to \"ON\". What is the most likely cause?" ~>
       Multichoice
         [
@@ -4031,7 +4031,7 @@ airborneAviationAreaSolo =
         "The carburettor heat mechanism is defective"
 
         [
-        ]                                               
+        ] 
     , "The load factor (G force) that an average person might start to \"grey out\" is:" ~>
       Multichoice
         [
@@ -4043,7 +4043,7 @@ airborneAviationAreaSolo =
           "5.0 G"
         , "2.0 G"
         , "7.0 G"
-        ]                                               
+        ] 
     , "One of the early symptoms of carbon monoxide poisoning is a:" ~>
       Multichoice
         [
@@ -4055,7 +4055,7 @@ airborneAviationAreaSolo =
         [
           "Severe headache"
         , "Loss of muscular power"
-        ]                                               
+        ] 
     , "What colour is AVGAS 100LL when sampled?" ~>
       Multichoice
         [
@@ -4067,7 +4067,7 @@ airborneAviationAreaSolo =
         [
           "Clear"
         , "Yellow"
-        ]                                               
+        ] 
     , "As a student pilot (pre-GFPT) how many hours are you permitted to fly solo before a dual check must be carried out?" ~>
       Multichoice
         [
@@ -4079,7 +4079,7 @@ airborneAviationAreaSolo =
 
         [
           "2.0 hours"
-        ]                                               
+        ] 
     , "You're in flight and there is a glider approaching on your right at the same level, you should:" ~>
       Multichoice
         [
@@ -4091,7 +4091,7 @@ airborneAviationAreaSolo =
           "Climb over and above the glider"
         , "Expect the glider to give way"
         , "Descend beneath the glider"
-        ]                                               
+        ] 
     , "You have mishandled the aircraft and are experiencing a load factor (G force) of over +5 G's. After a short period of time you black-out, this means that:" ~>
       Multichoice
         [
@@ -4103,7 +4103,7 @@ airborneAviationAreaSolo =
 
         [
           "You have lost all vision however you are still conscious and able to move the controls"
-        ]                                               
+        ] 
     , "If there was a small quantity of water present in your fuel tank how would it be presented when sampling your avgas?" ~>
       Multichoice
         [
@@ -4115,7 +4115,7 @@ airborneAviationAreaSolo =
           "The blue tint of the 100LL avgas would be lighter than usual"
         , "The water mixes with the avgas and it's not possible to detect"
         , "Clear blobs of water at the top of your fuel sample"
-        ]                                               
+        ] 
     , "While taxiing for take-off another aeroplane approaches head-on, you would:" ~>
       Multichoice
         [
@@ -4127,7 +4127,7 @@ airborneAviationAreaSolo =
         [
           "Continue to taxi, moving to pass on the left"
         , "Pull over to the left and stop."
-        ]                                               
+        ] 
     , "On a visual terminal chart (VTC), major built up areas, such as a city, are shown in which colour?" ~>
       Multichoice
         [
@@ -4139,7 +4139,7 @@ airborneAviationAreaSolo =
           "Brown"
         , "Green"
         , "Purple"
-        ]                                               
+        ] 
     , "When gliding for maximum distance it would be best to glide:" ~>
       Multichoice
         [
@@ -4151,7 +4151,7 @@ airborneAviationAreaSolo =
         "With the wind behind you"
 
         [
-        ]                                               
+        ] 
     , "How often should a direction indicator (DI) be aligned with the magnetic compass?" ~>
       Multichoice
         [
@@ -4163,7 +4163,7 @@ airborneAviationAreaSolo =
           "Before take-off only"
         , "At least every 5 minutes"
         , "Approximately every 30 minutes"
-        ]                                               
+        ] 
     , "When flying in the training area you must not fly lower than:" ~>
       Multichoice
         [
@@ -4175,7 +4175,7 @@ airborneAviationAreaSolo =
         [
           "1,500ft AGL over populated areas and 1,000ft AGL elsewhere"
         , "1,000ft unless on approach to land"
-        ]                                               
+        ] 
     , "Which of the following would result in a decreased rate of climb?" ~>
       Multichoice
         [
@@ -4187,7 +4187,7 @@ airborneAviationAreaSolo =
         [
           "A reduction in weight"
         , "A decrease in headwind component"
-        ]                                               
+        ] 
     , "If a fuel gauge indicates 24 US gallons in a fuel tank and it is properly calibrated you would expect to see how many litres on your dipstick?" ~>
       Multichoice
         [
@@ -4199,7 +4199,7 @@ airborneAviationAreaSolo =
 
         [
           "72 litres"
-        ]                                               
+        ] 
     , "The ATIS reports that the QNH is 1015 and temperature is 25 degrees C at an airport where the elevation is 250ft. When QNH is set on the subscale of your altimeter it should:" ~>
       Multichoice
         [
@@ -4211,7 +4211,7 @@ airborneAviationAreaSolo =
           "Indicate zero feet"
         , "Indicate higher than the airport elevation due to the temperature"
         , "Indicate lower than the airport elevation due to the temperature"
-        ]                                               
+        ] 
     , "If an aeroplane is stalling and a wing drops at the moment of stall, then the pilot should do what to prevent the wing drop dropping further?" ~>
       Multichoice
         [
@@ -4223,7 +4223,7 @@ airborneAviationAreaSolo =
 
         [
           "Use rudder in the same direction to the wing drop to prevent further yaw"
-        ]                                               
+        ] 
     , "You are climbing at your best rate of climb airspeed (Vy), if you start a turn your rate of climb will:" ~>
       Multichoice
         [
@@ -4235,7 +4235,7 @@ airborneAviationAreaSolo =
           "Decrease due to asymmetric propeller effect"
         , "Remain the same regardless of angle of bank"
         , "Increase if turning in to a headwind"
-        ]                                               
+        ] 
     , "If during engine start you suspect a fire in the engine compartment, the best course of action initially is to:" ~>
       Multichoice
         [
@@ -4247,7 +4247,7 @@ airborneAviationAreaSolo =
         [
           "Evacuate the aeroplane without delay"
         , "Put out the fire with the onboard fire extinguisher"
-        ]                                               
+        ] 
     , "An area shown on a visual terminal chart (VTC) is marked \"R580 - SFC-1500\". This indicates that you may not over fly this area without a clearance:" ~>
       Multichoice
         [
@@ -4259,7 +4259,7 @@ airborneAviationAreaSolo =
           "Below 1,500ft AGL"
         , "Above 1,500ft AMSL"
         , "Above 1,500ft AGL"
-        ]                                               
+        ] 
     , "Indications of carburettor icing in an aeroplane with a fixed pitch propeller could be:" ~>
       Multichoice
         [
@@ -4271,7 +4271,7 @@ airborneAviationAreaSolo =
         "Rough running and a drop in RPM"
 
         [
-        ]                                               
+        ] 
     , "Spot heights on a visual terminal chart (VTC) are:" ~>
       Multichoice
         [
@@ -4283,7 +4283,7 @@ airborneAviationAreaSolo =
         "Measured in feet above mean sea level"
 
         [
-        ]                                               
+        ] 
     , "A centre-zero ammeter indicates zero in flight, this most likely indicates:" ~>
       Multichoice
         [
@@ -4295,7 +4295,7 @@ airborneAviationAreaSolo =
         [
           "The alternator has failed"
         , "The magnetos are running off the battery"
-        ]                                               
+        ] 
     , "You have experienced a radio failure while operating in the circuit. ATC have realised this and display light signals to communicate with you. A steady red light while you are airborne indicates:" ~>
       Multichoice
         [
@@ -4307,7 +4307,7 @@ airborneAviationAreaSolo =
         [
           "Radio failure acknowledged, cleared to land"
         , "No significance"
-        ]                                               
+        ] 
     , "You should plan to land with how many minutes of fixed reserve fuel in your tank(s)?" ~>
       Multichoice
         [
@@ -4319,7 +4319,7 @@ airborneAviationAreaSolo =
 
         [
           "60 minutes"
-        ]                                               
+        ] 
     , "If you had a wake turbulence encounter having flown near the path of a heavy aircraft you would most likely experience:" ~>
       Multichoice
         [
@@ -4331,7 +4331,7 @@ airborneAviationAreaSolo =
           "A violent yaw"
         , "A violent pitch"
         , "A violent pitch and roll"
-        ]                                               
+        ] 
     ]
 
 
@@ -5467,7 +5467,7 @@ flightOneFROL =
           "MAYDAY MAYDAY MAYDAY, Brisbane Radar, Alpha Bravo Charlie, Alpha Bravo Charlie, Alpha Bravo Charlie, Cessna 172, Engine Failure, Logan Village, 2 POB."
         , "PAN PAN, PAN PAN, PAN PAN, Brisbane Radar, Alpha Bravo Charlie, Alpha Bravo Charlie, Alpha Bravo Charlie, Cessna 172, Engine Failure, Attempting Forced Landing near Logan Village, 2 POB."
         , "PAN PAN, PAN PAN, PAN PAN, Brisbane Radar, Alpha Bravo Charlie, Alpha Bravo Charlie, Alpha Bravo Charlie, Cessna 172, Engine Failure, Attempting Forced Landing near Logan Village, 2 POB."
-        ]      
+        ]
     , "The memory verse of TUNE IDENTIFY TEST is to be carried out while using:" ~>
       Multichoice
         [
@@ -5479,7 +5479,7 @@ flightOneFROL =
         "VHF NAV and ADF"
 
         [
-        ]          
+        ]
     , "Approaching the runway on final approach at a controlled aerodrome having conducted the appropriate COM Failure procedure, you look to the tower for confirmation the landing area is safe to land. You see a green light - to acknowledge receipt to the tower you should:" ~>
       Multichoice
         [
@@ -5491,7 +5491,7 @@ flightOneFROL =
           "Turn all lights off"
         , "Turn all lights on"
         , "Manouvre the aircraft in roll to 15deg AOB each way"
-        ]          
+        ]
     , "Company communications are limited to:" ~>
       Multichoice
         [
@@ -5503,7 +5503,7 @@ flightOneFROL =
         "Company discrete frequencies and pertinent operational information"
 
         [
-        ]          
+        ]
     , "When asked by an ATC unit to advise an estimate for a place of destination, you should express the following time as: June 24th 10:52am EST" ~>
       Multichoice
         [
@@ -5515,7 +5515,7 @@ flightOneFROL =
         "Estimate XYZ at 0052 ZULU"
 
         [
-        ]          
+        ]
     , "Which of the following is a limitation of the NDB/ADF system?" ~>
       Multichoice
         [
@@ -5527,7 +5527,7 @@ flightOneFROL =
 
         [
           "Line of sight"
-        ]          
+        ]
     , "What would be the transponder code to display in the event of a suspected COMS failure?" ~>
       Multichoice
         [
@@ -5539,7 +5539,7 @@ flightOneFROL =
         [
           "7500"
         , "3000"
-        ]          
+        ]
     , "Some aircraft systems are installed with a coinciding Avionics Master Switch. What is the function of this switch?" ~>
       Multichoice
         [
@@ -5551,7 +5551,7 @@ flightOneFROL =
 
         [
           "Controls power to communications VHF radios only"
-        ]          
+        ]
     , "As a VFR aircraft, airborne and tracking for a Military Restricted Control Zone to transit, you should:" ~>
       Multichoice
         [
@@ -5563,7 +5563,7 @@ flightOneFROL =
 
         [
           "Call the associated Military Tower (TWR) frequency for a Squawk Code and Clearance"
-        ]          
+        ]
     , "WILCO means:" ~>
       Multichoice
         [
@@ -5575,7 +5575,7 @@ flightOneFROL =
         [
           "Looking for the traffic"
         , "None of the above"
-        ]          
+        ]
     , "A VHF COM radio receives in a frequency band of:" ~>
       Multichoice
         [
@@ -5587,7 +5587,7 @@ flightOneFROL =
         [
           "109.00 to 117.95"
         , "108.00 to 116.95"
-        ]          
+        ]
     , "123.6 as a frequency should be read as:" ~>
       Multichoice
         [
@@ -5599,7 +5599,7 @@ flightOneFROL =
         [
           "ONE TWO TREE DECIMAL SIX"
         , "WUN TOO TREE DAYCIMAL SIIIX"
-        ]          
+        ]
     ]
 
 instruments ::
@@ -8973,7 +8973,7 @@ form61_1486_1495 =
         , "seats upright during take-off and landing *[CAO20.16.3(5.1)]*"
         , "passenger in control seat must be given instruction, no interfere with flight controls *[CAO20.16.3(11.1)]*"
         , "two infants (<=3 years of age) may be carried on one seat with total weight <= 77kg *[CAO20.16.3(13.1)]*"
-        ]          
+        ]
     , "What are the privileges and limitations of the single engine aeroplane class rating?" !-
       DirectListAnswer
         [
@@ -9039,7 +9039,7 @@ curtisPplTrial4 =
           "The location of the fire extinguishers"
         , "The pilot actions in the event of an engine failure after take-off"
         , "The position of the body in the event of an emergency landing"
-        ]  
+        ]
     , "A “PAN-PAN” call should be made if the pilot:" ~>
       Multichoice
         [
@@ -9390,7 +9390,7 @@ curtisPplTrial4 =
         [
           "Course window indicates “000” and flag shows “TO”. Maintain “000” in the course window and the CDI central"
         , "Course window indicates “000”. Turn the aircraft till the CDI centred and fly towards the needle if it wanders off centre"
-        ]  
+        ]
     , "The following code refers to a layer of cloud as forecast in a TAF. “BKN030” – What is the amount of cloud in the layer:" ~>
       Multichoice
         [
@@ -9403,7 +9403,7 @@ curtisPplTrial4 =
         "5 to 7 OKTAS"
 
         [
-        ]  
+        ]
     , "Refer (TOWNSVILLE) WAC 3219 (Page 27, Work Booklet). What is the position (Latitude and Longitude) of ROLLINGSTONE (approximately 25 nm NW Townsville):" ~>
       Multichoice
         [
@@ -9414,7 +9414,7 @@ curtisPplTrial4 =
 
         [
           "19 30S 146 52E"
-        ]  
+        ]
     , "Refer Loading System ALPHA (Page 10 and 11 Work Booklet). Given:\n* Aircraft basic index units = -190\n* Aircraft basic empty weight = 1018 kg\n* Row 1 – pilot and passenger = 200 kg\n* Row 2 – passenger, forward facing = 50 kg\n* Baggage rear compartment = 40 kg\n* Fuel = Full\nThe maximum weight of baggage, in Kg that may be carried in the nose compartment at take-off is closest to:" ~>
       Multichoice
         [
@@ -9426,7 +9426,7 @@ curtisPplTrial4 =
           "35 kg"
         , "45 kg"
         , "20 kg"
-        ]  
+        ]
     , "If other conditions remain the same, what effect will an increase in surface air temperature have on take-off distance required:" ~>
       Multichoice
         [
@@ -9438,7 +9438,7 @@ curtisPplTrial4 =
           "Distance required is unchanged"
         , "Distance required is unchanged but take-off roll is increased"
         , "Distance required decreases"
-        ]  
+        ]
     , "Refer (SYDNEY) WAC 3456 (centre-page, Work Booklet). The following details pertain to a direct flight from BATHURST (YBTH) (3325S 14939E) to DUBBO (YSDU) (3213S 14834E): ATD YBTH at 2305UTC, 2317UTC over HILL END town (approximately 25 nm from YBTH), constant HDG maintained since departure YBTH. The alteration of HDG required to regain planned TR to YSDU abeam WELLINGTON town is closest to:" ~>
       Multichoice
         [
@@ -9450,7 +9450,7 @@ curtisPplTrial4 =
         [
           "16 degrees Right"
         , "10 degrees Left"
-        ]  
+        ]
     , "Which of the following errors or limitations is most commonly associated with the ADF/NDB system:" ~>
       Multichoice
         [
@@ -9462,7 +9462,7 @@ curtisPplTrial4 =
         "Thunderstorm interference"
 
         [
-        ]  
+        ]
     , "Given:\n* Area forecast W/V = 115/45\n* TR (T) = 150 Degrees\n* Variation = 10 Degrees East\n* TAS = 150 kts\nDetermine the approximate HDG (M) and GS:" ~>
       Multichoice
         [
@@ -9474,7 +9474,7 @@ curtisPplTrial4 =
         [
           "130 Degrees and 120 kt"
         , "138 Degrees and 115 kt"
-        ]  
+        ]
     , "Which of the following would be best described as an internal threat" ~>
       Multichoice
         [
@@ -9486,7 +9486,7 @@ curtisPplTrial4 =
         [
           "Operation at an unfamiliar aerodrome"
         , "Taxiing at an unfamiliar aerodrome with poor taxiway markings"
-        ]  
+        ]
     , "Given W/V = 250/30 and runways available are 03/21 and 09/27, which runway has greatest headwind component for landing:" ~>
       Multichoice
         [
@@ -9498,7 +9498,7 @@ curtisPplTrial4 =
         [
           "03"
         , "09"
-        ]  
+        ]
     , "Express in UTC - Six (6) PM Western Standard:" ~>
       Multichoice
         [
@@ -9510,7 +9510,7 @@ curtisPplTrial4 =
         "1000 UTC"
 
         [
-        ]  
+        ]
     , "The following code refers to a layer of cloud as forecast in a TAF – FEW030. What is the amount of cloud in the layer:" ~>
       Multichoice
         [
@@ -9523,7 +9523,7 @@ curtisPplTrial4 =
         [
           "5 to 7 OKTAS"
         , "3 to 4 OKTAS"
-        ]  
+        ]
     , "Refer Loading System ALPHA (pages 10 and 11, Work booklet). Given:\n* Basic index units = -190\n* Basic empty weight = 1016 kg\n* Row 1 (pilot and passenger) = 160 kg\n* Row 2 (forward facing passengers) = 110 kg\n* Baggage (total weight) = 95 kg\n* Baggage will not fit in the rear compartment, so may be loaded in Row 3 or the nose compartment.\nThe maximum weight of fuel, in kg, that may be carried at take-off is closed to:" ~>
       Multichoice
         [
@@ -9534,7 +9534,7 @@ curtisPplTrial4 =
 
         [
           "223 kg"
-        ]  
+        ]
     , "Refer Figure 5 (page 8, Work booklet). Given:\n* Runway = 05/23\n* Take-off distance available = 1200 metres\n* Surface = short dry grass\n* Slope = 2% down to the NE\n* Pressure height = 1000 feet\n* Wind = 230/05 kts\n* Temperature = +28oC\n* Take-off Weight = 1055 kg\nThe minimum take-off distance required under the conditions given is closest to:" ~>
       Multichoice
         [
@@ -9546,7 +9546,7 @@ curtisPplTrial4 =
         "860 metres"
 
         [
-        ]  
+        ]
     , "If approaching an NDB from the east, what approximate instrument indication would confirm that you are overflying the station? “Fixed card” ADF reading will change from:" ~>
       Multichoice
         [
@@ -9558,7 +9558,7 @@ curtisPplTrial4 =
 
         [
           "090 to 270"
-        ]  
+        ]
     , "An effect of loading an aeroplane with its centre of gravity forward of the forward limit is that:" ~>
       Multichoice
         [
@@ -9570,7 +9570,7 @@ curtisPplTrial4 =
         "Elevator effectiveness is reduced"
 
         [
-        ]  
+        ]
     , "Refer ARFOR / TAF 6  (page50, Work booklet). The forecast visibility for area 22 is:" ~>
       Multichoice
         [
@@ -9582,7 +9582,7 @@ curtisPplTrial4 =
 
         [
           "4000 metres reducing in SH/DZ/TS"
-        ]  
+        ]
     , "An aerofoil is said to be at its stalling angle if any increase or decrease in angle of attack results in: " ~>
       Multichoice
         [
@@ -9594,7 +9594,7 @@ curtisPplTrial4 =
 
         [
           "More drag"
-        ]  
+        ]
     , "The condition most likely to produce advection fog is:" ~>
       Multichoice
         [
@@ -9606,7 +9606,7 @@ curtisPplTrial4 =
         "A warm air mass passing over a relatively cold surface"
 
         [
-        ]  
+        ]
     , "An aircraft is on a glide approach at 65 kts. The pilot lowers full flap and maintains 65 kts. What is the effect on approach angle:" ~>
       Multichoice
         [
@@ -9617,7 +9617,7 @@ curtisPplTrial4 =
 
         [
           "Approach angle flattens"
-        ]  
+        ]
     , "After take-off, what will be the effect on airspeed if you encounter wind shear where the headwind component increases:" ~>
       Multichoice
         [
@@ -9629,7 +9629,7 @@ curtisPplTrial4 =
           "An increase in airspeed and then it remains higher"
         , "A loss of airspeed and then it returns to normal"
         , "No effect on airspeed"
-        ]  
+        ]
     , "Refer to the total drag curve at Fig 40 (page 40, Work booklet). Which item of piston-engine aeroplane performance will occur at speed ‘X’:" ~>
       Multichoice
         [
@@ -9641,7 +9641,7 @@ curtisPplTrial4 =
           "Minimum rate of descent"
         , "Best endurance"
         , "Maximum rate of climb"
-        ]  
+        ]
     , "If the indicated airspeed of an aeroplane is progressively reduced whilst maintaining level flight, induced drag will:" ~>
       Multichoice
         [
@@ -9653,7 +9653,7 @@ curtisPplTrial4 =
 
         [
           "Increase then decrease"
-        ]  
+        ]
     , "The maximum rate of climb speed will normally be achieved at:" ~>
       Multichoice
         [
@@ -9665,7 +9665,7 @@ curtisPplTrial4 =
         [
           "Greater than that recommended for normal climb"
         , "Less that the speed giving maximum angle of climb"
-        ]  
+        ]
     , "Select the variable that would reduce the indicated stalling speed of an aeroplane in level flight:" ~>
       Multichoice
         [
@@ -9677,7 +9677,7 @@ curtisPplTrial4 =
           "An increase in air density"
         , "An increase in altitude"
         , "A reduction in power"
-        ]  
+        ]
     , "Refer to Fig 49 (page 44, work booklet). The pressure pattern about point ‘B’ (east of Brisbane) is known as a:" ~>
       Multichoice
         [
@@ -9689,7 +9689,7 @@ curtisPplTrial4 =
           "Ridge"
         , "Low"
         , "Col"
-        ]  
+        ]
     , "Operating an aircraft engine with the oil level below the specified minimum is likely to cause:" ~>
       Multichoice
         [
@@ -9701,7 +9701,7 @@ curtisPplTrial4 =
 
         [
           "Excessive oil consumption"
-        ]  
+        ]
     , "An aircraft piston engine will experience severe detonation when operated with:" ~>
       Multichoice
         [
@@ -9713,7 +9713,7 @@ curtisPplTrial4 =
           "A Low power setting and carburettor heat full on"
         , "An over rich mixture during climb"
         , "Maximum continuous power in level flight"
-        ]  
+        ]
     , "The effect of hoar frost forming on the wings of an aeroplane is:" ~>
       Multichoice
         [
@@ -9725,7 +9725,7 @@ curtisPplTrial4 =
           "Negligible, because it does not alter the aerodynamic shape"
         , "Negligible, because hoar frost weighs very little"
         , "Hazardous, because it can lock the aerodynamic controls"
-        ]  
+        ]
     , "Refer to Fig 48 (page 44, work booklet). The pressure pattern about point ‘A’ (south of Tasmania) is known as a:" ~>
       Multichoice
         [
@@ -9737,7 +9737,7 @@ curtisPplTrial4 =
         "Low"
 
         [
-        ]  
+        ]
     , "In comparison to a stall in straight and level flight, how will a sudden pull out from a dive affect the stall IAS and the stalling angle:" ~>
       Multichoice
         [
@@ -9749,7 +9749,7 @@ curtisPplTrial4 =
 
         [
           "Stall IAS will remain constant; stalling angle will be less"
-        ]  
+        ]
     , "A thin coating of clear ice on the leading edge of an aerofoil of an aircraft in flight will:" ~>
       Multichoice
         [
@@ -9761,7 +9761,7 @@ curtisPplTrial4 =
 
         [
           "Initially increase the lift by increasing the camber"
-        ]  
+        ]
     , "Which of the following is a likely reason for yaw to the right during the take-off roll in a single-engine aeroplane fitted with an engine, which rotates in a clockwise direction when viewed from the cockpit:" ~>
       Multichoice
         [
@@ -9773,7 +9773,7 @@ curtisPplTrial4 =
         [
           "Slipstream effect"
         , "A crosswind from the left"
-        ]  
+        ]
     , "Refer to Fig 49 (page 44, work booklet). The line ‘PR ‘ (west of Townsville) indicates the position of a:" ~>
       Multichoice
         [
@@ -9785,7 +9785,7 @@ curtisPplTrial4 =
         "Trough"
 
         [
-        ]  
+        ]
     , "Hoar frost, which has formed on an aircraft, parked in the open overnight:" ~>
       Multichoice
         [
@@ -9797,7 +9797,7 @@ curtisPplTrial4 =
         "May seriously affect performance and should always be removed before flight"
 
         [
-        ]  
+        ]
     , "How will an increase in altitude affect the stall characteristics of an aeroplane:" ~>
       Multichoice
         [
@@ -9809,7 +9809,7 @@ curtisPplTrial4 =
 
         [
           "The stall angle will decrease"
-        ]  
+        ]
     , "How will lift and darg vary if the angle of attach of an aerofoil is increased from 4 degrees up to the stalling angle:" ~>
       Multichoice
         [
@@ -9821,7 +9821,7 @@ curtisPplTrial4 =
 
         [
           "Lift and drag will both decrease"
-        ]  
+        ]
     , "The most significant effect on an aeroplane’s flight characteristics of NOT clearing frost from the wings prior to flight is that:" ~>
       Multichoice
         [
@@ -9833,7 +9833,7 @@ curtisPplTrial4 =
 
         [
           "Both the indicated stalling speed and stalling angle will increase"
-        ]  
+        ]
     , "A characteristics of Rime Ice, which may be hazardous to aircraft, is that it:" ~>
       Multichoice
         [
@@ -9845,7 +9845,7 @@ curtisPplTrial4 =
         [
           "Is the most difficult type of ice to remove"
         , "Spreads back over most of the aerofoil section"
-        ]  
+        ]
     , "Unauthorised penetration of controlled airspace is an example of an undesired" ~>
       Multichoice
         [
@@ -9857,7 +9857,7 @@ curtisPplTrial4 =
         [
           "Air navigation state"
         , "Navigation configuration state"
-        ]  
+        ]
     , "An aeroplane takes off in calm conditions and climbs through a wind shear where it encounters a strong tail wind. What initial effect will this change in W/V have on IAS and flight path:" ~>
       Multichoice
         [
@@ -9869,7 +9869,7 @@ curtisPplTrial4 =
           "IAS will decrease; flight path will be steeper"
         , "IAS will increase; flight path will be shallower"
         , "IAS will increase; flight path will be steeper"
-        ]  
+        ]
     , "Flying conditions above a layer of small cumulus clouds are likely to be:" ~>
       Multichoice
         [
@@ -9881,7 +9881,7 @@ curtisPplTrial4 =
 
         [
           "Very turbulent"
-        ]  
+        ]
     , "A pilot is landing at a coastal aerodrome orientated east west, with the sea to the south, on a hot summer afternoon. What is the most likely wind direction at the aerodrome:" ~>
       Multichoice
         [
@@ -9893,7 +9893,7 @@ curtisPplTrial4 =
 
         [
           "Westerly"
-        ]  
+        ]
     , "Which hazard is normally associated with mountain waves:" ~>
       Multichoice
         [
@@ -9905,7 +9905,7 @@ curtisPplTrial4 =
           "Dust storms"
         , "Icing"
         , "Hail"
-        ]  
+        ]
     , "Which of the following indications would positively confirm that an aeroplane is established in a spin and is not in a spiral dive:" ~>
       Multichoice
         [
@@ -9917,7 +9917,7 @@ curtisPplTrial4 =
         "Low airspeed"
 
         [
-        ]  
+        ]
     , "The colour of 100LL aviation gasoline is:" ~>
       Multichoice
         [
@@ -9929,7 +9929,7 @@ curtisPplTrial4 =
         "Blue"
 
         [
-        ]  
+        ]
     , "The symptoms of dehydration include which of the following:" ~>
       Multichoice
         [
@@ -9941,7 +9941,7 @@ curtisPplTrial4 =
         [
           "Runny eyes and nose"
         , "Stomach cramps and a high temperature"
-        ]  
+        ]
     , "Which of the following would be an appropriate remedy for a person who is suffering the effects of hyperventilation:" ~>
       Multichoice
         [
@@ -9953,7 +9953,7 @@ curtisPplTrial4 =
         [
           "Increase the rate and depth of breathing"
         , "Use a nasal decongestant"
-        ]  
+        ]
     , "Deterioration of hearing caused by exposure to loud noise usually occurs first:" ~>
       Multichoice
         [
@@ -9965,7 +9965,7 @@ curtisPplTrial4 =
           "In the frequency range of normal speech, 300 to 5000 Hz"
         , "In the frequency range below normal speech"
         , "Across the whole range of audible frequencies"
-        ]  
+        ]
     , "In level flight, a collision risk exists if a converging aircraft viewed from the cockpit appears to be:" ~>
       Multichoice
         [
@@ -9977,7 +9977,7 @@ curtisPplTrial4 =
           "Below the horizon and moving closer to the centre of your windscreen"
         , "On the horizon and moving away from the centre of your windscreen"
         , "On the horizon"
-        ]  
+        ]
     , "The most effective way to scan the sky for other aircraft during level flight is to:" ~>
       Multichoice
         [
@@ -9989,7 +9989,7 @@ curtisPplTrial4 =
         "Move the head about 20deg to 30deg at a time, pausing after each movement to allow the peripheral vision to detect any movement"
 
         [
-        ]  
+        ]
     , "In the absence of reliable visual information, which of the following states of motion would be most difficult to differentiate:" ~>
       Multichoice
         [
@@ -10001,7 +10001,7 @@ curtisPplTrial4 =
 
         [
           "A rapid deceleration in level flight and a transition from level flight to a climb"
-        ]  
+        ]
     , "Which of the following is NOT a symptom of carbon monoxide poisoning:" ~>
       Multichoice
         [
@@ -10013,7 +10013,7 @@ curtisPplTrial4 =
         [
           "Discomfort in breathing"
         , "Impairment of vision and mental confusion"
-        ]  
+        ]
     , "Hypoxia may be caused by:" ~>
       Multichoice
         [
@@ -10025,7 +10025,7 @@ curtisPplTrial4 =
         [
           "Breathing too quickly and/or too deeply for the requirements of the body"
         , "Flying after a period of underwater diving"
-        ]  
+        ]
     , "For the flight crew, the three basic components in the TEM model are" ~>
       Multichoice
         [
@@ -10037,7 +10037,7 @@ curtisPplTrial4 =
           "Threats, errors, and anticipated aircraft states"
         , "Threats, flight crew human resources and aircraft states"
         , "Errors, fight crew human resources and undesired aircraft states"
-        ]  
+        ]
     , "An example of an unexpected threat is" ~>
       Multichoice
         [
@@ -10049,7 +10049,7 @@ curtisPplTrial4 =
         [
           "Becoming lost in flight"
         , "Being diverted in flight by ATC"
-        ]  
+        ]
     ]
 
 curtisPplTrial5 ::
@@ -10060,15 +10060,906 @@ curtisPplTrial5 =
     (Just "Time Allowed: 3 hours 30 minutes. Pass: >= 70%")
     (Just "01 August 2015")
     [
-      "" ~>
+      "The limitation imposed by CAR’s on turns on to the final approach is that the turn shall:" ~>
+      Multichoice
+        [
+          "Not be commenced below 500ft. AGL."
+        , "Be completed by 500ft. AGL."
+        , "Permit a straight-in approach of at least 1,000m from the runway threshold."
+        ]
+
+        "Permit a straight-in approach of at least 500m from the perimeter of the aerodrome."
+
+        [
+        ]
+    , "If climbing after take-off to A085 when should you change from local QNH to Area QNH:" ~>
       Multichoice
         [
         ]
 
-        ""
+        "At top of climb"
 
         [
-        ]  
+          "When climbing through 3000 ft"
+        , "At 1000 ft above the departure aerodrome"
+        , "When climbing through 5000 ft"
+        ]
+    , "Which condition applies to flights within Restricted Area:" ~>
+      Multichoice
+        [
+        ]
+
+        "Flight within these areas are normally only permitted outside the hours of activity or with prior approval"
+
+        [
+          "Flights within these areas are not permitted under any circumstances"
+        , "Flights by civil aircraft within these areas is not permitted"
+        , "Prior approval to enter these areas is not necessary, but flights must proceed in accordance with specific procedures"
+        ]
+    , "You are flying home with your friend and his dog.  As pilot in command what are your legal responsibilities regarding the carriage of this dog:" ~>
+      Multichoice
+        [
+        ]
+
+        "The dog must be crated and kept in the baggage compartment"
+
+        [
+          "You are not responsible for the animal as it belongs to your friend."
+        , "If carried in the passenger compartment, the dog must be restrained, muzzled and sitting on a moisture-absorbent mat"
+        , "The dog must be restrained and tied next to your passenger."
+        ]
+    , "Who is responsible for declaring a bush fire evacuation flight as a mercy flight:" ~>
+      Multichoice
+        [
+          "The local police"
+        , "The head of the local fire department"
+        ]
+
+        "The Pilot in Command"
+
+        [
+          "The owner of the aircraft"
+        ]
+    , "The highest obstacle along an unpopulated route segment is 1500 ft AMSL. The minimum altitude at which a VFR aircraft may normally overfly the obstacle is:" ~>
+      Multichoice
+        [
+          "3000 ft"
+        , "500 ft"
+        ]
+
+        "2000 ft"
+
+        [
+          "1000 ft"
+        ]
+    , "A steady red light signal directed at an aircraft in flight signifies to the pilot that the:" ~>
+      Multichoice
+        [
+        ]
+
+        "Aircraft should give way to other aircraft and continue circling"
+
+        [
+          "Aerodrome is unsafe for landing"
+        , "Aircraft should climb above the circuit height and orbit the aerodrome"
+        , "Aircraft's undercarriage is not fully down - Go round"
+        ]
+    , "At what stage of a flight should you change from Area QNH to local QNH (if available) when descending from A075:" ~>
+      Multichoice
+        [
+        ]
+
+        "At top of descent"
+
+        [
+          "In the circuit area"
+        , "When passing through 5000 ft"
+        , "Within 3 nm of destination"
+        ]
+    , "A threat that is not immediately obvious to the pilot, such as an undercarriage lever situated adjacent to a flap lever, or manifold pressure and RMP gauges widely separated, is best described as:" ~>
+      Multichoice
+        [
+        ]
+
+        "A latent threat"
+
+        [
+          "An external threat"
+        , "An anticipated threat"
+        , "An internal threat"
+        ]
+    , "Which of the following restrictions applies to the consumption of alcoholic liquor by pilots:" ~>
+      Multichoice
+        [
+          "It may be consumed immediately prior to commencement of duty provided the capacity to act is not impaired"
+        , "It may not be consumed at any time."
+        ]
+
+        "It may be consumed up to, but no within, the 8 hours immediately preceding departure"
+
+        [
+          "It may not be consumed in the 12 hours immediately preceding flight departure."
+        ]
+    , "A SIGMET is transmitted to a pilot in flight advising of reported mountain wave activity. Select the description which best describes the category of this threat.:" ~>
+      Multichoice
+        [
+          "External, unexpected, organisational"
+        , "Internal, anticipated, environmental"
+        ]
+
+        "External, anticipated, environmental"
+
+        [
+          "Organisational, anticipated, latent"
+        ]
+    , "The holder of a pilot licence may not act as pilot in command of an aeroplane engaged in spinning practice unless:" ~>
+      Multichoice
+        [
+          "Accompanied by a suitably qualified flight instructor."
+        , "Accompanied by a safety pilot who is the holder of a commercial or higher class licence."
+        , "The aeroplane is fitted with fully functional dual controls."
+        ]
+
+        "Certified by a suitably qualified flight instructor as being competent to recover from fully developed spins."
+
+        [
+        ]
+    , "Refer to Figure 4 (page 7, Work Booklet). Given the following details:\n* Runway = 15/33\n* Landing distance available = 1300 metres\n* Slope = 2% down to the SE\n* Pressure height = 3000 ft\n* Wind = 150/15 kts\n* Temperature = +20 Degrees C\nThe Landing distance required is closest to:" ~>
+      Multichoice
+        [
+          "720 metres"
+        , "500 metres"
+        , "540 metres"
+        ]
+
+        "630 metres"
+
+        [
+        ]
+    , "Refer to Figure 4 (page 7, Work Booklet). Given the following details:\n* Runway = 09/27\n* Landing distance available = 1400 metres\n* Slope = Level\n* Pressure height = 5000 ft\n* Wind = 270/10 kts\n* Temperature = +15 Degrees C\nThe landing distance required under the conditions given is closest to:" ~>
+      Multichoice
+        [
+          "670 metres"
+        ]
+
+        "600 metres"
+
+        [
+          "630 metres"
+        , "700 metres"
+        ]
+    , "Refer to loading system ALPHA (pages 10 and 11, Work Booklet). Given:\n* Basic index units = -190\n* Basic empty weight = 1016 kg\n* Row 1 (pilot and passenger) = 160 kg\n* Row (forward facing passengers) = 110 kg\n* Baggage (total weight) = 95 kg\n* Baggage will not fit in the rear compartment, so may be loaded in Row 3 or the nose compartment.\nThe maximum weight of fuel, in kg, that may be carried at take-off is closest to:" ~>
+      Multichoice
+        [
+        ]
+
+        "252kg"
+
+        [
+          "210 kg"
+        , "223 kg"
+        ]
+    , "Take-off distance required will increase if there is an increase in:" ~>
+      Multichoice
+        [
+        ]
+
+        "Surface air temperature"
+
+        [
+          "Air density"
+        , "Percentage down-slope"
+        , "Headwind component"
+        ]
+    , "Refer to Figure 6 (page 9, Work Booklet). Given the following details:\n* Runway = 04/22\n* Landing distance available = 1100 metres\n* Slope = Level\n* Pressure height = 3000 ft\n* Wind = 220/05 kts\n* Temperature = +20 Degrees C\nThe landing distance required under the conditions given is closest to:" ~>
+      Multichoice
+        [
+          "550 metres"
+        , "610 metres"
+        ]
+
+        "520 metres"
+
+        [
+          "500 metres"
+        ]
+    , "Refer loading system BRAVO (pages 12 and 13, Work Booklet). Given:\n* Aircraft empty weight = 1265 lbs with a moment of 101.5\n* Oil = 15 lbs with a moment of 0.5\n* Pilot = 170 lbs\n* Co-pilot = 155 lbs\n* Fuel = 110 litres\n* Baggage = Maximum permitted\nThe maximum permitted weight of passengers in the rear seats is closest to:" ~>
+      Multichoice
+        [
+          "402 lbs"
+        , "369 lbs"
+        ]
+
+        "302 lbs"
+
+        [
+        ]
+    , "Given:\n* Pressure height = 6000 feet\n* OAT = +20 degrees C\n* CAS = 120 kts\nDetermine the TAS:" ~>
+      Multichoice
+        [
+          "125 kts"
+        , "130 kts"
+        , "106 kts"
+        ]
+
+        "135 kts"
+
+        [
+        ]
+    , "Your planned TR is 140 degrees (M). Your planned HDG is 135 degrees (M). Your departure aerodrome has a NDB. If you maintain HDG 135 degrees (M), which \"fixed card\" ADF indication would confirm that you are on TR:" ~>
+      Multichoice
+        [
+        ]
+
+        "185"
+
+        [
+          "180"
+        , "175"
+        , "315"
+        , "135"
+        ]
+    , "If the ETA at destination falls within the forecast periods of that aerodrome's TAF with the following conditions, which of condition would ALWAYS require you to nominate an alternate:" ~>
+      Multichoice
+        [
+        ]
+
+        "PROVISIONAL"
+
+        [
+          "PROB"
+        , "TEMPO"
+        , "INTER"
+        ]
+    , "You plan to fly NARRABRI (NSW) (3019S 14950E) to ST GEORGE (QLD) (2803S 14807E). For the total flight, which ARFORS are required:" ~>
+      Multichoice
+        [
+          "20, 22, 40"
+        ]
+
+        "20, 22, 41"
+
+        [
+          "20, 21, 22"
+        , "20, 40, 41"
+        ]
+    , "Refer (BOURKE) WAC 3356 (page 30, Work Booklet). You are flying over WEE WAA township, approximately 20 nm WNW of NARRABRI (YNBR) (3019S 14950E), direct to ST GEORGE (YSGE) 2803S 14836E). At 2347 UTC you pinpoint your position over a minor road 5 nm northeast of MUNGINDI township (approximately 60 nm SE YSGE). You have been maintaining a constant HDG since WEE WAA township. The alteration of HDG required to track from the 2347 UTC position to YSGE is closest to:" ~>
+      Multichoice
+        [
+          "16 degrees left"
+        , "07 degrees left"
+        , "05 degrees left"
+        ]
+
+        "12 degrees left"
+
+        [
+        ]
+    , "Refer (BOURKE) WAC 3356 (page 30, Work Booklet). You plan direct WEE WAA (YWWA) (3015S 14924E), to ST GEORGE (YSGE) 2803S 14836E). At 0235 UTC you depart YWWA with a planned ground speed of 120 kts. At 0255 UTC you pinpoint your position left of track over WOODVALE homestead and alter HDG 10 degrees right. At 0315 UTC you pinpoint your position over MUNGINDI township. The alteration of HDG required to track to YSGE from the 0315 UTC position is closest to:" ~>
+      Multichoice
+        [
+          "15 degrees left"
+        , "10 degrees left"
+        ]
+
+        "19 degrees left"
+
+        [
+          "04 degrees left"
+        ]
+    , "Given: Useable fuel available (excluding reserves) = 110 litres. Fuel flow = 38LPH, G/S = 105 kts. The maximum distance that can be flown is closest to:" ~>
+      Multichoice
+        [
+          "135 nm"
+        , "210 nm"
+        ]
+
+        "305 nm"
+
+        [
+          "365 nm"
+        ]
+    , "Given:\n* Aerodrome elevation = 1500 feet\n* Cruise level = A065\n* Rate of descent = 500fpm\n* GS = 140 kts\n* Local QNH = Area QNH\nTo arrive over the aerodrome at 1500 feet AGL the distance from the TOPD to your destination will be closest to:" ~>
+      Multichoice
+        [
+          "28 nm"
+        ]
+
+        "16 nm"
+
+        [
+          "13 nm"
+        , "21 nm"
+        ]
+    , "Given the following conditions for planning a route segment:\n* W/V = 050/25 kts\n* TR (M) = 283\n* TAS = 125 kts\n* Magnetic Variation = 5 Degrees West\nThe HDG (M) and GS will be closest to:" ~>
+      Multichoice
+        [
+          "273 (M), 138 kts"
+        , "293 (M), 110 kts"
+        , "294 (M), 115 kts"
+        ]
+
+        "292 (M), 140 kts"
+
+        [
+        ]
+    , "The following message was issued during a pre-flight briefing: METAR YMLT 2300UTC 0001 25004KT 9999 SCT025 SCT035 18/12 Q 1020. The message is:" ~>
+      Multichoice
+        [
+        ]
+
+        "A routine aerodrome meteorological report"
+
+        [
+          "An aerodrome forecast"
+        , "A trend type forecast"
+        , "An aerodrome report issued when conditions have deteriorated below specified limits"
+        ]
+    , "The purpose of establishing take-off safety speed is to:" ~>
+      Multichoice
+        [
+          "Ensure the greatest rate of climb following take-off"
+        , "Ensure the greatest climb gradient (angle of climb) following take-off"
+        ]
+
+        "Ensure that adequate control is available if engine failure occurs following take-off"
+
+        [
+          "Provide the lowest speed at which the aeroplane may become airborne"
+        ]
+    , "Given an elevation of 1500 feet, a QNH of 1028 hPa, and an air temperature of +35 degrees C, the density height will be closest to:" ~>
+      Multichoice
+        [
+          "2200 ft"
+        , "4300 ft"
+        ]
+
+        "3700 ft"
+
+        [
+          "4800 ft"
+        ]
+    , "The take-off distance will be decreased with an increase in:" ~>
+      Multichoice
+        [
+          "Tailwind component"
+        , "Stalling speed"
+        ]
+
+        "Atmospheric pressure"
+
+        [
+          "Density height"
+        ]
+    , "Soon after lifting off from the runway at the take-off safety speed an aeroplane experiences a sudden loss of both lift and airspeed. This could be caused by:" ~>
+      Multichoice
+        [
+          "Entering ground effect"
+        , "Climbing out of ground effect"
+        , "A sudden increase in headwind component"
+        ]
+
+        "A sudden decrease in headwind component"
+
+        [
+        ]
+    , "Given:\n* Pressure height = 9000 ft\n* Ambient temperature = -15 Degrees C\n* CAS = 170 kts\nThe TAS will be closest to:" ~>
+      Multichoice
+        [
+        ]
+
+        "190 kts"
+
+        [
+          "195 kts"
+        , "202 kts"
+        , "152 kts"
+        ]
+    , "Given:\n* W/V = 250(M)/30 kts\n* Runways available = 03/21 and 09/27\nWhich runway has the greatest headwind component for landing:" ~>
+      Multichoice
+        [
+          "21"
+        ]
+
+        "27"
+
+        [
+          "09"
+        , "03"
+        ]
+    , "Refer figure 30 (page 36, Work Booklet). Where \"D\" = 30 nm, Track error = 8 degrees. If a constant HDG has been maintained since 0100 (at \"A\") and the pilot alters HDG 12 degrees right at time 0112 (at \"B\"), what time should the pilot expect to intercept track:" ~>
+      Multichoice
+        [
+          "0130"
+        ]
+
+        "0136"
+
+        [
+          "0148"
+        , "0124"
+        ]
+    , "During winter in Australia, in what direction from the departure aerodrome will the end of daylight (in LMT) be earlier:" ~>
+      Multichoice
+        [
+        ]
+
+        "South"
+
+        [
+          "West"
+        , "East"
+        , "North"
+        ]
+    , "During summer in Australia, in what direction from the departure aerodrome will the end of daylight (in LMT) be earlier:" ~>
+      Multichoice
+        [
+          "West"
+        ]
+
+        "North"
+
+        [
+          "South"
+        , "East"
+        ]
+    , "Refer: ARFOR/TAF 2 (page 46 Work Booklet) Depart YSWG 0200 – YSCB – arrive YMER 0350. The forecast wind velocity at 10000 feet between YSCB and YMER is:" ~>
+      Multichoice
+        [
+          "280 Deg (M), 30 kts"
+        , "340 Deg (M), 40 kts"
+        , "280 Deg (M), 30 kts reducing to zero"
+        , "280 Deg (T), 30 kts"
+        ]
+
+        "340 Deg (T), 40 kts"
+
+        [
+        ]
+    , "Refer: ARFOR/TAF 4 (page 48 Work Booklet) Depart YSWG 0000 – YSCB – arrive YMER 0200. The forecast wind velocity for arrival in the circuit area YMER is:" ~>
+      Multichoice
+        [
+        ]
+
+        "290 Deg (T), 15 kts"
+
+        [
+          "260 Deg (T), 25 kts"
+        , "290 Deg (M), 15 kts"
+        , "280 Deg (T), 10 kts"
+        , "260 Deg (M), 25 kts"
+        ]
+    , "Which of the following is an example of a latent threat:" ~>
+      Multichoice
+        [
+          "Committing a check list to memory"
+        ]
+
+        "A poorly written checklist"
+
+        [
+          "Engine failure in flight"
+        , "An encounter with rime ice"
+        ]
+    , "Stalling speed is increased by an increase in:" ~>
+      Multichoice
+        [
+          "Angle of attack"
+        , "Power"
+        , "Flap setting"
+        ]
+
+        "Load factor"
+
+        [
+        ]
+    , "What effect will a headwind have on the rate of climb:" ~>
+      Multichoice
+        [
+          "Rate of climb increases"
+        , "Rate of climb decreases"
+        ]
+
+        "Rate of climb remains unchanged"
+
+        [
+        ]
+    , "A type of threat which is best managed by maintaining a high skill level through practice and training is:" ~>
+      Multichoice
+        [
+          "An anticipated threat"
+        , "A latent threat"
+        ]
+
+        "An unexpected threat"
+
+        [
+          "An organisational threat"
+        ]
+    , "Climbing an aeroplane at a higher speed than that recommended for best rate of climb will result in:" ~>
+      Multichoice
+        [
+          "An increases rate and decreased angle of climb"
+        , "An increased rate and angle of climb"
+        ]
+
+        "A decreased rate and angle of climb"
+
+        [
+          "A decreased rate and increased angle of climb"
+        ]
+    , "Which of the following would be best described as an internal threat:" ~>
+      Multichoice
+        [
+          "Flight into a high traffic density area"
+        , "An air traffic controller with a heavy foreign accent"
+        ]
+
+        "A pilot with a tendency to be over confident"
+
+        [
+          "A maintenance release that is incorrectly filled in"
+        ]
+    , "Refer to Fig 48 (page 44 Work Booklet) The line J – K (just to the east of Melbourne) indicates the position of a:" ~>
+      Multichoice
+        [
+        ]
+
+        "Cold Front"
+
+        [
+          "Stationary Front"
+        , "Warm Front"
+        , "Occluded Front"
+        ]
+    , "Refer to Fig 49 (page 44 Work Booklet) The pressure pattern about the point “B” (east of Brisbane QLD) is known as a:" ~>
+      Multichoice
+        [
+          "Ridge"
+        ]
+
+        "High"
+
+        [
+          "Col"
+        , "Low"
+        ]
+    , "Flying conditions above a layer of small cumulus clouds are likely to be:" ~>
+      Multichoice
+        [
+        ]
+
+        "Smooth"
+
+        [
+          "Bumpy"
+        , "Very Turbulent"
+        , "Smooth but with strong updraughts"
+        ]
+    , "Which of the following procedures would be most effective in rectifying a high cylinder head temperature indication:" ~>
+      Multichoice
+        [
+          "Maintain power setting, enrich the mixture"
+        ]
+
+        "Decrease power setting, enrich the mixture"
+
+        [
+          "Maintain the power setting, lean the mixture"
+        , "Decrease power setting, lean the mixture"
+        ]
+    , "During a full power check before take-off, at an aerodrome with a high density altitude, some engine roughness is detected. The roughness disappears as the mixture is leaned slightly. Under these circumstances the take-off should:" ~>
+      Multichoice
+        [
+          "Be made with full rich mixture, and throttle retarded to the point of smooth running"
+        , "Not be attempted until a LAME has rectified the problem"
+        , "Be made with full throttle, full rich mixture, and the roughness accepted for the take-off run"
+        ]
+
+        "Be made with full throttle, and the mixture leaned to the point of smooth running"
+
+        [
+        ]
+    , "During flight, a centre-zero ammeter shows an abnormally high positive reading for an extended period of time. The correct interpretation of this is that:" ~>
+      Multichoice
+        [
+        ]
+
+        "The battery is being overcharged and may boil"
+
+        [
+          "Although the reading is unusual, the electrical system will be unaffected"
+        , "Instruments requiring electrical power will overread slightly"
+        , "The alternator has failed and the battery is powering the electrical system"
+        ]
+    , "An aerofoil is said to be its stalling angle if any increase or decrease in angle of attack results in:" ~>
+      Multichoice
+        [
+          "Less lift and less drag"
+        , "More drag"
+        ]
+
+        "Less lift"
+
+        [
+          "A lower L/D ratio"
+        ]
+    , "A result of exceeding the stalling angle is that:" ~>
+      Multichoice
+        [
+          "Air pressure below the wing is less than the pressure above the wing"
+        , "Air pressure above the wing exceeds atmospheric pressure"
+        ]
+
+        "Lift decreases and drag increases"
+
+        [
+          "The wing no longer produces any lift"
+        ]
+    , "Which of the following effects will result from moving the centre of gravity aft:" ~>
+      Multichoice
+        [
+          "The indicated stalling speed will increase"
+        , "Greater elevator deflection is required to achieve a given change in attitude"
+        , "The stalling angle will increase"
+        ]
+
+        "Longitudinal stability will deteriorate"
+
+        [
+        ]
+    , "At which IAS should a piston-engine aeroplane be flown to achieve maximum endurance in level flight:" ~>
+      Multichoice
+        [
+          "The speed which gives the best lift-drag ratio"
+        ]
+
+        "The speed requiring minimum power"
+
+        [
+          "The lowest possible speed"
+        , "The speed requiring minimum thrust"
+        ]
+    , "From the list below, select the variable, which would result in an increase in the rate of climb:" ~>
+      Multichoice
+        [
+          "Lowering take-off flap"
+        ]
+
+        "A reduction in gross weight"
+
+        [
+          "An increase in headwind component"
+        , "A decrease in Air density"
+        ]
+    , "Which of the following is a likely reason for a yaw to the right during the take-off roll in a single-engine aeroplane fitted with an engine, which rotates in a clockwise direction when viewed from the cockpit:" ~>
+      Multichoice
+        [
+          "A crosswind from the left"
+        , "Slipstream effect"
+        ]
+
+        "A crosswind from the right"
+
+        [
+          "Torque effect"
+        ]
+    , "During flight, drag always acts parallel to the:" ~>
+      Multichoice
+        [
+          "Thrust line"
+        ]
+
+        "Relative airflow"
+
+        [
+          "Wing chord"
+        , "Longitudinal axis"
+        ]
+    , "What effect will a headwind have on the angle and rate of climb:" ~>
+      Multichoice
+        [
+          "The angle and rate will both increase"
+        , "The angle will decrease and the rate will increase"
+        ]
+
+        "The angle will increase and the rate will remain unchanged"
+
+        [
+          "The angle will increase and the rate will decrease"
+        ]
+    , "An increase in which of the parameters listed below will always result in an increase in Induced Drag:" ~>
+      Multichoice
+        [
+          "Aspect ratio"
+        , "L/D ratio"
+        , "IAS"
+        ]
+
+        "Angle of attack"
+
+        [
+        ]
+    , "Refer: to the L/D ratio graph at Fig 42 (page 40 Work Booklet) At what speed would an aeroplane be operating if flying at angle of attack ‘X’:" ~>
+      Multichoice
+        [
+          "The maximum level flight speed"
+        , "The minimum level flight speed"
+        ]
+
+        "The speed for maximum glide range"
+
+        [
+          "The speed for maximum angle of climb"
+        ]
+    , "If the indicated stalling speed of an aircraft is 60kt in straight and level flight what is the indicated stalling speed in a balanced 60 degree turn:" ~>
+      Multichoice
+        [
+          "75 kts"
+        , "60 kts"
+        , "70 kts"
+        ]
+
+        "85 kts"
+
+        [
+        ]
+    , "Which hazard is normally associated with mountain waves:" ~>
+      Multichoice
+        [
+        ]
+
+        "Turbulence"
+
+        [
+          "Icing"
+        , "Duststorms"
+        , "Hail"
+        ]
+    , "Which of the following conditions is most likely to result in thunderstorms:" ~>
+      Multichoice
+        [
+        ]
+
+        "High relative humidity at the surface, a lifting mechanism and conditional instability"
+
+        [
+          "High relative humidity at the surface, subsidence and a neutral atmosphere"
+        , "Low relative humidity at the surface, a lifting mechanism and instability"
+        , "High relative humidity at the surface, a lifting mechanism and a stable atmosphere"
+        ]
+    , "The cloud type which is indicative of mountain waves, when seen above a mountain range is" ~>
+      Multichoice
+        [
+          "Cumulus"
+        ]
+
+        "Lenticular"
+
+        [
+          "Stratus"
+        , "Cirrus"
+        ]
+    , "A pilot’s susceptibility to visual illusions during approaches will be increased by:" ~>
+      Multichoice
+        [
+          "The amount and nature of the pilots flying experience"
+        ]
+
+        "Fatigue"
+
+        [
+          "Good night adaptation"
+        , "The presence of good glideslpoe guidance"
+        ]
+    , "Regarding drugs, which can be taken without the approval of a DAME:" ~>
+      Multichoice
+        [
+          "Only prescription drugs are permitted"
+        , "Only non-prescription are permitted"
+        , "Only legal drugs are permitted"
+        ]
+
+        "No drugs are permitted"
+
+        [
+        ]
+    , "Hyperventilation may be caused by:" ~>
+      Multichoice
+        [
+        ]
+
+        "Overbreathing"
+
+        [
+          "Underbreathing"
+        , "Breathing too much carbon dioxide"
+        , "Breathing too much carbon monoxide"
+        ]
+    , "The ARFOR indicates that there will be ‘BROKEN’ stratus with the cloud top at 3000 feet AMSL along your planned route OCTA.  You plan VFR using radio navigation aids along this route.  Your planned track is 085 Deg (M).  To maintain VMC and conform to the ‘Table of Cruising Levels’ what is the lowest altitude that you can plan:" ~>
+      Multichoice
+        [
+          "A035."
+        , "A030."
+        , "A050."
+        ]
+
+        "A055."
+
+        [
+        ]
+    , "If you observe that the cloud amount is significantly greater than that is forecast, the type of report you should submit is called a:" ~>
+      Multichoice
+        [
+          "SIGMET"
+        , "TRENT"
+        , "SPECI"
+        ]
+
+        "SHORT AIREP"
+
+        [
+        ]
+    , "In the vicinity of an aerodrome within an ADIZ an aircraft is intercepted and is directed to land at the aerodrome.  To show that this is understood and will be complied with the pilot of the intercepted aircraft should, by day:" ~>
+      Multichoice
+        [
+          "Activate the aircraft’s transponder identification function."
+        ]
+
+        "Lower the aircraft’s landing gear and follow the intercepting aircraft."
+
+        [
+          "Raise the aircraft landing gear while passing over the runway at a height of between 1000 and 2000 ft. and circle the aerodrome"
+        , "Rock the aircraft’s wings and follow the intercepting aircraft."
+        ]
+    , "A pilot is put under pressure from his employer to get back to base before his tour of duty expires. This is an example of:" ~>
+      Multichoice
+        [
+          "An external threat"
+        , "An anticipated threat"
+        , "An environmental threat"
+        ]
+
+        "A latent threat"
+
+        [
+        ]
+    , "An aircraft piston engine will experience severe detonation when operated with:" ~>
+      Multichoice
+        [
+          "Maximum continuous power in level flight"
+        ]
+
+        "A mixture of AVGAS and ATUR fuel"
+
+        [
+          "An over rich mixture during climb"
+        , "A low power setting and carburettor heat full on"
+        ]
+    , "Optical illusions such as “black hole” effect and sloping runways are examples of:" ~>
+      Multichoice
+        [
+          "An internal threat"
+        , "An anticipated threat"
+        ]
+
+        "A latent environmental threat"
+
+        [
+          "A latent internal threat"
+        ]
+    , "An increase in headwind component, while gliding at the recommended best gliding speed, would result in:" ~>
+      Multichoice
+        [
+          "A decrease in the rate of descent"
+        , "An increase in the glide range"
+        , "An increase in the rate of descent"
+        ]
+
+        "A decrease in the glide range"
+
+        [
+        ]
     ]
 
 curtisPplTrial6 ::
@@ -10087,7 +10978,7 @@ curtisPplTrial6 =
         ""
 
         [
-        ]  
+        ]
     ]
 
 curtisPplTrialExams ::
