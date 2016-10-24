@@ -6,8 +6,9 @@ import System.Random
 
 main ::
   IO ()
-main =
-  question
+main =  
+  do  q <- question
+      when (null q) main
 
 randomtemp ::
   (Random a, RandomGen g, Num a) =>
@@ -29,7 +30,7 @@ randomqnh =
   state (randomR (990, 1030))
 
 question ::
-  IO ()
+  IO String
 question =
   let teq ::
         State StdGen (Int, Int, Int)
@@ -54,7 +55,7 @@ question =
             , show e
             , "ft\nQNH: "
             , show q
-            , "hPa\n-----------------\n?Density Altitude"
+            , "hPa"
             ]
           l <- getLine
           putStrLn . concat $
@@ -63,5 +64,7 @@ question =
             , show pa
             , "\nDensity Altitude: "
             , show da
+            , "\n\n-----------------\n"
             ]
+          return l
           
