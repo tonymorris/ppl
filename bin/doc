@@ -9,6 +9,7 @@ pandoc="pandoc"
 files="\
   departure-briefing\
   documentation-received\
+  flying-list\
   part61-mos\
   ppl-costs-and-breakdown\
   README\
