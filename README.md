@@ -2,4 +2,6 @@
            {*}       
           o   o      
       
-[CASR 61.345 Personal Logbook](http://logbook.aviation.tmorris.net/)
+Documentation related to Private Pilot Licence
+
+Logbook can be found at http://logbook.aviation.tmorris.net/
