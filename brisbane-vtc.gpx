@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    "THE BEER-WARE LICENSE" (Revision 42):
+    Tony Morris <tmorris@tmorris.net> wrote this file. As long as you retain this notice you
+    can do whatever you want with this stuff. If we meet some day, and you think
+    this stuff is worth it, you can buy me a beer in return.
+
+    Tony Morris
+-->
+
+<gpx
+  version="1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns="http://www.topografix.com/GPX/1/0"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/0 http://www.topografix.com/GPX/1/0/gpx.xsd">
+
+<metadata>
+  <name>Brisbane VTC points</name>
+  <desc>Brisbane Visual Terminal Chart points</desc>
+  <author>
+    <name>Tony Morris</name>
+    <email id="tmorris" domain="tmorris.net"/>
+    <link href="http://tmorris.net/">
+      <text>Tony Morris</text>
+      <type>HTTP</type>
+    </link>
+  </author>
+  <copyright author="Tony Morris">
+    <year>2016</year>
+    <license>http://en.wikipedia.org/wiki/Beerware</license>
+  </copyright>
+
+</metadata>
+
+<wpt lat="-27.6216667" lon="153.216667">
+  <ele>234</ele>
+  <name>Mount Cotton</name>
+  <cmt>Mount Cotton</cmt>
+  <desc>Mount Cotton</desc>
+  <sym>Summit</sym>
+</wpt>
+
+<wpt lat="-27.614556" lon="153.356730">
+  <ele>0.0000</ele>
+  <name>Macleay Island</name>
+  <cmt>Macleay Island</cmt>
+  <desc>Macleay Island</desc>
+  <sym>Block, Green</sym>
+</wpt>
+
+<wpt lat="-27.626116" lon="153.378789">
+  <ele>0.0000</ele>
+  <name>Lamb Island</name>
+  <cmt>Lamb Island</cmt>
+  <desc>Lamb Island</desc>
+  <sym>Block, Green</sym>
+</wpt>
+
+<wpt lat="-27.677689" lon="153.384722">
+  <ele>0.0000</ele>
+  <name>Russell Island</name>
+  <cmt>Russell Island</cmt>
+  <desc>Russell Island</desc>
+  <sym>Block, Green</sym>
+</wpt>
+
+<wpt lat="-27.569551" lon="153.331025">
+  <ele>0.0000</ele>
+  <name>Coochiemudlo Island</name>
+  <cmt>Coochiemudlo Island</cmt>
+  <desc>Coochiemudlo Island</desc>
+  <sym>Block, Green</sym>
+</wpt>
+
+</gpx>
