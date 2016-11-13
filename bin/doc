@@ -2,7 +2,7 @@
 
 set -e
 
-mkdir -p "dist" "dist/briefings" "dist/drills" "dist/notes"
+mkdir -p "dist" "dist/briefings" "dist/drills" "dist/notes" "dist/part61-mos"
 
 pandoc="pandoc"
 
@@ -10,7 +10,7 @@ files="\
   departure-briefing\
   documentation-received\
   flying-list\
-  part61-mos\
+  part61-mos/part61-mos\
   ppl-costs-and-breakdown\
   README\
   safety-briefing\
@@ -60,6 +60,6 @@ notes="\
 for doc in $files $briefings $drills $notes
 do
   echo "$doc"
-  $pandoc "$doc".md -o dist/"$doc".pdf --tab-stop=2 --template=share/default.latex
+  $pandoc "$doc".md -o dist/"$doc".pdf --tab-stop=2
   $pandoc "$doc".md -o dist/"$doc".html --tab-stop=2
 done
