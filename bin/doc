@@ -2,7 +2,7 @@
 
 set -e
 
-mkdir -p "dist" "dist/briefings" "dist/drills" "dist/notes" "dist/part61-mos"
+mkdir -p "dist" "dist/aircraft" "dist/briefings" "dist/drills" "dist/notes" "dist/part61-mos"
 
 pandoc="pandoc"
 
@@ -16,6 +16,10 @@ files="\
   safety-briefing\
   ybaf-radio-examples\
   ybaf-radio\
+"
+
+aircraft="\
+  aircraft/vh-lse\
 "
 
 briefings="\
@@ -57,7 +61,7 @@ notes="\
   notes/precautionary-search-landing\
 "
 
-for doc in $files $briefings $drills $notes
+for doc in $files $aircraft $briefings $drills $notes
 do
   echo "$doc"
   $pandoc "$doc".md -o dist/"$doc".pdf --tab-stop=2
