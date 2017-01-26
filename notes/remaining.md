@@ -70,31 +70,31 @@
 
 ### RPL to PPL
 
-* **FLT** revision as required **(0-4)**
+* ~~**FLT** revision as required **(0-4)**~~
 
 * **BRF** nav brief **(3-3.5hrs)**
 
-* **FLT** nav 01 **(1)**
+* **FLT** nav 01 dual **(2.8hrs)**
 
-* **FLT** nav 02 **(1)**
+* **FLT** nav 02 dual **(2.8hrs)**
 
-* **FLT** nav 03 **(1)**
+* **FLT** nav 03 dual **(2.8hrs)**
 
-* **FLT** nav 04 solo check **(1)**
+* **FLT** nav 04 dual (solo check) **(2.8hrs)**
 
-* **FLT** nav revision as required **(0-1)**
+* ~~**FLT** nav revision as required **(0-1)**~~
 
-* **FLT** nav 05 solo *outside CTA* **(1)**
+* **FLT** nav 05 solo *outside CTA* **(3hrs)**
 
 * **BRF** nav brief Controlled Airspace **(1.5-2hrs)**
 
-* **FLT** nav 06 CTA 01 **(1)**
+* **FLT** nav 06 dual CTA **(3.2hrs)**
 
-* **FLT** nav 07 CTA 02 solo check **(1)**
+* **FLT** nav 07 dual CTA (solo check) **(3.2hrs)**
 
-* **FLT** nav CTA revision as required **(0-1)**
+* ~~**FLT** nav CTA revision as required **(0-1)**~~
 
-* **FLT** nav 08 CTA solo **(1)**
+* **FLT** nav 08 solo CTA **(3hrs)**
 
 * **FLT** nav 09 recommendation flight **(1)**
 
