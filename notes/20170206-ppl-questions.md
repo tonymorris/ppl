@@ -6,7 +6,7 @@
 
   * pressure altitude = &#955; QNH. (ISA<sub>pressure</sub> - QNH) * 30
 
-  * density altitude = &#955; temp palt ele. (temp - (ISA<sub>temp</sub>) + (palt / 500)) * 120 + pa
+  * density altitude = &#955; temp palt ele. (temp - (ISA<sub>temp</sub>) + (palt / 500)) * 120 + palt
 
 * **How important is the flight computer if the function is known and can be accurately applied?**
 
