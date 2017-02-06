@@ -39,15 +39,21 @@ question =
   in  do  g <- newStdGen
           let (t, e, q) =
                 evalState teq g
-              isapressure =
-                1013.25
               isatemp =
                 15              
               pa =
-                fromIntegral e + (isapressure - fromIntegral q) * 30
+                let isapressure = 1013.25
+                in  fromIntegral e + (isapressure - fromIntegral q) * 30
+              pa' =
+                let isapressure = 1013
+                in  fromIntegral e + (isapressure - fromIntegral q) * 30
               da =
                 let temp_rate = 100000 / 198
                     pa_rate = 118.8
+                in  (fromIntegral t - isatemp + (pa / temp_rate)) * pa_rate + pa
+              da' =
+                let temp_rate = 500
+                    pa_rate = 120
                 in  (fromIntegral t - isatemp + (pa / temp_rate)) * pa_rate + pa
           putStrLn . concat $
             [
@@ -66,6 +72,10 @@ question =
             , show pa
             , "\nDensity Altitude: "
             , show da
+            , "\nPressure Altitude (approx): "
+            , show pa'
+            , "\nDensity Altitude (approx): "
+            , show da'
             , "\n\n-----------------\n"
             ]
           return l
