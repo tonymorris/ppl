@@ -6,7 +6,7 @@
 
   * pressure altitude = &#955; QNH. (ISA<sub>pressure</sub> - QNH) * 30
 
-  * density altitude = &#955; temp palt ele. (temp - (ISA<sub>temp</sub>) + (palt / 500)) * 120 + ele
+  * density altitude = &#955; temp palt ele. (temp - (ISA<sub>temp</sub>) + (palt / 500)) * 120 + pa
 
 * Bob Tait PPL Study Guide
 
