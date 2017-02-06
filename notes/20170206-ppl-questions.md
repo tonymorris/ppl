@@ -10,7 +10,9 @@
 
 * Bob Tait PPL Study Guide
 
-  * Density altitude is a function of ... using a flight computer
+  * Density altitude is a function of palt and temp using a flight computer
+
+  ![Bob Trait PPL Study Guide page 4](http://i.imgur.com/TKBLFVz.jpg)
 
 * **Questions**
 
@@ -24,3 +26,6 @@
 
 ### VDO, air switch, tachometer (how does it work?), hobbs
 
+* **What is the difference between VDO, air switch, tachometer, hobbs meter?**
+
+* **Does the tachometer measure engine revolutions only and if so, how is that less than the air switch after a flight?**
