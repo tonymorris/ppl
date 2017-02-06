@@ -46,7 +46,9 @@ question =
               pa =
                 fromIntegral e + (isapressure - fromIntegral q) * 30
               da =
-                (fromIntegral t - isatemp + (pa / 500)) * 120 + fromIntegral e
+                let temp_rate = 100000 / 198
+                    pa_rate = 118.8
+                in  (fromIntegral t - isatemp + (pa / temp_rate)) * pa_rate + pa
           putStrLn . concat $
             [
               "Temperature: "

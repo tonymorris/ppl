@@ -14,13 +14,7 @@
 
   ![Bob Trait PPL Study Guide page 4](http://i.imgur.com/eR4XUw0.jpg)
 
-* **Questions**
-
-  * **Why isn't the elevation required to be known according to the book?**
-
-  * **What is the function that the flight computer is applying?**
-
-  * **How important is the flight computer if the function is known and can be accurately applied?**
+* **How important is the flight computer if the function is known and can be accurately applied?**
 
 ----
 
