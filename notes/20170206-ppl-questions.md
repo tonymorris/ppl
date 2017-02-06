@@ -8,13 +8,13 @@
 
   * density altitude = &#955; temp palt ele. (temp - (ISA<sub>temp</sub>) + (palt / 500)) * 120 + pa
 
-* Bob Tait PPL Study Guide
-
-  * Density altitude is a function of palt and temp using a flight computer
-
-  ![Bob Trait PPL Study Guide page 4](http://i.imgur.com/eR4XUw0.jpg)
-
 * **How important is the flight computer if the function is known and can be accurately applied?**
+
+* **Bob Tait claims this is beyond PPL level, however, can I universally apply this function without caring about the rest?**
+
+----
+
+### Flight Computer
 
 ----
 
