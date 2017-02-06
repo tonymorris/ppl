@@ -12,7 +12,7 @@
 
   * Density altitude is a function of palt and temp using a flight computer
 
-  ![Bob Trait PPL Study Guide page 4](http://i.imgur.com/TKBLFVz.jpg)
+  ![Bob Trait PPL Study Guide page 4](http://i.imgur.com/eR4XUw0.jpg)
 
 * **Questions**
 
