@@ -40,7 +40,7 @@ Required materials:
 
 ###### VNC legend
 
-![VNC legend](http://i.imgur.com/undefined.jpg)
+![VNC legend](http://i.imgur.com/fIk8Dfb.jpg)
 
 ###### Questions re: VNC
 
