@@ -30,6 +30,8 @@ Required materials:
 
 ##### Flight Computer
 
+*todo*
+
 ----
 
 ##### Visual Charts
@@ -128,7 +130,7 @@ Required materials:
 
 ##### Loading System Alpha
 
-* The chart measures moment index using metric units.
+* The chart measures moment index using metric units. *(ref: Tait PPL page 39)*
 
 * **Will LS Alpha always use metric units?**
 
